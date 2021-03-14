@@ -1,10 +1,17 @@
-import {Typography, Layout, Table} from 'antd';
+import {Typography, Layout, Table, Tabs, Card} from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
-import {dataSource, columns} from './data.js'
+import {grantsData} from './grants-data.js';
+import {contractData} from './contract-data.js';
+import {columns} from './data-columns.js';
 
 const {Header, Footer, Sider, Content} = Layout;
 const {Title, Paragraph, Text} = Typography;
+const {TabPane} = Tabs;
+
+function callback(key) {
+  console.log(key);
+}
 
 function App() {
   return (
@@ -34,17 +41,23 @@ function App() {
               A data pouch is a website that provides access to data files and nothing more
             </Text>
           </Sider>
-          <Content style={{padding: '10px', paddingLeft: '15px', backgroundColor: 'lightblue'}}>
+          <Content style={{padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue'}}>
             <Layout>
               <Content>
-                <Table
-                  style={{border: '1px dotted gray', padding: '2px'}}
-                  bordered={true}
-                  dataSource={dataSource}
-                  columns={columns}
-                />
+                <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
+                  <TabPane tab='Donations Contract' key='2' style={{paddingLeft: '8px'}}>
+                    <Table bordered={true} dataSource={contractData} columns={columns} />
+                  </TabPane>
+                  <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
+                    <Table bordered={true} dataSource={grantsData} columns={columns} />
+                  </TabPane>
+                </Tabs>
               </Content>
-              <Sider style={{backgroundColor: 'lightblue'}}>Content 2</Sider>
+              <Sider style={{backgroundColor: 'lightblue'}}>
+                <Card style={{marginLeft: '4px', marginRight: '4px'}}>
+                  This is some additional information stored in a card
+                </Card>
+              </Sider>
             </Layout>
           </Content>
         </Layout>

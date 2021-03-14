@@ -1,42 +1,4 @@
-export const columns = [
-  {
-    title: 'Last Update',
-    dataIndex: 'date',
-    key: 'date',
-  },
-  {
-    title: 'Type',
-    dataIndex: 'type',
-    key: 'type',
-  },
-  {
-    title: 'Address',
-    dataIndex: 'address',
-    key: 'address',
-  },
-  {
-    title: 'Name',
-    dataIndex: 'name',
-    key: 'name',
-  },
-  {
-    title: 'nRecords',
-    dataIndex: 'cnt',
-    key: 'cnt',
-  },
-  {
-    title: 'Download CSV',
-    dataIndex: 'csv',
-    key: 'csv',
-  },
-  {
-    title: 'Download JSON',
-    dataIndex: 'json',
-    key: 'json',
-  },
-];
-
-export const dataSource = [
+export const grantsData = [
   {
     key: 1,
     date: '2021-03-13 08:25:49 UTC',
