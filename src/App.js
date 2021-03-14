@@ -45,10 +45,10 @@ function App() {
             <Layout>
               <Content>
                 <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
-                  <TabPane tab='Donations Contract' key='2' style={{paddingLeft: '8px'}}>
+                  <TabPane tab='Donations Contract' key='1' style={{paddingLeft: '8px'}}>
                     <Table bordered={true} dataSource={contractData} columns={columns} />
                   </TabPane>
-                  <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
+                  <TabPane tab='Individual Grants' key='2' style={{paddingLeft: '8px'}}>
                     <Table bordered={true} dataSource={grantsData} columns={columns} />
                   </TabPane>
                 </Tabs>
