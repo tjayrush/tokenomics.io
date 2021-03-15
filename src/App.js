@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import {Typography, Layout, Tabs, Card} from 'antd';
 import {Table as AntTable} from 'antd';
 import {Affix} from 'antd';
@@ -13,7 +13,14 @@ const {Header, Footer, Sider, Content} = Layout;
 const {Title, Paragraph, Text} = Typography;
 const {TabPane} = Tabs;
 const Table = (props) => {
-  return <AntTable {...props} />;
+  const pag = {
+    size: 'small',
+    position: ['topRight', 'none'],
+    hideOnSinglePage: true,
+    showSizeChanger: false,
+    showTotal: (total, range) => '(' + total + ' grants) ',
+  };
+  return <AntTable pagination={pag} size='small' bordered={true} {...props} />;
 };
 
 var homePage = true;
@@ -176,10 +183,13 @@ export const HomePage = () => {
     <Content>
       <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
         <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
-          <Table bordered={true} dataSource={grantData} columns={columns} />
+          <Table
+            dataSource={grantData}
+            columns={columns}
+          />
         </TabPane>
-        <TabPane tab='Smart Contracts' key='2' style={{paddingLeft: '8px'}}>
-          <Table bordered={true} dataSource={contractData} columns={columns} />
+        <TabPane tab='Donation Contracts' key='2' style={{paddingLeft: '8px'}}>
+          <Table dataSource={contractData} columns={columns} />
         </TabPane>
       </Tabs>
     </Content>
@@ -222,7 +232,7 @@ const faq_columns = [
   return (
     <Content>
       <Title align="left" level={2} style={{paddingLeft: "10px"}}>FAQ</Title>
-      <Table pagination={false} bordered={true} dataSource={faqs} columns={faq_columns} />
+      <AntTable pagination={false} bordered={true} dataSource={faqs} columns={faq_columns} />
     </Content>
   );
 };

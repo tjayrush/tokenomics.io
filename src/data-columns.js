@@ -1,4 +1,5 @@
-import {DownloadOutlined} from '@ant-design/icons';
+import { Tag } from 'antd';
+import { DownloadOutlined } from '@ant-design/icons';
 
 export const columns = [
   {
@@ -16,37 +17,20 @@ export const columns = [
     title: 'Type',
     dataIndex: 'type',
     key: 'type',
-    width: '6%',
+    width: '8%',
     filters: [
       {text: 'Transactions', value: 'txs'},
       {text: 'Logs', value: 'logs'},
       {text: 'Traces', value: 'traces'},
     ],
     onFilter: (value, record) => record.type.includes(value),
-    render: (text) => (
+    render: (text, record) => (
       <pre>
-        <small>{text}</small>
-      </pre>
-    ),
-  },
-  {
-    title: 'Address',
-    dataIndex: 'address',
-    key: 'address',
-    width: '25%',
-    render: (text) => (
-      <pre>
-        <a target={'top'} href={'http://etherscan.io/address/' + text}>
+        <Tag color='blue' key={record.address}>
           <small>{text}</small>
-        </a>
+        </Tag>
       </pre>
     ),
-    sorter: {
-      compare: (a, b) => {
-        return a.address - b.address;
-      },
-      multiple: 3,
-    },
   },
   {
     title: 'Name',
@@ -55,10 +39,15 @@ export const columns = [
     width: '30%',
     render: function (text, record) {
       var name = !!record.grant_id ? record.name + ' (#' + record.grant_id + ')' : record.name;
+      name = name.replace('&#39;', "'");
       if (!record.slug)
         return (
           <pre>
             <small>{name}</small>
+            <br />
+            <a target={'top'} href={'http://etherscan.io/address/' + text}>
+              <small>{record.address}</small>
+            </a>
           </pre>
         );
       return (
@@ -66,12 +55,15 @@ export const columns = [
           <a target={'top'} href={record.slug}>
             <small>{name}</small>
           </a>
+          <br />
+          <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
+            <small>{record.address}</small>
+          </a>
         </pre>
       );
     },
     sorter: {
-      compare: (a, b) => a.name - b.name,
-      multiple: 3,
+      compare: (a, b) => a.address - b.address
     },
   },
   {
@@ -88,8 +80,7 @@ export const columns = [
     sorter: {
       compare: function (a, b) {
         return a.bals[0].balance - b.bals[0].balance;
-      },
-      multiple: 3,
+      }
     },
   },
   {
@@ -101,8 +92,7 @@ export const columns = [
     sorter: {
       compare: (a, b) => {
         return a.tx_cnt - b.tx_cnt;
-      },
-      multiple: 3,
+      }
     },
     render: (text) => (
       <pre>
@@ -119,8 +109,7 @@ export const columns = [
     sorter: {
       compare: (a, b) => {
         return a.log_cnt - b.log_cnt;
-      },
-      multiple: 3,
+      }
     },
     render: (text) => (
       <pre>
@@ -137,8 +126,7 @@ export const columns = [
     sorter: {
       compare: (a, b) => {
         return a.donation_cnt - b.donation_cnt;
-      },
-      multiple: 3,
+      }
     },
     render: (text) => (
       <pre>

@@ -3950,7 +3950,8 @@
   {
     "tags": "31-Gitcoin Grants:Grant",
     "address": "0x85cab7143ff3c01b93e88f5b017692374bb939c2",
-    "name": "Grant 0223 Ethereum Magicians Magician's Registration"
+    "name": "Grant 0223 Ethereum Magicians",
+    "source": "https://gitcoin.co/grants/223/ethereum-magicians"
   },
   {
     "tags": "31-Gitcoin Grants:Grant",
