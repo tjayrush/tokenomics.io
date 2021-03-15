@@ -1,29 +1,5 @@
 import {DownloadOutlined} from '@ant-design/icons';
 
-function downloadLink(record, type) {
-  if (!record.has_data) {
-    return (
-      <div>
-        <pre>
-          <div>
-            <small>{'<no-data>'}</small>
-          </div>
-        </pre>
-      </div>
-    );
-  }
-
-  return (
-    <div>
-      <a target={'blank'} href={'http://tokenomics.io/data/' + record.address + type}>
-        <pre>
-          <DownloadOutlined /> <small>Download</small>
-        </pre>
-      </a>
-    </div>
-  );
-}
-
 export const columns = [
   {
     title: 'Last Update',
@@ -106,12 +82,12 @@ export const columns = [
     width: '10%',
     render: (text, record) => (
       <pre>
-        <small>{record.balance}</small>
+        <small>{record.bals[0].balance}</small>
       </pre>
     ),
     sorter: {
       compare: function (a, b) {
-        return a.balance - b.balance;
+        return a.bals[0].balance - b.bals[0].balance;
       },
       multiple: 3,
     },
@@ -153,3 +129,27 @@ export const columns = [
     },
   },
 ];
+
+function downloadLink(record, type) {
+  if (!record.has_data) {
+    return (
+      <div>
+        <pre>
+          <div>
+            <small>{'<no-data>'}</small>
+          </div>
+        </pre>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <a target={'blank'} href={'http://tokenomics.io/data/' + record.address + type}>
+        <pre>
+          <DownloadOutlined /> <small>Download</small>
+        </pre>
+      </a>
+    </div>
+  );
+}
