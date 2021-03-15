@@ -95,7 +95,7 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
             break;
         case 'h':
             if (fieldName % "has_data") {
-                return bool_2_Str(has_data);
+                return uint_2_Str(has_data);
             }
             break;
         case 'k':
@@ -164,7 +164,7 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
             break;
         case 'h':
             if (fieldName % "has_data") {
-                has_data = str_2_Bool(fieldValue);
+                has_data = (uint32_t)str_2_Uint(fieldValue);
                 return true;
             }
             break;
@@ -290,7 +290,7 @@ void CRecord::registerClass(void) {
     ADD_FIELD(CRecord, "name", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "slug", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "cnt", T_UNUMBER, ++fieldNum);
-    ADD_FIELD(CRecord, "has_data", T_BOOL | TS_OMITEMPTY, ++fieldNum);
+    ADD_FIELD(CRecord, "has_data", T_UNUMBER, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like
     HIDE_FIELD(CRecord, "schema");

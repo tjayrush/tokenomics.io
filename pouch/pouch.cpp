@@ -56,8 +56,9 @@ int main(int argc, const char* argv[]) {
         if (balance == 0)
             bal.balance = "0." + bal.balance;
         record.bals["ETH"] = bal;
-        record.has_data =
-            fileExists("./data/" + record.address + ".json") || fileExists("./data/" + record.address + ".csv");
+        record.has_data = 0;
+        if (fileExists("./data/" + record.address + ".json") || fileExists("./data/" + record.address + ".csv"))
+            record.has_data = 1;
         cout << substitute(record.Format(STR_OUTPUT), "[{KEY}]", uint_2_Str(cnt)) << endl;
 
         cerr << fn << " : " << exists << " : " << (record.has_data ? "true" : "false") << endl;

@@ -34,7 +34,7 @@ class CRecord : public CBaseNode {
     string_q name;
     string_q slug;
     uint32_t cnt;
-    bool has_data;
+    uint32_t has_data;
 
   public:
     CRecord(void);
@@ -106,7 +106,7 @@ inline void CRecord::initialize(void) {
     name = "";
     slug = "";
     cnt = 0;
-    has_data = false;
+    has_data = 0;
 
     // EXISTING_CODE
     // EXISTING_CODE
