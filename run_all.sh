@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+      ./run_one.sh 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6
       ./run_one.sh 0x7d655c57f71464b6f83811c55d84009cd9f5221c
       ./run_one.sh 0xdf869fad6db91f437b59f1edefab319493d4c4ce
       ./run_one.sh 0xf503017d7baf7fbc0fff7492b751025c6a78179b
@@ -9,7 +10,7 @@
       ./run_one.sh 0x0087a081a9b430fd8f688c6ac5dd24421bfb060d
       ./run_one.sh 0x00b491d250b9bcce482b6e70321b0a5339d183a6
       ./run_one.sh 0x00cf36853aa4024fb5bf5cc377dfd85844b411a0
-##      ./run_one.sh 0x00de4b13153673bcae2616b67bf822500d325fc3
+      ./run_one.sh 0x00de4b13153673bcae2616b67bf822500d325fc3
       ./run_one.sh 0x00e4f5f746242e4d115bd65aac7c08fe5d38fb21
       ./run_one.sh 0x00fe460a15b49d09f39b057d0f1a7b9444f4f2be
       ./run_one.sh 0x0115f5ce3f986a35b1edb6f2c3815cebb2461e70

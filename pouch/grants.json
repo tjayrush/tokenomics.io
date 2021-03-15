@@ -2,14 +2,17 @@
   {
     "tags": "31-Gitcoin Grants:Core",
     "address": "0x7d655c57f71464b6f83811c55d84009cd9f5221c",
-    "name": "Grant 0000 GitCoin Grant Contract",
-    "source": "Gitcoin Website"
+    "name": "Grant 0000 GitCoin Grant Contract - Rounds 6 through 9",
+  },
+  {
+    "tags": "31-Gitcoin Grants:Core",
+    "address": "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6",
+    "name": "Grant 0000 GitCoin MatchPayouts - Round 8",
   },
   {
     "tags": "31-Gitcoin Grants:Core",
     "address": "0xdf869fad6db91f437b59f1edefab319493d4c4ce",
     "name": "Grant 0000 GitCoin Grant Contract - Round 5",
-    "source": "Gitcoin Website"
   },
   {
     "tags": "31-Gitcoin Grants:Grant",

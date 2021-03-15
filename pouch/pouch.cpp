@@ -44,7 +44,7 @@ int main(int argc, const char* argv[]) {
         record.grant_id = str_2_Uint(substitute(grant.name, "Grant ", ""));
         nextTokenClear(grant.name, ' ');
         nextTokenClear(grant.name, ' ');
-        record.name = substitute(grant.name.substr(0, 40), "'", "&#39;");
+        record.name = substitute(grant.name.substr(0, 60), "'", "&#39;");
 
         record.date = (exists ? fileLastModifyDate(fn).Format(FMT_JSON) : "n/a");
         record.type = "logs"; // types[cnt % 3];
