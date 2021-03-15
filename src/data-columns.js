@@ -1,5 +1,6 @@
-import { Tag } from 'antd';
-import { DownloadOutlined } from '@ant-design/icons';
+import { Popover, Tag, Typography } from 'antd';
+import {DownloadOutlined} from '@ant-design/icons';
+const { Text} = Typography;
 
 export const columns = [
   {
@@ -14,7 +15,22 @@ export const columns = [
     ),
   },
   {
-    title: 'Type',
+    title: (
+      <div>
+        Type{' '}
+        <Popover
+          color='lightblue'
+          content={
+            <div>
+              The type of data to download. One
+              <br />
+              of txs, logs, traces, or accounting.
+            </div>
+          }>
+          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
+        </Popover>
+      </div>
+    ),
     dataIndex: 'type',
     key: 'type',
     width: '8%',
@@ -33,7 +49,24 @@ export const columns = [
     ),
   },
   {
-    title: 'Name',
+    title: (
+      <div>
+        Name{' '}
+        <Popover
+          color='lightblue'
+          content={
+            <div>
+              The name and address of the
+              <br />
+              grant or core contract linked
+              <br />
+              either to the grant or Etherscan.
+            </div>
+          }>
+          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
+        </Popover>
+      </div>
+    ),
     dataIndex: 'name',
     key: 'name',
     width: '30%',
@@ -62,12 +95,30 @@ export const columns = [
         </pre>
       );
     },
+    showSorterTooltip: false,
     sorter: {
-      compare: (a, b) => a.address - b.address
+      compare: (a, b) => a.address - b.address,
     },
   },
   {
-    title: 'Balances',
+    title: (
+      <div>
+        Balances{' '}
+        <Popover
+          color='lightblue'
+          content={
+            <div>
+              The balances for the account
+              <br />
+              in ETH and possibly DAI. Hover
+              <br />
+              to see other balances.
+            </div>
+          }>
+          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
+        </Popover>
+      </div>
+    ),
     dataIndex: 'balance',
     key: 'balance',
     align: 'right',
@@ -77,22 +128,41 @@ export const columns = [
         <small>{record.bals[0].balance}</small>
       </pre>
     ),
+    showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
         return a.bals[0].balance - b.bals[0].balance;
-      }
+      },
     },
   },
   {
-    title: 'Txs',
+    title: (
+      <div>
+        Txs{' '}
+        <Popover
+          color='lightblue'
+          content={
+            <div>
+              The total number of appearances for
+              <br />
+              this address. (An appearance is any
+              <br />
+              transaction the account was appeared in.
+            </div>
+          }>
+          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
+        </Popover>
+      </div>
+    ),
     dataIndex: 'tx_cnt',
     key: 'tx_cnt',
     width: '4%',
     align: 'right',
+    showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
         return a.tx_cnt - b.tx_cnt;
-      }
+      },
     },
     render: (text) => (
       <pre>
@@ -101,32 +171,31 @@ export const columns = [
     ),
   },
   {
-    title: 'Logs',
-    dataIndex: 'log_cnt',
-    key: 'log_cnt',
-    width: '4%',
-    align: 'right',
-    sorter: {
-      compare: (a, b) => {
-        return a.log_cnt - b.log_cnt;
-      }
-    },
-    render: (text) => (
-      <pre>
-        <small>{text}</small>
-      </pre>
+    title: (
+      <div>
+        Logs{' '}
+        <Popover
+          color='lightblue'
+          content={
+            <div>
+              The number of GitCoin related logs
+              <br />
+              in which this address appears.
+            </div>
+          }>
+          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
+        </Popover>
+      </div>
     ),
-  },
-  {
-    title: 'Count',
     dataIndex: 'donation_cnt',
     key: 'donation_cnt',
     width: '4%',
     align: 'right',
+    showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
         return a.donation_cnt - b.donation_cnt;
-      }
+      },
     },
     render: (text) => (
       <pre>

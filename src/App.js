@@ -1,6 +1,6 @@
 import React from 'react';
 import {Typography, Layout, Tabs, Card} from 'antd';
-import {Table as AntTable} from 'antd';
+import {Table as AntTable, Popover} from 'antd';
 import {Affix} from 'antd';
 
 import './App.css';
@@ -115,59 +115,157 @@ export const LeftSider = () => {
   );
 };
 
+export const MyCard = ({children}) => {
+  return (
+    <Card
+      style={{
+        marginLeft: '4px',
+        marginRight: '4px',
+        marginBottom: '4px',
+        border: '1px dotted gray',
+        backgroundColor: 'antiquewhite',
+      }}>
+      {children}
+    </Card>
+  );
+};
+
+  /*Automate for every block
+Produce logs
+, traces, txs, accounting, appearances
+
+
+
+Add Matching Contract
+
+
+Search
+*/
+
 export const RightSider = () => {
+  const hover1_text = (
+    <ul style={{marginLeft: '-20px'}}>
+      <li>Automate to produce per-block data</li>
+      <li>Export tx, trace and accounting data</li>
+      <li>Allow download of all data in .gz file</li>
+      <li>Allow for search by name</li>
+    </ul>
+  );
+  const hover1_title = 'To Do List';
+  const hover2_text = (
+    <ul style={{marginLeft: '-20px'}}>
+      <li>
+        <b>Can I download all the data at once?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>How is this different than theGraph? Don't they index the chain as well?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>What kind of server infrastructure do you have?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>Are you running your own Ethereum node?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>How much does it cost to run your infrastructure?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>What are your plans for TrueBlocks?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>
+          Why do you only export logs? Can I get a history of all transactions? How about traces? How about accounting?
+        </b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>What do you mean by permission less?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>What do you mean by instantaneous?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>What do you mean by 18-decimal-place accurate?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+      <li>
+        <b>What do you mean by radically transparent?</b>
+        <br />
+        <div>Answer</div>
+      </li>
+    </ul>
+  );
+  const hover2_title = 'FAQ';
   return (
     <Sider style={{backgroundColor: 'lightblue'}}>
-      <Card
-        style={{
-          marginLeft: '4px',
-          marginRight: '4px',
-          marginBottom: '4px',
-          border: '1px dotted gray',
-          backgroundColor: 'antiquewhite',
-        }}>
+      <MyCard>
         <div style={{fontSize: '12pt', fontWeight: '800'}}>
           <a rel='noreferrer' target='_blank' href='http://gitcoin.co/grants/184/trueblocks'>
             Donate to the TrueBlocks Grant
           </a>
         </div>
-      </Card>
-      <Card
-        style={{
-          marginLeft: '4px',
-          marginRight: '4px',
-          marginBottom: '4px',
-          border: '1px dotted gray',
-          backgroundColor: 'antiquewhite',
-        }}>
+      </MyCard>
+      <MyCard>
         Wondering how this website works? Read about the <b>Unchained Index</b>{' '}
         <a rel='noreferrer' target='_blank' href='http://unchainedindex.io'>
           here
         </a>
-      </Card>
-      <Card
-        style={{
-          marginLeft: '4px',
-          marginRight: '4px',
-          marginBottom: '4px',
-          border: '1px dotted gray',
-          backgroundColor: 'antiquewhite',
-        }}>
+      </MyCard>
+      <MyCard>
         Interested in learning more?{' '}
         <a rel='noreferrer' target='_blank' href='https://discord.gg/RAz6DJ6xkf'>
           Join our discord discussions
-        </a>.
-      </Card>
-      <Card
-        style={{
-          marginLeft: '4px',
-          marginRight: '4px',
-          marginBottom: '4px',
-          border: '1px dotted gray',
-          backgroundColor: 'antiquewhite',
-        }}>
-        FAQ
-      </Card>
+        </a>
+        .
+      </MyCard>
+      <MyCard>
+        <Popover
+          style={{border: '1px dashed black'}}
+          color='lightblue'
+          placement='left'
+          title={hover1_title}
+          content={hover1_text}
+          trigger='hover'>
+          <div style={{width: '100%', height: '100%'}}>
+            To Do List
+            <br />
+            (on hover)
+          </div>
+        </Popover>
+      </MyCard>
+      <MyCard>
+        <Popover
+          style={{border: '1px dashed black'}}
+          color='lightblue'
+          placement='left'
+          title={hover2_title}
+          content={hover2_text}
+          trigger='hover'>
+          <div style={{width: '100%', height: '100%'}}>
+            FAQ
+            <br />
+            (on hover)
+          </div>
+        </Popover>
+      </MyCard>
     </Sider>
   );
 };
