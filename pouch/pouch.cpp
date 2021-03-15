@@ -20,7 +20,7 @@ int main(int argc, const char* argv[]) {
     etherlib_init(quickQuitHandler);
     CRecord::registerClass();
     CBalance::registerClass();
-   
+
     blknum_t latest = getBlockProgress(BP_CLIENT).client;
     CAccountNameArray grants;
     string_q contents = asciiFileToString("./grants.json");
