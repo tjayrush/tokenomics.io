@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#      ./run_one.sh 0x7d655c57f71464b6f83811c55d84009cd9f5221c
+#      ./run_one.sh 0xdf869fad6db91f437b59f1edefab319493d4c4ce
 #      ./run_one.sh 0xf503017d7baf7fbc0fff7492b751025c6a78179b
 #      ./run_one.sh 0x00216505799d9e3117b40b94a24dc0fa286a57a4
 #      ./run_one.sh 0x006087d6ac20840c23ba298512db454a05c19b10

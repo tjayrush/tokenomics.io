@@ -7,7 +7,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 
 import {grantsData} from './grants-data.js';
-import {contractData} from './contract-data.js';
+//import {contractData} from './contract-data.js';
 import {columns} from './data-columns.js';
 
 const {Header, Footer, Sider, Content} = Layout;
@@ -167,11 +167,17 @@ export const RightSider = () => {
 };
 
 export const HomePage = () => {
+  const contractData = grantsData.filter((item) => {
+    return item.core;
+  });
+  const grantData = grantsData.filter((item) => {
+    return !item.core;
+  })
   return (
     <Content>
       <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
         <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
-          <Table bordered={true} dataSource={grantsData} columns={columns} />
+          <Table bordered={true} dataSource={grantData} columns={columns} />
         </TabPane>
         <TabPane tab='Smart Contracts' key='2' style={{paddingLeft: '8px'}}>
           <Table bordered={true} dataSource={contractData} columns={columns} />

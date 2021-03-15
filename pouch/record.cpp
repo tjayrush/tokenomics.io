@@ -82,6 +82,9 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
             if (fieldName % "cnt") {
                 return uint_2_Str(cnt);
             }
+            if (fieldName % "core") {
+                return uint_2_Str(core);
+            }
             break;
         case 'd':
             if (fieldName % "date") {
@@ -147,6 +150,10 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
         case 'c':
             if (fieldName % "cnt") {
                 cnt = (uint32_t)str_2_Uint(fieldValue);
+                return true;
+            }
+            if (fieldName % "core") {
+                core = (uint32_t)str_2_Uint(fieldValue);
                 return true;
             }
             break;
@@ -225,6 +232,7 @@ bool CRecord::Serialize(CArchive& archive) {
     archive >> name;
     archive >> slug;
     archive >> cnt;
+    archive >> core;
     archive >> has_data;
     finishParse();
     return true;
@@ -245,6 +253,7 @@ bool CRecord::SerializeC(CArchive& archive) const {
     archive << name;
     archive << slug;
     archive << cnt;
+    archive << core;
     archive << has_data;
 
     return true;
@@ -290,6 +299,7 @@ void CRecord::registerClass(void) {
     ADD_FIELD(CRecord, "name", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "slug", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "cnt", T_UNUMBER, ++fieldNum);
+    ADD_FIELD(CRecord, "core", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "has_data", T_UNUMBER, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like

@@ -34,6 +34,7 @@ class CRecord : public CBaseNode {
     string_q name;
     string_q slug;
     uint32_t cnt;
+    uint32_t core;
     uint32_t has_data;
 
   public:
@@ -106,6 +107,7 @@ inline void CRecord::initialize(void) {
     name = "";
     slug = "";
     cnt = 0;
+    core = 0;
     has_data = 0;
 
     // EXISTING_CODE
@@ -125,6 +127,7 @@ inline void CRecord::duplicate(const CRecord& re) {
     name = re.name;
     slug = re.slug;
     cnt = re.cnt;
+    core = re.core;
     has_data = re.has_data;
 
     // EXISTING_CODE

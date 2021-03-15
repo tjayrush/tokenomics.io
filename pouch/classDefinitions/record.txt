@@ -9,6 +9,7 @@ fields = \
     string name|\
     string slug|\
     uint32 cnt|\
+    uint32 core|\
     uint32 has_data
 includes = etherlib.h|balance.h
 display_str = key, date, type, address, name, cnt, csv, json
