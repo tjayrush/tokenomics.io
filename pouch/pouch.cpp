@@ -63,7 +63,9 @@ int main(int argc, const char* argv[]) {
         string_q csvFile = "./data/" + record.address + ".csv";
         record.tx_cnt = (exists ? (fileSize(fn) / sizeof(CAppearance_base)) : 0);
         if (fileExists(csvFile)) {
-            record.log_cnt = str_2_Uint(doCommand("wc " + csvFile)) - 1;
+            record.log_cnt = str_2_Uint(doCommand("wc " + csvFile));
+            if (record.log_cnt > 0)
+                record.log_cnt -= 1;
             record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Donation | wc"));
         } else {
             record.log_cnt = record.tx_cnt;
