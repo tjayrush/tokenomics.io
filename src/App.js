@@ -90,7 +90,7 @@ export const LeftSider = () => {
         Ecosystem accounting
       </Paragraph>
       <Text style={{color: 'lightblue'}}>
-        Per-block, eighteen-decimal-place accurate, permissionless, radically-transparent accounting on large collections of addresses.
+        Per-block, eighteen-decimal-place accurate, permissionless, radically-transparent accounting for communities over large collections of addresses.
       </Text>
       <br />
       <br />

@@ -44,7 +44,7 @@ int main(int argc, const char* argv[]) {
         record.grant_id = str_2_Uint(substitute(grant.name, "Grant ", ""));
         nextTokenClear(grant.name, ' ');
         nextTokenClear(grant.name, ' ');
-        record.name = substitute(grant.name.substr(0, 50), "'", "&#39;");
+        record.name = substitute(grant.name.substr(0, 40), "'", "&#39;");
 
         record.date = (exists ? fileLastModifyDate(fn).Format(FMT_JSON) : "n/a");
         record.type = "logs"; // types[cnt % 3];
@@ -56,7 +56,7 @@ int main(int argc, const char* argv[]) {
         bal.asset = "ETH";
         wei_t balance = getBalanceAt(grant.address, latest);
         bal.balance = wei_2_Ether(balance);
-        bal.balance = double_2_Str(str_2_Double(bal.balance), 15);
+        bal.balance = double_2_Str(str_2_Double(bal.balance), 12);
         record.bals["ETH"] = bal;
 
         string_q jsonFile = "./data/" + record.address + ".json";

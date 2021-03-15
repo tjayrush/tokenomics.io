@@ -5,14 +5,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 0,
     address: '0x7d655c57f71464b6f83811c55d84009cd9f5221c',
-    name: 'GitCoin Grant Donation Contract',
+    name: 'GitCoin Grant Contract',
     slug: 'Gitcoin Website',
     tx_cnt: 22659,
-    log_cnt: 87629,
-    donation_cnt: 45580,
+    log_cnt: 0,
+    donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -24,14 +24,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 0,
     address: '0xdf869fad6db91f437b59f1edefab319493d4c4ce',
-    name: 'GitCoin Grant Donation Contract - Round 5',
+    name: 'GitCoin Grant Contract - Round 5',
     slug: 'Gitcoin Website',
     tx_cnt: 33560,
-    log_cnt: 48806,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -50,7 +50,7 @@ export const grantsData = [
     donation_cnt: 5,
     bals: [{
   "asset": "ETH",
-  "balance": "0.189131648498624"
+  "balance": "0.189131648499"
 }
 
 ],
@@ -62,14 +62,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 743,
     address: '0x006087d6ac20840c23ba298512db454a05c19b10',
-    name: '#fittogetherdao (like Pooltogether for Fitness and',
+    name: '#fittogetherdao (like Pooltogether for F',
     slug: 'https://gitcoin.co/grants/743/fittogetherdao-like-pooltogether-for-fitness-and-',
     tx_cnt: 148,
     log_cnt: 481,
     donation_cnt: 33,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000515543640769"
+  "balance": "0.000515543641"
 }
 
 ],
@@ -88,7 +88,7 @@ export const grantsData = [
     donation_cnt: 86,
     bals: [{
   "asset": "ETH",
-  "balance": "0.567895341666042"
+  "balance": "0.567895341666"
 }
 
 ],
@@ -107,7 +107,7 @@ export const grantsData = [
     donation_cnt: 863,
     bals: [{
   "asset": "ETH",
-  "balance": "8.730566568620775"
+  "balance": "8.730566568621"
 }
 
 ],
@@ -126,7 +126,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -145,7 +145,7 @@ export const grantsData = [
     donation_cnt: 7350,
     bals: [{
   "asset": "ETH",
-  "balance": "9.072830739177673"
+  "balance": "9.072830739178"
 }
 
 ],
@@ -164,7 +164,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "14.139828473087526"
+  "balance": "14.161648473088"
 }
 
 ],
@@ -183,7 +183,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -195,14 +195,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 624,
     address: '0x00fe460a15b49d09f39b057d0f1a7b9444f4f2be',
-    name: 'Nescience Software Portfolio Rebalancing Direct In',
+    name: 'Nescience Software Portfolio Rebalancing',
     slug: 'https://gitcoin.co/grants/624/nescience-software-portfolio-rebalancing-direct-in',
     tx_cnt: 506,
     log_cnt: 4513,
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000013"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -221,7 +221,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "5.188277711133410"
+  "balance": "5.188277711133"
 }
 
 ],
@@ -240,7 +240,7 @@ export const grantsData = [
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -259,7 +259,7 @@ export const grantsData = [
     donation_cnt: 28,
     bals: [{
   "asset": "ETH",
-  "balance": "0.011211355000000"
+  "balance": "0.011211355000"
 }
 
 ],
@@ -278,7 +278,7 @@ export const grantsData = [
     donation_cnt: 94,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -297,7 +297,7 @@ export const grantsData = [
     donation_cnt: 63,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -309,14 +309,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 602,
     address: '0x01f1e9319982ab828203c0276727cf48065434d3',
-    name: 'Realitylearn: Teaching the World About Blockchain',
+    name: 'Realitylearn: Teaching the World About B',
     slug: 'https://gitcoin.co/grants/602/realitylearn',
     tx_cnt: 4,
     log_cnt: 41,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002500000000000"
+  "balance": "0.002500000000"
 }
 
 ],
@@ -335,7 +335,7 @@ export const grantsData = [
     donation_cnt: 1055,
     bals: [{
   "asset": "ETH",
-  "balance": "40.899043423000002"
+  "balance": "40.899043423000"
 }
 
 ],
@@ -354,7 +354,7 @@ export const grantsData = [
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -373,7 +373,7 @@ export const grantsData = [
     donation_cnt: 174,
     bals: [{
   "asset": "ETH",
-  "balance": "1.719614686984200"
+  "balance": "1.719614686984"
 }
 
 ],
@@ -392,7 +392,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.144268077118661"
+  "balance": "0.144268077119"
 }
 
 ],
@@ -411,7 +411,7 @@ export const grantsData = [
     donation_cnt: 188,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -423,14 +423,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 600,
     address: '0x03c2bc72a3e007179e54ffb4563cc235bec8151a',
-    name: 'Synthereum: Synthetic Assets with Liquidity Pools ',
+    name: 'Synthereum: Synthetic Assets with Liquid',
     slug: 'https://gitcoin.co/grants/600/synthereum-synthetic-assets-with-liquidity-pools-t',
     tx_cnt: 2008,
     log_cnt: 36100,
     donation_cnt: 930,
     bals: [{
   "asset": "ETH",
-  "balance": "0.027306055300000"
+  "balance": "0.027306055300"
 }
 
 ],
@@ -442,14 +442,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 774,
     address: '0x03ed2992a1d07ab57ec01f0c8914e22b53e48d87',
-    name: 'Nuts Platform | Designed for DeFi Builders and Ser',
+    name: 'Nuts Platform | Designed for DeFi Builde',
     slug: 'https://gitcoin.co/grants/774/nuts-platform-designed-for-defi-builders-and-serv',
     tx_cnt: 764,
     log_cnt: 8910,
     donation_cnt: 533,
     bals: [{
   "asset": "ETH",
-  "balance": "0.178280571538579"
+  "balance": "0.178280571539"
 }
 
 ],
@@ -468,7 +468,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.943143315451872"
+  "balance": "1.943143315452"
 }
 
 ],
@@ -487,7 +487,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -506,7 +506,7 @@ export const grantsData = [
     donation_cnt: 8,
     bals: [{
   "asset": "ETH",
-  "balance": "0.532456570369327"
+  "balance": "0.684333730369"
 }
 
 ],
@@ -525,7 +525,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.027942981722694"
+  "balance": "0.027942981723"
 }
 
 ],
@@ -544,7 +544,7 @@ export const grantsData = [
     donation_cnt: 513,
     bals: [{
   "asset": "ETH",
-  "balance": "0.008390275000000"
+  "balance": "0.008390275000"
 }
 
 ],
@@ -563,7 +563,7 @@ export const grantsData = [
     donation_cnt: 48,
     bals: [{
   "asset": "ETH",
-  "balance": "0.045202567671419"
+  "balance": "0.045202567671"
 }
 
 ],
@@ -582,7 +582,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -601,7 +601,7 @@ export const grantsData = [
     donation_cnt: 172,
     bals: [{
   "asset": "ETH",
-  "balance": "0.075320244000000"
+  "balance": "0.075320244000"
 }
 
 ],
@@ -620,7 +620,7 @@ export const grantsData = [
     donation_cnt: 91,
     bals: [{
   "asset": "ETH",
-  "balance": "0.050814870000000"
+  "balance": "0.050814870000"
 }
 
 ],
@@ -639,7 +639,7 @@ export const grantsData = [
     donation_cnt: 25,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -658,7 +658,7 @@ export const grantsData = [
     donation_cnt: 348,
     bals: [{
   "asset": "ETH",
-  "balance": "0.277980004139378"
+  "balance": "0.277980004139"
 }
 
 ],
@@ -677,7 +677,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.098015820025951"
+  "balance": "0.098015820026"
 }
 
 ],
@@ -696,7 +696,7 @@ export const grantsData = [
     donation_cnt: 377,
     bals: [{
   "asset": "ETH",
-  "balance": "0.516387754637456"
+  "balance": "0.516387754637"
 }
 
 ],
@@ -715,7 +715,7 @@ export const grantsData = [
     donation_cnt: 538,
     bals: [{
   "asset": "ETH",
-  "balance": "0.366508754400000"
+  "balance": "0.366508754400"
 }
 
 ],
@@ -734,7 +734,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009999754022076"
+  "balance": "0.009999754022"
 }
 
 ],
@@ -746,14 +746,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1753,
     address: '0x067f2bef6a1f929544253b9fb95f99bae77b2518',
-    name: 'Resetdao ― Web 3.0 Programmable Social Network',
+    name: 'Resetdao ― Web 3.0 Programmable Social',
     slug: 'https://gitcoin.co/grants/1753/resetdao-web-30-programmable-social-network',
     tx_cnt: 106,
     log_cnt: 936,
     donation_cnt: 151,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002099837423503"
+  "balance": "0.002099837424"
 }
 
 ],
@@ -772,7 +772,7 @@ export const grantsData = [
     donation_cnt: 125,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000950000000"
+  "balance": "0.000000950000"
 }
 
 ],
@@ -791,7 +791,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "4.209743004309201"
+  "balance": "4.209743004309"
 }
 
 ],
@@ -810,7 +810,7 @@ export const grantsData = [
     donation_cnt: 449,
     bals: [{
   "asset": "ETH",
-  "balance": "0.028624012650000"
+  "balance": "0.028624012650"
 }
 
 ],
@@ -829,7 +829,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.198068000000000"
+  "balance": "0.198068000000"
 }
 
 ],
@@ -848,7 +848,7 @@ export const grantsData = [
     donation_cnt: 1960,
     bals: [{
   "asset": "ETH",
-  "balance": "4.142892153185740"
+  "balance": "4.212892153186"
 }
 
 ],
@@ -867,7 +867,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.147842102685967"
+  "balance": "0.147842102686"
 }
 
 ],
@@ -886,7 +886,7 @@ export const grantsData = [
     donation_cnt: 1509,
     bals: [{
   "asset": "ETH",
-  "balance": "1.352046853484941"
+  "balance": "1.352046853485"
 }
 
 ],
@@ -905,7 +905,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.729411564142802"
+  "balance": "0.729411564143"
 }
 
 ],
@@ -924,7 +924,7 @@ export const grantsData = [
     donation_cnt: 73,
     bals: [{
   "asset": "ETH",
-  "balance": "0.444951740433570"
+  "balance": "0.444951740434"
 }
 
 ],
@@ -936,14 +936,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 122,
     address: '0x08497b07916280da27b43d28a0d3dfa7d6676b58',
-    name: 'Austin Griffith Ethereum Research and Development',
+    name: 'Austin Griffith Ethereum Research and De',
     slug: 'https://gitcoin.co/grants/122/austin-griffith-ethereum-research-and-development',
     tx_cnt: 402,
     log_cnt: 4259,
     donation_cnt: 1802,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -955,14 +955,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 425,
     address: '0x08b440dd2b2dd0b0de112d5f6eb6d9028eb86b70',
-    name: 'Turkish Cryptocurrency Youtuber and Researcher',
+    name: 'Turkish Cryptocurrency Youtuber and Rese',
     slug: 'https://gitcoin.co/grants/425/turkish-cryptocurrency-youtuber-and-researcher',
     tx_cnt: 116,
     log_cnt: 465,
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013778514385743"
+  "balance": "0.013778514386"
 }
 
 ],
@@ -981,7 +981,7 @@ export const grantsData = [
     donation_cnt: 351,
     bals: [{
   "asset": "ETH",
-  "balance": "4.078109238319887"
+  "balance": "4.078109238320"
 }
 
 ],
@@ -1000,7 +1000,7 @@ export const grantsData = [
     donation_cnt: 82,
     bals: [{
   "asset": "ETH",
-  "balance": "0.078146500000000"
+  "balance": "0.078146500000"
 }
 
 ],
@@ -1012,14 +1012,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1668,
     address: '0x097b7feb64d0b272efc3092f833b0e18bd4d1521',
-    name: 'Coin Center is Educating Policy Makers About Publi',
+    name: 'Coin Center is Educating Policy Makers A',
     slug: 'https://gitcoin.co/grants/1668/coin-center-is-educating-policy-makers-about-publ',
     tx_cnt: 265,
     log_cnt: 3441,
     donation_cnt: 1820,
     bals: [{
   "asset": "ETH",
-  "balance": "0.045644489000000"
+  "balance": "0.045644489000"
 }
 
 ],
@@ -1031,14 +1031,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1775,
     address: '0x09ff1e8c530ffed4733f92a92ce58fd158c6a912',
-    name: 'Need Work Small Time Miner Can Always Use Extra He',
+    name: 'Need Work Small Time Miner Can Always Us',
     slug: 'https://gitcoin.co/grants/1775/need-work-small-time-miner-can-always-use-extra-h',
     tx_cnt: 29,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000051123"
+  "balance": "0.000000000051"
 }
 
 ],
@@ -1050,14 +1050,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1211,
     address: '0x0a0b368c0f1644fa269f0d6377232906747754a3',
-    name: 'R&d in Rent-free Public Financial Utilities',
+    name: 'R&d in Rent-free Public Financial Utilit',
     slug: 'https://gitcoin.co/grants/1211/rd-in-rent-free-public-financial-utilities',
     tx_cnt: 115,
     log_cnt: 3572,
     donation_cnt: 1809,
     bals: [{
   "asset": "ETH",
-  "balance": "0.105458133463859"
+  "balance": "0.105458133464"
 }
 
 ],
@@ -1076,7 +1076,7 @@ export const grantsData = [
     donation_cnt: 75,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1095,7 +1095,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "1.578052647983256"
+  "balance": "1.578052647983"
 }
 
 ],
@@ -1114,7 +1114,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.759113766400774"
+  "balance": "0.759113766401"
 }
 
 ],
@@ -1133,7 +1133,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.861895149571854"
+  "balance": "0.861895149572"
 }
 
 ],
@@ -1152,7 +1152,7 @@ export const grantsData = [
     donation_cnt: 377,
     bals: [{
   "asset": "ETH",
-  "balance": "0.706400000000000"
+  "balance": "0.706400000000"
 }
 
 ],
@@ -1171,7 +1171,7 @@ export const grantsData = [
     donation_cnt: 30,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003755348379496"
+  "balance": "0.003755348379"
 }
 
 ],
@@ -1190,7 +1190,7 @@ export const grantsData = [
     donation_cnt: 648,
     bals: [{
   "asset": "ETH",
-  "balance": "0.348888982250868"
+  "balance": "0.348888982251"
 }
 
 ],
@@ -1202,14 +1202,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 558,
     address: '0x0b93ba560283350d4216f29dc57e15df38d0eace',
-    name: 'Curadao Covid-19 Campaign - Remote & Thriving',
+    name: 'Curadao Covid-19 Campaign - Remote & Thr',
     slug: 'https://gitcoin.co/grants/558/curadao-covid-19-campaign-remote-thriving',
     tx_cnt: 648,
     log_cnt: 3259,
     donation_cnt: 696,
     bals: [{
   "asset": "ETH",
-  "balance": "1.921668794823304"
+  "balance": "1.921668794823"
 }
 
 ],
@@ -1228,7 +1228,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1247,7 +1247,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1266,7 +1266,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.285928127226493"
+  "balance": "0.285928127226"
 }
 
 ],
@@ -1285,7 +1285,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.141197397569361"
+  "balance": "1.141197397569"
 }
 
 ],
@@ -1304,7 +1304,7 @@ export const grantsData = [
     donation_cnt: 711,
     bals: [{
   "asset": "ETH",
-  "balance": "0.521643219849239"
+  "balance": "0.521643219849"
 }
 
 ],
@@ -1323,7 +1323,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000008463563"
+  "balance": "0.000000008464"
 }
 
 ],
@@ -1342,7 +1342,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.746170867511963"
+  "balance": "0.746170867512"
 }
 
 ],
@@ -1361,7 +1361,7 @@ export const grantsData = [
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1380,7 +1380,7 @@ export const grantsData = [
     donation_cnt: 239,
     bals: [{
   "asset": "ETH",
-  "balance": "0.385249588915196"
+  "balance": "0.385249588915"
 }
 
 ],
@@ -1399,7 +1399,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000956095141149"
+  "balance": "0.000956095141"
 }
 
 ],
@@ -1418,7 +1418,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1430,14 +1430,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 576,
     address: '0x0df05adac0159e215111696339ad4998e5871b3d',
-    name: 'BlockScout.com for Ethereum Mainnet hosting',
+    name: 'BlockScout.com for Ethereum Mainnet host',
     slug: 'https://gitcoin.co/grants/576/blockscoutcom-for-ethereum-mainnet-hosting',
     tx_cnt: 55,
     log_cnt: 246,
     donation_cnt: 27,
     bals: [{
   "asset": "ETH",
-  "balance": "0.463767791391366"
+  "balance": "0.463767791391"
 }
 
 ],
@@ -1456,7 +1456,7 @@ export const grantsData = [
     donation_cnt: 1828,
     bals: [{
   "asset": "ETH",
-  "balance": "0.350913554935282"
+  "balance": "0.350913554935"
 }
 
 ],
@@ -1468,14 +1468,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1710,
     address: '0x0e380f930f523eb3563369bbfbed3e4ebdc4d2c2',
-    name: 'How to Stake on Eth 2 with Dappnode Guide',
+    name: 'How to Stake on Eth 2 with Dappnode Guid',
     slug: 'https://gitcoin.co/grants/1710/how-to-stake-on-eth-2-with-dappnode-guide',
     tx_cnt: 47,
     log_cnt: 794,
     donation_cnt: 8,
     bals: [{
   "asset": "ETH",
-  "balance": "0.033132847053718"
+  "balance": "0.033132847054"
 }
 
 ],
@@ -1494,7 +1494,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1513,7 +1513,7 @@ export const grantsData = [
     donation_cnt: 32,
     bals: [{
   "asset": "ETH",
-  "balance": "13.861708785713178"
+  "balance": "13.861708785713"
 }
 
 ],
@@ -1532,7 +1532,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005214585634775"
+  "balance": "0.005214585635"
 }
 
 ],
@@ -1544,14 +1544,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1638,
     address: '0x0ec8bea26e3ca271010ef02decb84bfb9139472b',
-    name: 'Electric Circus Proudly Presents Impact Pirates',
+    name: 'Electric Circus Proudly Presents Impact ',
     slug: 'https://gitcoin.co/grants/1638/electric-circus-proudly-presents-impact-pirates',
     tx_cnt: 25,
     log_cnt: 743,
     donation_cnt: 260,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1570,7 +1570,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.040121654000000"
+  "balance": "0.040121654000"
 }
 
 ],
@@ -1589,7 +1589,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1608,7 +1608,7 @@ export const grantsData = [
     donation_cnt: 1740,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1620,14 +1620,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 155,
     address: '0x0f1025f754b3eb32ab3105127b563084bfa03a6f',
-    name: 'Tensortrade: Trade Efficiently with Reinforcement ',
+    name: 'Tensortrade: Trade Efficiently with Rein',
     slug: 'https://gitcoin.co/grants/155/tensortrade-trade-efficiently-with-reinforcement-',
     tx_cnt: 3332,
     log_cnt: 17995,
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "5.649675468098003"
+  "balance": "5.649675468098"
 }
 
 ],
@@ -1646,7 +1646,7 @@ export const grantsData = [
     donation_cnt: 668,
     bals: [{
   "asset": "ETH",
-  "balance": "0.875090749848509"
+  "balance": "0.875090749849"
 }
 
 ],
@@ -1665,7 +1665,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.000000000000000"
+  "balance": "5.000000000000"
 }
 
 ],
@@ -1684,7 +1684,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1696,14 +1696,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1768,
     address: '0x1035fee7621a4a902d75094abd2e378e64b4b6ce',
-    name: 'No-code Workflow Automation for Cryptocurrency Inv',
+    name: 'No-code Workflow Automation for Cryptocu',
     slug: 'https://gitcoin.co/grants/1768/no-code-workflow-automation-for-cryptocurrency-in',
     tx_cnt: 405,
     log_cnt: 5292,
     donation_cnt: 117,
     bals: [{
   "asset": "ETH",
-  "balance": "1.304785619629269"
+  "balance": "1.304785619629"
 }
 
 ],
@@ -1715,14 +1715,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 83,
     address: '0x1074f62d7019c3184a2f7ea8c6a8acd6780beb48',
-    name: 'Poa Network Community Management Grant for Adj',
+    name: 'Poa Network Community Management Grant f',
     slug: 'https://gitcoin.co/grants/83/poa-network-community-management-grant-for-adj',
     tx_cnt: 34,
     log_cnt: 523,
     donation_cnt: 39,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000042100000000"
+  "balance": "0.000042100000"
 }
 
 ],
@@ -1741,7 +1741,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.043317973908507"
+  "balance": "0.043317973909"
 }
 
 ],
@@ -1753,14 +1753,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1707,
     address: '0x10d6d2e343281d388291a3e02f3293aaeda67178',
-    name: 'Llama - a Hub for Crypto Community Treasuries',
+    name: 'Llama - a Hub for Crypto Community Treas',
     slug: 'https://gitcoin.co/grants/1707/llama-a-hub-for-crypto-community-treasuries',
     tx_cnt: 303,
     log_cnt: 1532,
     donation_cnt: 60,
     bals: [{
   "asset": "ETH",
-  "balance": "0.377690446067743"
+  "balance": "0.377690446068"
 }
 
 ],
@@ -1772,14 +1772,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1498,
     address: '0x10d93cdc5a7c5cc3114cf4356efda3219a120656',
-    name: 'Crypto Music Fund | Changing the World Through Mus',
+    name: 'Crypto Music Fund | Changing the World T',
     slug: 'https://gitcoin.co/grants/1498/crypto-music-fund-changing-the-world-through-musi',
     tx_cnt: 2,
     log_cnt: 175,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.057675290000000"
+  "balance": "0.057675290000"
 }
 
 ],
@@ -1798,7 +1798,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.017285903911804"
+  "balance": "0.017285903912"
 }
 
 ],
@@ -1810,14 +1810,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 675,
     address: '0x11860d47411cc5f132b5791201e01d25a3b4d1c7',
-    name: 'Legrandjeu Vr - Bring Token Economics Gaming to th',
+    name: 'Legrandjeu Vr - Bring Token Economics Ga',
     slug: 'https://gitcoin.co/grants/675/legrandjeu-vr-bring-token-economics-gaming-to-the',
     tx_cnt: 115,
     log_cnt: 1286,
     donation_cnt: 437,
     bals: [{
   "asset": "ETH",
-  "balance": "3.666732746462723"
+  "balance": "3.666732746463"
 }
 
 ],
@@ -1836,7 +1836,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1855,7 +1855,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "16.943585562061617"
+  "balance": "16.943585562062"
 }
 
 ],
@@ -1874,7 +1874,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.018650499749136"
+  "balance": "0.018650499749"
 }
 
 ],
@@ -1893,7 +1893,7 @@ export const grantsData = [
     donation_cnt: 797,
     bals: [{
   "asset": "ETH",
-  "balance": "0.226604814698276"
+  "balance": "0.226604814698"
 }
 
 ],
@@ -1905,14 +1905,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 655,
     address: '0x1222d0ded67a533b3163397fd917bc8ac6f96b7a',
-    name: 'Alternative Income for Poor Families in Brazil!',
+    name: 'Alternative Income for Poor Families in ',
     slug: 'https://gitcoin.co/grants/655/alternative-income-for-poor-families-in-brazil',
     tx_cnt: 19,
     log_cnt: 60,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007658495000000"
+  "balance": "0.007658495000"
 }
 
 ],
@@ -1924,14 +1924,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1127,
     address: '0x1251a94b6d800979d2d933b8bd5914b892772ac6',
-    name: 'Commons Stack Community Fund - Panvala League',
+    name: 'Commons Stack Community Fund - Panvala L',
     slug: 'https://gitcoin.co/grants/1127/commons-stack-community-fund-panvala-league',
     tx_cnt: 125,
     log_cnt: 3322,
     donation_cnt: 1531,
     bals: [{
   "asset": "ETH",
-  "balance": "0.115755368136417"
+  "balance": "0.115755368136"
 }
 
 ],
@@ -1950,7 +1950,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -1962,14 +1962,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 419,
     address: '0x127c6839dee7c737767c9f62d13996e27854505d',
-    name: 'Project Maple. | Cryptographic Currency Redefined.',
+    name: 'Project Maple. | Cryptographic Currency ',
     slug: 'https://gitcoin.co/grants/419/project-maple-cryptographic-currency-redefined',
     tx_cnt: 126,
     log_cnt: 1561,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000113792000000"
+  "balance": "0.000113792000"
 }
 
 ],
@@ -1988,7 +1988,7 @@ export const grantsData = [
     donation_cnt: 61,
     bals: [{
   "asset": "ETH",
-  "balance": "0.282265289316136"
+  "balance": "0.282265289316"
 }
 
 ],
@@ -2007,7 +2007,7 @@ export const grantsData = [
     donation_cnt: 32,
     bals: [{
   "asset": "ETH",
-  "balance": "4.601350078395330"
+  "balance": "4.601350078395"
 }
 
 ],
@@ -2019,14 +2019,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 711,
     address: '0x132cd02e566c36976efb327a4301a605747f4b78',
-    name: 'Furucombo - Build Your Own DeFi Legos Into One Tra',
+    name: 'Furucombo - Build Your Own DeFi Legos In',
     slug: 'https://gitcoin.co/grants/711/furucombo-build-your-own-defi-legos-into-one-tran',
     tx_cnt: 552,
     log_cnt: 5153,
     donation_cnt: 783,
     bals: [{
   "asset": "ETH",
-  "balance": "1.740643377511235"
+  "balance": "1.740643377511"
 }
 
 ],
@@ -2038,14 +2038,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 160,
     address: '0x133d705a9696882228f6bb7fe008745aef7cdc93',
-    name: '@antiprosynth | Antiprosynthesis.eth ⟠ Twitter A',
+    name: '@antiprosynth | Antiprosynthesis.eth ⟠',
     slug: 'https://gitcoin.co/grants/160/antiprosynth-antiprosynthesiseth-twitter-account-',
     tx_cnt: 553,
     log_cnt: 7763,
     donation_cnt: 3211,
     bals: [{
   "asset": "ETH",
-  "balance": "3.867729377805398"
+  "balance": "3.867729377805"
 }
 
 ],
@@ -2064,7 +2064,7 @@ export const grantsData = [
     donation_cnt: 104,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002114380100000"
+  "balance": "0.002114380100"
 }
 
 ],
@@ -2076,14 +2076,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1261,
     address: '0x13541d356bcc7156e234ff15091ba9b8f1d9b2dd',
-    name: 'Guer - Empowering Data Custody for Web3 Through Se',
+    name: 'Guer - Empowering Data Custody for Web3 ',
     slug: 'https://gitcoin.co/grants/1261/guer-empowering-data-custody-for-web3-through-sec',
     tx_cnt: 11,
     log_cnt: 454,
     donation_cnt: 53,
     bals: [{
   "asset": "ETH",
-  "balance": "0.115500200000021"
+  "balance": "0.115500200000"
 }
 
 ],
@@ -2102,7 +2102,7 @@ export const grantsData = [
     donation_cnt: 271,
     bals: [{
   "asset": "ETH",
-  "balance": "0.189686850000000"
+  "balance": "0.189686850000"
 }
 
 ],
@@ -2121,7 +2121,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2140,7 +2140,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2159,7 +2159,7 @@ export const grantsData = [
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.470837216607718"
+  "balance": "0.470837216608"
 }
 
 ],
@@ -2178,7 +2178,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "144.168720147388939"
+  "balance": "144.168720147389"
 }
 
 ],
@@ -2197,7 +2197,7 @@ export const grantsData = [
     donation_cnt: 215,
     bals: [{
   "asset": "ETH",
-  "balance": "0.058690790593142"
+  "balance": "0.058690790593"
 }
 
 ],
@@ -2216,7 +2216,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2235,7 +2235,7 @@ export const grantsData = [
     donation_cnt: 210,
     bals: [{
   "asset": "ETH",
-  "balance": "0.368450000000000"
+  "balance": "0.368450000000"
 }
 
 ],
@@ -2254,7 +2254,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.165407524477053"
+  "balance": "0.165407524477"
 }
 
 ],
@@ -2266,14 +2266,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 220,
     address: '0x1591b9056822c273252fcea32963223650db18e1',
-    name: 'Cryptorado: Community Outreach & Expansion',
+    name: 'Cryptorado: Community Outreach & Expansi',
     slug: 'https://gitcoin.co/grants/220/cryptorado-community-outreach-expansion',
     tx_cnt: 309,
     log_cnt: 2483,
     donation_cnt: 623,
     bals: [{
   "asset": "ETH",
-  "balance": "0.856309504009397"
+  "balance": "0.856309504009"
 }
 
 ],
@@ -2292,7 +2292,7 @@ export const grantsData = [
     donation_cnt: 1156,
     bals: [{
   "asset": "ETH",
-  "balance": "3.511144933773781"
+  "balance": "3.511144933774"
 }
 
 ],
@@ -2311,7 +2311,7 @@ export const grantsData = [
     donation_cnt: 150,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2330,7 +2330,7 @@ export const grantsData = [
     donation_cnt: 10,
     bals: [{
   "asset": "ETH",
-  "balance": "4.233441924820517"
+  "balance": "4.233441924821"
 }
 
 ],
@@ -2342,14 +2342,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 709,
     address: '0x165107ce980edff38065261326354c3d6cd809e6',
-    name: 'Adoption and Dissemination of Ethereum Technology',
+    name: 'Adoption and Dissemination of Ethereum T',
     slug: 'https://gitcoin.co/grants/709/adoption-and-dissemination-of-ethereum-technology',
     tx_cnt: 605,
     log_cnt: 3222,
     donation_cnt: 33,
     bals: [{
   "asset": "ETH",
-  "balance": "0.951457525173198"
+  "balance": "0.951457525173"
 }
 
 ],
@@ -2368,7 +2368,7 @@ export const grantsData = [
     donation_cnt: 149,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003355307639436"
+  "balance": "0.003355307639"
 }
 
 ],
@@ -2387,7 +2387,7 @@ export const grantsData = [
     donation_cnt: 27,
     bals: [{
   "asset": "ETH",
-  "balance": "0.276816613382242"
+  "balance": "0.276816613382"
 }
 
 ],
@@ -2406,7 +2406,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "3.515000000000000"
+  "balance": "3.515000000000"
 }
 
 ],
@@ -2425,7 +2425,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009180935000000"
+  "balance": "0.009180935000"
 }
 
 ],
@@ -2444,7 +2444,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.081666785420763"
+  "balance": "0.081666785421"
 }
 
 ],
@@ -2463,7 +2463,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.066848718281265"
+  "balance": "0.066848718281"
 }
 
 ],
@@ -2482,7 +2482,7 @@ export const grantsData = [
     donation_cnt: 16,
     bals: [{
   "asset": "ETH",
-  "balance": "1.221757762571363"
+  "balance": "1.221757762571"
 }
 
 ],
@@ -2501,7 +2501,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.018895677300000"
+  "balance": "0.018895677300"
 }
 
 ],
@@ -2520,7 +2520,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.060359812956268"
+  "balance": "0.060359812956"
 }
 
 ],
@@ -2539,7 +2539,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "2.045830847007285"
+  "balance": "2.045830847007"
 }
 
 ],
@@ -2558,7 +2558,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002313603903243"
+  "balance": "0.002313603903"
 }
 
 ],
@@ -2577,7 +2577,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2596,7 +2596,7 @@ export const grantsData = [
     donation_cnt: 351,
     bals: [{
   "asset": "ETH",
-  "balance": "18.578474812629612"
+  "balance": "18.578474812630"
 }
 
 ],
@@ -2615,7 +2615,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000312352111102"
+  "balance": "0.000312352111"
 }
 
 ],
@@ -2634,7 +2634,7 @@ export const grantsData = [
     donation_cnt: 979,
     bals: [{
   "asset": "ETH",
-  "balance": "0.329069414193244"
+  "balance": "0.329069414193"
 }
 
 ],
@@ -2653,7 +2653,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2672,7 +2672,7 @@ export const grantsData = [
     donation_cnt: 2559,
     bals: [{
   "asset": "ETH",
-  "balance": "4.703650260844113"
+  "balance": "4.703650260844"
 }
 
 ],
@@ -2691,7 +2691,7 @@ export const grantsData = [
     donation_cnt: 126,
     bals: [{
   "asset": "ETH",
-  "balance": "0.164607429636747"
+  "balance": "0.164607429637"
 }
 
 ],
@@ -2703,14 +2703,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1663,
     address: '0x1a64215d60ecb90dc4a3466f4b54ee89b0d25838',
-    name: 'Pictosis: the Open Web for Digital Goods & Creativ',
+    name: 'Pictosis: the Open Web for Digital Goods',
     slug: 'https://gitcoin.co/grants/1663/pictosis-the-open-web-for-digital-goods-creative-',
     tx_cnt: 57,
     log_cnt: 1497,
     donation_cnt: 666,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010344000000000"
+  "balance": "0.010344000000"
 }
 
 ],
@@ -2729,7 +2729,7 @@ export const grantsData = [
     donation_cnt: 43,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2748,7 +2748,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2767,7 +2767,7 @@ export const grantsData = [
     donation_cnt: 447,
     bals: [{
   "asset": "ETH",
-  "balance": "0.124776200000000"
+  "balance": "0.124776200000"
 }
 
 ],
@@ -2786,7 +2786,7 @@ export const grantsData = [
     donation_cnt: 121,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2805,7 +2805,7 @@ export const grantsData = [
     donation_cnt: 271,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000756000000000"
+  "balance": "0.000756000000"
 }
 
 ],
@@ -2824,7 +2824,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.017760591950678"
+  "balance": "0.017760591951"
 }
 
 ],
@@ -2836,14 +2836,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 938,
     address: '0x1d113337e485e232d39d2d883031705ade37b576',
-    name: 'Sourcify - Source Verification Service + Contract ',
+    name: 'Sourcify - Source Verification Service +',
     slug: 'https://gitcoin.co/grants/938/sourcify-source-verification-service-contract-rep',
     tx_cnt: 20,
     log_cnt: 343,
     donation_cnt: 110,
     bals: [{
   "asset": "ETH",
-  "balance": "0.104508945500000"
+  "balance": "0.104508945500"
 }
 
 ],
@@ -2862,7 +2862,7 @@ export const grantsData = [
     donation_cnt: 186,
     bals: [{
   "asset": "ETH",
-  "balance": "0.368508471853122"
+  "balance": "0.368508471853"
 }
 
 ],
@@ -2881,7 +2881,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.412142753543475"
+  "balance": "0.412142753543"
 }
 
 ],
@@ -2900,7 +2900,7 @@ export const grantsData = [
     donation_cnt: 55,
     bals: [{
   "asset": "ETH",
-  "balance": "0.083603632334449"
+  "balance": "0.083603632334"
 }
 
 ],
@@ -2919,7 +2919,7 @@ export const grantsData = [
     donation_cnt: 208,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2938,7 +2938,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.387251445000000"
+  "balance": "0.387251445000"
 }
 
 ],
@@ -2957,7 +2957,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -2969,14 +2969,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 433,
     address: '0x1fa313ba8c968d00bc109404bd08e963eae3f1dd',
-    name: 'Edcon (community Ethereum Development Conference)',
+    name: 'Edcon (community Ethereum Development Co',
     slug: 'https://gitcoin.co/grants/433/edcon-community-ethereum-development-conference',
     tx_cnt: 46,
     log_cnt: 73,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.088990205000000"
+  "balance": "0.088990205000"
 }
 
 ],
@@ -2995,7 +2995,7 @@ export const grantsData = [
     donation_cnt: 1,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3007,14 +3007,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1820,
     address: '0x201930f7b5a5fa20496fe90411f7babef35e94dc',
-    name: 'How to Trade Faster Than a Bot in Decentralized Ex',
+    name: 'How to Trade Faster Than a Bot in Decent',
     slug: 'https://gitcoin.co/grants/1820/how-to-trade-faster-than-a-bot-in-decentralized-e',
     tx_cnt: 445,
     log_cnt: 3534,
     donation_cnt: 17,
     bals: [{
   "asset": "ETH",
-  "balance": "0.149004736863542"
+  "balance": "0.149004736864"
 }
 
 ],
@@ -3033,7 +3033,7 @@ export const grantsData = [
     donation_cnt: 767,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001710705458870"
+  "balance": "0.001710705459"
 }
 
 ],
@@ -3052,7 +3052,7 @@ export const grantsData = [
     donation_cnt: 105,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3071,7 +3071,7 @@ export const grantsData = [
     donation_cnt: 7333,
     bals: [{
   "asset": "ETH",
-  "balance": "4.150235572274186"
+  "balance": "4.160685572274"
 }
 
 ],
@@ -3090,7 +3090,7 @@ export const grantsData = [
     donation_cnt: 5,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3109,7 +3109,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.195000357000000"
+  "balance": "0.195000357000"
 }
 
 ],
@@ -3121,14 +3121,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 522,
     address: '0x224cf0b963c59b95623b3dd6ce07b4ce40f7b134',
-    name: 'Support the 🌟 Community Currency Alliance 🌟 ',
+    name: 'Support the 🌟 Community Currency Alli',
     slug: 'https://gitcoin.co/grants/522/support-the-community-currency-alliance-enabling-',
     tx_cnt: 369,
     log_cnt: 4658,
     donation_cnt: 1561,
     bals: [{
   "asset": "ETH",
-  "balance": "0.418667671475631"
+  "balance": "0.418667671476"
 }
 
 ],
@@ -3147,7 +3147,7 @@ export const grantsData = [
     donation_cnt: 86,
     bals: [{
   "asset": "ETH",
-  "balance": "1.441631963400000"
+  "balance": "1.441631963400"
 }
 
 ],
@@ -3159,14 +3159,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 443,
     address: '0x22b5de197d8a8ca13e361c268f58baf088ac4dc0',
-    name: 'Cretter - Solving Critical Thinking and Debates on',
+    name: 'Cretter - Solving Critical Thinking and ',
     slug: 'https://gitcoin.co/grants/443/cretter-solving-critical-thinking-and-debates-on-',
     tx_cnt: 6,
     log_cnt: 43,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3185,7 +3185,7 @@ export const grantsData = [
     donation_cnt: 355,
     bals: [{
   "asset": "ETH",
-  "balance": "0.087654090248731"
+  "balance": "0.087654090249"
 }
 
 ],
@@ -3204,7 +3204,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009500000000000"
+  "balance": "0.009500000000"
 }
 
 ],
@@ -3223,7 +3223,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3242,7 +3242,7 @@ export const grantsData = [
     donation_cnt: 69,
     bals: [{
   "asset": "ETH",
-  "balance": "0.008196175000000"
+  "balance": "0.008196175000"
 }
 
 ],
@@ -3261,7 +3261,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.066015375000000"
+  "balance": "0.066015375000"
 }
 
 ],
@@ -3280,7 +3280,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001187818700000"
+  "balance": "0.001187818700"
 }
 
 ],
@@ -3299,7 +3299,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.895087424200000"
+  "balance": "0.895087424200"
 }
 
 ],
@@ -3311,14 +3311,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1641,
     address: '0x24801de57f065d95d741dff0f419dc5004777c87',
-    name: 'DAO Internal Dispute Resolution Open Handbook by L',
+    name: 'DAO Internal Dispute Resolution Open Han',
     slug: 'https://gitcoin.co/grants/1641/dao-internal-dispute-resolution-open-handbook-by-',
     tx_cnt: 10,
     log_cnt: 623,
     donation_cnt: 194,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000095000000000"
+  "balance": "0.000095000000"
 }
 
 ],
@@ -3337,7 +3337,7 @@ export const grantsData = [
     donation_cnt: 368,
     bals: [{
   "asset": "ETH",
-  "balance": "0.251945068900000"
+  "balance": "0.251945068900"
 }
 
 ],
@@ -3356,7 +3356,7 @@ export const grantsData = [
     donation_cnt: 113,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3375,7 +3375,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "1.402452546561068"
+  "balance": "1.402452546561"
 }
 
 ],
@@ -3394,7 +3394,7 @@ export const grantsData = [
     donation_cnt: 90,
     bals: [{
   "asset": "ETH",
-  "balance": "0.451300019412460"
+  "balance": "0.451300019412"
 }
 
 ],
@@ -3406,14 +3406,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1006,
     address: '0x25756f9c2cceacd787260b001f224159ab9fb97a',
-    name: 'Decentralized Flexible Organizations R&d (programm',
+    name: 'Decentralized Flexible Organizations R&d',
     slug: 'https://gitcoin.co/grants/1006/decentralized-flexible-organizations-rd-programma',
     tx_cnt: 414,
     log_cnt: 15166,
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "793.078136882512126"
+  "balance": "793.078136882512"
 }
 
 ],
@@ -3432,7 +3432,7 @@ export const grantsData = [
     donation_cnt: 49,
     bals: [{
   "asset": "ETH",
-  "balance": "0.016641849820373"
+  "balance": "0.016641849820"
 }
 
 ],
@@ -3451,7 +3451,7 @@ export const grantsData = [
     donation_cnt: 151,
     bals: [{
   "asset": "ETH",
-  "balance": "0.783892243200217"
+  "balance": "0.783892243200"
 }
 
 ],
@@ -3470,7 +3470,7 @@ export const grantsData = [
     donation_cnt: 233,
     bals: [{
   "asset": "ETH",
-  "balance": "0.154602800000000"
+  "balance": "0.154602800000"
 }
 
 ],
@@ -3482,14 +3482,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 236,
     address: '0x261735653d47683ca21d0ec7716dc0470fd35b55',
-    name: 'Beginner and Advanced Dapp Programming Tutorials F',
+    name: 'Beginner and Advanced Dapp Programming T',
     slug: '',
     tx_cnt: 9,
     log_cnt: 98,
     donation_cnt: 44,
     bals: [{
   "asset": "ETH",
-  "balance": "0.097909211000000"
+  "balance": "0.097909211000"
 }
 
 ],
@@ -3508,7 +3508,7 @@ export const grantsData = [
     donation_cnt: 148,
     bals: [{
   "asset": "ETH",
-  "balance": "0.054516788697628"
+  "balance": "0.054516788698"
 }
 
 ],
@@ -3527,7 +3527,7 @@ export const grantsData = [
     donation_cnt: 13,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3546,7 +3546,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.131706246314936"
+  "balance": "0.131706246315"
 }
 
 ],
@@ -3565,7 +3565,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002882825000000"
+  "balance": "0.002882825000"
 }
 
 ],
@@ -3577,14 +3577,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1887,
     address: '0x2759538121f4d604e7b7e5d1e5f562a05a524d45',
-    name: 'Каждодневное исследование ',
+    name: 'Каждодневное исследо�',
     slug: 'https://gitcoin.co/grants/1887/defi',
     tx_cnt: 20,
     log_cnt: 32,
     donation_cnt: 12,
     bals: [{
   "asset": "ETH",
-  "balance": "0.141603283968903"
+  "balance": "0.141603283969"
 }
 
 ],
@@ -3603,7 +3603,7 @@ export const grantsData = [
     donation_cnt: 163,
     bals: [{
   "asset": "ETH",
-  "balance": "0.027351780000000"
+  "balance": "0.027351780000"
 }
 
 ],
@@ -3622,7 +3622,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3641,7 +3641,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3660,7 +3660,7 @@ export const grantsData = [
     donation_cnt: 474,
     bals: [{
   "asset": "ETH",
-  "balance": "0.377614705495003"
+  "balance": "0.377614705495"
 }
 
 ],
@@ -3679,7 +3679,7 @@ export const grantsData = [
     donation_cnt: 8,
     bals: [{
   "asset": "ETH",
-  "balance": "0.092712893166354"
+  "balance": "0.092712893166"
 }
 
 ],
@@ -3698,7 +3698,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010766423575091"
+  "balance": "0.010766423575"
 }
 
 ],
@@ -3717,7 +3717,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000442699200000"
+  "balance": "0.000442699200"
 }
 
 ],
@@ -3736,7 +3736,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3755,7 +3755,7 @@ export const grantsData = [
     donation_cnt: 269,
     bals: [{
   "asset": "ETH",
-  "balance": "0.250671589431627"
+  "balance": "0.250671589432"
 }
 
 ],
@@ -3774,7 +3774,7 @@ export const grantsData = [
     donation_cnt: 33,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012000000000000"
+  "balance": "0.012000000000"
 }
 
 ],
@@ -3793,7 +3793,7 @@ export const grantsData = [
     donation_cnt: 573,
     bals: [{
   "asset": "ETH",
-  "balance": "0.176708357400014"
+  "balance": "0.176708357400"
 }
 
 ],
@@ -3805,14 +3805,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1173,
     address: '0x2a1ba6c3bb615406069d7697e59ea3167513c790',
-    name: 'Blockchain-comparison.com - #1 Blockchain Support',
+    name: 'Blockchain-comparison.com - #1 Blockchai',
     slug: 'https://gitcoin.co/grants/1173/blockchain-comparisoncom-1-blockchain-support',
     tx_cnt: 4,
     log_cnt: 370,
     donation_cnt: 109,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009000000000000"
+  "balance": "0.009000000000"
 }
 
 ],
@@ -3831,7 +3831,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.119128527400000"
+  "balance": "0.119128527400"
 }
 
 ],
@@ -3850,7 +3850,7 @@ export const grantsData = [
     donation_cnt: 504,
     bals: [{
   "asset": "ETH",
-  "balance": "0.026634716190391"
+  "balance": "0.026634716190"
 }
 
 ],
@@ -3869,7 +3869,7 @@ export const grantsData = [
     donation_cnt: 63,
     bals: [{
   "asset": "ETH",
-  "balance": "3.894375827055997"
+  "balance": "3.894375827056"
 }
 
 ],
@@ -3888,7 +3888,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3900,14 +3900,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 381,
     address: '0x2bb1b3510a1f609cbc74b98b3eb622cfcc3be16e',
-    name: 'Animated Charts of DeFi/ethereum by James Todaro',
+    name: 'Animated Charts of DeFi/ethereum by Jame',
     slug: 'https://gitcoin.co/grants/381/animated-charts-of-defiethereum-by-james-todaro',
     tx_cnt: 106,
     log_cnt: 745,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -3926,7 +3926,7 @@ export const grantsData = [
     donation_cnt: 57,
     bals: [{
   "asset": "ETH",
-  "balance": "0.025547180470588"
+  "balance": "0.025547180471"
 }
 
 ],
@@ -3938,14 +3938,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1166,
     address: '0x2c5ff0be38115fe6e37acce8e94f86186c3d73df',
-    name: 'Open Reviews: a Web2 to Web3 Replication Protocol ',
+    name: 'Open Reviews: a Web2 to Web3 Replication',
     slug: 'https://gitcoin.co/grants/1166/open-reviews-a-web2-to-web3-replication-protocol-',
     tx_cnt: 110,
     log_cnt: 2221,
     donation_cnt: 868,
     bals: [{
   "asset": "ETH",
-  "balance": "0.876397489606699"
+  "balance": "0.876397489607"
 }
 
 ],
@@ -3964,7 +3964,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001882255141992"
+  "balance": "0.001882255142"
 }
 
 ],
@@ -3983,7 +3983,7 @@ export const grantsData = [
     donation_cnt: 71,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004812500000000"
+  "balance": "0.004812500000"
 }
 
 ],
@@ -4002,7 +4002,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4021,7 +4021,7 @@ export const grantsData = [
     donation_cnt: 2541,
     bals: [{
   "asset": "ETH",
-  "balance": "5.225416717566376"
+  "balance": "4.788829017566"
 }
 
 ],
@@ -4033,14 +4033,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 613,
     address: '0x2ec04255ffc5f889c99de8576809a0975bed90c0',
-    name: 'Impact on Mental Health - Global Data Science Proj',
+    name: 'Impact on Mental Health - Global Data Sc',
     slug: 'https://gitcoin.co/grants/613/impact-on-mental-health-global-data-science-proje',
     tx_cnt: 1,
     log_cnt: 39,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4059,7 +4059,7 @@ export const grantsData = [
     donation_cnt: 578,
     bals: [{
   "asset": "ETH",
-  "balance": "0.418950000000000"
+  "balance": "0.418950000000"
 }
 
 ],
@@ -4078,7 +4078,7 @@ export const grantsData = [
     donation_cnt: 614,
     bals: [{
   "asset": "ETH",
-  "balance": "0.006000000000000"
+  "balance": "0.006000000000"
 }
 
 ],
@@ -4090,14 +4090,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 500,
     address: '0x2f71129b240080c638ac8d993bff52169e3551c3',
-    name: 'DeFi Dad DeFi Tutorials on Youtube and Twitter',
+    name: 'DeFi Dad DeFi Tutorials on Youtube and T',
     slug: 'https://gitcoin.co/grants/500/defi-dad-defi-tutorials-on-youtube-and-twitter',
     tx_cnt: 1195,
     log_cnt: 29510,
     donation_cnt: 5793,
     bals: [{
   "asset": "ETH",
-  "balance": "3.348568214616239"
+  "balance": "3.358068214616"
 }
 
 ],
@@ -4109,14 +4109,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1470,
     address: '0x2f8e74d6a6600ff8bd45696b92030b31c46f35f7',
-    name: 'Secured Finance - Interbank Grade Peer-to-peer Fin',
+    name: 'Secured Finance - Interbank Grade Peer-t',
     slug: 'https://gitcoin.co/grants/1470/secured-finance-interbank-grade-peer-to-peer-fina',
     tx_cnt: 32,
     log_cnt: 300,
     donation_cnt: 57,
     bals: [{
   "asset": "ETH",
-  "balance": "0.243727911986197"
+  "balance": "0.243727911986"
 }
 
 ],
@@ -4135,7 +4135,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.096699345800000"
+  "balance": "0.096699345800"
 }
 
 ],
@@ -4154,7 +4154,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4173,7 +4173,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4192,7 +4192,7 @@ export const grantsData = [
     donation_cnt: 430,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4204,14 +4204,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 26,
     address: '0x30755d3e65c0cf46c35b72d11e52d941c5fc3a3e',
-    name: 'Peepeth: Social Network for a Better World',
+    name: 'Peepeth: Social Network for a Better Wor',
     slug: 'https://gitcoin.co/grants/26/peepeth-social-network-for-a-better-world',
     tx_cnt: 664,
     log_cnt: 4256,
     donation_cnt: 124,
     bals: [{
   "asset": "ETH",
-  "balance": "0.315192650656319"
+  "balance": "0.315192650656"
 }
 
 ],
@@ -4223,14 +4223,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1926,
     address: '0x30928f37e0346b779839aa4b257e387b45900dda',
-    name: 'Spacetime: Upac(universal Photorealistic Avatar Cr',
+    name: 'Spacetime: Upac(universal Photorealistic',
     slug: 'https://gitcoin.co/grants/1926/spacetime-upacuniversal-photorealistic-avatar-cry',
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4249,7 +4249,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.063019583070120"
+  "balance": "1.063019583070"
 }
 
 ],
@@ -4268,7 +4268,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "10.795994487792155"
+  "balance": "10.795994487792"
 }
 
 ],
@@ -4287,7 +4287,7 @@ export const grantsData = [
     donation_cnt: 61,
     bals: [{
   "asset": "ETH",
-  "balance": "3.796832571152616"
+  "balance": "3.796832571153"
 }
 
 ],
@@ -4306,7 +4306,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4325,7 +4325,7 @@ export const grantsData = [
     donation_cnt: 8,
     bals: [{
   "asset": "ETH",
-  "balance": "0.032137729576302"
+  "balance": "0.032137729576"
 }
 
 ],
@@ -4344,7 +4344,7 @@ export const grantsData = [
     donation_cnt: 68,
     bals: [{
   "asset": "ETH",
-  "balance": "0.051506382793603"
+  "balance": "0.051506382794"
 }
 
 ],
@@ -4363,7 +4363,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4382,7 +4382,7 @@ export const grantsData = [
     donation_cnt: 2543,
     bals: [{
   "asset": "ETH",
-  "balance": "2.572295438905248"
+  "balance": "2.572295438905"
 }
 
 ],
@@ -4401,7 +4401,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019746152519795"
+  "balance": "0.019746152520"
 }
 
 ],
@@ -4420,7 +4420,7 @@ export const grantsData = [
     donation_cnt: 1462,
     bals: [{
   "asset": "ETH",
-  "balance": "0.517754343457522"
+  "balance": "0.517754343458"
 }
 
 ],
@@ -4439,7 +4439,7 @@ export const grantsData = [
     donation_cnt: 548,
     bals: [{
   "asset": "ETH",
-  "balance": "0.315294822765324"
+  "balance": "0.315294822765"
 }
 
 ],
@@ -4458,7 +4458,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4477,7 +4477,7 @@ export const grantsData = [
     donation_cnt: 861,
     bals: [{
   "asset": "ETH",
-  "balance": "0.314219400000003"
+  "balance": "0.314219400000"
 }
 
 ],
@@ -4489,14 +4489,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1014,
     address: '0x333ee98d84b087208353038e10e1b4600a0a3967',
-    name: 'Akashick | Interactive Art Installation - Immutabl',
+    name: 'Akashick | Interactive Art Installation ',
     slug: 'https://gitcoin.co/grants/1014/akashick-interactive-art-installation-immutable-u',
     tx_cnt: 673,
     log_cnt: 5944,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009090448935204"
+  "balance": "0.009090448935"
 }
 
 ],
@@ -4508,14 +4508,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 308,
     address: '0x335bee461cbbab5bd574e0767f1ead25bd5e0001',
-    name: 'cadCAD: Computer Aided Design for Complex Systems',
+    name: 'cadCAD: Computer Aided Design for Comple',
     slug: 'https://gitcoin.co/grants/308/cadcad-computer-aided-design-for-complex-systems',
     tx_cnt: 168,
     log_cnt: 631,
     donation_cnt: 54,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004850000000000"
+  "balance": "0.004850000000"
 }
 
 ],
@@ -4534,7 +4534,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013711351000000"
+  "balance": "0.013711351000"
 }
 
 ],
@@ -4553,7 +4553,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "2.846391854703989"
+  "balance": "2.846391854704"
 }
 
 ],
@@ -4572,7 +4572,7 @@ export const grantsData = [
     donation_cnt: 9,
     bals: [{
   "asset": "ETH",
-  "balance": "0.108736759633109"
+  "balance": "0.108736759633"
 }
 
 ],
@@ -4584,14 +4584,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 702,
     address: '0x34d3ffeb67e1ff8387cf6656242d2e7cda72dd95',
-    name: 'Fh for #digitalvscovid Donation Drive | Malaysian ',
+    name: 'Fh for #digitalvscovid Donation Drive | ',
     slug: 'https://gitcoin.co/grants/702/fh-for-digitalvscovid-donation-drive-malaysian-ne',
     tx_cnt: 8,
     log_cnt: 56,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4610,7 +4610,7 @@ export const grantsData = [
     donation_cnt: 29,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000462000000000"
+  "balance": "0.000462000000"
 }
 
 ],
@@ -4629,7 +4629,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.083006878612664"
+  "balance": "0.083006878613"
 }
 
 ],
@@ -4648,7 +4648,7 @@ export const grantsData = [
     donation_cnt: 248,
     bals: [{
   "asset": "ETH",
-  "balance": "0.331457731826063"
+  "balance": "0.331457731826"
 }
 
 ],
@@ -4667,7 +4667,7 @@ export const grantsData = [
     donation_cnt: 41,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4686,7 +4686,7 @@ export const grantsData = [
     donation_cnt: 42,
     bals: [{
   "asset": "ETH",
-  "balance": "0.107728352151133"
+  "balance": "0.107728352151"
 }
 
 ],
@@ -4705,7 +4705,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4717,14 +4717,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 288,
     address: '0x363fdb02aee6838afb0e034dc5ea54eb8e31e8b9',
-    name: 'Educational & Deeply Technical Talks - Help Me Buy',
+    name: 'Educational & Deeply Technical Talks - H',
     slug: 'https://gitcoin.co/grants/288/educational-deeply-technical-talks-help-me-buy-a-',
     tx_cnt: 99,
     log_cnt: 2166,
     donation_cnt: 43,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000055164773788"
+  "balance": "0.000055164774"
 }
 
 ],
@@ -4743,7 +4743,7 @@ export const grantsData = [
     donation_cnt: 41,
     bals: [{
   "asset": "ETH",
-  "balance": "0.501366410020515"
+  "balance": "0.501366410021"
 }
 
 ],
@@ -4762,7 +4762,7 @@ export const grantsData = [
     donation_cnt: 345,
     bals: [{
   "asset": "ETH",
-  "balance": "0.018746535268462"
+  "balance": "0.018746535268"
 }
 
 ],
@@ -4781,7 +4781,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.510205402000000"
+  "balance": "0.510205402000"
 }
 
 ],
@@ -4793,14 +4793,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 639,
     address: '0x36f322fc85b24ab13263cfe9217b28f8e2b38381',
-    name: '區塊勢 — 說人話的區塊鏈圖文',
+    name: '區塊勢 — 說人話的區塊鏈圖�',
     slug: 'https://gitcoin.co/grants/639/-2',
     tx_cnt: 422,
     log_cnt: 1561,
     donation_cnt: 173,
     bals: [{
   "asset": "ETH",
-  "balance": "0.059236192776114"
+  "balance": "0.059236192776"
 }
 
 ],
@@ -4812,14 +4812,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 484,
     address: '0x3792acdf2a8658fbade0ea70c47b89cb7777a5a5',
-    name: 'Depo DAO (decentralized Politics DAO) - Panvala Le',
+    name: 'Depo DAO (decentralized Politics DAO) - ',
     slug: 'https://gitcoin.co/grants/484/depo-dao-decentralized-politics-dao-panvala-leagu',
     tx_cnt: 199,
     log_cnt: 1341,
     donation_cnt: 408,
     bals: [{
   "asset": "ETH",
-  "balance": "1.105791869235343"
+  "balance": "1.105791869235"
 }
 
 ],
@@ -4838,7 +4838,7 @@ export const grantsData = [
     donation_cnt: 119,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000381710000000"
+  "balance": "0.000381710000"
 }
 
 ],
@@ -4857,7 +4857,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002383826000000"
+  "balance": "0.002383826000"
 }
 
 ],
@@ -4869,14 +4869,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 85,
     address: '0x38298ef8a8306579e21246d5227694b5560d9cb5',
-    name: 'Tennagraph - Minimum Bias Ethereum Signal Aggregat',
+    name: 'Tennagraph - Minimum Bias Ethereum Signa',
     slug: 'https://gitcoin.co/grants/85/tennagraph-minimum-bias-ethereum-signal-aggregato',
     tx_cnt: 49,
     log_cnt: 484,
     donation_cnt: 83,
     bals: [{
   "asset": "ETH",
-  "balance": "3.000000000000000"
+  "balance": "3.000000000000"
 }
 
 ],
@@ -4895,7 +4895,7 @@ export const grantsData = [
     donation_cnt: 32,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004750000000000"
+  "balance": "0.004750000000"
 }
 
 ],
@@ -4914,7 +4914,7 @@ export const grantsData = [
     donation_cnt: 559,
     bals: [{
   "asset": "ETH",
-  "balance": "0.093123584889790"
+  "balance": "0.093123584890"
 }
 
 ],
@@ -4933,7 +4933,7 @@ export const grantsData = [
     donation_cnt: 1160,
     bals: [{
   "asset": "ETH",
-  "balance": "3.309449412961702"
+  "balance": "3.309449412962"
 }
 
 ],
@@ -4952,7 +4952,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -4971,7 +4971,7 @@ export const grantsData = [
     donation_cnt: 2204,
     bals: [{
   "asset": "ETH",
-  "balance": "3.469193686136893"
+  "balance": "3.469193686137"
 }
 
 ],
@@ -4990,7 +4990,7 @@ export const grantsData = [
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.005518986000"
 }
 
 ],
@@ -5009,7 +5009,7 @@ export const grantsData = [
     donation_cnt: 2906,
     bals: [{
   "asset": "ETH",
-  "balance": "0.153678386000000"
+  "balance": "0.153678386000"
 }
 
 ],
@@ -5021,14 +5021,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 588,
     address: '0x39d8e84ef765360cdc1ca65d30333b92732bf09f',
-    name: 'Atstake: a Marketplace for Any Kind of Contract Be',
+    name: 'Atstake: a Marketplace for Any Kind of C',
     slug: 'https://gitcoin.co/grants/588/atstake-a-marketplace-for-any-kind-of-contract-be',
     tx_cnt: 152,
     log_cnt: 1262,
     donation_cnt: 190,
     bals: [{
   "asset": "ETH",
-  "balance": "4.304076798951280"
+  "balance": "4.304076798951"
 }
 
 ],
@@ -5047,7 +5047,7 @@ export const grantsData = [
     donation_cnt: 1838,
     bals: [{
   "asset": "ETH",
-  "balance": "8.575975379168652"
+  "balance": "8.575975379169"
 }
 
 ],
@@ -5066,7 +5066,7 @@ export const grantsData = [
     donation_cnt: 122,
     bals: [{
   "asset": "ETH",
-  "balance": "447.288338847693012"
+  "balance": "447.288338847693"
 }
 
 ],
@@ -5085,7 +5085,7 @@ export const grantsData = [
     donation_cnt: 130,
     bals: [{
   "asset": "ETH",
-  "balance": "0.015862377760800"
+  "balance": "0.015862377761"
 }
 
 ],
@@ -5104,7 +5104,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002805096131453"
+  "balance": "0.002805096131"
 }
 
 ],
@@ -5116,14 +5116,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1063,
     address: '0x3a783d95390fe556d0ec3a1f4ce9afa7003fa2b7',
-    name: 'Tokerize Art and Help Artists and Creatives',
+    name: 'Tokerize Art and Help Artists and Creati',
     slug: 'https://gitcoin.co/grants/1063/tokerize-art-and-help-artists-and-creatives',
     tx_cnt: 1215,
     log_cnt: 5603,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.100272608352337"
+  "balance": "0.100272608352"
 }
 
 ],
@@ -5142,7 +5142,7 @@ export const grantsData = [
     donation_cnt: 360,
     bals: [{
   "asset": "ETH",
-  "balance": "0.062464521435693"
+  "balance": "0.062464521436"
 }
 
 ],
@@ -5161,7 +5161,7 @@ export const grantsData = [
     donation_cnt: 323,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009500000000000"
+  "balance": "0.009500000000"
 }
 
 ],
@@ -5173,14 +5173,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 517,
     address: '0x3b067af83f540cb827825a6ee5480441a4237e77',
-    name: 'Tokenengineering Academy – Education for Web3 Cr',
+    name: 'Tokenengineering Academy – Education f',
     slug: 'https://gitcoin.co/grants/517/tokenengineering-academy-education-for-web3-crypt',
     tx_cnt: 285,
     log_cnt: 6358,
     donation_cnt: 2507,
     bals: [{
   "asset": "ETH",
-  "balance": "3.551221070023326"
+  "balance": "3.551221070023"
 }
 
 ],
@@ -5199,7 +5199,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.051564437000000"
+  "balance": "0.051564437000"
 }
 
 ],
@@ -5218,7 +5218,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5237,7 +5237,7 @@ export const grantsData = [
     donation_cnt: 393,
     bals: [{
   "asset": "ETH",
-  "balance": "0.080776840552016"
+  "balance": "0.080776840552"
 }
 
 ],
@@ -5256,7 +5256,7 @@ export const grantsData = [
     donation_cnt: 2157,
     bals: [{
   "asset": "ETH",
-  "balance": "4.337930861276231"
+  "balance": "4.337930861276"
 }
 
 ],
@@ -5268,14 +5268,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 95,
     address: '0x3c6e0d0c9dba4709e9a8b85d1003e9985b799578',
-    name: 'Tsskit: Threshold Signature Scheme Toolkit',
+    name: 'Tsskit: Threshold Signature Scheme Toolk',
     slug: 'https://gitcoin.co/grants/95/tsskit-threshold-signature-scheme-toolkit',
     tx_cnt: 85,
     log_cnt: 2130,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.043389528604591"
+  "balance": "0.043389528605"
 }
 
 ],
@@ -5294,7 +5294,7 @@ export const grantsData = [
     donation_cnt: 1060,
     bals: [{
   "asset": "ETH",
-  "balance": "1.819258917413753"
+  "balance": "1.819258917414"
 }
 
 ],
@@ -5313,7 +5313,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5325,14 +5325,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 714,
     address: '0x3d51ac03ea895c258057f2540a85293d3bc595fd',
-    name: 'Deflast - Instantly Swap Your Collateral on Compou',
+    name: 'Deflast - Instantly Swap Your Collateral',
     slug: 'https://gitcoin.co/grants/714/deflast-instantly-swap-your-collateral-on-compoun',
     tx_cnt: 17,
     log_cnt: 349,
     donation_cnt: 166,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013169313000000"
+  "balance": "0.013169313000"
 }
 
 ],
@@ -5351,7 +5351,7 @@ export const grantsData = [
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000887575434183"
+  "balance": "0.000887575434"
 }
 
 ],
@@ -5370,7 +5370,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.066249691851974"
+  "balance": "0.066249691852"
 }
 
 ],
@@ -5389,7 +5389,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5408,7 +5408,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5427,7 +5427,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5446,7 +5446,7 @@ export const grantsData = [
     donation_cnt: 2632,
     bals: [{
   "asset": "ETH",
-  "balance": "0.218018850000000"
+  "balance": "0.218018850000"
 }
 
 ],
@@ -5465,7 +5465,7 @@ export const grantsData = [
     donation_cnt: 334,
     bals: [{
   "asset": "ETH",
-  "balance": "1.128080143419562"
+  "balance": "1.128080143420"
 }
 
 ],
@@ -5484,7 +5484,7 @@ export const grantsData = [
     donation_cnt: 7,
     bals: [{
   "asset": "ETH",
-  "balance": "1.436956167959574"
+  "balance": "1.436956167960"
 }
 
 ],
@@ -5496,14 +5496,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 549,
     address: '0x3eb24c61590e6cd6fc26cf4fb938316206147859',
-    name: 'Privacy Preserving Covid-19 Self-reporting',
+    name: 'Privacy Preserving Covid-19 Self-reporti',
     slug: 'https://gitcoin.co/grants/549/privacy-preserving-covid-19-self-reporting',
     tx_cnt: 221,
     log_cnt: 3524,
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.681573183898056"
+  "balance": "0.681573183898"
 }
 
 ],
@@ -5522,7 +5522,7 @@ export const grantsData = [
     donation_cnt: 41,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5541,7 +5541,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.968602653063257"
+  "balance": "5.968602653063"
 }
 
 ],
@@ -5560,7 +5560,7 @@ export const grantsData = [
     donation_cnt: 51,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5579,7 +5579,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -5598,7 +5598,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.810744367410565"
+  "balance": "1.810744367411"
 }
 
 ],
@@ -5610,14 +5610,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 780,
     address: '0x40ade8d4b29306486b0ed948dc2ed7a4ea71c2d8',
-    name: 'Customata - Decentralized Recommendation Engine fo',
+    name: 'Customata - Decentralized Recommendation',
     slug: 'https://gitcoin.co/grants/780/customata-decentralized-recommendation-engine-for',
     tx_cnt: 339,
     log_cnt: 1101,
     donation_cnt: 151,
     bals: [{
   "asset": "ETH",
-  "balance": "0.289075479398509"
+  "balance": "0.289075479399"
 }
 
 ],
@@ -5636,7 +5636,7 @@ export const grantsData = [
     donation_cnt: 137,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000627000000000"
+  "balance": "0.000627000000"
 }
 
 ],
@@ -5655,7 +5655,7 @@ export const grantsData = [
     donation_cnt: 1434,
     bals: [{
   "asset": "ETH",
-  "balance": "1.025388149366756"
+  "balance": "1.025388149367"
 }
 
 ],
@@ -5674,7 +5674,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001000000000000"
+  "balance": "0.001000000000"
 }
 
 ],
@@ -5693,7 +5693,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.084902100000000"
+  "balance": "0.084902100000"
 }
 
 ],
@@ -5712,7 +5712,7 @@ export const grantsData = [
     donation_cnt: 929,
     bals: [{
   "asset": "ETH",
-  "balance": "0.232891369286331"
+  "balance": "0.232891369286"
 }
 
 ],
@@ -5731,7 +5731,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.030678077894120"
+  "balance": "0.030678077894"
 }
 
 ],
@@ -5750,7 +5750,7 @@ export const grantsData = [
     donation_cnt: 3002,
     bals: [{
   "asset": "ETH",
-  "balance": "0.293457703191995"
+  "balance": "0.293457703192"
 }
 
 ],
@@ -5762,14 +5762,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 562,
     address: '0x41d2a18e1ddacdabfddadb62e9aee67c63070b76',
-    name: 'Learning Data Science on the Ethereum Blockchain w',
+    name: 'Learning Data Science on the Ethereum Bl',
     slug: 'https://gitcoin.co/grants/562/learning-data-science-on-the-ethereum-blockchain-',
     tx_cnt: 491,
     log_cnt: 3825,
     donation_cnt: 211,
     bals: [{
   "asset": "ETH",
-  "balance": "6.392194802303894"
+  "balance": "6.392194802304"
 }
 
 ],
@@ -5788,7 +5788,7 @@ export const grantsData = [
     donation_cnt: 580,
     bals: [{
   "asset": "ETH",
-  "balance": "0.104310447828221"
+  "balance": "0.104310447828"
 }
 
 ],
@@ -5800,14 +5800,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1141,
     address: '0x422ae3412510d6c877b259dad402ddeaf1fdb28e',
-    name: 'Conviction Voting Cadcad Model Improvements: 1hive',
+    name: 'Conviction Voting Cadcad Model Improveme',
     slug: 'https://gitcoin.co/grants/1141/conviction-voting-cadcad-model-improvements-1hive',
     tx_cnt: 128,
     log_cnt: 2494,
     donation_cnt: 1179,
     bals: [{
   "asset": "ETH",
-  "balance": "0.809141001000000"
+  "balance": "0.809141001000"
 }
 
 ],
@@ -5819,14 +5819,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1277,
     address: '0x42941bc83b698d47d0bbe9a1a49280388db44cb8',
-    name: '&#39; Secret Garden &#39; —crypto Art Exhibition for Chi',
+    name: '&#39; Secret Garden &#39; —crypto Art Exhibiti',
     slug: 'https://gitcoin.co/grants/1277/secret-garden-crypto-art-exhibition-for-children-',
     tx_cnt: 39,
     log_cnt: 1036,
     donation_cnt: 508,
     bals: [{
   "asset": "ETH",
-  "balance": "0.099370728992301"
+  "balance": "0.099370728992"
 }
 
 ],
@@ -5838,14 +5838,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 703,
     address: '0x42da91be491e4101f348b9a746183dad9a6f92a2',
-    name: 'Dedge - Swap Compound Collateral and Debt at Will!',
+    name: 'Dedge - Swap Compound Collateral and Deb',
     slug: 'https://gitcoin.co/grants/703/dedge-swap-compound-collateral-and-debt-at-will',
     tx_cnt: 1064,
     log_cnt: 11182,
     donation_cnt: 31,
     bals: [{
   "asset": "ETH",
-  "balance": "14.227359950391515"
+  "balance": "14.227359950392"
 }
 
 ],
@@ -5857,14 +5857,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1210,
     address: '0x42dfaf5266ad40ab4533f9806f5cc1df4c1eb363',
-    name: 'Seed 🌱 Club - the Social Token Incubator',
+    name: 'Seed 🌱 Club - the Social Token Incuba',
     slug: 'https://gitcoin.co/grants/1210/seed-club-the-social-token-incubator',
     tx_cnt: 105,
     log_cnt: 916,
     donation_cnt: 230,
     bals: [{
   "asset": "ETH",
-  "balance": "0.632422024522293"
+  "balance": "0.632422024522"
 }
 
 ],
@@ -5883,7 +5883,7 @@ export const grantsData = [
     donation_cnt: 31,
     bals: [{
   "asset": "ETH",
-  "balance": "21.377053904125795"
+  "balance": "21.377053904126"
 }
 
 ],
@@ -5895,14 +5895,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1464,
     address: '0x433ee2f00ad7ff824b2fe74bace417afd2d86d31',
-    name: 'Kontext.app - Social Bookmarking on Filecoin & Eth',
+    name: 'Kontext.app - Social Bookmarking on File',
     slug: 'https://gitcoin.co/grants/1464/kontextapp-social-bookmarking-on-filecoin-ethereu',
     tx_cnt: 268,
     log_cnt: 2906,
     donation_cnt: 575,
     bals: [{
   "asset": "ETH",
-  "balance": "3.809279802605184"
+  "balance": "3.809279802605"
 }
 
 ],
@@ -5921,7 +5921,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009816217249711"
+  "balance": "0.009816217250"
 }
 
 ],
@@ -5940,7 +5940,7 @@ export const grantsData = [
     donation_cnt: 72,
     bals: [{
   "asset": "ETH",
-  "balance": "3.796646281500000"
+  "balance": "3.796646281500"
 }
 
 ],
@@ -5959,7 +5959,7 @@ export const grantsData = [
     donation_cnt: 1055,
     bals: [{
   "asset": "ETH",
-  "balance": "0.917584784912211"
+  "balance": "0.917584784912"
 }
 
 ],
@@ -5978,7 +5978,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.089029023622569"
+  "balance": "0.089029023623"
 }
 
 ],
@@ -5990,14 +5990,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1241,
     address: '0x44b1fa2f48820e0759d729c9a802b3c9b3b910a4',
-    name: 'Infinity Wallet - the Ultimate Gateway to Decentra',
+    name: 'Infinity Wallet - the Ultimate Gateway t',
     slug: 'https://gitcoin.co/grants/1241/infinity-wallet-the-ultimate-gateway-to-decentral',
     tx_cnt: 231,
     log_cnt: 105,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.024070430000000"
+  "balance": "0.024070430000"
 }
 
 ],
@@ -6009,14 +6009,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1699,
     address: '0x44bdca0edca3df8f7f570e65a24273a0010be6f8',
-    name: 'Help Me Open Source 2850+ Cryptocurrency Whitepape',
+    name: 'Help Me Open Source 2850+ Cryptocurrency',
     slug: 'https://gitcoin.co/grants/1699/help-me-open-source-2850-cryptocurrency-whitepape',
     tx_cnt: 40,
     log_cnt: 302,
     donation_cnt: 26,
     bals: [{
   "asset": "ETH",
-  "balance": "0.126937382599284"
+  "balance": "0.126937382599"
 }
 
 ],
@@ -6035,7 +6035,7 @@ export const grantsData = [
     donation_cnt: 447,
     bals: [{
   "asset": "ETH",
-  "balance": "0.302620000000000"
+  "balance": "0.302620000000"
 }
 
 ],
@@ -6054,7 +6054,7 @@ export const grantsData = [
     donation_cnt: 184,
     bals: [{
   "asset": "ETH",
-  "balance": "1.823942330409772"
+  "balance": "1.823942330410"
 }
 
 ],
@@ -6073,7 +6073,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.015000000000000"
+  "balance": "0.015000000000"
 }
 
 ],
@@ -6092,7 +6092,7 @@ export const grantsData = [
     donation_cnt: 591,
     bals: [{
   "asset": "ETH",
-  "balance": "1.860020707461243"
+  "balance": "1.860020707461"
 }
 
 ],
@@ -6111,7 +6111,7 @@ export const grantsData = [
     donation_cnt: 87,
     bals: [{
   "asset": "ETH",
-  "balance": "9.032889451909995"
+  "balance": "8.489935042910"
 }
 
 ],
@@ -6123,14 +6123,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1118,
     address: '0x466621c1771590c4ecc5314eb3055adafd980d52',
-    name: 'Dxdao&#39;s Panvala League DeFi Community Awards Grant',
+    name: 'Dxdao&#39;s Panvala League DeFi Community Aw',
     slug: 'https://gitcoin.co/grants/1118/dxdaos-panvala-league-defi-community-awards-grant',
     tx_cnt: 56,
     log_cnt: 1306,
     donation_cnt: 515,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009807400000000"
+  "balance": "0.009807400000"
 }
 
 ],
@@ -6149,7 +6149,7 @@ export const grantsData = [
     donation_cnt: 44,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000005111195052"
+  "balance": "0.000005111195"
 }
 
 ],
@@ -6168,7 +6168,7 @@ export const grantsData = [
     donation_cnt: 10,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6187,7 +6187,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6206,7 +6206,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.031733028530000"
+  "balance": "0.031733028530"
 }
 
 ],
@@ -6225,7 +6225,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009000000000000"
+  "balance": "0.009000000000"
 }
 
 ],
@@ -6244,7 +6244,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6256,14 +6256,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 760,
     address: '0x4834a871fd1b8a6a269062d7d012ab69fb3aa266',
-    name: 'Publicae - Political & Charity Outreach Technology',
+    name: 'Publicae - Political & Charity Outreach ',
     slug: 'https://gitcoin.co/grants/760/publicae-political-charity-outreach-technology',
     tx_cnt: 22,
     log_cnt: 94,
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004607806439515"
+  "balance": "0.004607806440"
 }
 
 ],
@@ -6282,7 +6282,7 @@ export const grantsData = [
     donation_cnt: 775,
     bals: [{
   "asset": "ETH",
-  "balance": "0.097583016120793"
+  "balance": "0.097583016121"
 }
 
 ],
@@ -6301,7 +6301,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6320,7 +6320,7 @@ export const grantsData = [
     donation_cnt: 68,
     bals: [{
   "asset": "ETH",
-  "balance": "2.990714527056875"
+  "balance": "2.990714527057"
 }
 
 ],
@@ -6339,7 +6339,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.029996751692189"
+  "balance": "0.029996751692"
 }
 
 ],
@@ -6351,14 +6351,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1715,
     address: '0x4937b01fdff0a02cc8416b5bd6c76a98958c85f1',
-    name: 'Dorahacks Global Blockchain Hackathon Series',
+    name: 'Dorahacks Global Blockchain Hackathon Se',
     slug: 'https://gitcoin.co/grants/1715/dorahacks-global-blockchain-hackathon-series',
     tx_cnt: 1049,
     log_cnt: 3031,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "39.197731414663942"
+  "balance": "39.197731414664"
 }
 
 ],
@@ -6377,7 +6377,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6389,14 +6389,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 865,
     address: '0x49608550e4b61e6de2ddff45b3361f6711319a14',
-    name: 'Extremeinsureme DAO - Cover for Living a Life Less',
+    name: 'Extremeinsureme DAO - Cover for Living a',
     slug: 'https://gitcoin.co/grants/865/extremeinsureme-dao-cover-for-living-a-life-less-',
     tx_cnt: 29,
     log_cnt: 760,
     donation_cnt: 347,
     bals: [{
   "asset": "ETH",
-  "balance": "0.294439862064327"
+  "balance": "0.294439862064"
 }
 
 ],
@@ -6415,7 +6415,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001156127325632"
+  "balance": "0.001156127326"
 }
 
 ],
@@ -6434,7 +6434,7 @@ export const grantsData = [
     donation_cnt: 725,
     bals: [{
   "asset": "ETH",
-  "balance": "0.067452200000000"
+  "balance": "0.067452200000"
 }
 
 ],
@@ -6446,14 +6446,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1851,
     address: '0x49a198b3af70f27f954b0c4be095a2653eabe0d5',
-    name: 'Medilot - Health Data Protocol Transforming Health',
+    name: 'Medilot - Health Data Protocol Transform',
     slug: 'https://gitcoin.co/grants/1851/medilot-health-data-protocol-transforming-healthc',
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6472,7 +6472,7 @@ export const grantsData = [
     donation_cnt: 887,
     bals: [{
   "asset": "ETH",
-  "balance": "0.916526271490425"
+  "balance": "0.916526271490"
 }
 
 ],
@@ -6491,7 +6491,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.267055620596157"
+  "balance": "0.267055620596"
 }
 
 ],
@@ -6503,14 +6503,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1091,
     address: '0x4b84864c085c27f50bdea25671e045d6039bcc00',
-    name: 'Upside is a Social Media Platform Linked to An Act',
+    name: 'Upside is a Social Media Platform Linked',
     slug: 'https://gitcoin.co/grants/1091/upside-is-a-social-media-platform-linked-to-an-ac',
     tx_cnt: 41,
     log_cnt: 498,
     donation_cnt: 28,
     bals: [{
   "asset": "ETH",
-  "balance": "0.132030158848858"
+  "balance": "0.132030158849"
 }
 
 ],
@@ -6522,14 +6522,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 191,
     address: '0x4b8810b079eb22ecf2d1f75e08e0abbd6fd87dbf',
-    name: 'Brightid 🔆 Universal Proof of Uniqueness (panva',
+    name: 'Brightid 🔆 Universal Proof of Uniquen',
     slug: 'https://gitcoin.co/grants/191/brightid-universal-proof-of-uniqueness-panvala-le',
     tx_cnt: 386,
     log_cnt: 8688,
     donation_cnt: 4339,
     bals: [{
   "asset": "ETH",
-  "balance": "0.935026278551787"
+  "balance": "0.935121278552"
 }
 
 ],
@@ -6548,7 +6548,7 @@ export const grantsData = [
     donation_cnt: 1247,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6567,7 +6567,7 @@ export const grantsData = [
     donation_cnt: 3444,
     bals: [{
   "asset": "ETH",
-  "balance": "1.295765248503339"
+  "balance": "1.295765248503"
 }
 
 ],
@@ -6586,7 +6586,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005209054632037"
+  "balance": "0.005209054632"
 }
 
 ],
@@ -6605,7 +6605,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.930470428155222"
+  "balance": "2.930470428155"
 }
 
 ],
@@ -6624,7 +6624,7 @@ export const grantsData = [
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "0.139130503146894"
+  "balance": "0.139130503147"
 }
 
 ],
@@ -6643,7 +6643,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6662,7 +6662,7 @@ export const grantsData = [
     donation_cnt: 662,
     bals: [{
   "asset": "ETH",
-  "balance": "0.072493103187573"
+  "balance": "0.072493103188"
 }
 
 ],
@@ -6681,7 +6681,7 @@ export const grantsData = [
     donation_cnt: 59,
     bals: [{
   "asset": "ETH",
-  "balance": "322.804949189982096"
+  "balance": "322.804949189982"
 }
 
 ],
@@ -6693,14 +6693,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 54,
     address: '0x4c8def836ff37b9c9c3ccd3c1796efc78bda7998',
-    name: 'Open Source Progpow Miner Full Stack Integration',
+    name: 'Open Source Progpow Miner Full Stack Int',
     slug: 'https://gitcoin.co/grants/54/open-source-progpow-miner-full-stack-integration',
     tx_cnt: 91,
     log_cnt: 1000,
     donation_cnt: 27,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6719,7 +6719,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6738,7 +6738,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.016317638000000"
+  "balance": "0.016317638000"
 }
 
 ],
@@ -6757,7 +6757,7 @@ export const grantsData = [
     donation_cnt: 315,
     bals: [{
   "asset": "ETH",
-  "balance": "1.349374033900000"
+  "balance": "1.349374033900"
 }
 
 ],
@@ -6769,14 +6769,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 246,
     address: '0x4d37f28d2db99e8d35a6c725a5f1749a085850a3',
-    name: '1inch.exchange On-chain DeFi Aggregation Protocol',
+    name: '1inch.exchange On-chain DeFi Aggregation',
     slug: 'https://gitcoin.co/grants/246/1inchexchange-on-chain-defi-aggregation-protocol',
     tx_cnt: 67421,
     log_cnt: 500613,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.207924388554403"
+  "balance": "3.207924388554"
 }
 
 ],
@@ -6795,7 +6795,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000772750328876"
+  "balance": "0.000772750329"
 }
 
 ],
@@ -6814,7 +6814,7 @@ export const grantsData = [
     donation_cnt: 1052,
     bals: [{
   "asset": "ETH",
-  "balance": "0.160378120264147"
+  "balance": "0.160378120264"
 }
 
 ],
@@ -6833,7 +6833,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.416048216321765"
+  "balance": "0.416048216322"
 }
 
 ],
@@ -6845,14 +6845,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1937,
     address: '0x4ef6ea0720862903bbb039e1ab30563e9ec33aba',
-    name: 'Ethereum Integration: Blockchain Data in Trading B',
+    name: 'Ethereum Integration: Blockchain Data in',
     slug: 'https://gitcoin.co/grants/1937/ethereum-integration-blockchain-data-in-trading-b',
     tx_cnt: 9,
     log_cnt: 220,
     donation_cnt: 110,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005580000000000"
+  "balance": "0.005580000000"
 }
 
 ],
@@ -6871,7 +6871,7 @@ export const grantsData = [
     donation_cnt: 1773,
     bals: [{
   "asset": "ETH",
-  "balance": "2.265658617453818"
+  "balance": "2.265658617454"
 }
 
 ],
@@ -6890,7 +6890,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6909,7 +6909,7 @@ export const grantsData = [
     donation_cnt: 100,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019526354000000"
+  "balance": "0.019526354000"
 }
 
 ],
@@ -6928,7 +6928,7 @@ export const grantsData = [
     donation_cnt: 135,
     bals: [{
   "asset": "ETH",
-  "balance": "0.081563247983989"
+  "balance": "0.081563247984"
 }
 
 ],
@@ -6947,7 +6947,7 @@ export const grantsData = [
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.014067399000000"
+  "balance": "0.014067399000"
 }
 
 ],
@@ -6959,14 +6959,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1702,
     address: '0x509d5bcfb642f8677738539700744941e8f5e219',
-    name: 'Icebergy Development and Shitposting Fund',
+    name: 'Icebergy Development and Shitposting Fun',
     slug: 'https://gitcoin.co/grants/1702/icebergy-development-and-shitposting-fund',
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -6985,7 +6985,7 @@ export const grantsData = [
     donation_cnt: 31,
     bals: [{
   "asset": "ETH",
-  "balance": "0.096000000000000"
+  "balance": "0.096000000000"
 }
 
 ],
@@ -7004,7 +7004,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "5.317044217027480"
+  "balance": "5.317044217027"
 }
 
 ],
@@ -7023,7 +7023,7 @@ export const grantsData = [
     donation_cnt: 87,
     bals: [{
   "asset": "ETH",
-  "balance": "0.525972743024992"
+  "balance": "0.525972743025"
 }
 
 ],
@@ -7035,14 +7035,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 528,
     address: '0x519b70055af55a007110b4ff99b0ea33071c720a',
-    name: 'Mix.eth - a Portfolio Tracker with Privacy and Sec',
+    name: 'Mix.eth - a Portfolio Tracker with Priva',
     slug: 'https://gitcoin.co/grants/528/mixeth-a-portfolio-tracker-with-privacy-and-secur',
     tx_cnt: 9390,
     log_cnt: 37350,
     donation_cnt: 33,
     bals: [{
   "asset": "ETH",
-  "balance": "19591.921401917836192"
+  "balance": "19591.921401917836"
 }
 
 ],
@@ -7054,14 +7054,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 763,
     address: '0x51c2eb4e44036fb615806c77f83b22f34fb09dce',
-    name: 'Bee Exchange; Reach New Sustainable Economic Throu',
+    name: 'Bee Exchange; Reach New Sustainable Econ',
     slug: 'https://gitcoin.co/grants/763/bee-exchange-reach-new-sustainable-economic-throu',
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.041968702500000"
+  "balance": "0.041968702500"
 }
 
 ],
@@ -7080,7 +7080,7 @@ export const grantsData = [
     donation_cnt: 1182,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7099,7 +7099,7 @@ export const grantsData = [
     donation_cnt: 13,
     bals: [{
   "asset": "ETH",
-  "balance": "0.011104609714190"
+  "balance": "0.011104609714"
 }
 
 ],
@@ -7111,14 +7111,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1650,
     address: '0x521aacb43d89e1b8ffd64d9ef76b0a1074dedaf8',
-    name: 'Hiblock区块链社区 - Hiblock Community',
+    name: 'Hiblock区块链社区 - Hiblock Communi',
     slug: 'https://gitcoin.co/grants/1650/hiblock-hiblock-community',
     tx_cnt: 183,
     log_cnt: 5340,
     donation_cnt: 339,
     bals: [{
   "asset": "ETH",
-  "balance": "3.976839885933285"
+  "balance": "3.976839885933"
 }
 
 ],
@@ -7137,7 +7137,7 @@ export const grantsData = [
     donation_cnt: 222,
     bals: [{
   "asset": "ETH",
-  "balance": "10.233189102290000"
+  "balance": "10.233189102290"
 }
 
 ],
@@ -7156,7 +7156,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.201083844287285"
+  "balance": "0.201083844287"
 }
 
 ],
@@ -7175,7 +7175,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7194,7 +7194,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7206,14 +7206,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 263,
     address: '0x531146f30be47bb171cb2039c25a4ae5d4fe164e',
-    name: 'Growdrop:funding the Revolution of Blockchain Ecos',
+    name: 'Growdrop:funding the Revolution of Block',
     slug: 'https://gitcoin.co/grants/263/growdropfunding-the-revolution-of-blockchain-ecos',
     tx_cnt: 1278,
     log_cnt: 7174,
     donation_cnt: 44,
     bals: [{
   "asset": "ETH",
-  "balance": "0.167942431466233"
+  "balance": "0.167942431466"
 }
 
 ],
@@ -7232,7 +7232,7 @@ export const grantsData = [
     donation_cnt: 120,
     bals: [{
   "asset": "ETH",
-  "balance": "0.020000000000000"
+  "balance": "0.020000000000"
 }
 
 ],
@@ -7251,7 +7251,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.304000000000000"
+  "balance": "0.304000000000"
 }
 
 ],
@@ -7270,7 +7270,7 @@ export const grantsData = [
     donation_cnt: 42,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013708332958211"
+  "balance": "0.013708332958"
 }
 
 ],
@@ -7282,14 +7282,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 626,
     address: '0x54114ca776e856c2aaee1eac8e889d5334d9c439',
-    name: 'Dapplaunch - Web 3 Marketing & Messaging Platform',
+    name: 'Dapplaunch - Web 3 Marketing & Messaging',
     slug: 'https://gitcoin.co/grants/626/dapplaunch-web-3-marketing-messaging-platform',
     tx_cnt: 22,
     log_cnt: 64,
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.085848374500000"
+  "balance": "0.085848374500"
 }
 
 ],
@@ -7301,14 +7301,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1836,
     address: '0x5451d62f16d490572253e0666ebbb6a045eaf2d1',
-    name: 'Blockchain Development and Consulting in Canada',
+    name: 'Blockchain Development and Consulting in',
     slug: 'https://gitcoin.co/grants/1836/blockchain-development-and-consulting-in-canada',
     tx_cnt: 11,
     log_cnt: 132,
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.034500000000000"
+  "balance": "0.034500000000"
 }
 
 ],
@@ -7327,7 +7327,7 @@ export const grantsData = [
     donation_cnt: 529,
     bals: [{
   "asset": "ETH",
-  "balance": "0.312422648892124"
+  "balance": "0.312422648892"
 }
 
 ],
@@ -7339,14 +7339,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 387,
     address: '0x549d562c37f8d4143d7e161da886e616c11a3ace',
-    name: 'Orienteer - Open Source Business Application Platf',
+    name: 'Orienteer - Open Source Business Applica',
     slug: 'https://gitcoin.co/grants/387/orienteer-open-source-business-application-platfo',
     tx_cnt: 105,
     log_cnt: 7147,
     donation_cnt: 21,
     bals: [{
   "asset": "ETH",
-  "balance": "0.096341130420505"
+  "balance": "0.096341130421"
 }
 
 ],
@@ -7358,14 +7358,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 747,
     address: '0x54becc7560a7be76d72ed76a1f5fee6c5a2a7ab6',
-    name: 'Simona Pop&#39;s Ecosystem Development Activity',
+    name: 'Simona Pop&#39;s Ecosystem Development Activ',
     slug: 'https://gitcoin.co/grants/747/simona-pops-ecosystem-development-activity',
     tx_cnt: 2871,
     log_cnt: 13717,
     donation_cnt: 557,
     bals: [{
   "asset": "ETH",
-  "balance": "14.908422182973881"
+  "balance": "14.908422182974"
 }
 
 ],
@@ -7384,7 +7384,7 @@ export const grantsData = [
     donation_cnt: 38,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012624650406711"
+  "balance": "0.012624650407"
 }
 
 ],
@@ -7403,7 +7403,7 @@ export const grantsData = [
     donation_cnt: 387,
     bals: [{
   "asset": "ETH",
-  "balance": "2.678420163222195"
+  "balance": "2.678420163222"
 }
 
 ],
@@ -7422,7 +7422,7 @@ export const grantsData = [
     donation_cnt: 62,
     bals: [{
   "asset": "ETH",
-  "balance": "2.809259053091068"
+  "balance": "2.809259053091"
 }
 
 ],
@@ -7434,14 +7434,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 934,
     address: '0x571b7313b36af37e61359635157657dbab6ec240',
-    name: 'Blockchain Threat Intelligence - Weekly Newsletter',
+    name: 'Blockchain Threat Intelligence - Weekly ',
     slug: 'https://gitcoin.co/grants/934/blockchain-threat-intelligence-weekly-newsletter',
     tx_cnt: 20,
     log_cnt: 498,
     donation_cnt: 65,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007073682000000"
+  "balance": "0.007073682000"
 }
 
 ],
@@ -7460,7 +7460,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.464499327689344"
+  "balance": "0.464499327689"
 }
 
 ],
@@ -7479,7 +7479,7 @@ export const grantsData = [
     donation_cnt: 76,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7498,7 +7498,7 @@ export const grantsData = [
     donation_cnt: 112,
     bals: [{
   "asset": "ETH",
-  "balance": "0.580383805396748"
+  "balance": "0.580383805397"
 }
 
 ],
@@ -7510,14 +7510,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 821,
     address: '0x57ea12a3a8e441f5fe7b1f3af1121097b7d3b6a8',
-    name: 'Umbra: Privacy Preserving Stealth Payments',
+    name: 'Umbra: Privacy Preserving Stealth Paymen',
     slug: 'https://gitcoin.co/grants/821/umbra-privacy-preserving-stealth-payments',
     tx_cnt: 120,
     log_cnt: 3255,
     donation_cnt: 1819,
     bals: [{
   "asset": "ETH",
-  "balance": "0.346265300000000"
+  "balance": "0.346265300000"
 }
 
 ],
@@ -7536,7 +7536,7 @@ export const grantsData = [
     donation_cnt: 506,
     bals: [{
   "asset": "ETH",
-  "balance": "0.759967785922084"
+  "balance": "0.759967785922"
 }
 
 ],
@@ -7555,7 +7555,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.025921957859092"
+  "balance": "0.025921957859"
 }
 
 ],
@@ -7567,14 +7567,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1326,
     address: '0x58ee26e304b965258c3b7b680315b56c3c4a1204',
-    name: 'Introducing the Babo Socio Economic Ecosystem Proj',
+    name: 'Introducing the Babo Socio Economic Ecos',
     slug: 'https://gitcoin.co/grants/1326/introducing-the-babo-socio-economic-ecosystem-pro',
     tx_cnt: 2190,
     log_cnt: 9625,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.025957849012628"
+  "balance": "0.025957849013"
 }
 
 ],
@@ -7593,7 +7593,7 @@ export const grantsData = [
     donation_cnt: 26,
     bals: [{
   "asset": "ETH",
-  "balance": "1.130024843985358"
+  "balance": "1.130024843985"
 }
 
 ],
@@ -7612,7 +7612,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.430761924961628"
+  "balance": "3.430761924962"
 }
 
 ],
@@ -7631,7 +7631,7 @@ export const grantsData = [
     donation_cnt: 439,
     bals: [{
   "asset": "ETH",
-  "balance": "0.053211326471551"
+  "balance": "0.053211326472"
 }
 
 ],
@@ -7650,7 +7650,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.076291842000000"
+  "balance": "0.076291842000"
 }
 
 ],
@@ -7669,7 +7669,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001838564059325"
+  "balance": "0.001838564059"
 }
 
 ],
@@ -7688,7 +7688,7 @@ export const grantsData = [
     donation_cnt: 41,
     bals: [{
   "asset": "ETH",
-  "balance": "2.146138970926741"
+  "balance": "2.146138970927"
 }
 
 ],
@@ -7707,7 +7707,7 @@ export const grantsData = [
     donation_cnt: 44,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7726,7 +7726,7 @@ export const grantsData = [
     donation_cnt: 85,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013917625040231"
+  "balance": "0.013917625040"
 }
 
 ],
@@ -7745,7 +7745,7 @@ export const grantsData = [
     donation_cnt: 452,
     bals: [{
   "asset": "ETH",
-  "balance": "0.095950000000000"
+  "balance": "0.095950000000"
 }
 
 ],
@@ -7764,7 +7764,7 @@ export const grantsData = [
     donation_cnt: 1546,
     bals: [{
   "asset": "ETH",
-  "balance": "0.242476222000000"
+  "balance": "0.242476222000"
 }
 
 ],
@@ -7783,7 +7783,7 @@ export const grantsData = [
     donation_cnt: 182,
     bals: [{
   "asset": "ETH",
-  "balance": "0.214772212629500"
+  "balance": "0.214772212629"
 }
 
 ],
@@ -7802,7 +7802,7 @@ export const grantsData = [
     donation_cnt: 55,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7821,7 +7821,7 @@ export const grantsData = [
     donation_cnt: 229,
     bals: [{
   "asset": "ETH",
-  "balance": "0.085654320000000"
+  "balance": "0.085654320000"
 }
 
 ],
@@ -7840,7 +7840,7 @@ export const grantsData = [
     donation_cnt: 50,
     bals: [{
   "asset": "ETH",
-  "balance": "0.014152145795844"
+  "balance": "0.014152145796"
 }
 
 ],
@@ -7852,14 +7852,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 337,
     address: '0x5b92bd6c37a1958f95ea1e56b6121a89314cfb66',
-    name: 'Cream: Confidential Reliable Ethereum Anonymous Mi',
+    name: 'Cream: Confidential Reliable Ethereum An',
     slug: 'https://gitcoin.co/grants/337/cream-confidential-reliable-ethereum-anonymous-',
     tx_cnt: 101,
     log_cnt: 2510,
     donation_cnt: 1295,
     bals: [{
   "asset": "ETH",
-  "balance": "0.302897076000000"
+  "balance": "0.302992076000"
 }
 
 ],
@@ -7878,7 +7878,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003579552325019"
+  "balance": "0.003579552325"
 }
 
 ],
@@ -7897,7 +7897,7 @@ export const grantsData = [
     donation_cnt: 142,
     bals: [{
   "asset": "ETH",
-  "balance": "0.030637500000000"
+  "balance": "0.030637500000"
 }
 
 ],
@@ -7916,7 +7916,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.733958090541998"
+  "balance": "1.733958090542"
 }
 
 ],
@@ -7928,14 +7928,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1097,
     address: '0x5c75998de3b0418045800a2633f8b4f791aa2d54',
-    name: 'Lander - Your Personal Home Page on Decentralized ',
+    name: 'Lander - Your Personal Home Page on Dece',
     slug: 'https://gitcoin.co/grants/1097/lander-your-personal-home-page-on-decentralized-i',
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7954,7 +7954,7 @@ export const grantsData = [
     donation_cnt: 23,
     bals: [{
   "asset": "ETH",
-  "balance": "0.011768941895877"
+  "balance": "0.011768941896"
 }
 
 ],
@@ -7966,14 +7966,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 846,
     address: '0x5cd08940869f68a891756e51269aa27e54e8c4df',
-    name: 'Crate -- Earn the Most Interest on Your DAI',
+    name: 'Crate -- Earn the Most Interest on Your ',
     slug: 'https://gitcoin.co/grants/846/crate-earn-the-most-interest-on-your-dai',
     tx_cnt: 8,
     log_cnt: 466,
     donation_cnt: 170,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -7992,7 +7992,7 @@ export const grantsData = [
     donation_cnt: 13,
     bals: [{
   "asset": "ETH",
-  "balance": "0.709969881488595"
+  "balance": "0.709969881489"
 }
 
 ],
@@ -8011,7 +8011,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.452055900000000"
+  "balance": "0.452055900000"
 }
 
 ],
@@ -8030,7 +8030,7 @@ export const grantsData = [
     donation_cnt: 658,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019950000000000"
+  "balance": "0.019950000000"
 }
 
 ],
@@ -8049,7 +8049,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8068,7 +8068,7 @@ export const grantsData = [
     donation_cnt: 141,
     bals: [{
   "asset": "ETH",
-  "balance": "2.438294844451581"
+  "balance": "2.438294844452"
 }
 
 ],
@@ -8080,14 +8080,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1070,
     address: '0x5dfa5db515748f3e2bcc8677a9332f4affad5a5e',
-    name: 'Kotal: Multi-client Cloud-agnostic Blockchain Infr',
+    name: 'Kotal: Multi-client Cloud-agnostic Block',
     slug: 'https://gitcoin.co/grants/1070/kotal-multi-client-cloud-agnostic-blockchain-infr',
     tx_cnt: 10,
     log_cnt: 376,
     donation_cnt: 95,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000068380000000"
+  "balance": "0.000068380000"
 }
 
 ],
@@ -8106,7 +8106,7 @@ export const grantsData = [
     donation_cnt: 14,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000722000000000"
+  "balance": "0.000722000000"
 }
 
 ],
@@ -8125,7 +8125,7 @@ export const grantsData = [
     donation_cnt: 17,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8144,7 +8144,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8163,7 +8163,7 @@ export const grantsData = [
     donation_cnt: 271,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8182,7 +8182,7 @@ export const grantsData = [
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000731500000000"
+  "balance": "0.000731500000"
 }
 
 ],
@@ -8201,7 +8201,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.103903889465693"
+  "balance": "0.103903889466"
 }
 
 ],
@@ -8220,7 +8220,7 @@ export const grantsData = [
     donation_cnt: 877,
     bals: [{
   "asset": "ETH",
-  "balance": "0.463815550000000"
+  "balance": "0.463815550000"
 }
 
 ],
@@ -8232,14 +8232,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 466,
     address: '0x60326242e735087cf73e322020d18f5903370eac',
-    name: '3-day Technical &#39;virtual&#39; DeFi Summit (may 1st-3rd',
+    name: '3-day Technical &#39;virtual&#39; DeFi Summit (m',
     slug: 'https://gitcoin.co/grants/466/3-day-technical-virtual-defi-summit-may-1st-3rd-b',
     tx_cnt: 68,
     log_cnt: 1200,
     donation_cnt: 214,
     bals: [{
   "asset": "ETH",
-  "balance": "0.014227872755865"
+  "balance": "0.014227872756"
 }
 
 ],
@@ -8258,7 +8258,7 @@ export const grantsData = [
     donation_cnt: 33,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005564130000000"
+  "balance": "0.005564130000"
 }
 
 ],
@@ -8277,7 +8277,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "9.956452794888479"
+  "balance": "9.956452794888"
 }
 
 ],
@@ -8289,14 +8289,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 580,
     address: '0x60a5dcb2fc804874883b797f37cbf1b0582ac2dd',
-    name: 'Eth Dashboard: Build Your Own Ethereum Data Dashbo',
+    name: 'Eth Dashboard: Build Your Own Ethereum D',
     slug: 'https://gitcoin.co/grants/580/eth-dashboard-build-your-own-ethereum-data-dashbo',
     tx_cnt: 399,
     log_cnt: 5889,
     donation_cnt: 100,
     bals: [{
   "asset": "ETH",
-  "balance": "0.161223885484687"
+  "balance": "0.161223885485"
 }
 
 ],
@@ -8315,7 +8315,7 @@ export const grantsData = [
     donation_cnt: 1652,
     bals: [{
   "asset": "ETH",
-  "balance": "1.516300000000000"
+  "balance": "1.516300000000"
 }
 
 ],
@@ -8334,7 +8334,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.080570134848489"
+  "balance": "0.080570134848"
 }
 
 ],
@@ -8346,14 +8346,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 659,
     address: '0x614962025820c57d6af5acff56b5879237daf559',
-    name: 'Estonian E-residency DAO Integration 🇪🇪',
+    name: 'Estonian E-residency DAO Integration �',
     slug: 'https://gitcoin.co/grants/659/estonian-e-residency-dao-integration',
     tx_cnt: 43,
     log_cnt: 256,
     donation_cnt: 50,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001100000000000"
+  "balance": "0.001100000000"
 }
 
 ],
@@ -8372,7 +8372,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "18.053112393671686"
+  "balance": "18.053112393672"
 }
 
 ],
@@ -8384,14 +8384,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 317,
     address: '0x61c315be1fb8e8723d3c20c3c3169a8509b36207',
-    name: 'Blockchain Education Platform That Rewards',
+    name: 'Blockchain Education Platform That Rewar',
     slug: 'https://gitcoin.co/grants/317/blockchain-education-platform-that-rewards',
     tx_cnt: 203,
     log_cnt: 1131,
     donation_cnt: 21,
     bals: [{
   "asset": "ETH",
-  "balance": "0.157711579766063"
+  "balance": "0.157711579766"
 }
 
 ],
@@ -8410,7 +8410,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8422,14 +8422,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 467,
     address: '0x62051bfd3a4f7039a849142e6e5ea172cbda5949',
-    name: 'Gitcoin Developer Grant - Walid Mujahid وليد �',
+    name: 'Gitcoin Developer Grant - Walid Mujahid ',
     slug: 'https://gitcoin.co/grants/467/gitcoin-developer-grant-walid-mujahid',
     tx_cnt: 540,
     log_cnt: 2146,
     donation_cnt: 525,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000413594935245"
+  "balance": "0.000413594935"
 }
 
 ],
@@ -8448,7 +8448,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "165.179638904368261"
+  "balance": "165.179638904368"
 }
 
 ],
@@ -8467,7 +8467,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.257914720000000"
+  "balance": "0.257914720000"
 }
 
 ],
@@ -8486,7 +8486,7 @@ export const grantsData = [
     donation_cnt: 864,
     bals: [{
   "asset": "ETH",
-  "balance": "0.400564738406760"
+  "balance": "0.400564738407"
 }
 
 ],
@@ -8505,7 +8505,7 @@ export const grantsData = [
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "4.185595587542917"
+  "balance": "4.185595587543"
 }
 
 ],
@@ -8524,7 +8524,7 @@ export const grantsData = [
     donation_cnt: 27,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001637215000000"
+  "balance": "0.001637215000"
 }
 
 ],
@@ -8543,7 +8543,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8562,7 +8562,7 @@ export const grantsData = [
     donation_cnt: 45,
     bals: [{
   "asset": "ETH",
-  "balance": "34.807502326331978"
+  "balance": "34.807502326332"
 }
 
 ],
@@ -8574,14 +8574,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1689,
     address: '0x64202d82a2b014c6240f25a15b60f5a5ef6def2c',
-    name: 'Cryptosec.info is Educating Beginners in the Crypt',
+    name: 'Cryptosec.info is Educating Beginners in',
     slug: 'https://gitcoin.co/grants/1689/cryptosecinfo-is-educating-beginners-in-the-crypt',
     tx_cnt: 1,
     log_cnt: 120,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8593,14 +8593,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 114,
     address: '0x643786c04bf98ae360d81ad6681fdf5b95ba1c2b',
-    name: 'DAOg - An Open Ended Decentralized Governance Game',
+    name: 'DAOg - An Open Ended Decentralized Gover',
     slug: 'https://gitcoin.co/grants/114/daog-an-open-ended-decentralized-governance-game',
     tx_cnt: 17,
     log_cnt: 277,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.020388575282941"
+  "balance": "0.020388575283"
 }
 
 ],
@@ -8612,14 +8612,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 886,
     address: '0x648aa14e4424e0825a5ce739c8c68610e143fb79',
-    name: 'the DAIly Gwei by Anthony Sassano (sassal0x)',
+    name: 'the DAIly Gwei by Anthony Sassano (sassa',
     slug: 'https://gitcoin.co/grants/886/the-daily-gwei-by-anthony-sassano-sassal0x',
     tx_cnt: 830,
     log_cnt: 10842,
     donation_cnt: 3936,
     bals: [{
   "asset": "ETH",
-  "balance": "8.629972468768923"
+  "balance": "8.613713532769"
 }
 
 ],
@@ -8638,7 +8638,7 @@ export const grantsData = [
     donation_cnt: 53,
     bals: [{
   "asset": "ETH",
-  "balance": "0.846691546917173"
+  "balance": "0.846691546917"
 }
 
 ],
@@ -8657,7 +8657,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.362414031383054"
+  "balance": "0.362414031383"
 }
 
 ],
@@ -8669,14 +8669,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 673,
     address: '0x651fbe8c5aa7417a422233e6fa341d265c736a0a',
-    name: 'Maker Auctions: Dashboard for Makerdao Auctions',
+    name: 'Maker Auctions: Dashboard for Makerdao A',
     slug: 'https://gitcoin.co/grants/673/maker-auctions-dashboard-for-makerdao-auctions',
     tx_cnt: 313,
     log_cnt: 961,
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.023059416748567"
+  "balance": "0.023059416749"
 }
 
 ],
@@ -8688,14 +8688,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 508,
     address: '0x6529bd3f7c8b4e3338c5d32347ab8dfe1c65cb37',
-    name: 'Support for Freelance Community Management and Con',
+    name: 'Support for Freelance Community Manageme',
     slug: 'https://gitcoin.co/grants/508/support-for-freelance-community-management-and-co',
     tx_cnt: 29,
     log_cnt: 58,
     donation_cnt: 25,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8714,7 +8714,7 @@ export const grantsData = [
     donation_cnt: 146,
     bals: [{
   "asset": "ETH",
-  "balance": "3.043451158948717"
+  "balance": "3.043451158949"
 }
 
 ],
@@ -8733,7 +8733,7 @@ export const grantsData = [
     donation_cnt: 149,
     bals: [{
   "asset": "ETH",
-  "balance": "0.011800687400000"
+  "balance": "0.011800687400"
 }
 
 ],
@@ -8752,7 +8752,7 @@ export const grantsData = [
     donation_cnt: 1116,
     bals: [{
   "asset": "ETH",
-  "balance": "0.472913164794005"
+  "balance": "0.472913164794"
 }
 
 ],
@@ -8771,7 +8771,7 @@ export const grantsData = [
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.674435429431506"
+  "balance": "0.674435429432"
 }
 
 ],
@@ -8790,7 +8790,7 @@ export const grantsData = [
     donation_cnt: 5900,
     bals: [{
   "asset": "ETH",
-  "balance": "198.150739883435307"
+  "balance": "198.150739883435"
 }
 
 ],
@@ -8809,7 +8809,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.988603496233400"
+  "balance": "5.988603496233"
 }
 
 ],
@@ -8828,7 +8828,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.030451843590926"
+  "balance": "0.030451843591"
 }
 
 ],
@@ -8847,7 +8847,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8866,7 +8866,7 @@ export const grantsData = [
     donation_cnt: 411,
     bals: [{
   "asset": "ETH",
-  "balance": "3.168266555514926"
+  "balance": "3.168266555515"
 }
 
 ],
@@ -8885,7 +8885,7 @@ export const grantsData = [
     donation_cnt: 53,
     bals: [{
   "asset": "ETH",
-  "balance": "0.047565822904339"
+  "balance": "0.047565822904"
 }
 
 ],
@@ -8904,7 +8904,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.039832909353282"
+  "balance": "0.039832909353"
 }
 
 ],
@@ -8923,7 +8923,7 @@ export const grantsData = [
     donation_cnt: 24,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -8942,7 +8942,7 @@ export const grantsData = [
     donation_cnt: 59,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000016433566434"
+  "balance": "0.000016433566"
 }
 
 ],
@@ -8961,7 +8961,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001160000000000"
+  "balance": "0.001160000000"
 }
 
 ],
@@ -8980,7 +8980,7 @@ export const grantsData = [
     donation_cnt: 59,
     bals: [{
   "asset": "ETH",
-  "balance": "0.211668329263462"
+  "balance": "0.211668329263"
 }
 
 ],
@@ -8999,7 +8999,7 @@ export const grantsData = [
     donation_cnt: 941,
     bals: [{
   "asset": "ETH",
-  "balance": "0.020875000000000"
+  "balance": "0.020875000000"
 }
 
 ],
@@ -9018,7 +9018,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007928472000000"
+  "balance": "0.007928472000"
 }
 
 ],
@@ -9037,7 +9037,7 @@ export const grantsData = [
     donation_cnt: 24,
     bals: [{
   "asset": "ETH",
-  "balance": "0.257263725483306"
+  "balance": "0.257263725483"
 }
 
 ],
@@ -9049,14 +9049,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1514,
     address: '0x68c10776c5c05cbf5b4c2318be02d61b9f06b875',
-    name: 'Dystopia Labs - We Run Free Technical Edu Summits',
+    name: 'Dystopia Labs - We Run Free Technical Ed',
     slug: 'https://gitcoin.co/grants/1514/dystopia-labs-we-run-free-technical-edu-summits',
     tx_cnt: 16,
     log_cnt: 67,
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.977053335054779"
+  "balance": "0.977053335055"
 }
 
 ],
@@ -9075,7 +9075,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9087,14 +9087,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 390,
     address: '0x6935e2d39536e0795dbb66428bc5bd6aec32f7fe',
-    name: 'Wallet Notify - a Standardized Way of Sending Push',
+    name: 'Wallet Notify - a Standardized Way of Se',
     slug: 'https://gitcoin.co/grants/390/wallet-notify-a-standardized-way-of-sending-push-',
     tx_cnt: 31,
     log_cnt: 554,
     donation_cnt: 36,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009442981064256"
+  "balance": "0.009442981064"
 }
 
 ],
@@ -9113,7 +9113,7 @@ export const grantsData = [
     donation_cnt: 1750,
     bals: [{
   "asset": "ETH",
-  "balance": "0.043621844000000"
+  "balance": "0.043621844000"
 }
 
 ],
@@ -9132,7 +9132,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.037203112645029"
+  "balance": "0.037203112645"
 }
 
 ],
@@ -9151,7 +9151,7 @@ export const grantsData = [
     donation_cnt: 227,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9170,7 +9170,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.006627884000000"
+  "balance": "0.006627884000"
 }
 
 ],
@@ -9182,14 +9182,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 358,
     address: '0x6a3738c6299f45c31697acea647d49edcc9c28a4',
-    name: 'Web3swift - Elegant Web3 Functionality in Swift',
+    name: 'Web3swift - Elegant Web3 Functionality i',
     slug: 'https://gitcoin.co/grants/358/web3swift-elegant-web3-functionality-in-swift',
     tx_cnt: 364,
     log_cnt: 3971,
     donation_cnt: 1057,
     bals: [{
   "asset": "ETH",
-  "balance": "7.642224298565428"
+  "balance": "7.642224298565"
 }
 
 ],
@@ -9208,7 +9208,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.034722956000000"
+  "balance": "0.034722956000"
 }
 
 ],
@@ -9220,14 +9220,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 621,
     address: '0x6aced29ff160fd127eac34cf61cf8e072ce888be',
-    name: 'Victory Soap | Fight Corona. Smell Fantastic.',
+    name: 'Victory Soap | Fight Corona. Smell Fanta',
     slug: 'https://gitcoin.co/grants/621/victory-soap-fight-corona-smell-fantastic',
     tx_cnt: 1102,
     log_cnt: 4582,
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.469312370992879"
+  "balance": "0.469312370993"
 }
 
 ],
@@ -9246,7 +9246,7 @@ export const grantsData = [
     donation_cnt: 43,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010450000000000"
+  "balance": "0.010450000000"
 }
 
 ],
@@ -9258,14 +9258,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1506,
     address: '0x6b1227622512b3b9ad34a03777e5ad9a65cfa97f',
-    name: 'Keybase.us Send Ethereum to Anyone with Social Med',
+    name: 'Keybase.us Send Ethereum to Anyone with ',
     slug: 'https://gitcoin.co/grants/1506/keybaseus-send-ethereum-to-anyone-with-social-med',
     tx_cnt: 11,
     log_cnt: 6,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9277,14 +9277,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 215,
     address: '0x6b3999bb710e92701421c63ae4952301bef0ec98',
-    name: 'David Hoffman Independent Content Creator',
+    name: 'David Hoffman Independent Content Creato',
     slug: '',
     tx_cnt: 1021,
     log_cnt: 11327,
     donation_cnt: 1767,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9303,7 +9303,7 @@ export const grantsData = [
     donation_cnt: 20,
     bals: [{
   "asset": "ETH",
-  "balance": "0.067112627824271"
+  "balance": "0.067112627824"
 }
 
 ],
@@ -9322,7 +9322,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9341,7 +9341,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9360,7 +9360,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.356440669776589"
+  "balance": "0.356440669777"
 }
 
 ],
@@ -9379,7 +9379,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.091217037933947"
+  "balance": "0.091217037934"
 }
 
 ],
@@ -9398,7 +9398,7 @@ export const grantsData = [
     donation_cnt: 74,
     bals: [{
   "asset": "ETH",
-  "balance": "2.330737195400458"
+  "balance": "2.330737195400"
 }
 
 ],
@@ -9410,14 +9410,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 547,
     address: '0x6ceff06c1538e4020ae8187bb307f515a1bccf54',
-    name: 'Tracy - An Intelligent Application Using Decentral',
+    name: 'Tracy - An Intelligent Application Using',
     slug: 'https://gitcoin.co/grants/547/tracy-an-intelligent-application-using-decentrali',
     tx_cnt: 146,
     log_cnt: 297,
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007794080000000"
+  "balance": "0.007794080000"
 }
 
 ],
@@ -9436,7 +9436,7 @@ export const grantsData = [
     donation_cnt: 50,
     bals: [{
   "asset": "ETH",
-  "balance": "0.083185435605147"
+  "balance": "0.083185435605"
 }
 
 ],
@@ -9455,7 +9455,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019990023000000"
+  "balance": "0.019990023000"
 }
 
 ],
@@ -9474,7 +9474,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9493,7 +9493,7 @@ export const grantsData = [
     donation_cnt: 33,
     bals: [{
   "asset": "ETH",
-  "balance": "1.313840630622340"
+  "balance": "1.313840630622"
 }
 
 ],
@@ -9512,7 +9512,7 @@ export const grantsData = [
     donation_cnt: 340,
     bals: [{
   "asset": "ETH",
-  "balance": "0.319133824240000"
+  "balance": "0.319133824240"
 }
 
 ],
@@ -9531,7 +9531,7 @@ export const grantsData = [
     donation_cnt: 102,
     bals: [{
   "asset": "ETH",
-  "balance": "0.189566479471645"
+  "balance": "0.189566479472"
 }
 
 ],
@@ -9550,7 +9550,7 @@ export const grantsData = [
     donation_cnt: 32,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012627091439121"
+  "balance": "0.012627091439"
 }
 
 ],
@@ -9569,7 +9569,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.265789692688404"
+  "balance": "0.265789692688"
 }
 
 ],
@@ -9588,7 +9588,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.081919013667068"
+  "balance": "0.081919013667"
 }
 
 ],
@@ -9607,7 +9607,7 @@ export const grantsData = [
     donation_cnt: 3815,
     bals: [{
   "asset": "ETH",
-  "balance": "3.983404735427707"
+  "balance": "3.983404735428"
 }
 
 ],
@@ -9626,7 +9626,7 @@ export const grantsData = [
     donation_cnt: 73,
     bals: [{
   "asset": "ETH",
-  "balance": "17.480860799907155"
+  "balance": "17.480860799907"
 }
 
 ],
@@ -9638,14 +9638,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 864,
     address: '0x6f620ba7907a3d9a6dda9821eeb4e59b3f69c367',
-    name: 'Dutch Swap: Digital Dutch Auctions for Everyone!',
+    name: 'Dutch Swap: Digital Dutch Auctions for E',
     slug: 'https://gitcoin.co/grants/864/dutch-swap-digital-dutch-auctions-for-everyone',
     tx_cnt: 263,
     log_cnt: 4942,
     donation_cnt: 510,
     bals: [{
   "asset": "ETH",
-  "balance": "0.028870178380948"
+  "balance": "0.028870178381"
 }
 
 ],
@@ -9664,7 +9664,7 @@ export const grantsData = [
     donation_cnt: 15,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9676,14 +9676,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 585,
     address: '0x6f7d7d68c3eed4df81cf5f97582deef8abc51533',
-    name: 'InsureNET Blockchain Insurance Platform Dashboard',
+    name: 'InsureNET Blockchain Insurance Platform ',
     slug: 'https://gitcoin.co/grants/585/insurenet-blockchain-insurance-platform-dashboard',
     tx_cnt: 150,
     log_cnt: 312,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000011"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9695,14 +9695,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 310,
     address: '0x6fb8479a3bbb7a4ed8395af47916d9a51b7ba038',
-    name: 'AM Winn Community Guild Digital Asset Fundraiser',
+    name: 'AM Winn Community Guild Digital Asset Fu',
     slug: 'https://gitcoin.co/grants/310/am-winn-community-guild-digital-asset-fundraiser',
     tx_cnt: 1040,
     log_cnt: 3637,
     donation_cnt: 194,
     bals: [{
   "asset": "ETH",
-  "balance": "0.064158348183687"
+  "balance": "0.064158348184"
 }
 
 ],
@@ -9721,7 +9721,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.045720573000000"
+  "balance": "0.045720573000"
 }
 
 ],
@@ -9740,7 +9740,7 @@ export const grantsData = [
     donation_cnt: 1649,
     bals: [{
   "asset": "ETH",
-  "balance": "0.570075159591837"
+  "balance": "0.570075159592"
 }
 
 ],
@@ -9759,7 +9759,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.487819741141300"
+  "balance": "0.487819741141"
 }
 
 ],
@@ -9771,14 +9771,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 22,
     address: '0x7056e70a5ca249ba88e9550eb22caec4c985bb8e',
-    name: 'Fuzz Geth and Parity for Evm Consensus Bugs',
+    name: 'Fuzz Geth and Parity for Evm Consensus B',
     slug: 'https://gitcoin.co/grants/22/fuzz-geth-and-parity-for-evm-consensus-bugs',
     tx_cnt: 788,
     log_cnt: 4679,
     donation_cnt: 342,
     bals: [{
   "asset": "ETH",
-  "balance": "0.593443352018095"
+  "balance": "0.593443352018"
 }
 
 ],
@@ -9797,7 +9797,7 @@ export const grantsData = [
     donation_cnt: 1375,
     bals: [{
   "asset": "ETH",
-  "balance": "0.899333628257290"
+  "balance": "0.899333628257"
 }
 
 ],
@@ -9816,7 +9816,7 @@ export const grantsData = [
     donation_cnt: 21,
     bals: [{
   "asset": "ETH",
-  "balance": "2.192095124710704"
+  "balance": "2.192095124711"
 }
 
 ],
@@ -9828,14 +9828,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1829,
     address: '0x70ac4e4a60f7a734cc9ee6de9733a31456231d76',
-    name: 'Beats Bitcoin. Fully Automated Trading Platform +1',
+    name: 'Beats Bitcoin. Fully Automated Trading P',
     slug: 'https://gitcoin.co/grants/1829/beats-bitcoin-fully-automated-trading-platform-12',
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -9854,7 +9854,7 @@ export const grantsData = [
     donation_cnt: 355,
     bals: [{
   "asset": "ETH",
-  "balance": "4.681257092000000"
+  "balance": "4.681257092000"
 }
 
 ],
@@ -9873,7 +9873,7 @@ export const grantsData = [
     donation_cnt: 1019,
     bals: [{
   "asset": "ETH",
-  "balance": "70.999322607363581"
+  "balance": "70.999322607364"
 }
 
 ],
@@ -9892,7 +9892,7 @@ export const grantsData = [
     donation_cnt: 3576,
     bals: [{
   "asset": "ETH",
-  "balance": "19.737678563639449"
+  "balance": "19.737678563639"
 }
 
 ],
@@ -9904,14 +9904,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 614,
     address: '0x71765388bdde1079ec83f0448242469d69ae93f2',
-    name: 'Alfred - the Award-winning Crypto Estate Planner',
+    name: 'Alfred - the Award-winning Crypto Estate',
     slug: 'https://gitcoin.co/grants/614/alfred-the-award-winning-crypto-estate-planner',
     tx_cnt: 180,
     log_cnt: 2711,
     donation_cnt: 67,
     bals: [{
   "asset": "ETH",
-  "balance": "1.335644815077464"
+  "balance": "1.335644815077"
 }
 
 ],
@@ -9930,7 +9930,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007567868839254"
+  "balance": "0.007567868839"
 }
 
 ],
@@ -9942,14 +9942,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 344,
     address: '0x7205a1b9c5cf6494ba2ceb5adcca831c05536912',
-    name: 'Provenance & Authenticity Validation on Ethereum',
+    name: 'Provenance & Authenticity Validation on ',
     slug: 'https://gitcoin.co/grants/344/provenance-authenticity-validation-on-ethereum',
     tx_cnt: 4281,
     log_cnt: 12448,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.089342894238325"
+  "balance": "0.089342894238"
 }
 
 ],
@@ -9961,14 +9961,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1865,
     address: '0x722ce03c15670c313f9596544cdb582c19f810e2',
-    name: 'Convert Erc-1155 <-> Erc-20 (need Pay Contract Dep',
+    name: 'Convert Erc-1155 <-> Erc-20 (need Pay Co',
     slug: 'https://gitcoin.co/grants/1865/convert-erc-1155-erc-20-need-pay-contract-deploym',
     tx_cnt: 108,
     log_cnt: 685,
     donation_cnt: 15,
     bals: [{
   "asset": "ETH",
-  "balance": "0.248152210741503"
+  "balance": "0.248152210742"
 }
 
 ],
@@ -9987,7 +9987,7 @@ export const grantsData = [
     donation_cnt: 35,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10006,7 +10006,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10025,7 +10025,7 @@ export const grantsData = [
     donation_cnt: 121,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009500000000000"
+  "balance": "0.009500000000"
 }
 
 ],
@@ -10044,7 +10044,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013854149735560"
+  "balance": "0.013854149736"
 }
 
 ],
@@ -10056,14 +10056,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 822,
     address: '0x7293edfbe890854cb698119cc31441b063f44878',
-    name: 'Lukso: the Blockchain for New Digital Lifestyle',
+    name: 'Lukso: the Blockchain for New Digital Li',
     slug: 'https://gitcoin.co/grants/822/lukso-the-blockchain-for-new-digital-lifestyle',
     tx_cnt: 149,
     log_cnt: 1908,
     donation_cnt: 717,
     bals: [{
   "asset": "ETH",
-  "balance": "0.027210000000000"
+  "balance": "0.027210000000"
 }
 
 ],
@@ -10082,7 +10082,7 @@ export const grantsData = [
     donation_cnt: 155,
     bals: [{
   "asset": "ETH",
-  "balance": "0.079952070000000"
+  "balance": "0.079952070000"
 }
 
 ],
@@ -10101,7 +10101,7 @@ export const grantsData = [
     donation_cnt: 17,
     bals: [{
   "asset": "ETH",
-  "balance": "0.136481070832995"
+  "balance": "0.136481070833"
 }
 
 ],
@@ -10113,14 +10113,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1696,
     address: '0x72e76184fcbdd8e1877ba9dc1ea3943087ac20de',
-    name: 'Voodfy - Decentralized Video Hosting for Everyone.',
+    name: 'Voodfy - Decentralized Video Hosting for',
     slug: 'https://gitcoin.co/grants/1696/voodfy-decentralized-video-hosting-for-everyone',
     tx_cnt: 2,
     log_cnt: 100,
     donation_cnt: 50,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001900000000000"
+  "balance": "0.001900000000"
 }
 
 ],
@@ -10139,7 +10139,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10151,14 +10151,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1543,
     address: '0x73a73c62d272c6585948da24b17c497e3f51fd9c',
-    name: 'Certy - Certify Original Digital Content on Ethere',
+    name: 'Certy - Certify Original Digital Content',
     slug: 'https://gitcoin.co/grants/1543/certy-certify-original-digital-content-on-ethereu',
     tx_cnt: 19,
     log_cnt: 738,
     donation_cnt: 307,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10177,7 +10177,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10196,7 +10196,7 @@ export const grantsData = [
     donation_cnt: 2964,
     bals: [{
   "asset": "ETH",
-  "balance": "0.604896363377674"
+  "balance": "0.604896363378"
 }
 
 ],
@@ -10208,14 +10208,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 619,
     address: '0x74630370197b4c4795bfeef6645ee14f8cf8997d',
-    name: 'Forum Cp0x - Cozy Forum About Cryptospace in Russi',
+    name: 'Forum Cp0x - Cozy Forum About Cryptospac',
     slug: 'https://gitcoin.co/grants/619/forum-cp0x-cozy-forum-about-cryptospace-in-russia',
     tx_cnt: 558,
     log_cnt: 5711,
     donation_cnt: 139,
     bals: [{
   "asset": "ETH",
-  "balance": "1.119580324926511"
+  "balance": "1.119580324927"
 }
 
 ],
@@ -10234,7 +10234,7 @@ export const grantsData = [
     donation_cnt: 2288,
     bals: [{
   "asset": "ETH",
-  "balance": "2.217735378102961"
+  "balance": "2.217735378103"
 }
 
 ],
@@ -10253,7 +10253,7 @@ export const grantsData = [
     donation_cnt: 5,
     bals: [{
   "asset": "ETH",
-  "balance": "0.851588498531401"
+  "balance": "0.851588498531"
 }
 
 ],
@@ -10272,7 +10272,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10291,7 +10291,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000084000000000"
+  "balance": "0.000084000000"
 }
 
 ],
@@ -10310,7 +10310,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10329,7 +10329,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10348,7 +10348,7 @@ export const grantsData = [
     donation_cnt: 53,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10360,14 +10360,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 824,
     address: '0x758ba0f64f9498996368fcd7696cd962bc19fe87',
-    name: 'a Platform to Catalyze Achievement of Legislation ',
+    name: 'a Platform to Catalyze Achievement of Le',
     slug: 'https://gitcoin.co/grants/824/a-platform-to-catalyze-achievement-of-legislation',
     tx_cnt: 14,
     log_cnt: 14,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10386,7 +10386,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.295895179046974"
+  "balance": "0.295895179047"
 }
 
 ],
@@ -10405,7 +10405,7 @@ export const grantsData = [
     donation_cnt: 21,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012206051680486"
+  "balance": "0.012206051680"
 }
 
 ],
@@ -10417,14 +10417,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1076,
     address: '0x765c5fe87b9e615a797a82b69b30dff12dc8315c',
-    name: 'Development of Paid Social Media Back by Smart Con',
+    name: 'Development of Paid Social Media Back by',
     slug: 'https://gitcoin.co/grants/1076/development-of-paid-social-media-back-by-smart-co',
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10443,7 +10443,7 @@ export const grantsData = [
     donation_cnt: 28,
     bals: [{
   "asset": "ETH",
-  "balance": "0.100231904005528"
+  "balance": "0.100231904006"
 }
 
 ],
@@ -10462,7 +10462,7 @@ export const grantsData = [
     donation_cnt: 452,
     bals: [{
   "asset": "ETH",
-  "balance": "0.666524249435684"
+  "balance": "0.666524249436"
 }
 
 ],
@@ -10481,7 +10481,7 @@ export const grantsData = [
     donation_cnt: 792,
     bals: [{
   "asset": "ETH",
-  "balance": "0.236114697888254"
+  "balance": "0.236114697888"
 }
 
 ],
@@ -10500,7 +10500,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10519,7 +10519,7 @@ export const grantsData = [
     donation_cnt: 337,
     bals: [{
   "asset": "ETH",
-  "balance": "4.467970745148008"
+  "balance": "4.467970745148"
 }
 
 ],
@@ -10538,7 +10538,7 @@ export const grantsData = [
     donation_cnt: 54,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013414399645995"
+  "balance": "0.013414399646"
 }
 
 ],
@@ -10557,7 +10557,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002080000000000"
+  "balance": "0.002080000000"
 }
 
 ],
@@ -10576,7 +10576,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.318478148240000"
+  "balance": "0.318478148240"
 }
 
 ],
@@ -10595,7 +10595,7 @@ export const grantsData = [
     donation_cnt: 13,
     bals: [{
   "asset": "ETH",
-  "balance": "0.853579370388722"
+  "balance": "0.601017774289"
 }
 
 ],
@@ -10614,7 +10614,7 @@ export const grantsData = [
     donation_cnt: 145,
     bals: [{
   "asset": "ETH",
-  "balance": "0.087251974943436"
+  "balance": "0.087251974943"
 }
 
 ],
@@ -10633,7 +10633,7 @@ export const grantsData = [
     donation_cnt: 324,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10652,7 +10652,7 @@ export const grantsData = [
     donation_cnt: 129,
     bals: [{
   "asset": "ETH",
-  "balance": "2.972321485501169"
+  "balance": "2.972321485501"
 }
 
 ],
@@ -10671,7 +10671,7 @@ export const grantsData = [
     donation_cnt: 97,
     bals: [{
   "asset": "ETH",
-  "balance": "3.120819869000333"
+  "balance": "3.120819869000"
 }
 
 ],
@@ -10690,7 +10690,7 @@ export const grantsData = [
     donation_cnt: 344,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000002586224839"
+  "balance": "0.000002586225"
 }
 
 ],
@@ -10709,7 +10709,7 @@ export const grantsData = [
     donation_cnt: 920,
     bals: [{
   "asset": "ETH",
-  "balance": "0.278865491569710"
+  "balance": "0.278865491570"
 }
 
 ],
@@ -10728,7 +10728,7 @@ export const grantsData = [
     donation_cnt: 387,
     bals: [{
   "asset": "ETH",
-  "balance": "0.110155564602865"
+  "balance": "0.110155564603"
 }
 
 ],
@@ -10747,7 +10747,7 @@ export const grantsData = [
     donation_cnt: 31,
     bals: [{
   "asset": "ETH",
-  "balance": "0.011179979805896"
+  "balance": "0.011179979806"
 }
 
 ],
@@ -10759,14 +10759,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1160,
     address: '0x792fef6eb8a7d6ca0b18ed1fd518767e7d45d8de',
-    name: 'Democratized Controls Architecture for the Develop',
+    name: 'Democratized Controls Architecture for t',
     slug: 'https://gitcoin.co/grants/1160/democratized-controls-architecture-for-the-develo',
     tx_cnt: 16,
     log_cnt: 28,
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000736368000000"
+  "balance": "0.000736368000"
 }
 
 ],
@@ -10778,14 +10778,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1953,
     address: '0x794c1ad7ad6ca2b1a578ab2f6d21e77606a2fe8b',
-    name: 'Inaad: the Irregular Nerve Activity Alerting Devic',
+    name: 'Inaad: the Irregular Nerve Activity Aler',
     slug: 'https://gitcoin.co/grants/1953/inaad-the-irregular-nerve-activity-alerting-devic',
     tx_cnt: 6,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000762570000000"
+  "balance": "0.000762570000"
 }
 
 ],
@@ -10804,7 +10804,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.028500000000000"
+  "balance": "0.028500000000"
 }
 
 ],
@@ -10823,7 +10823,7 @@ export const grantsData = [
     donation_cnt: 44,
     bals: [{
   "asset": "ETH",
-  "balance": "0.095000000000000"
+  "balance": "0.095000000000"
 }
 
 ],
@@ -10842,7 +10842,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10861,7 +10861,7 @@ export const grantsData = [
     donation_cnt: 1992,
     bals: [{
   "asset": "ETH",
-  "balance": "21.154511772900001"
+  "balance": "21.154511772900"
 }
 
 ],
@@ -10880,7 +10880,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -10899,7 +10899,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019565155917989"
+  "balance": "0.019565155918"
 }
 
 ],
@@ -10911,14 +10911,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 768,
     address: '0x7ab527e793cb845d2e050c5358cfed306225652e',
-    name: 'Eth95 | An Instant Ui for Your Smart Contracts (bo',
+    name: 'Eth95 | An Instant Ui for Your Smart Con',
     slug: 'https://gitcoin.co/grants/768/eth95-an-instant-ui-for-your-smart-contracts-both',
     tx_cnt: 6,
     log_cnt: 63,
     donation_cnt: 30,
     bals: [{
   "asset": "ETH",
-  "balance": "0.095000000000000"
+  "balance": "0.095000000000"
 }
 
 ],
@@ -10937,7 +10937,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019641572000000"
+  "balance": "0.019641572000"
 }
 
 ],
@@ -10956,7 +10956,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007682280500000"
+  "balance": "0.007682280500"
 }
 
 ],
@@ -10975,7 +10975,7 @@ export const grantsData = [
     donation_cnt: 1087,
     bals: [{
   "asset": "ETH",
-  "balance": "0.215974023955405"
+  "balance": "0.215974023955"
 }
 
 ],
@@ -10994,7 +10994,7 @@ export const grantsData = [
     donation_cnt: 12,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11013,7 +11013,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.123478829927763"
+  "balance": "0.123478829928"
 }
 
 ],
@@ -11032,7 +11032,7 @@ export const grantsData = [
     donation_cnt: 172,
     bals: [{
   "asset": "ETH",
-  "balance": "1.738111619823880"
+  "balance": "1.738111619824"
 }
 
 ],
@@ -11051,7 +11051,7 @@ export const grantsData = [
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11070,7 +11070,7 @@ export const grantsData = [
     donation_cnt: 1420,
     bals: [{
   "asset": "ETH",
-  "balance": "0.483661118787000"
+  "balance": "0.483661118787"
 }
 
 ],
@@ -11089,7 +11089,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11108,7 +11108,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.239616364635638"
+  "balance": "1.239616364636"
 }
 
 ],
@@ -11120,14 +11120,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 622,
     address: '0x7c04b6f7eedf698d0659ed873a0bcc227bd9fa00',
-    name: 'Spread Blockchain Knowledge to the Arab World',
+    name: 'Spread Blockchain Knowledge to the Arab ',
     slug: 'https://gitcoin.co/grants/622/spread-blockchain-knowledge-to-the-arab-world',
     tx_cnt: 137,
     log_cnt: 1076,
     donation_cnt: 312,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000095000000000"
+  "balance": "0.000095000000"
 }
 
 ],
@@ -11146,7 +11146,7 @@ export const grantsData = [
     donation_cnt: 264,
     bals: [{
   "asset": "ETH",
-  "balance": "0.350083844429997"
+  "balance": "0.350083844430"
 }
 
 ],
@@ -11165,7 +11165,7 @@ export const grantsData = [
     donation_cnt: 172,
     bals: [{
   "asset": "ETH",
-  "balance": "0.113676450758549"
+  "balance": "0.113676450759"
 }
 
 ],
@@ -11184,7 +11184,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11203,7 +11203,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013746029705634"
+  "balance": "0.013746029706"
 }
 
 ],
@@ -11222,7 +11222,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005170816000000"
+  "balance": "0.005170816000"
 }
 
 ],
@@ -11241,7 +11241,7 @@ export const grantsData = [
     donation_cnt: 372,
     bals: [{
   "asset": "ETH",
-  "balance": "0.023983902208425"
+  "balance": "0.023983902208"
 }
 
 ],
@@ -11260,7 +11260,7 @@ export const grantsData = [
     donation_cnt: 55,
     bals: [{
   "asset": "ETH",
-  "balance": "9.414206473665521"
+  "balance": "9.414206473666"
 }
 
 ],
@@ -11279,7 +11279,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11291,14 +11291,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 232,
     address: '0x7d3e2d29c0f77d35e470942e10aed8f3a6a596fe',
-    name: 'Raven-anonymous Decentralized Message Broadcasting',
+    name: 'Raven-anonymous Decentralized Message Br',
     slug: 'https://gitcoin.co/grants/232/raven-anonymous-decentralized-message-broadcastin',
     tx_cnt: 353,
     log_cnt: 9616,
     donation_cnt: 41,
     bals: [{
   "asset": "ETH",
-  "balance": "3.392373898552490"
+  "balance": "3.392373898552"
 }
 
 ],
@@ -11310,14 +11310,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1693,
     address: '0x7d4a43b60da2445299ef37fbcd986981edb87546',
-    name: 'Eu Crypto Initiative - Educating Policy Makers on ',
+    name: 'Eu Crypto Initiative - Educating Policy ',
     slug: 'https://gitcoin.co/grants/1693/eu-crypto-initiative-educating-policy-makers-on-d',
     tx_cnt: 48,
     log_cnt: 371,
     donation_cnt: 86,
     bals: [{
   "asset": "ETH",
-  "balance": "0.043950000000000"
+  "balance": "0.043950000000"
 }
 
 ],
@@ -11329,14 +11329,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1729,
     address: '0x7d568b307ba20fcf4684fd7877a00e4d90ee9199',
-    name: '@emilianobonassi - Builder - (white) Hacker',
+    name: '@emilianobonassi - Builder - (white) Hac',
     slug: 'https://gitcoin.co/grants/1729/emilianobonassi-builder-white-hacker',
     tx_cnt: 7,
     log_cnt: 234,
     donation_cnt: 61,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002519735000000"
+  "balance": "0.002519735000"
 }
 
 ],
@@ -11355,7 +11355,7 @@ export const grantsData = [
     donation_cnt: 384,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11367,14 +11367,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 445,
     address: '0x7e30fb962f951ef78d901865f87dd036fc5aa946',
-    name: 'Shivarthu Democracy: the Blockchain-based Decentra',
+    name: 'Shivarthu Democracy: the Blockchain-base',
     slug: 'https://gitcoin.co/grants/445/shivarthu-democracy-the-blockchain-based-decentra',
     tx_cnt: 35,
     log_cnt: 744,
     donation_cnt: 179,
     bals: [{
   "asset": "ETH",
-  "balance": "0.016623380100000"
+  "balance": "0.016623380100"
 }
 
 ],
@@ -11393,7 +11393,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.099765483455838"
+  "balance": "0.099765483456"
 }
 
 ],
@@ -11405,14 +11405,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 129,
     address: '0x7e897000e80787653c6a7a2d20174a4225d89753',
-    name: 'Grant 283 Deora Enabling the Next Step In Human Co',
+    name: 'Grant 283 Deora Enabling the Next Step I',
     slug: 'https://gitcoin.co/grants/283/deora-enabling-the-next-step-in-human-coordination',
     tx_cnt: 195,
     log_cnt: 856,
     donation_cnt: 149,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11424,14 +11424,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 826,
     address: '0x7f1c9feb3a616cbda1ff474cfda802d8840df2af',
-    name: '0x-chan: Design An Ethereum Crypto- Waifu',
+    name: '0x-chan: Design An Ethereum Crypto- Waif',
     slug: 'https://gitcoin.co/grants/826/0x-chan-design-an-ethereum-crypto-waifu',
     tx_cnt: 14,
     log_cnt: 9,
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000589512629001"
+  "balance": "0.000589512629"
 }
 
 ],
@@ -11450,7 +11450,7 @@ export const grantsData = [
     donation_cnt: 71,
     bals: [{
   "asset": "ETH",
-  "balance": "0.041386850000000"
+  "balance": "0.041386850000"
 }
 
 ],
@@ -11469,7 +11469,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "3.449552098593114"
+  "balance": "3.449552098593"
 }
 
 ],
@@ -11488,7 +11488,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.475516927599830"
+  "balance": "0.475516927600"
 }
 
 ],
@@ -11500,14 +11500,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 464,
     address: '0x8096da6ced12b75684054ef16e1bf7e376353c29',
-    name: 'Lend and Borrow Ethereum Erc-721 Tokens with Lend7',
+    name: 'Lend and Borrow Ethereum Erc-721 Tokens ',
     slug: 'https://gitcoin.co/grants/464/lend-and-borrow-ethereum-erc-721-tokens-with-lend',
     tx_cnt: 829,
     log_cnt: 4484,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.463396337242472"
+  "balance": "0.463396337242"
 }
 
 ],
@@ -11526,7 +11526,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "5.033394269954067"
+  "balance": "5.033394269954"
 }
 
 ],
@@ -11545,7 +11545,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11564,7 +11564,7 @@ export const grantsData = [
     donation_cnt: 5828,
     bals: [{
   "asset": "ETH",
-  "balance": "0.481845854088300"
+  "balance": "0.481845854088"
 }
 
 ],
@@ -11583,7 +11583,7 @@ export const grantsData = [
     donation_cnt: 63,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11602,7 +11602,7 @@ export const grantsData = [
     donation_cnt: 176,
     bals: [{
   "asset": "ETH",
-  "balance": "1.187407651291939"
+  "balance": "1.187407651292"
 }
 
 ],
@@ -11621,7 +11621,7 @@ export const grantsData = [
     donation_cnt: 119,
     bals: [{
   "asset": "ETH",
-  "balance": "0.273328577261798"
+  "balance": "0.273328577262"
 }
 
 ],
@@ -11640,7 +11640,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.022005529727047"
+  "balance": "0.022005529727"
 }
 
 ],
@@ -11659,7 +11659,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "20.037689264084278"
+  "balance": "20.037689264084"
 }
 
 ],
@@ -11671,14 +11671,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 556,
     address: '0x82338b1b27cfc0c27d79c3738b748f951ab1a7a0',
-    name: 'the Department of Decentralization (neé Ethberlin',
+    name: 'the Department of Decentralization (neé',
     slug: 'https://gitcoin.co/grants/556/the-department-of-decentralization-nee-ethberlin',
     tx_cnt: 304,
     log_cnt: 4378,
     donation_cnt: 1297,
     bals: [{
   "asset": "ETH",
-  "balance": "1.713269975197323"
+  "balance": "1.713269975197"
 }
 
 ],
@@ -11697,7 +11697,7 @@ export const grantsData = [
     donation_cnt: 1603,
     bals: [{
   "asset": "ETH",
-  "balance": "1.083768946934800"
+  "balance": "1.083768946935"
 }
 
 ],
@@ -11709,14 +11709,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 612,
     address: '0x82bda9889a85eb128b7c222d5313729679fd4e12',
-    name: 'Impact on Global Mobility - Global Data Science Pr',
+    name: 'Impact on Global Mobility - Global Data ',
     slug: 'https://gitcoin.co/grants/612/impact-on-global-mobility-global-data-science-pro',
     tx_cnt: 2,
     log_cnt: 78,
     donation_cnt: 38,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11735,7 +11735,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019953665000000"
+  "balance": "0.019953665000"
 }
 
 ],
@@ -11747,14 +11747,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1790,
     address: '0x83939f89a1540d2a3a48dee5f7266e29b7e11e88',
-    name: 'DΞcΞntralizΞ - a Free Opensourse Marketplace',
+    name: 'DΞcΞntralizΞ - a Free Opensourse Mark',
     slug: 'https://gitcoin.co/grants/1790/dcntraliz-a-free-opensourse-marketplace',
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11773,7 +11773,7 @@ export const grantsData = [
     donation_cnt: 559,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001735700000000"
+  "balance": "0.001735700000"
 }
 
 ],
@@ -11792,7 +11792,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11811,7 +11811,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11830,7 +11830,7 @@ export const grantsData = [
     donation_cnt: 24,
     bals: [{
   "asset": "ETH",
-  "balance": "0.283171660235547"
+  "balance": "0.283171660236"
 }
 
 ],
@@ -11849,7 +11849,7 @@ export const grantsData = [
     donation_cnt: 333,
     bals: [{
   "asset": "ETH",
-  "balance": "0.225361139591858"
+  "balance": "0.225361139592"
 }
 
 ],
@@ -11868,7 +11868,7 @@ export const grantsData = [
     donation_cnt: 6,
     bals: [{
   "asset": "ETH",
-  "balance": "0.099151561000000"
+  "balance": "0.099151561000"
 }
 
 ],
@@ -11887,7 +11887,7 @@ export const grantsData = [
     donation_cnt: 4361,
     bals: [{
   "asset": "ETH",
-  "balance": "1.271528549865767"
+  "balance": "1.271528549866"
 }
 
 ],
@@ -11906,7 +11906,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001372880000000"
+  "balance": "0.001372880000"
 }
 
 ],
@@ -11925,7 +11925,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11937,14 +11937,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 628,
     address: '0x852ed0af6e186c987727ba9285657688abde38cb',
-    name: 'Arweave Makes Information Permanence Sustainable.',
+    name: 'Arweave Makes Information Permanence Sus',
     slug: 'https://gitcoin.co/grants/628/arweave-makes-information-permanence-sustainable',
     tx_cnt: 16,
     log_cnt: 110,
     donation_cnt: 50,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003312983800000"
+  "balance": "0.003312983800"
 }
 
 ],
@@ -11963,7 +11963,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11982,7 +11982,7 @@ export const grantsData = [
     donation_cnt: 98,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -11994,14 +11994,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 680,
     address: '0x85a363699c6864248a6ffca66e4a1a5ccf9f5567',
-    name: 'Mars Robertson&#39;s Personal Grant • Smart Contract',
+    name: 'Mars Robertson&#39;s Personal Grant • Smar',
     slug: 'https://gitcoin.co/grants/680/mars-robertsons-personal-grant-smart-contracts-pr',
     tx_cnt: 937,
     log_cnt: 12343,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.323371921170150"
+  "balance": "0.323371921170"
 }
 
 ],
@@ -12013,14 +12013,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 223,
     address: '0x85cab7143ff3c01b93e88f5b017692374bb939c2',
-    name: 'Ethereum Magicians Magician&#39;s Registration',
+    name: 'Ethereum Magicians Magician&#39;s Registrati',
     slug: '',
     tx_cnt: 501,
     log_cnt: 8599,
     donation_cnt: 3866,
     bals: [{
   "asset": "ETH",
-  "balance": "96.968902735694783"
+  "balance": "96.968902735695"
 }
 
 ],
@@ -12032,14 +12032,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 667,
     address: '0x85f5a4e1fc4f44a014b940a224dde22d6e73f2dc',
-    name: 'Readaratus: a Dynamic Book Reading System for Comp',
+    name: 'Readaratus: a Dynamic Book Reading Syste',
     slug: 'https://gitcoin.co/grants/667/readaratus-a-dynamic-book-reading-system-for-comp',
     tx_cnt: 43,
     log_cnt: 359,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12058,7 +12058,7 @@ export const grantsData = [
     donation_cnt: 65,
     bals: [{
   "asset": "ETH",
-  "balance": "0.064275844006655"
+  "balance": "0.064275844007"
 }
 
 ],
@@ -12077,7 +12077,7 @@ export const grantsData = [
     donation_cnt: 26,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12096,7 +12096,7 @@ export const grantsData = [
     donation_cnt: 168,
     bals: [{
   "asset": "ETH",
-  "balance": "0.044109728030099"
+  "balance": "0.044109728030"
 }
 
 ],
@@ -12115,7 +12115,7 @@ export const grantsData = [
     donation_cnt: 2023,
     bals: [{
   "asset": "ETH",
-  "balance": "0.500691453161984"
+  "balance": "0.500691453162"
 }
 
 ],
@@ -12134,7 +12134,7 @@ export const grantsData = [
     donation_cnt: 110,
     bals: [{
   "asset": "ETH",
-  "balance": "3.706167449748384"
+  "balance": "3.706167449748"
 }
 
 ],
@@ -12153,7 +12153,7 @@ export const grantsData = [
     donation_cnt: 134,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12172,7 +12172,7 @@ export const grantsData = [
     donation_cnt: 50,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12191,7 +12191,7 @@ export const grantsData = [
     donation_cnt: 103,
     bals: [{
   "asset": "ETH",
-  "balance": "9.582280703774567"
+  "balance": "9.582280703775"
 }
 
 ],
@@ -12210,7 +12210,7 @@ export const grantsData = [
     donation_cnt: 347,
     bals: [{
   "asset": "ETH",
-  "balance": "0.053795031937427"
+  "balance": "0.053795031937"
 }
 
 ],
@@ -12229,7 +12229,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12241,14 +12241,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1848,
     address: '0x87b2a7559d85f4653f13e6546a14189cd5455d45',
-    name: 'Donations to Hugh Karp for the Recent Hack of Pers',
+    name: 'Donations to Hugh Karp for the Recent Ha',
     slug: 'https://gitcoin.co/grants/1848/donations-to-hugh-karp-for-the-recent-hack-of-per',
     tx_cnt: 947,
     log_cnt: 4682,
     donation_cnt: 8,
     bals: [{
   "asset": "ETH",
-  "balance": "0.521751834561498"
+  "balance": "0.521751834561"
 }
 
 ],
@@ -12267,7 +12267,7 @@ export const grantsData = [
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000034121442071"
+  "balance": "0.000034121442"
 }
 
 ],
@@ -12279,14 +12279,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1669,
     address: '0x8917418abe36e6e788068e96ef5a47d7484c06b1',
-    name: 'Idena: the First Proof-of-person Blockchain',
+    name: 'Idena: the First Proof-of-person Blockch',
     slug: 'https://gitcoin.co/grants/1669/idena-the-first-proof-of-person-blockchain',
     tx_cnt: 38,
     log_cnt: 1000,
     donation_cnt: 503,
     bals: [{
   "asset": "ETH",
-  "balance": "0.097265000000000"
+  "balance": "0.097265000000"
 }
 
 ],
@@ -12305,7 +12305,7 @@ export const grantsData = [
     donation_cnt: 74,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003321872000000"
+  "balance": "0.003321872000"
 }
 
 ],
@@ -12324,7 +12324,7 @@ export const grantsData = [
     donation_cnt: 24,
     bals: [{
   "asset": "ETH",
-  "balance": "0.186041114151659"
+  "balance": "0.186041114152"
 }
 
 ],
@@ -12343,7 +12343,7 @@ export const grantsData = [
     donation_cnt: 368,
     bals: [{
   "asset": "ETH",
-  "balance": "1.324423908580813"
+  "balance": "1.324423908581"
 }
 
 ],
@@ -12355,14 +12355,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 728,
     address: '0x89d1fec16ba1c8aebc7866263eb4ca2d8bd8eec4',
-    name: 'DeFi Composability Security Matching Round',
+    name: 'DeFi Composability Security Matching Rou',
     slug: 'https://gitcoin.co/grants/728/defi-composability-security-matching-round',
     tx_cnt: 18,
     log_cnt: 399,
     donation_cnt: 131,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002850000000000"
+  "balance": "0.002850000000"
 }
 
 ],
@@ -12381,7 +12381,7 @@ export const grantsData = [
     donation_cnt: 918,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12393,14 +12393,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 101,
     address: '0x8a970573f88dbc7b69dfed2ba193c98c2d5d8314',
-    name: 'Geon App: Augmented Reality App Leveraging Poa Cor',
+    name: 'Geon App: Augmented Reality App Leveragi',
     slug: 'https://gitcoin.co/grants/101/geon-app-augmented-reality-app-leveraging-poa-cor',
     tx_cnt: 174,
     log_cnt: 452,
     donation_cnt: 30,
     bals: [{
   "asset": "ETH",
-  "balance": "0.078381244101097"
+  "balance": "0.078381244101"
 }
 
 ],
@@ -12419,7 +12419,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.160000000000000"
+  "balance": "0.160000000000"
 }
 
 ],
@@ -12438,7 +12438,7 @@ export const grantsData = [
     donation_cnt: 299,
     bals: [{
   "asset": "ETH",
-  "balance": "0.179005226424181"
+  "balance": "0.179005226424"
 }
 
 ],
@@ -12457,7 +12457,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000010641000000"
+  "balance": "0.000010641000"
 }
 
 ],
@@ -12469,14 +12469,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1701,
     address: '0x8b1416de782f23c55f6b5cc26098249f469c2591',
-    name: 'DeFi Italy - the Backbone of the DeFi World in Ita',
+    name: 'DeFi Italy - the Backbone of the DeFi Wo',
     slug: 'https://gitcoin.co/grants/1701/defi-italy-the-backbone-of-the-defi-world-in-ital',
     tx_cnt: 13,
     log_cnt: 223,
     donation_cnt: 53,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007183560000000"
+  "balance": "0.007183560000"
 }
 
 ],
@@ -12488,14 +12488,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 295,
     address: '0x8b3765eda5207fb21690874b722ae276b96260e0',
-    name: 'Gelato An automation protocol for Ethereum',
+    name: 'Gelato An automation protocol for Ethere',
     slug: 'https://gitcoin.co/grants/295/gelato-if-this-then-that-for-ethereum',
     tx_cnt: 837,
     log_cnt: 10826,
     donation_cnt: 1395,
     bals: [{
   "asset": "ETH",
-  "balance": "0.055350749852151"
+  "balance": "0.055350749852"
 }
 
 ],
@@ -12514,7 +12514,7 @@ export const grantsData = [
     donation_cnt: 2944,
     bals: [{
   "asset": "ETH",
-  "balance": "73.511403532294864"
+  "balance": "73.511403532295"
 }
 
 ],
@@ -12533,7 +12533,7 @@ export const grantsData = [
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.221138605582596"
+  "balance": "0.221138605583"
 }
 
 ],
@@ -12552,7 +12552,7 @@ export const grantsData = [
     donation_cnt: 3651,
     bals: [{
   "asset": "ETH",
-  "balance": "14.113663889739790"
+  "balance": "14.128863889740"
 }
 
 ],
@@ -12571,7 +12571,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.186329942100000"
+  "balance": "0.186329942100"
 }
 
 ],
@@ -12590,7 +12590,7 @@ export const grantsData = [
     donation_cnt: 403,
     bals: [{
   "asset": "ETH",
-  "balance": "0.041768879860278"
+  "balance": "0.041768879860"
 }
 
 ],
@@ -12609,7 +12609,7 @@ export const grantsData = [
     donation_cnt: 97,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001396176410447"
+  "balance": "0.001396176410"
 }
 
 ],
@@ -12621,14 +12621,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1244,
     address: '0x8d99f2e4c0534bd2500e0ab378897ae78c09cb14',
-    name: 'a Way for the Masses to Passively Acquire the Top ',
+    name: 'a Way for the Masses to Passively Acquir',
     slug: 'https://gitcoin.co/grants/1244/a-way-for-the-masses-to-passively-acquire-the-top',
     tx_cnt: 39,
     log_cnt: 36,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002035508054744"
+  "balance": "0.002035508055"
 }
 
 ],
@@ -12647,7 +12647,7 @@ export const grantsData = [
     donation_cnt: 5218,
     bals: [{
   "asset": "ETH",
-  "balance": "29.013840493793548"
+  "balance": "29.013840493794"
 }
 
 ],
@@ -12666,7 +12666,7 @@ export const grantsData = [
     donation_cnt: 139,
     bals: [{
   "asset": "ETH",
-  "balance": "0.028215000000000"
+  "balance": "0.028215000000"
 }
 
 ],
@@ -12685,7 +12685,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.091009343100000"
+  "balance": "0.091009343100"
 }
 
 ],
@@ -12704,7 +12704,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001759826000000"
+  "balance": "0.001759826000"
 }
 
 ],
@@ -12716,14 +12716,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 56,
     address: '0x8f684ad5dc8237960a4661381022ae8030a5cd31',
-    name: 'Training 1000 Ethereum Developers for Free in 2019',
+    name: 'Training 1000 Ethereum Developers for Fr',
     slug: 'https://gitcoin.co/grants/56/training-1000-ethereum-developers-for-free-in-201',
     tx_cnt: 30,
     log_cnt: 386,
     donation_cnt: 125,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12742,7 +12742,7 @@ export const grantsData = [
     donation_cnt: 23,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005225000000000"
+  "balance": "0.005225000000"
 }
 
 ],
@@ -12761,7 +12761,7 @@ export const grantsData = [
     donation_cnt: 2046,
     bals: [{
   "asset": "ETH",
-  "balance": "3.201177663327674"
+  "balance": "3.201177663328"
 }
 
 ],
@@ -12780,7 +12780,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.043822210000000"
+  "balance": "0.043822210000"
 }
 
 ],
@@ -12799,7 +12799,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12811,14 +12811,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 681,
     address: '0x904065ba663879deb7e5f902220e7db97cbf04af',
-    name: 'Flowstake - Activity Staking Blockchain Network',
+    name: 'Flowstake - Activity Staking Blockchain ',
     slug: 'https://gitcoin.co/grants/681/flowstake-activity-staking-blockchain-network',
     tx_cnt: 55,
     log_cnt: 609,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.369400638648594"
+  "balance": "0.369400638649"
 }
 
 ],
@@ -12837,7 +12837,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.588420237069735"
+  "balance": "0.588420237070"
 }
 
 ],
@@ -12856,7 +12856,7 @@ export const grantsData = [
     donation_cnt: 162,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -12875,7 +12875,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005565370898540"
+  "balance": "0.005565370899"
 }
 
 ],
@@ -12894,7 +12894,7 @@ export const grantsData = [
     donation_cnt: 2578,
     bals: [{
   "asset": "ETH",
-  "balance": "0.680279500000000"
+  "balance": "0.680279500000"
 }
 
 ],
@@ -12906,14 +12906,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1901,
     address: '0x90edc34171b1750c36bf86d990bfc42889a73c6e',
-    name: 'D¢ent Co. + Matic Nft Product Authentication Syst',
+    name: 'D¢ent Co. + Matic Nft Product Authentic',
     slug: 'https://gitcoin.co/grants/1901/dent-co-matic-nft-product-authentication-system',
     tx_cnt: 162,
     log_cnt: 1323,
     donation_cnt: 516,
     bals: [{
   "asset": "ETH",
-  "balance": "2.103434338427985"
+  "balance": "2.103434338428"
 }
 
 ],
@@ -12925,14 +12925,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 153,
     address: '0x910119d96fcc68fc898a02b07b3a6316992af800',
-    name: 'Mailchain - Email-like Messaging Built on Blockcha',
+    name: 'Mailchain - Email-like Messaging Built o',
     slug: 'https://gitcoin.co/grants/153/mailchain-email-like-messaging-built-on-blockchai',
     tx_cnt: 102,
     log_cnt: 919,
     donation_cnt: 111,
     bals: [{
   "asset": "ETH",
-  "balance": "0.196020124741960"
+  "balance": "0.196020124742"
 }
 
 ],
@@ -12944,14 +12944,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1121,
     address: '0x910e7e559e7cb4e6888bfdd7b1261226bb2bf328',
-    name: 'Integrate Bitski Wallet Support on Gnosis Safe wit',
+    name: 'Integrate Bitski Wallet Support on Gnosi',
     slug: 'https://gitcoin.co/grants/1121/integrate-bitski-wallet-support-on-gnosis-safe-wi',
     tx_cnt: 3,
     log_cnt: 1,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000024000000000"
+  "balance": "0.000024000000"
 }
 
 ],
@@ -12970,7 +12970,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "92.230853220528431"
+  "balance": "92.230853220528"
 }
 
 ],
@@ -12989,7 +12989,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.029344525829220"
+  "balance": "0.029344525829"
 }
 
 ],
@@ -13008,7 +13008,7 @@ export const grantsData = [
     donation_cnt: 1190,
     bals: [{
   "asset": "ETH",
-  "balance": "0.463668206166854"
+  "balance": "0.463668206167"
 }
 
 ],
@@ -13020,14 +13020,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 55,
     address: '0x91dbd5e72b1331447a40932bf16d140cf4638324',
-    name: 'Plasma by Kyokan Secure Low Fee Instant Payments',
+    name: 'Plasma by Kyokan Secure Low Fee Instant ',
     slug: 'https://gitcoin.co/grants/55/plasma-by-kyokan-secure-low-fee-instant-payments',
     tx_cnt: 92,
     log_cnt: 1859,
     donation_cnt: 35,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000063000000000"
+  "balance": "0.000063000000"
 }
 
 ],
@@ -13046,7 +13046,7 @@ export const grantsData = [
     donation_cnt: 90,
     bals: [{
   "asset": "ETH",
-  "balance": "0.370875277480521"
+  "balance": "0.370875277481"
 }
 
 ],
@@ -13065,7 +13065,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "4.834501193391942"
+  "balance": "4.834501193392"
 }
 
 ],
@@ -13084,7 +13084,7 @@ export const grantsData = [
     donation_cnt: 11,
     bals: [{
   "asset": "ETH",
-  "balance": "0.097245356200000"
+  "balance": "0.097245356200"
 }
 
 ],
@@ -13103,7 +13103,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009055205129065"
+  "balance": "0.009055205129"
 }
 
 ],
@@ -13115,14 +13115,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 172,
     address: '0x947f8a49640b4770a8c7fe3c1e69ffc974295448',
-    name: 'Zeropool - Scaling Anonymous Transactions for Ethe',
+    name: 'Zeropool - Scaling Anonymous Transaction',
     slug: 'https://gitcoin.co/grants/172/zeropool-scaling-anonymous-transactions-for-ether',
     tx_cnt: 245,
     log_cnt: 4806,
     donation_cnt: 1639,
     bals: [{
   "asset": "ETH",
-  "balance": "7.599350620083586"
+  "balance": "7.599350620084"
 }
 
 ],
@@ -13141,7 +13141,7 @@ export const grantsData = [
     donation_cnt: 680,
     bals: [{
   "asset": "ETH",
-  "balance": "0.834725575871877"
+  "balance": "0.834725575872"
 }
 
 ],
@@ -13153,14 +13153,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 149,
     address: '0x9531c059098e3d194ff87febb587ab07b30b1306',
-    name: 'Rotki - the Portfolio Tracker and Accounting Tool ',
+    name: 'Rotki - the Portfolio Tracker and Accoun',
     slug: 'https://gitcoin.co/grants/149/rotki-the-portfolio-tracker-and-accounting-tool-t',
     tx_cnt: 691,
     log_cnt: 12255,
     donation_cnt: 5939,
     bals: [{
   "asset": "ETH",
-  "balance": "2.358689542408000"
+  "balance": "2.358689542408"
 }
 
 ],
@@ -13179,7 +13179,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13198,7 +13198,7 @@ export const grantsData = [
     donation_cnt: 71,
     bals: [{
   "asset": "ETH",
-  "balance": "1.832463271206909"
+  "balance": "1.832463271207"
 }
 
 ],
@@ -13217,7 +13217,7 @@ export const grantsData = [
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.494109007689117"
+  "balance": "0.494109007689"
 }
 
 ],
@@ -13236,7 +13236,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.656711614381298"
+  "balance": "3.656711614381"
 }
 
 ],
@@ -13255,7 +13255,7 @@ export const grantsData = [
     donation_cnt: 23,
     bals: [{
   "asset": "ETH",
-  "balance": "4.611338887861153"
+  "balance": "4.611338887861"
 }
 
 ],
@@ -13267,14 +13267,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 798,
     address: '0x9678d41b9d8fe4c3288de358f1eb179a38d09c33',
-    name: 'a Hitchhiker&#39;s Guide to Token Engineering',
+    name: 'a Hitchhiker&#39;s Guide to Token Engineerin',
     slug: 'https://gitcoin.co/grants/798/a-hitchhikers-guide-to-token-engineering',
     tx_cnt: 81,
     log_cnt: 3567,
     donation_cnt: 1426,
     bals: [{
   "asset": "ETH",
-  "balance": "0.684763652536714"
+  "balance": "0.684763652537"
 }
 
 ],
@@ -13293,7 +13293,7 @@ export const grantsData = [
     donation_cnt: 961,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001758194000000"
+  "balance": "0.001758194000"
 }
 
 ],
@@ -13305,14 +13305,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 307,
     address: '0x97103fda00a2b47eac669568063c00e65866a633',
-    name: 'lexDAO Standardize Legal Goods on Ethereum in 2020',
+    name: 'lexDAO Standardize Legal Goods on Ethere',
     slug: 'https://gitcoin.co/grants/307/lexdao-standardize-legal-goods-on-ethereum-in-2020',
     tx_cnt: 356,
     log_cnt: 2986,
     donation_cnt: 594,
     bals: [{
   "asset": "ETH",
-  "balance": "1.731191325545821"
+  "balance": "1.731191325546"
 }
 
 ],
@@ -13331,7 +13331,7 @@ export const grantsData = [
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "0.098767473829985"
+  "balance": "0.098767473830"
 }
 
 ],
@@ -13350,7 +13350,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13369,7 +13369,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13388,7 +13388,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13407,7 +13407,7 @@ export const grantsData = [
     donation_cnt: 590,
     bals: [{
   "asset": "ETH",
-  "balance": "2.814189260000000"
+  "balance": "2.814189260000"
 }
 
 ],
@@ -13419,14 +13419,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 832,
     address: '0x978e40d338221bae7fb5f39ac5ee843650f5e847',
-    name: 'Next Gen Blockchain and Ai Based Job Platform',
+    name: 'Next Gen Blockchain and Ai Based Job Pla',
     slug: 'https://gitcoin.co/grants/832/next-gen-blockchain-and-ai-based-job-platform',
     tx_cnt: 27,
     log_cnt: 70,
     donation_cnt: 25,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000824112000000"
+  "balance": "0.000824112000"
 }
 
 ],
@@ -13445,7 +13445,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13464,7 +13464,7 @@ export const grantsData = [
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "18.065933552891671"
+  "balance": "18.065933552892"
 }
 
 ],
@@ -13483,7 +13483,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.401803313238030"
+  "balance": "2.401803313238"
 }
 
 ],
@@ -13495,14 +13495,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 694,
     address: '0x98924152c0a85d97f2b7d4ce80504b10cc00dbc0',
-    name: 'Decentralised Supply Chain of 3d Printed Protectiv',
+    name: 'Decentralised Supply Chain of 3d Printed',
     slug: 'https://gitcoin.co/grants/694/decentralised-supply-chain-of-3d-printed-protecti',
     tx_cnt: 176,
     log_cnt: 1809,
     donation_cnt: 372,
     bals: [{
   "asset": "ETH",
-  "balance": "3.018238230831207"
+  "balance": "3.018238230831"
 }
 
 ],
@@ -13514,14 +13514,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1826,
     address: '0x98f21584006c79871f176f8d474958a69e04595b',
-    name: 'Token Attestation: Proof of Ownership in Eth',
+    name: 'Token Attestation: Proof of Ownership in',
     slug: 'https://gitcoin.co/grants/1826/token-attestation-proof-of-ownership-in-eth',
     tx_cnt: 220,
     log_cnt: 4056,
     donation_cnt: 201,
     bals: [{
   "asset": "ETH",
-  "balance": "0.451153538527035"
+  "balance": "0.451153538527"
 }
 
 ],
@@ -13540,7 +13540,7 @@ export const grantsData = [
     donation_cnt: 574,
     bals: [{
   "asset": "ETH",
-  "balance": "0.063245000000000"
+  "balance": "0.063245000000"
 }
 
 ],
@@ -13559,7 +13559,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004859183000000"
+  "balance": "0.004859183000"
 }
 
 ],
@@ -13578,7 +13578,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.214149753332895"
+  "balance": "0.214149753333"
 }
 
 ],
@@ -13597,7 +13597,7 @@ export const grantsData = [
     donation_cnt: 310,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003364330053203"
+  "balance": "0.003364330053"
 }
 
 ],
@@ -13609,14 +13609,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 229,
     address: '0x9a94ac82b17e67f7dff81912de68eb74ca20e6c3',
-    name: 'Curadai - a DeFi Based Stable Coin for Curaçao',
+    name: 'Curadai - a DeFi Based Stable Coin for C',
     slug: 'https://gitcoin.co/grants/229/curadai-a-defi-based-stable-coin-for-curacao',
     tx_cnt: 1499,
     log_cnt: 9712,
     donation_cnt: 1102,
     bals: [{
   "asset": "ETH",
-  "balance": "0.075987695255037"
+  "balance": "0.075987695255"
 }
 
 ],
@@ -13635,7 +13635,7 @@ export const grantsData = [
     donation_cnt: 1994,
     bals: [{
   "asset": "ETH",
-  "balance": "7.461283708376740"
+  "balance": "7.461283708377"
 }
 
 ],
@@ -13654,7 +13654,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13673,7 +13673,7 @@ export const grantsData = [
     donation_cnt: 5291,
     bals: [{
   "asset": "ETH",
-  "balance": "732.043651546169713"
+  "balance": "732.049351546170"
 }
 
 ],
@@ -13685,14 +13685,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 361,
     address: '0x9be21869873221cac1ba391a630b49d0d07a3e42',
-    name: 'Cryptomaniac- Crypto Blog with Media and Entertain',
+    name: 'Cryptomaniac- Crypto Blog with Media and',
     slug: 'https://gitcoin.co/grants/361/cryptomaniac-crypto-blog-with-media-and-entertain',
     tx_cnt: 841,
     log_cnt: 9905,
     donation_cnt: 165,
     bals: [{
   "asset": "ETH",
-  "balance": "0.105764358886778"
+  "balance": "0.105764358887"
 }
 
 ],
@@ -13711,7 +13711,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13730,7 +13730,7 @@ export const grantsData = [
     donation_cnt: 1809,
     bals: [{
   "asset": "ETH",
-  "balance": "2.098730113817805"
+  "balance": "2.098730113818"
 }
 
 ],
@@ -13749,7 +13749,7 @@ export const grantsData = [
     donation_cnt: 359,
     bals: [{
   "asset": "ETH",
-  "balance": "0.015945950000000"
+  "balance": "0.015945950000"
 }
 
 ],
@@ -13768,7 +13768,7 @@ export const grantsData = [
     donation_cnt: 20,
     bals: [{
   "asset": "ETH",
-  "balance": "18.123186562183260"
+  "balance": "18.123186562183"
 }
 
 ],
@@ -13780,14 +13780,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 643,
     address: '0x9d49416900c4fe2aafecdaad36ae4042cfbcdcce',
-    name: 'Help Food Bank Prepare for Increased Need',
+    name: 'Help Food Bank Prepare for Increased Nee',
     slug: 'https://gitcoin.co/grants/643/help-food-bank-prepare-for-increased-need',
     tx_cnt: 11,
     log_cnt: 78,
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.006363563300000"
+  "balance": "0.006363563300"
 }
 
 ],
@@ -13799,14 +13799,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 234,
     address: '0x9d4a1509da007ecb8b80d5eee9714cbe5b5b3167',
-    name: 'Decentralized Infrastructure Solutions (dis)',
+    name: 'Decentralized Infrastructure Solutions (',
     slug: 'https://gitcoin.co/grants/234/decentralized-infrastructure-solutions-dis',
     tx_cnt: 22,
     log_cnt: 465,
     donation_cnt: 131,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001450982105470"
+  "balance": "0.001450982105"
 }
 
 ],
@@ -13818,14 +13818,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 258,
     address: '0x9d4e94db689bc471e45b0a18b7bda36fccec9c3b',
-    name: 'Beaconcha.in - Open Source Eth2 Blockchain Explore',
+    name: 'Beaconcha.in - Open Source Eth2 Blockcha',
     slug: 'https://gitcoin.co/grants/258/beaconchain-open-source-eth2-blockchain-explorer',
     tx_cnt: 267,
     log_cnt: 6066,
     donation_cnt: 3169,
     bals: [{
   "asset": "ETH",
-  "balance": "5.313249368099994"
+  "balance": "5.318949368100"
 }
 
 ],
@@ -13844,7 +13844,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13863,7 +13863,7 @@ export const grantsData = [
     donation_cnt: 328,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010443608389326"
+  "balance": "0.010443608389"
 }
 
 ],
@@ -13882,7 +13882,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.351308457890341"
+  "balance": "0.351308457890"
 }
 
 ],
@@ -13901,7 +13901,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13920,7 +13920,7 @@ export const grantsData = [
     donation_cnt: 58,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -13939,7 +13939,7 @@ export const grantsData = [
     donation_cnt: 62,
     bals: [{
   "asset": "ETH",
-  "balance": "0.008459771656495"
+  "balance": "0.008459771656"
 }
 
 ],
@@ -13958,7 +13958,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.272039988833478"
+  "balance": "0.272039988833"
 }
 
 ],
@@ -13977,7 +13977,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.085193947343000"
+  "balance": "0.085193947343"
 }
 
 ],
@@ -13996,7 +13996,7 @@ export const grantsData = [
     donation_cnt: 262,
     bals: [{
   "asset": "ETH",
-  "balance": "0.230792234791501"
+  "balance": "0.230792234792"
 }
 
 ],
@@ -14015,7 +14015,7 @@ export const grantsData = [
     donation_cnt: 22,
     bals: [{
   "asset": "ETH",
-  "balance": "0.095374281271802"
+  "balance": "0.095374281272"
 }
 
 ],
@@ -14027,14 +14027,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 277,
     address: '0xa0527ba80d811cd45d452481caf902dfd6f5b8c2',
-    name: 'Commons Simulator: Reverse the Apocalypse with Eco',
+    name: 'Commons Simulator: Reverse the Apocalyps',
     slug: 'https://gitcoin.co/grants/277/commons-simulator-reverse-the-apocalypse-with-eco',
     tx_cnt: 608,
     log_cnt: 8097,
     donation_cnt: 2687,
     bals: [{
   "asset": "ETH",
-  "balance": "0.358378198494092"
+  "balance": "0.358378198494"
 }
 
 ],
@@ -14053,7 +14053,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.019450000000000"
+  "balance": "0.019450000000"
 }
 
 ],
@@ -14072,7 +14072,7 @@ export const grantsData = [
     donation_cnt: 15,
     bals: [{
   "asset": "ETH",
-  "balance": "0.557000000000000"
+  "balance": "0.557000000000"
 }
 
 ],
@@ -14091,7 +14091,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14103,14 +14103,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1948,
     address: '0xa0d52fb2d611360a5331b49857ad5c35db9a250e',
-    name: 'Deltatheta - P2p Options Trading Platform on Ether',
+    name: 'Deltatheta - P2p Options Trading Platfor',
     slug: 'https://gitcoin.co/grants/1948/deltatheta-p2p-options-trading-platform-on-ethere',
     tx_cnt: 89,
     log_cnt: 204,
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010640477323719"
+  "balance": "0.003609337324"
 }
 
 ],
@@ -14129,7 +14129,7 @@ export const grantsData = [
     donation_cnt: 353,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005747500000000"
+  "balance": "0.005747500000"
 }
 
 ],
@@ -14148,7 +14148,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14167,7 +14167,7 @@ export const grantsData = [
     donation_cnt: 152,
     bals: [{
   "asset": "ETH",
-  "balance": "0.067793306080682"
+  "balance": "0.067793306081"
 }
 
 ],
@@ -14186,7 +14186,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.433619467428617"
+  "balance": "0.433619467429"
 }
 
 ],
@@ -14205,7 +14205,7 @@ export const grantsData = [
     donation_cnt: 6246,
     bals: [{
   "asset": "ETH",
-  "balance": "2.252511875751336"
+  "balance": "2.252511875751"
 }
 
 ],
@@ -14224,7 +14224,7 @@ export const grantsData = [
     donation_cnt: 737,
     bals: [{
   "asset": "ETH",
-  "balance": "1.280024125820408"
+  "balance": "1.280024125820"
 }
 
 ],
@@ -14236,14 +14236,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 442,
     address: '0xa1b93b469e32309da9916368f7c20565807c784b',
-    name: 'the (still) Unnamed and (still) Inexistent Project',
+    name: 'the (still) Unnamed and (still) Inexiste',
     slug: 'https://gitcoin.co/grants/442/the-still-unnamed-and-still-inexistent-project',
     tx_cnt: 485,
     log_cnt: 4110,
     donation_cnt: 53,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14262,7 +14262,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14274,14 +14274,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 571,
     address: '0xa230a1c91c640da7a947c23a889a3bd68a171915',
-    name: 'Altcoin Author Crypto Podcast/newsletter - #ethism',
+    name: 'Altcoin Author Crypto Podcast/newsletter',
     slug: 'https://gitcoin.co/grants/571/altcoin-author-crypto-podcastnewsletter-ethismone',
     tx_cnt: 755,
     log_cnt: 2091,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14300,7 +14300,7 @@ export const grantsData = [
     donation_cnt: 47,
     bals: [{
   "asset": "ETH",
-  "balance": "0.023750000000000"
+  "balance": "0.023750000000"
 }
 
 ],
@@ -14312,14 +14312,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 501,
     address: '0xa290899f4464d0d3601787ccc1601e5326ad9290',
-    name: 'Covid-19 Tracker with Latest Updates & News Articl',
+    name: 'Covid-19 Tracker with Latest Updates & N',
     slug: 'https://gitcoin.co/grants/501/covid-19-tracker-with-latest-updates-news-article',
     tx_cnt: 12,
     log_cnt: 301,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.027883997835136"
+  "balance": "0.027883997835"
 }
 
 ],
@@ -14338,7 +14338,7 @@ export const grantsData = [
     donation_cnt: 952,
     bals: [{
   "asset": "ETH",
-  "balance": "3.559272072518023"
+  "balance": "3.581772072518"
 }
 
 ],
@@ -14357,7 +14357,7 @@ export const grantsData = [
     donation_cnt: 2847,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14376,7 +14376,7 @@ export const grantsData = [
     donation_cnt: 71,
     bals: [{
   "asset": "ETH",
-  "balance": "10.056382150769210"
+  "balance": "10.056382150769"
 }
 
 ],
@@ -14395,7 +14395,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.128317192807592"
+  "balance": "0.128317192808"
 }
 
 ],
@@ -14407,14 +14407,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1237,
     address: '0xa3eafad76d4b533ac2e7d7c11ca9c4b31accbbc6',
-    name: 'Zksync Powered Mobile Dapp to Make Faster and Lowe',
+    name: 'Zksync Powered Mobile Dapp to Make Faste',
     slug: 'https://gitcoin.co/grants/1237/zksync-powered-mobile-dapp-to-make-faster-and-low',
     tx_cnt: 33,
     log_cnt: 417,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14426,14 +14426,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1101,
     address: '0xa3f83326ce7bd51fb6fdfc3d1c7fa76dc9d52aee',
-    name: 'Archivenode.io - the Public Access Ethereum Archiv',
+    name: 'Archivenode.io - the Public Access Ether',
     slug: 'https://gitcoin.co/grants/1101/archivenodeio-the-public-access-ethereum-archive-',
     tx_cnt: 262,
     log_cnt: 6678,
     donation_cnt: 3448,
     bals: [{
   "asset": "ETH",
-  "balance": "2.894939083411846"
+  "balance": "2.894939083412"
 }
 
 ],
@@ -14445,14 +14445,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 266,
     address: '0xa424f049fb590de7eaa4900e5bce4c7834bdb950',
-    name: 'Unbu Chain - Fintech Property Investment Platform',
+    name: 'Unbu Chain - Fintech Property Investment',
     slug: 'https://gitcoin.co/grants/266/unbu-chain-fintech-property-investment-platform',
     tx_cnt: 60,
     log_cnt: 1618,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14471,7 +14471,7 @@ export const grantsData = [
     donation_cnt: 377,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14490,7 +14490,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14509,7 +14509,7 @@ export const grantsData = [
     donation_cnt: 624,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14528,7 +14528,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.104060068548982"
+  "balance": "0.097590818549"
 }
 
 ],
@@ -14547,7 +14547,7 @@ export const grantsData = [
     donation_cnt: 11,
     bals: [{
   "asset": "ETH",
-  "balance": "1.254077514923573"
+  "balance": "1.254077514924"
 }
 
 ],
@@ -14566,7 +14566,7 @@ export const grantsData = [
     donation_cnt: 5,
     bals: [{
   "asset": "ETH",
-  "balance": "1.358892468544202"
+  "balance": "1.358892468544"
 }
 
 ],
@@ -14578,14 +14578,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 778,
     address: '0xa603499e8a0ec43590a8870e0e201cda2c5de017',
-    name: 'Blockchain Research: Open-source Research for Ever',
+    name: 'Blockchain Research: Open-source Researc',
     slug: 'https://gitcoin.co/grants/778/blockchain-research-open-source-research-for-ever',
     tx_cnt: 264,
     log_cnt: 2078,
     donation_cnt: 417,
     bals: [{
   "asset": "ETH",
-  "balance": "0.034208228000000"
+  "balance": "0.034208228000"
 }
 
 ],
@@ -14604,7 +14604,7 @@ export const grantsData = [
     donation_cnt: 149,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000732167700000"
+  "balance": "0.000732167700"
 }
 
 ],
@@ -14623,7 +14623,7 @@ export const grantsData = [
     donation_cnt: 54,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003780864543796"
+  "balance": "0.003780864544"
 }
 
 ],
@@ -14642,7 +14642,7 @@ export const grantsData = [
     donation_cnt: 121,
     bals: [{
   "asset": "ETH",
-  "balance": "0.028591927393436"
+  "balance": "0.028591927393"
 }
 
 ],
@@ -14654,14 +14654,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 821,
     address: '0xa735cf11ed1228feb7c7bb18673a868455ffb16f',
-    name: 'Umbra Privacy Preserving Stealth Payments',
+    name: 'Umbra Privacy Preserving Stealth Payment',
     slug: 'https://gitcoin.co/grants/821/umbra-privacy-preserving-stealth-payments',
     tx_cnt: 138,
     log_cnt: 4707,
     donation_cnt: 2289,
     bals: [{
   "asset": "ETH",
-  "balance": "0.998530000093590"
+  "balance": "0.998530000094"
 }
 
 ],
@@ -14680,7 +14680,7 @@ export const grantsData = [
     donation_cnt: 4,
     bals: [{
   "asset": "ETH",
-  "balance": "0.196640000000000"
+  "balance": "0.196640000000"
 }
 
 ],
@@ -14699,7 +14699,7 @@ export const grantsData = [
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "1.106283128765549"
+  "balance": "1.106283128766"
 }
 
 ],
@@ -14718,7 +14718,7 @@ export const grantsData = [
     donation_cnt: 105,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14730,14 +14730,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 739,
     address: '0xa78edd98d7ab5caca5236fc3999d4ee9868795fe',
-    name: 'System of Autonomous Global Education — S.a.g.e.',
+    name: 'System of Autonomous Global Education �',
     slug: 'https://gitcoin.co/grants/739/system-of-autonomous-global-education-sage',
     tx_cnt: 23,
     log_cnt: 344,
     donation_cnt: 92,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14756,7 +14756,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14768,14 +14768,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 111,
     address: '0xa84944735b66e957fe385567dcc85975022fe68a',
-    name: 'Research Grant: Swarm Scraper for Verified Smart C',
+    name: 'Research Grant: Swarm Scraper for Verifi',
     slug: 'https://gitcoin.co/grants/111/research-grant-swarm-scraper-for-verified-smart-c',
     tx_cnt: 1801,
     log_cnt: 16068,
     donation_cnt: 162,
     bals: [{
   "asset": "ETH",
-  "balance": "0.118487921954837"
+  "balance": "0.118487921955"
 }
 
 ],
@@ -14794,7 +14794,7 @@ export const grantsData = [
     donation_cnt: 1,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004811425000000"
+  "balance": "0.004811425000"
 }
 
 ],
@@ -14813,7 +14813,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.121828470200000"
+  "balance": "1.121828470200"
 }
 
 ],
@@ -14832,7 +14832,7 @@ export const grantsData = [
     donation_cnt: 1,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14851,7 +14851,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.805204813956819"
+  "balance": "3.805204813957"
 }
 
 ],
@@ -14870,7 +14870,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.031508179570225"
+  "balance": "0.031508179570"
 }
 
 ],
@@ -14889,7 +14889,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -14908,7 +14908,7 @@ export const grantsData = [
     donation_cnt: 1127,
     bals: [{
   "asset": "ETH",
-  "balance": "0.260341500000000"
+  "balance": "0.260341500000"
 }
 
 ],
@@ -14927,7 +14927,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.015516964337055"
+  "balance": "0.015516964337"
 }
 
 ],
@@ -14939,14 +14939,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1156,
     address: '0xa9c0e12233dd98934e939be6481f133a84247ef3',
-    name: 'Skylive - Decentralized Live Streams & Videos',
+    name: 'Skylive - Decentralized Live Streams & V',
     slug: 'https://gitcoin.co/grants/1156/skylive-decentralized-live-streams-videos',
     tx_cnt: 19,
     log_cnt: 265,
     donation_cnt: 1,
     bals: [{
   "asset": "ETH",
-  "balance": "0.101832952000000"
+  "balance": "0.101832952000"
 }
 
 ],
@@ -14965,7 +14965,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001547288179536"
+  "balance": "0.001547288180"
 }
 
 ],
@@ -14984,7 +14984,7 @@ export const grantsData = [
     donation_cnt: 876,
     bals: [{
   "asset": "ETH",
-  "balance": "0.888294931029248"
+  "balance": "0.888294931029"
 }
 
 ],
@@ -14996,14 +14996,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 818,
     address: '0xabe26faee77419897090bc4c5a112d463443a662',
-    name: 'Metis Protocol: a Governance and Collaboration Imp',
+    name: 'Metis Protocol: a Governance and Collabo',
     slug: 'https://gitcoin.co/grants/818/metis-protocol-a-governance-and-collaboration-imp',
     tx_cnt: 25,
     log_cnt: 64,
     donation_cnt: 21,
     bals: [{
   "asset": "ETH",
-  "balance": "0.032931450434293"
+  "balance": "0.032931450434"
 }
 
 ],
@@ -15015,14 +15015,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 968,
     address: '0xabe47ec0e8c66d994c3b904d751392bc41742dbc',
-    name: 'Dshackle - Fault Tolerant Load Balancer for Ethere',
+    name: 'Dshackle - Fault Tolerant Load Balancer ',
     slug: 'https://gitcoin.co/grants/968/dshackle-fault-tolerant-load-balancer-for-ethereu',
     tx_cnt: 8,
     log_cnt: 287,
     donation_cnt: 81,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15041,7 +15041,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.624165085580804"
+  "balance": "5.624165085581"
 }
 
 ],
@@ -15053,14 +15053,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 960,
     address: '0xac24b63cce0ab5519434e7e6e68889221eb17000',
-    name: 'Black Coding School - Empowering Communities with ',
+    name: 'Black Coding School - Empowering Communi',
     slug: 'https://gitcoin.co/grants/960/black-coding-school-empowering-communities-with-c',
     tx_cnt: 18,
     log_cnt: 261,
     donation_cnt: 8,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15072,14 +15072,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 610,
     address: '0xac2a01c551401340e403dca79fb8b3e3f8d6d94a',
-    name: 'ParaSwap.io the fastest liquidity aggregator',
+    name: 'ParaSwap.io the fastest liquidity aggreg',
     slug: 'https://gitcoin.co/grants/610/paraswap',
     tx_cnt: 95,
     log_cnt: 1257,
     donation_cnt: 561,
     bals: [{
   "asset": "ETH",
-  "balance": "0.161614668550949"
+  "balance": "0.161614668551"
 }
 
 ],
@@ -15098,7 +15098,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.979877763033744"
+  "balance": "0.979877763034"
 }
 
 ],
@@ -15110,14 +15110,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 707,
     address: '0xacc36834243b41aa0a67b428ce180fa1867f3e94',
-    name: 'Open Source Mechanical Ventilator: Handy Vent',
+    name: 'Open Source Mechanical Ventilator: Handy',
     slug: 'https://gitcoin.co/grants/707/open-source-mechanical-ventilator-handy-vent',
     tx_cnt: 17,
     log_cnt: 63,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15136,7 +15136,7 @@ export const grantsData = [
     donation_cnt: 136,
     bals: [{
   "asset": "ETH",
-  "balance": "0.068473400000000"
+  "balance": "0.068473400000"
 }
 
 ],
@@ -15148,14 +15148,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1550,
     address: '0xae0ea7b59557335fd1c536e800aebcb107c79160',
-    name: 'За сёрфинг сайтов вы получа',
+    name: 'За сёрфинг сайтов вы п',
     slug: 'https://gitcoin.co/grants/1550/-6',
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15174,7 +15174,7 @@ export const grantsData = [
     donation_cnt: 9,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010018309000000"
+  "balance": "0.010018309000"
 }
 
 ],
@@ -15186,14 +15186,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1833,
     address: '0xae91cb00c413a8d6089ba0bc8bf66fba47a912ea',
-    name: 'Shaka Places - If Tripadvisor & Instagram Had a Cr',
+    name: 'Shaka Places - If Tripadvisor & Instagra',
     slug: 'https://gitcoin.co/grants/1833/shaka-places-if-tripadvisor-instagram-had-a-crypt',
     tx_cnt: 174,
     log_cnt: 1034,
     donation_cnt: 3,
     bals: [{
   "asset": "ETH",
-  "balance": "0.266441198461835"
+  "balance": "0.266441198462"
 }
 
 ],
@@ -15212,7 +15212,7 @@ export const grantsData = [
     donation_cnt: 25,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005344739000000"
+  "balance": "0.005344739000"
 }
 
 ],
@@ -15231,7 +15231,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15250,7 +15250,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001185000000000"
+  "balance": "0.001185000000"
 }
 
 ],
@@ -15269,7 +15269,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15288,7 +15288,7 @@ export const grantsData = [
     donation_cnt: 1056,
     bals: [{
   "asset": "ETH",
-  "balance": "0.454323382000000"
+  "balance": "0.454323382000"
 }
 
 ],
@@ -15307,7 +15307,7 @@ export const grantsData = [
     donation_cnt: 12,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15326,7 +15326,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15345,7 +15345,7 @@ export const grantsData = [
     donation_cnt: 1154,
     bals: [{
   "asset": "ETH",
-  "balance": "0.256518987373373"
+  "balance": "0.256518987373"
 }
 
 ],
@@ -15364,7 +15364,7 @@ export const grantsData = [
     donation_cnt: 461,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15383,7 +15383,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000021000000000"
+  "balance": "0.000021000000"
 }
 
 ],
@@ -15402,7 +15402,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012504555000000"
+  "balance": "0.012504555000"
 }
 
 ],
@@ -15414,14 +15414,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1096,
     address: '0xb101f7893738e34e5333ba1e385ebe6cd65bf1ef',
-    name: 'Pareto Network - Financial Content Marketplace',
+    name: 'Pareto Network - Financial Content Marke',
     slug: 'https://gitcoin.co/grants/1096/pareto-network-financial-content-marketplace',
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15440,7 +15440,7 @@ export const grantsData = [
     donation_cnt: 652,
     bals: [{
   "asset": "ETH",
-  "balance": "47.901423519253903"
+  "balance": "47.901423519254"
 }
 
 ],
@@ -15459,7 +15459,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15478,7 +15478,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15497,7 +15497,7 @@ export const grantsData = [
     donation_cnt: 64,
     bals: [{
   "asset": "ETH",
-  "balance": "0.104000000000000"
+  "balance": "0.104000000000"
 }
 
 ],
@@ -15509,14 +15509,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 401,
     address: '0xb1b6e377aa6ec6928a1d499ae58483b2b99658ec',
-    name: 'Solui - Generate Dapps for Smart Contracts',
+    name: 'Solui - Generate Dapps for Smart Contrac',
     slug: 'https://gitcoin.co/grants/401/solui-generate-dapps-for-smart-contracts',
     tx_cnt: 270,
     log_cnt: 1561,
     donation_cnt: 28,
     bals: [{
   "asset": "ETH",
-  "balance": "0.413580619073887"
+  "balance": "0.413580619074"
 }
 
 ],
@@ -15535,7 +15535,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15554,7 +15554,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "12.248676607966797"
+  "balance": "12.248676607967"
 }
 
 ],
@@ -15566,14 +15566,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 73,
     address: '0xb1f6ddaafce638c21a56b0b2216e796ec9ca428e',
-    name: 'Poa Network Community Management Grant for Aly',
+    name: 'Poa Network Community Management Grant f',
     slug: 'https://gitcoin.co/grants/73/poa-network-community-management-grant-for-aly',
     tx_cnt: 12,
     log_cnt: 10,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15585,14 +15585,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1700,
     address: '0xb202fdfcbc6ac0d844194b06d58d961baf9030e7',
-    name: 'Developing the Certified Ethereum Professional Exa',
+    name: 'Developing the Certified Ethereum Profes',
     slug: 'https://gitcoin.co/grants/1700/developing-the-certified-ethereum-professional-ex',
     tx_cnt: 87,
     log_cnt: 1294,
     donation_cnt: 592,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15611,7 +15611,7 @@ export const grantsData = [
     donation_cnt: 245,
     bals: [{
   "asset": "ETH",
-  "balance": "0.021170147204082"
+  "balance": "0.021170147204"
 }
 
 ],
@@ -15630,7 +15630,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15649,7 +15649,7 @@ export const grantsData = [
     donation_cnt: 757,
     bals: [{
   "asset": "ETH",
-  "balance": "2.571416061152883"
+  "balance": "2.571416061153"
 }
 
 ],
@@ -15668,7 +15668,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15687,7 +15687,7 @@ export const grantsData = [
     donation_cnt: 1096,
     bals: [{
   "asset": "ETH",
-  "balance": "0.084839500000000"
+  "balance": "0.084839500000"
 }
 
 ],
@@ -15706,7 +15706,7 @@ export const grantsData = [
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.079000000000000"
+  "balance": "0.079000000000"
 }
 
 ],
@@ -15725,7 +15725,7 @@ export const grantsData = [
     donation_cnt: 18,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -15744,7 +15744,7 @@ export const grantsData = [
     donation_cnt: 50,
     bals: [{
   "asset": "ETH",
-  "balance": "0.212394835955899"
+  "balance": "0.212394835956"
 }
 
 ],
@@ -15763,7 +15763,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.211031660000000"
+  "balance": "0.211031660000"
 }
 
 ],
@@ -15782,7 +15782,7 @@ export const grantsData = [
     donation_cnt: 37,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000542427000000"
+  "balance": "0.000542427000"
 }
 
 ],
@@ -15794,14 +15794,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 796,
     address: '0xb50685c25485ca8c520f5286bbbf1d3f216d6989',
-    name: 'Instcrypt - Meta Transaction or Gas Less Wallet',
+    name: 'Instcrypt - Meta Transaction or Gas Less',
     slug: 'https://gitcoin.co/grants/796/instcrypt-meta-transaction-or-gas-less-wallet',
     tx_cnt: 156,
     log_cnt: 1099,
     donation_cnt: 21,
     bals: [{
   "asset": "ETH",
-  "balance": "0.259052163444296"
+  "balance": "0.259052163444"
 }
 
 ],
@@ -15820,7 +15820,7 @@ export const grantsData = [
     donation_cnt: 1208,
     bals: [{
   "asset": "ETH",
-  "balance": "0.372646713485210"
+  "balance": "0.372646713485"
 }
 
 ],
@@ -15832,14 +15832,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 72,
     address: '0xb5e48595afb989ddbc97763cd516ae3a983a3e36',
-    name: 'Poa Network Community Management Grant for Khizer',
+    name: 'Poa Network Community Management Grant f',
     slug: 'https://gitcoin.co/grants/72/poa-network-community-management-grant-for-khizer',
     tx_cnt: 16,
     log_cnt: 242,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "9.725918414670108"
+  "balance": "9.725918414670"
 }
 
 ],
@@ -15851,14 +15851,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1250,
     address: '0xb61a98a0e542dcea1da7c44c2e8017373b95d350',
-    name: 'Borderless Basic Income -- Decentralized Ubi and D',
+    name: 'Borderless Basic Income -- Decentralized',
     slug: 'https://gitcoin.co/grants/1250/borderless-basic-income-decentralized-ubi-and-dis',
     tx_cnt: 24,
     log_cnt: 489,
     donation_cnt: 155,
     bals: [{
   "asset": "ETH",
-  "balance": "0.358500000000000"
+  "balance": "0.358500000000"
 }
 
 ],
@@ -15877,7 +15877,7 @@ export const grantsData = [
     donation_cnt: 159,
     bals: [{
   "asset": "ETH",
-  "balance": "0.675657664600721"
+  "balance": "0.675657664601"
 }
 
 ],
@@ -15896,7 +15896,7 @@ export const grantsData = [
     donation_cnt: 677,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005787254000000"
+  "balance": "0.005787254000"
 }
 
 ],
@@ -15915,7 +15915,7 @@ export const grantsData = [
     donation_cnt: 443,
     bals: [{
   "asset": "ETH",
-  "balance": "9.147960484452854"
+  "balance": "9.147960484453"
 }
 
 ],
@@ -15934,7 +15934,7 @@ export const grantsData = [
     donation_cnt: 555,
     bals: [{
   "asset": "ETH",
-  "balance": "0.066734160462867"
+  "balance": "0.066734160463"
 }
 
 ],
@@ -15953,7 +15953,7 @@ export const grantsData = [
     donation_cnt: 158,
     bals: [{
   "asset": "ETH",
-  "balance": "0.105700000000000"
+  "balance": "0.105700000000"
 }
 
 ],
@@ -15972,7 +15972,7 @@ export const grantsData = [
     donation_cnt: 733,
     bals: [{
   "asset": "ETH",
-  "balance": "0.314150626483897"
+  "balance": "0.314150626484"
 }
 
 ],
@@ -15991,7 +15991,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16010,7 +16010,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000229136265023"
+  "balance": "0.000229136265"
 }
 
 ],
@@ -16029,7 +16029,7 @@ export const grantsData = [
     donation_cnt: 44,
     bals: [{
   "asset": "ETH",
-  "balance": "1.089246325646534"
+  "balance": "1.089246325647"
 }
 
 ],
@@ -16048,7 +16048,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004000000000000"
+  "balance": "0.004000000000"
 }
 
 ],
@@ -16067,7 +16067,7 @@ export const grantsData = [
     donation_cnt: 125,
     bals: [{
   "asset": "ETH",
-  "balance": "10.270799318002194"
+  "balance": "10.270799318002"
 }
 
 ],
@@ -16079,14 +16079,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1150,
     address: '0xb6bccce9cfe99d4b593aba72f3a36028d1ade4c5',
-    name: 'Educational DeFi Content | Amadeo Brands - on DeFi',
+    name: 'Educational DeFi Content | Amadeo Brands',
     slug: 'https://gitcoin.co/grants/1150/educational-defi-content-amadeo-brands-on-defi',
     tx_cnt: 35,
     log_cnt: 70,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000180000000000"
+  "balance": "0.000180000000"
 }
 
 ],
@@ -16098,14 +16098,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1266,
     address: '0xb6f7c2a6eefb0d627d149d7263152ad4548120f2',
-    name: 'the Giving Block - Making Crypto Donations Easy',
+    name: 'the Giving Block - Making Crypto Donatio',
     slug: 'https://gitcoin.co/grants/1266/the-giving-block-making-crypto-donations-easy',
     tx_cnt: 109,
     log_cnt: 2952,
     donation_cnt: 266,
     bals: [{
   "asset": "ETH",
-  "balance": "0.463916050718982"
+  "balance": "0.458674050719"
 }
 
 ],
@@ -16117,14 +16117,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 977,
     address: '0xb6f947eed973bc0072bd0fbe2c44594f8d62b332',
-    name: 'Teaching South Africans to Better Themselves',
+    name: 'Teaching South Africans to Better Themse',
     slug: 'https://gitcoin.co/grants/977/teaching-south-africans-to-better-themselves',
     tx_cnt: 3,
     log_cnt: 9,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000283144000000"
+  "balance": "0.000283144000"
 }
 
 ],
@@ -16136,14 +16136,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 62,
     address: '0xb7745bde70e429bbd5eb57dfa5ca70b84239477a',
-    name: 'General Contributions to Python Ecosystem of Ether',
+    name: 'General Contributions to Python Ecosyste',
     slug: 'https://gitcoin.co/grants/62/general-contributions-to-python-ecosystem-of-ethe',
     tx_cnt: 92,
     log_cnt: 751,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002687334759262"
+  "balance": "0.002687334759"
 }
 
 ],
@@ -16162,7 +16162,7 @@ export const grantsData = [
     donation_cnt: 11,
     bals: [{
   "asset": "ETH",
-  "balance": "3.957553500000000"
+  "balance": "3.957553500000"
 }
 
 ],
@@ -16174,14 +16174,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 17,
     address: '0xb7b2199af38d3390b0e4a352018e3939d332cfe9',
-    name: 'Implement Support for Asyncio Using Web3.py',
+    name: 'Implement Support for Asyncio Using Web3',
     slug: 'https://gitcoin.co/grants/17/implement-support-for-asyncio-using-web3py',
     tx_cnt: 148,
     log_cnt: 2315,
     donation_cnt: 231,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16200,7 +16200,7 @@ export const grantsData = [
     donation_cnt: 2,
     bals: [{
   "asset": "ETH",
-  "balance": "0.846895726075206"
+  "balance": "0.846895726075"
 }
 
 ],
@@ -16219,7 +16219,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16238,7 +16238,7 @@ export const grantsData = [
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001502737646886"
+  "balance": "0.001502737647"
 }
 
 ],
@@ -16257,7 +16257,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16276,7 +16276,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16288,14 +16288,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 816,
     address: '0xba0fee8490118fc4f46bd0974d7bf93d0e2f1064',
-    name: 'Grassroots Economics Cic Support - Kenya & Beyond ',
+    name: 'Grassroots Economics Cic Support - Kenya',
     slug: 'https://gitcoin.co/grants/816/grassroots-economics-cic-support-kenya-beyond-pan',
     tx_cnt: 136,
     log_cnt: 2837,
     donation_cnt: 1148,
     bals: [{
   "asset": "ETH",
-  "balance": "0.396166592928896"
+  "balance": "0.396166592929"
 }
 
 ],
@@ -16314,7 +16314,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16326,14 +16326,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 413,
     address: '0xbadcddea250f1e317ba59999232464933c4e8d90',
-    name: 'Fusion - Open Source Iconset for the Cryptospace',
+    name: 'Fusion - Open Source Iconset for the Cry',
     slug: 'https://gitcoin.co/grants/413/fusion-open-source-iconset-for-the-cryptospace',
     tx_cnt: 73,
     log_cnt: 1615,
     donation_cnt: 590,
     bals: [{
   "asset": "ETH",
-  "balance": "0.204841109630274"
+  "balance": "0.204841109630"
 }
 
 ],
@@ -16352,7 +16352,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.028658193258190"
+  "balance": "0.028658193258"
 }
 
 ],
@@ -16371,7 +16371,7 @@ export const grantsData = [
     donation_cnt: 351,
     bals: [{
   "asset": "ETH",
-  "balance": "0.155429046000000"
+  "balance": "0.155429046000"
 }
 
 ],
@@ -16390,7 +16390,7 @@ export const grantsData = [
     donation_cnt: 1517,
     bals: [{
   "asset": "ETH",
-  "balance": "0.500000000000000"
+  "balance": "0.500000000000"
 }
 
 ],
@@ -16409,7 +16409,7 @@ export const grantsData = [
     donation_cnt: 3013,
     bals: [{
   "asset": "ETH",
-  "balance": "0.045910127250324"
+  "balance": "0.045910127250"
 }
 
 ],
@@ -16428,7 +16428,7 @@ export const grantsData = [
     donation_cnt: 74,
     bals: [{
   "asset": "ETH",
-  "balance": "0.080462013025621"
+  "balance": "0.080462013026"
 }
 
 ],
@@ -16447,7 +16447,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16466,7 +16466,7 @@ export const grantsData = [
     donation_cnt: 4871,
     bals: [{
   "asset": "ETH",
-  "balance": "38.574369783672118"
+  "balance": "38.574369783672"
 }
 
 ],
@@ -16478,14 +16478,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 379,
     address: '0xbc2138f76db98af69c8c9d5c365263dca32f5e63',
-    name: 'Anti-phishing Browser Plugin | Phishfort Protect',
+    name: 'Anti-phishing Browser Plugin | Phishfort',
     slug: 'https://gitcoin.co/grants/379/anti-phishing-browser-plugin-phishfort-protect',
     tx_cnt: 22,
     log_cnt: 336,
     donation_cnt: 44,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007600000000000"
+  "balance": "0.007600000000"
 }
 
 ],
@@ -16504,7 +16504,7 @@ export const grantsData = [
     donation_cnt: 365,
     bals: [{
   "asset": "ETH",
-  "balance": "0.122394464350163"
+  "balance": "0.122394464350"
 }
 
 ],
@@ -16516,14 +16516,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 420,
     address: '0xbc5d1e83b6e36391e5902fcfd5f44c4e786cf618',
-    name: 'S33d Grant - Circle Six: &#39;sm(art) Weavers&#39; Grow a ',
+    name: 'S33d Grant - Circle Six: &#39;sm(art) Weaver',
     slug: 'https://gitcoin.co/grants/420/s33d-grant-circle-six-smart-weavers-grow-a-librar',
     tx_cnt: 163,
     log_cnt: 1548,
     donation_cnt: 40,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16535,14 +16535,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 383,
     address: '0xbc5ec594509ed050f4a53eee85d92af6d2529b56',
-    name: 'Activitywatch - Open-source Automated Time-tracker',
+    name: 'Activitywatch - Open-source Automated Ti',
     slug: 'https://gitcoin.co/grants/383/activitywatch-open-source-automated-time-tracker',
     tx_cnt: 68,
     log_cnt: 1276,
     donation_cnt: 216,
     bals: [{
   "asset": "ETH",
-  "balance": "7.345310629329391"
+  "balance": "7.345310629329"
 }
 
 ],
@@ -16554,14 +16554,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 96,
     address: '0xbca89cfff5cfe1313ac392ddf922eeefa2024b54',
-    name: 'Grinswap - Cross Chain Atomic Swaps with Grin',
+    name: 'Grinswap - Cross Chain Atomic Swaps with',
     slug: 'https://gitcoin.co/grants/96/grinswap-cross-chain-atomic-swaps-with-grin',
     tx_cnt: 39,
     log_cnt: 382,
     donation_cnt: 19,
     bals: [{
   "asset": "ETH",
-  "balance": "0.193368132625000"
+  "balance": "0.193368132625"
 }
 
 ],
@@ -16580,7 +16580,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.890907756100557"
+  "balance": "1.890907756101"
 }
 
 ],
@@ -16592,14 +16592,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 308,
     address: '0xbcd768c566143714309afe87feb901da7543f470',
-    name: 'Cadcad: Computer Aided Design for Complex Systems',
+    name: 'Cadcad: Computer Aided Design for Comple',
     slug: 'https://gitcoin.co/grants/308/cadcad-computer-aided-design-for-complex-systems',
     tx_cnt: 137,
     log_cnt: 5213,
     donation_cnt: 2265,
     bals: [{
   "asset": "ETH",
-  "balance": "2.250814654081633"
+  "balance": "2.250814654082"
 }
 
 ],
@@ -16618,7 +16618,7 @@ export const grantsData = [
     donation_cnt: 1043,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012782262153210"
+  "balance": "0.012782262153"
 }
 
 ],
@@ -16637,7 +16637,7 @@ export const grantsData = [
     donation_cnt: 55,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002850000000000"
+  "balance": "0.002850000000"
 }
 
 ],
@@ -16656,7 +16656,7 @@ export const grantsData = [
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.801934622458092"
+  "balance": "0.801934622458"
 }
 
 ],
@@ -16671,11 +16671,11 @@ export const grantsData = [
     name: 'Public Health Incentives Layer App',
     slug: 'https://gitcoin.co/grants/118/public-health-incentives-layer-app',
     tx_cnt: 148,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005637773900974"
+  "balance": "0.005637773901"
 }
 
 ],
@@ -16690,11 +16690,11 @@ export const grantsData = [
     name: 'Enzypt.io',
     slug: 'https://gitcoin.co/grants/256/enzyptio',
     tx_cnt: 522,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004270346829278"
+  "balance": "0.004270346829"
 }
 
 ],
@@ -16709,11 +16709,11 @@ export const grantsData = [
     name: 'Valiu - Valibre',
     slug: 'https://gitcoin.co/grants/446/valiu-valibre',
     tx_cnt: 65,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009546369800000"
+  "balance": "0.009546369800"
 }
 
 ],
@@ -16728,11 +16728,11 @@ export const grantsData = [
     name: 'Validity',
     slug: 'https://gitcoin.co/grants/186/validity',
     tx_cnt: 481,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16747,11 +16747,11 @@ export const grantsData = [
     name: 'Bloom Finance',
     slug: 'https://gitcoin.co/grants/771/bloom-finance',
     tx_cnt: 406,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.920998396336527"
+  "balance": "0.935248396337"
 }
 
 ],
@@ -16766,11 +16766,11 @@ export const grantsData = [
     name: 'Itu Blockchain',
     slug: 'https://gitcoin.co/grants/1970/itu-blockchain',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16785,11 +16785,11 @@ export const grantsData = [
     name: 'Ethereum Jesus&#39; Events',
     slug: 'https://gitcoin.co/grants/405/ethereum-jesus-events',
     tx_cnt: 73,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16801,14 +16801,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1853,
     address: '0xc00dfb9ae0c76e203e4a3b02558704a059ae9681',
-    name: 'Abridged is a Platform for Rapid Web 3 Development',
+    name: 'Abridged is a Platform for Rapid Web 3 D',
     slug: 'https://gitcoin.co/grants/1853/abridged-is-a-platform-for-rapid-web-3-developmen',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004750000000000"
+  "balance": "0.004750000000"
 }
 
 ],
@@ -16820,14 +16820,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1508,
     address: '0xc018272800c4a989bddb0d3437be912443bf9737',
-    name: 'Spreading Crypto Education Through Books in Less A',
+    name: 'Spreading Crypto Education Through Books',
     slug: 'https://gitcoin.co/grants/1508/spreading-crypto-education-through-books-in-less-',
     tx_cnt: 119,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.802577737333650"
+  "balance": "0.802577737334"
 }
 
 ],
@@ -16842,11 +16842,11 @@ export const grantsData = [
     name: 'Banklessru',
     slug: 'https://gitcoin.co/grants/1614/banklessru',
     tx_cnt: 66,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.642987249805803"
+  "balance": "0.642987249806"
 }
 
 ],
@@ -16861,11 +16861,11 @@ export const grantsData = [
     name: 'Notestream',
     slug: 'https://gitcoin.co/grants/733/notestream',
     tx_cnt: 8,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010000000000000"
+  "balance": "0.010000000000"
 }
 
 ],
@@ -16880,11 +16880,11 @@ export const grantsData = [
     name: 'Arbitrage Website',
     slug: 'https://gitcoin.co/grants/1418/arbitrage-website',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16899,11 +16899,11 @@ export const grantsData = [
     name: 'Likecoin - Republic of Liker Land',
     slug: 'https://gitcoin.co/grants/634/likecoin-republic-of-liker-land',
     tx_cnt: 708,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.014545000000000"
+  "balance": "0.014545000000"
 }
 
 ],
@@ -16918,11 +16918,11 @@ export const grantsData = [
     name: 'Pandemic Pods & Distance Learning',
     slug: 'https://gitcoin.co/grants/1424/pandemic-pods-distance-learning',
     tx_cnt: 131,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.501174402220468"
+  "balance": "0.501174402220"
 }
 
 ],
@@ -16937,11 +16937,11 @@ export const grantsData = [
     name: 'Xangle',
     slug: 'https://gitcoin.co/grants/1138/xangle',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -16956,11 +16956,11 @@ export const grantsData = [
     name: 'Ysoy Farm',
     slug: 'https://gitcoin.co/grants/1755/ysoy-farm',
     tx_cnt: 1585,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002405672000000"
+  "balance": "0.002405672000"
 }
 
 ],
@@ -16975,11 +16975,11 @@ export const grantsData = [
     name: 'Boost Blocks by Broke',
     slug: 'https://gitcoin.co/grants/1331/boost-blocks-by-broke',
     tx_cnt: 7,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.007895706566080"
+  "balance": "0.007895706566"
 }
 
 ],
@@ -16994,11 +16994,11 @@ export const grantsData = [
     name: 'Bullionschain',
     slug: 'https://gitcoin.co/grants/1232/bullionschain',
     tx_cnt: 122,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.009930181943009"
+  "balance": "0.009930181943"
 }
 
 ],
@@ -17013,11 +17013,11 @@ export const grantsData = [
     name: 'Gitcoin Champions Program',
     slug: 'https://gitcoin.co/grants/1642/gitcoin-champions-program',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17032,11 +17032,11 @@ export const grantsData = [
     name: 'Education Crypto',
     slug: 'https://gitcoin.co/grants/1934/education-crypto',
     tx_cnt: 10,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.015211370000000"
+  "balance": "0.015211370000"
 }
 
 ],
@@ -17051,11 +17051,11 @@ export const grantsData = [
     name: 'Eip-1559 Community Fund',
     slug: 'https://gitcoin.co/grants/946/eip-1559-community-fund',
     tx_cnt: 558,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "86.474187830802833"
+  "balance": "86.474187830803"
 }
 
 ],
@@ -17067,14 +17067,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 761,
     address: '0xc2f050158910fae078a7e10b7b09e021fb217769',
-    name: 'Downtown Stimulus Quadratic Funding for COVID econ',
+    name: 'Downtown Stimulus Quadratic Funding for ',
     slug: 'https://gitcoin.co/grants/761/downtown-stimulus-quadratic-funding-for-covid-eco',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17089,11 +17089,11 @@ export const grantsData = [
     name: 'Studydefi',
     slug: 'https://gitcoin.co/grants/851/studydefi',
     tx_cnt: 65,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17108,11 +17108,11 @@ export const grantsData = [
     name: 'Deep Work Staking Hackathon',
     slug: 'https://gitcoin.co/grants/427/deep-work-staking-hackathon',
     tx_cnt: 208,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.392343582176440"
+  "balance": "3.392343582176"
 }
 
 ],
@@ -17127,11 +17127,11 @@ export const grantsData = [
     name: 'Web3bridge',
     slug: 'https://gitcoin.co/grants/1183/web3bridge',
     tx_cnt: 153,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.341649333299779"
+  "balance": "0.341649333300"
 }
 
 ],
@@ -17146,11 +17146,11 @@ export const grantsData = [
     name: 'Connext Network',
     slug: 'https://gitcoin.co/grants/37/connext-network',
     tx_cnt: 208,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.033443805000000"
+  "balance": "0.033443805000"
 }
 
 ],
@@ -17165,11 +17165,11 @@ export const grantsData = [
     name: 'Graphite',
     slug: 'https://gitcoin.co/grants/722/graphite',
     tx_cnt: 9,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17184,11 +17184,11 @@ export const grantsData = [
     name: 'Yieldhero',
     slug: 'https://gitcoin.co/grants/931/yieldhero',
     tx_cnt: 403,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.344134654985357"
+  "balance": "5.344134654985"
 }
 
 ],
@@ -17203,11 +17203,11 @@ export const grantsData = [
     name: '&#39;3mily&#39; Royalties Sale Mvp',
     slug: 'https://gitcoin.co/grants/809/3mily-royalties-sale-mvp',
     tx_cnt: 533,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.405744232822326"
+  "balance": "3.405744232822"
 }
 
 ],
@@ -17222,11 +17222,11 @@ export const grantsData = [
     name: 'The',
     slug: 'https://gitcoin.co/grants/1907/the',
     tx_cnt: 1,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17241,11 +17241,11 @@ export const grantsData = [
     name: 'Token Allowance Checker',
     slug: 'https://gitcoin.co/grants/480/token-allowance-checker',
     tx_cnt: 202,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.411558251501716"
+  "balance": "3.411558251502"
 }
 
 ],
@@ -17260,11 +17260,11 @@ export const grantsData = [
     name: 'Alexcolum',
     slug: 'https://gitcoin.co/grants/1841/alexcolum',
     tx_cnt: 57,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001332829500000"
+  "balance": "0.001332829500"
 }
 
 ],
@@ -17276,14 +17276,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1695,
     address: '0xc4aff3f66183b2654fc9477a30446b856d28417c',
-    name: 'Vault74 - a Fast & Painless Decentralized Chat',
+    name: 'Vault74 - a Fast & Painless Decentralize',
     slug: 'https://gitcoin.co/grants/1695/vault74-a-fast-painless-decentralized-chat',
     tx_cnt: 11,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17295,14 +17295,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 858,
     address: '0xc4d9d1a93068d311ab18e988244123430eb4f1cd',
-    name: 'Ethereum for Environmental Intelligence 🔗🍃',
+    name: 'Ethereum for Environmental Intelligence ',
     slug: 'https://gitcoin.co/grants/858/ethereum-for-environmental-intelligence',
     tx_cnt: 1749,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "4.993832309522118"
+  "balance": "4.985580737447"
 }
 
 ],
@@ -17314,14 +17314,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 563,
     address: '0xc5b70ed619c54e3867499fce5cc9072047369cbb',
-    name: 'Smart Contracts for Non-blockchain Developers',
+    name: 'Smart Contracts for Non-blockchain Devel',
     slug: 'https://gitcoin.co/grants/563/smart-contracts-for-non-blockchain-developers',
     tx_cnt: 53,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.024922962448414"
+  "balance": "0.024922962448"
 }
 
 ],
@@ -17336,11 +17336,11 @@ export const grantsData = [
     name: 'Ethgang Records Crypto Art & Music Label',
     slug: 'https://gitcoin.co/grants/454/ethgang-records-crypto-art-music-label',
     tx_cnt: 1560,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.351831504516713"
+  "balance": "0.351831504517"
 }
 
 ],
@@ -17355,11 +17355,11 @@ export const grantsData = [
     name: 'Leapdao - Scaling for Decentralized Apps',
     slug: 'https://gitcoin.co/grants/66/leapdao-scaling-for-decentralized-apps',
     tx_cnt: 3351,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.011088993906739"
+  "balance": "0.011088993907"
 }
 
 ],
@@ -17371,14 +17371,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1965,
     address: '0xc5d66fe6b78088cdbbc09c90c1a191867c10276d',
-    name: 'Educating Others and Learning About Crypto',
+    name: 'Educating Others and Learning About Cryp',
     slug: 'https://gitcoin.co/grants/1965/educating-others-and-learning-about-crypto',
     tx_cnt: 6,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005071594739563"
+  "balance": "0.005071594740"
 }
 
 ],
@@ -17393,11 +17393,11 @@ export const grantsData = [
     name: 'KERNEL 🌱 : My Contributions',
     slug: 'https://gitcoin.co/grants/792/kernel-my-contributions',
     tx_cnt: 125,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.562672940791266"
+  "balance": "0.562672940791"
 }
 
 ],
@@ -17412,11 +17412,11 @@ export const grantsData = [
     name: 'DeFi Tutorials',
     slug: 'https://gitcoin.co/grants/144/defi-tutorials',
     tx_cnt: 1012,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.031286707054019"
+  "balance": "0.031286707054"
 }
 
 ],
@@ -17431,11 +17431,11 @@ export const grantsData = [
     name: 'KERNEL Block Ii [panvala League]',
     slug: 'https://gitcoin.co/grants/855/kernel-block-ii-panvala-league',
     tx_cnt: 550,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.026186610590659"
+  "balance": "0.026186610591"
 }
 
 ],
@@ -17450,11 +17450,11 @@ export const grantsData = [
     name: 'Brownie',
     slug: 'https://gitcoin.co/grants/888/brownie',
     tx_cnt: 96,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.061242387173723"
+  "balance": "2.061242387174"
 }
 
 ],
@@ -17469,11 +17469,11 @@ export const grantsData = [
     name: 'Kiwi Token Development',
     slug: 'https://gitcoin.co/grants/637/kiwi-token-development',
     tx_cnt: 3,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17488,11 +17488,11 @@ export const grantsData = [
     name: 'Almonit',
     slug: 'https://gitcoin.co/grants/515/almonit',
     tx_cnt: 60,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.262198376347446"
+  "balance": "0.262198376347"
 }
 
 ],
@@ -17507,11 +17507,11 @@ export const grantsData = [
     name: 'Givedirectly Covid-19 Response',
     slug: 'https://gitcoin.co/grants/561/givedirectly-covid-19-response',
     tx_cnt: 1091,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "6.368003513183608"
+  "balance": "6.368003513184"
 }
 
 ],
@@ -17526,11 +17526,11 @@ export const grantsData = [
     name: 'Kcoin',
     slug: 'https://gitcoin.co/grants/1704/kcoin',
     tx_cnt: 3,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17545,11 +17545,11 @@ export const grantsData = [
     name: 'Homeless',
     slug: 'https://gitcoin.co/grants/1745/homeless',
     tx_cnt: 10,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.077000000000000"
+  "balance": "0.077000000000"
 }
 
 ],
@@ -17564,11 +17564,11 @@ export const grantsData = [
     name: 'Content About Nfts by Theo Goodman',
     slug: 'https://gitcoin.co/grants/325/content-about-nfts-by-theo-goodman',
     tx_cnt: 412,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.460393548132470"
+  "balance": "3.460393548132"
 }
 
 ],
@@ -17583,11 +17583,11 @@ export const grantsData = [
     name: 'the Water Project',
     slug: 'https://gitcoin.co/grants/662/the-water-project',
     tx_cnt: 40,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.006000000000000"
+  "balance": "0.006000000000"
 }
 
 ],
@@ -17602,11 +17602,11 @@ export const grantsData = [
     name: 'Kickback',
     slug: 'https://gitcoin.co/grants/125/kickback',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17621,11 +17621,11 @@ export const grantsData = [
     name: 'White Hat Hacking',
     slug: 'https://gitcoin.co/grants/444/white-hat-hacking',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "42.513969578999998"
+  "balance": "42.513969579000"
 }
 
 ],
@@ -17640,11 +17640,11 @@ export const grantsData = [
     name: 'Krredit - DeFi Loans Without Collateral',
     slug: 'https://gitcoin.co/grants/952/krredit-defi-loans-without-collateral',
     tx_cnt: 315,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002471115974954"
+  "balance": "0.002471115975"
 }
 
 ],
@@ -17659,11 +17659,11 @@ export const grantsData = [
     name: 'Private Poker Clubs on Blockchain',
     slug: 'https://gitcoin.co/grants/1265/private-poker-clubs-on-blockchain',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17678,11 +17678,11 @@ export const grantsData = [
     name: 'Lighthouse: Ethereum 2.0 Client',
     slug: 'https://gitcoin.co/grants/25/lighthouse-ethereum-20-client',
     tx_cnt: 741,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.291973179048914"
+  "balance": "0.291973179049"
 }
 
 ],
@@ -17697,11 +17697,11 @@ export const grantsData = [
     name: 'Publisher Bot',
     slug: 'https://gitcoin.co/grants/719/publisher-bot',
     tx_cnt: 54,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.118664322924493"
+  "balance": "0.118664322924"
 }
 
 ],
@@ -17716,11 +17716,11 @@ export const grantsData = [
     name: 'Banq.link',
     slug: 'https://gitcoin.co/grants/320/banqlink',
     tx_cnt: 144,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "15.804075707362411"
+  "balance": "15.804075707362"
 }
 
 ],
@@ -17732,14 +17732,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 272,
     address: '0xca1d22a140d12b5e9d38b46f3f350cf469ba4fe7',
-    name: 'Blockshop - Washington Dc&#39;s Blockchain Incubator',
+    name: 'Blockshop - Washington Dc&#39;s Blockchain I',
     slug: 'https://gitcoin.co/grants/272/blockshop-washington-dcs-blockchain-incubator',
     tx_cnt: 17,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17754,11 +17754,11 @@ export const grantsData = [
     name: 'Zenbase',
     slug: 'https://gitcoin.co/grants/1629/zenbase',
     tx_cnt: 12,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.129433845260153"
+  "balance": "0.129433845260"
 }
 
 ],
@@ -17770,14 +17770,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1721,
     address: '0xca6b1952faf8ca391c68e520c4e874827289a232',
-    name: 'Crypto-analysis-cli | Datacrypto Analytics',
+    name: 'Crypto-analysis-cli | Datacrypto Analyti',
     slug: 'https://gitcoin.co/grants/1721/crypto-analysis-cli-datacrypto-analytics',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17792,11 +17792,11 @@ export const grantsData = [
     name: 'Bee',
     slug: 'https://gitcoin.co/grants/1961/bee',
     tx_cnt: 818,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002933591841394"
+  "balance": "0.002933591841"
 }
 
 ],
@@ -17811,11 +17811,11 @@ export const grantsData = [
     name: 'Hago Tech',
     slug: 'https://gitcoin.co/grants/1763/hago-tech',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17827,14 +17827,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 437,
     address: '0xcaee9399d02e1c2178d506029d6497de3c2febfb',
-    name: 'Unitimes-ethereum Developer Community Platform',
+    name: 'Unitimes-ethereum Developer Community Pl',
     slug: 'https://gitcoin.co/grants/437/unitimes-ethereum-developer-community-platform',
     tx_cnt: 80,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "45.887855260725175"
+  "balance": "45.887855260725"
 }
 
 ],
@@ -17849,11 +17849,11 @@ export const grantsData = [
     name: 'Crypton Network',
     slug: 'https://gitcoin.co/grants/1796/crypton-network',
     tx_cnt: 9,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17868,11 +17868,11 @@ export const grantsData = [
     name: 'Alef',
     slug: 'https://gitcoin.co/grants/803/alef',
     tx_cnt: 23,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.034642404000000"
+  "balance": "0.034642404000"
 }
 
 ],
@@ -17887,11 +17887,11 @@ export const grantsData = [
     name: 'Tokenlog - Token-weighted Backlogs',
     slug: 'https://gitcoin.co/grants/1666/tokenlog-token-weighted-backlogs',
     tx_cnt: 4,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -17906,11 +17906,11 @@ export const grantsData = [
     name: 'Walletconnect',
     slug: 'https://gitcoin.co/grants/275/walletconnect',
     tx_cnt: 770,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.351729277908158"
+  "balance": "0.351729277908"
 }
 
 ],
@@ -17925,11 +17925,11 @@ export const grantsData = [
     name: 'the Nepcoin',
     slug: 'https://gitcoin.co/grants/926/the-nepcoin',
     tx_cnt: 139,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004996141135155"
+  "balance": "0.004996141135"
 }
 
 ],
@@ -17941,14 +17941,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1565,
     address: '0xcc1e7bda08abdcf164e9d2e4f78aedb1d811593d',
-    name: 'Introducing Demystifi - Helping Traders Make Bette',
+    name: 'Introducing Demystifi - Helping Traders ',
     slug: 'https://gitcoin.co/grants/1565/introducing-demystifi-helping-traders-make-better',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013300000000000"
+  "balance": "0.013300000000"
 }
 
 ],
@@ -17960,14 +17960,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 711,
     address: '0xcc9354e76bc27bc846934d22df6e1efa77b6a80d',
-    name: 'Furucombo Build your own DeFi legos into one trans',
+    name: 'Furucombo Build your own DeFi legos into',
     slug: 'https://gitcoin.co/grants/711/furucombo',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.393294749748520"
+  "balance": "0.393294749749"
 }
 
 ],
@@ -17982,11 +17982,11 @@ export const grantsData = [
     name: 'Women of Crypto Art',
     slug: 'https://gitcoin.co/grants/1761/women-of-crypto-art',
     tx_cnt: 40,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.723496245000000"
+  "balance": "0.723496245000"
 }
 
 ],
@@ -17998,14 +17998,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1864,
     address: '0xccdb5a96c63885f4aa36d67de0eac7a10cb7de0c',
-    name: 'Sendacoin.to - a New Way to Share Your Crypto Curr',
+    name: 'Sendacoin.to - a New Way to Share Your C',
     slug: 'https://gitcoin.co/grants/1864/sendacointo-a-new-way-to-share-your-crypto-curren',
     tx_cnt: 10,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.886436393257913"
+  "balance": "0.886436393258"
 }
 
 ],
@@ -18020,11 +18020,11 @@ export const grantsData = [
     name: 'DeFisafe',
     slug: 'https://gitcoin.co/grants/1784/defisafe',
     tx_cnt: 4,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18039,11 +18039,11 @@ export const grantsData = [
     name: 'Solt - the Solidity Tool',
     slug: 'https://gitcoin.co/grants/1621/solt-the-solidity-tool',
     tx_cnt: 44,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.974813467411724"
+  "balance": "1.974813467412"
 }
 
 ],
@@ -18055,14 +18055,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 176,
     address: '0xcda84cc75ec5c92a5dacabc13241256beceef964',
-    name: 'Twigwam Rethereum Mod General Intelligence Relay S',
+    name: 'Twigwam Rethereum Mod General Intelligen',
     slug: 'GitCoin Website',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.532084285947637"
+  "balance": "0.532084285948"
 }
 
 ],
@@ -18077,11 +18077,11 @@ export const grantsData = [
     name: 'Knockturn Allee - Grin Payment Processor',
     slug: 'https://gitcoin.co/grants/97/knockturn-allee-grin-payment-processor',
     tx_cnt: 30,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18096,11 +18096,11 @@ export const grantsData = [
     name: 'Autonio',
     slug: 'https://gitcoin.co/grants/1566/autonio',
     tx_cnt: 8,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.086787795000000"
+  "balance": "0.086787795000"
 }
 
 ],
@@ -18112,14 +18112,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 35,
     address: '0xcea6435bd3463764f835da8fa8a26f6d4d72c3a9',
-    name: 'Blockscout Blockchain Explorer For Inspecting And',
+    name: 'Blockscout Blockchain Explorer For Inspe',
     slug: 'https://gitcoin.co/grants/35/blockscout-blockchain-explorer-for-inspecting-and',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18134,11 +18134,11 @@ export const grantsData = [
     name: 'DAO-governed Eips and Eth 2.0 Spec',
     slug: 'https://gitcoin.co/grants/843/dao-governed-eips-and-eth-20-spec',
     tx_cnt: 164,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.374967091691783"
+  "balance": "0.374967091692"
 }
 
 ],
@@ -18150,14 +18150,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 692,
     address: '0xcf037e5fd65ac94fb614b9644ef76bdba3231537',
-    name: 'Gert - Global Environmental Reserve Token',
+    name: 'Gert - Global Environmental Reserve Toke',
     slug: 'https://gitcoin.co/grants/692/gert-global-environmental-reserve-token',
     tx_cnt: 39,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18172,11 +18172,11 @@ export const grantsData = [
     name: 'Local.ly',
     slug: 'https://gitcoin.co/grants/487/locally',
     tx_cnt: 731,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18191,11 +18191,11 @@ export const grantsData = [
     name: 'the New Standard for Crypto Payments',
     slug: 'https://gitcoin.co/grants/1817/the-new-standard-for-crypto-payments',
     tx_cnt: 19,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.085884000000000"
+  "balance": "1.085884000000"
 }
 
 ],
@@ -18207,14 +18207,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 407,
     address: '0xcf82589d5bf9d27d959cfbb75ca43561a79d2be1',
-    name: 'Crypto Law Review - Student Article Prize',
+    name: 'Crypto Law Review - Student Article Priz',
     slug: 'https://gitcoin.co/grants/407/crypto-law-review-student-article-prize',
     tx_cnt: 303,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.054819576171666"
+  "balance": "0.054819576172"
 }
 
 ],
@@ -18229,11 +18229,11 @@ export const grantsData = [
     name: 'Eth2 Staking Guides by Coincashew',
     slug: 'https://gitcoin.co/grants/1653/eth2-staking-guides-by-coincashew',
     tx_cnt: 49,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.420826667770630"
+  "balance": "1.420826667771"
 }
 
 ],
@@ -18248,11 +18248,11 @@ export const grantsData = [
     name: 'Nym',
     slug: 'https://gitcoin.co/grants/373/nym',
     tx_cnt: 60,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.053764771000000"
+  "balance": "0.053764771000"
 }
 
 ],
@@ -18267,11 +18267,11 @@ export const grantsData = [
     name: 'Resource Network',
     slug: 'https://gitcoin.co/grants/1323/resource-network',
     tx_cnt: 1,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18286,11 +18286,11 @@ export const grantsData = [
     name: 'Jelly Swap - Cross-chain Atomic Swap',
     slug: 'https://gitcoin.co/grants/271/jelly-swap-cross-chain-atomic-swap',
     tx_cnt: 216,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.023034598834815"
+  "balance": "0.023034598835"
 }
 
 ],
@@ -18305,11 +18305,11 @@ export const grantsData = [
     name: 'Eth Gas.watch',
     slug: 'https://gitcoin.co/grants/1175/eth-gaswatch',
     tx_cnt: 55,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.357250726679468"
+  "balance": "0.357250726679"
 }
 
 ],
@@ -18324,11 +18324,11 @@ export const grantsData = [
     name: 'Talking Crypto with Gabriel',
     slug: 'https://gitcoin.co/grants/1264/talking-crypto-with-gabriel',
     tx_cnt: 549,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.767670063874223"
+  "balance": "1.790170063874"
 }
 
 ],
@@ -18340,14 +18340,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1463,
     address: '0xd07a386bf6952259626a260e4f546a75b2f56e95',
-    name: 'Handy Software (handybrowser & Handyminer)',
+    name: 'Handy Software (handybrowser & Handymine',
     slug: 'https://gitcoin.co/grants/1463/handy-software-handybrowser-handyminer',
     tx_cnt: 3,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18362,11 +18362,11 @@ export const grantsData = [
     name: 'Strain Nft',
     slug: 'https://gitcoin.co/grants/1630/strain-nft',
     tx_cnt: 170,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.375162317571860"
+  "balance": "5.375162317572"
 }
 
 ],
@@ -18381,11 +18381,11 @@ export const grantsData = [
     name: 'Microsponsors.io',
     slug: 'https://gitcoin.co/grants/604/microsponsorsio',
     tx_cnt: 144,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.038293454992662"
+  "balance": "0.038293454993"
 }
 
 ],
@@ -18400,11 +18400,11 @@ export const grantsData = [
     name: 'Future Bank is Lego Bank',
     slug: 'https://gitcoin.co/grants/451/future-bank-is-lego-bank',
     tx_cnt: 16,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18419,11 +18419,11 @@ export const grantsData = [
     name: 'Alphabond',
     slug: 'https://gitcoin.co/grants/1114/alphabond',
     tx_cnt: 9,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004568517000000"
+  "balance": "0.004568517000"
 }
 
 ],
@@ -18438,11 +18438,11 @@ export const grantsData = [
     name: 'Cipher Dogs Team',
     slug: 'https://gitcoin.co/grants/745/cipher-dogs-team',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.062962114127066"
+  "balance": "0.062962114127"
 }
 
 ],
@@ -18457,11 +18457,11 @@ export const grantsData = [
     name: 'Coronababies',
     slug: 'https://gitcoin.co/grants/598/coronababies',
     tx_cnt: 167,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.103450563553436"
+  "balance": "0.103450563553"
 }
 
 ],
@@ -18476,11 +18476,11 @@ export const grantsData = [
     name: '/r/ethstaker',
     slug: 'https://gitcoin.co/grants/1561/rethstaker',
     tx_cnt: 161,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "45.041708091924960"
+  "balance": "45.041708091925"
 }
 
 ],
@@ -18495,11 +18495,11 @@ export const grantsData = [
     name: 'Ethereum on Arm',
     slug: 'https://gitcoin.co/grants/384/ethereum-on-arm',
     tx_cnt: 325,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "10.144418120855786"
+  "balance": "10.144418120856"
 }
 
 ],
@@ -18514,11 +18514,11 @@ export const grantsData = [
     name: 'Q.E.D.',
     slug: 'https://gitcoin.co/grants/537/qed',
     tx_cnt: 35,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.074108052000000"
+  "balance": "0.074108052000"
 }
 
 ],
@@ -18530,14 +18530,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 646,
     address: '0xd1a8dd23e356b9fae27df5def9ea025a602ec81e',
-    name: 'Gitcoin/blockchain Developer Grant - @codignsh',
+    name: 'Gitcoin/blockchain Developer Grant - @co',
     slug: 'https://gitcoin.co/grants/646/gitcoinblockchain-developer-grant-codignsh',
     tx_cnt: 1026,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.053152717052889"
+  "balance": "0.053152717053"
 }
 
 ],
@@ -18552,11 +18552,11 @@ export const grantsData = [
     name: 'Beyondnft',
     slug: 'https://gitcoin.co/grants/1530/beyondnft',
     tx_cnt: 1225,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.389348665077421"
+  "balance": "0.389443665077"
 }
 
 ],
@@ -18571,11 +18571,11 @@ export const grantsData = [
     name: 'Raid Guild',
     slug: 'https://gitcoin.co/grants/304/raid-guild',
     tx_cnt: 240,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.180500000000000"
+  "balance": "0.180500000000"
 }
 
 ],
@@ -18587,14 +18587,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1428,
     address: '0xd25a803e24ffd3c0033547be04d8c43ffba7486b',
-    name: 'Handshake Development Fund (panvala League)',
+    name: 'Handshake Development Fund (panvala Leag',
     slug: 'https://gitcoin.co/grants/1428/handshake-development-fund-panvala-league',
     tx_cnt: 16,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.061378500000000"
+  "balance": "0.061378500000"
 }
 
 ],
@@ -18609,11 +18609,11 @@ export const grantsData = [
     name: 'Tasit Mobile Ethereum Dapps',
     slug: 'https://gitcoin.co/grants/105/tasit-mobile-ethereum-dapps',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18628,11 +18628,11 @@ export const grantsData = [
     name: 'X5 Cms',
     slug: 'https://gitcoin.co/grants/417/x5-cms',
     tx_cnt: 326,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.178914347228057"
+  "balance": "0.178914347228"
 }
 
 ],
@@ -18647,11 +18647,11 @@ export const grantsData = [
     name: 'Matic & Eth Memes',
     slug: 'https://gitcoin.co/grants/813/matic-eth-memes',
     tx_cnt: 969,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.512147649792411"
+  "balance": "1.512147649792"
 }
 
 ],
@@ -18666,11 +18666,11 @@ export const grantsData = [
     name: 'Team Rubicon #neighborshelpingneighbors',
     slug: 'https://gitcoin.co/grants/504/team-rubicon-neighborshelpingneighbors',
     tx_cnt: 49,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012000000000000"
+  "balance": "0.012000000000"
 }
 
 ],
@@ -18685,11 +18685,11 @@ export const grantsData = [
     name: 'Opyn Monitor',
     slug: 'https://gitcoin.co/grants/1064/opyn-monitor',
     tx_cnt: 41,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.126325479473732"
+  "balance": "0.126325479474"
 }
 
 ],
@@ -18704,11 +18704,11 @@ export const grantsData = [
     name: 'Rocket Nft',
     slug: 'https://gitcoin.co/grants/297/rocket-nft',
     tx_cnt: 2995,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.823525813286935"
+  "balance": "0.823525813287"
 }
 
 ],
@@ -18723,11 +18723,11 @@ export const grantsData = [
     name: 'Ethsear.ch',
     slug: 'https://gitcoin.co/grants/240/ethsearch',
     tx_cnt: 72,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012687570292066"
+  "balance": "0.012687570292"
 }
 
 ],
@@ -18739,14 +18739,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 461,
     address: '0xd461cf004eda0ddb0028b831b62bf38b3a6d1e5a',
-    name: 'Aleph.im - Decentralized Open-source Cloud Platfor',
+    name: 'Aleph.im - Decentralized Open-source Clo',
     slug: 'https://gitcoin.co/grants/461/alephim-decentralized-open-source-cloud-platform',
     tx_cnt: 691,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "41.381782300133686"
+  "balance": "41.381782300134"
 }
 
 ],
@@ -18761,11 +18761,11 @@ export const grantsData = [
     name: 'Ironbelly - Grin Mobile Wallet',
     slug: 'https://gitcoin.co/grants/58/ironbelly-grin-mobile-wallet',
     tx_cnt: 40,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18780,11 +18780,11 @@ export const grantsData = [
     name: 'Esteem',
     slug: 'https://gitcoin.co/grants/660/esteem',
     tx_cnt: 13,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18799,11 +18799,11 @@ export const grantsData = [
     name: 'Futarchy Aragon App',
     slug: 'https://gitcoin.co/grants/1785/futarchy-aragon-app',
     tx_cnt: 6,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.001797314999999"
+  "balance": "1.001797315000"
 }
 
 ],
@@ -18818,11 +18818,11 @@ export const grantsData = [
     name: 'Mywish Platform',
     slug: 'https://gitcoin.co/grants/1548/mywish-platform',
     tx_cnt: 13,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.091001868000000"
+  "balance": "0.091001868000"
 }
 
 ],
@@ -18837,11 +18837,11 @@ export const grantsData = [
     name: 'Coin98 Insights & Analytics',
     slug: 'https://gitcoin.co/grants/1892/coin98-insights-analytics',
     tx_cnt: 236,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.049314345061424"
+  "balance": "0.049314345061"
 }
 
 ],
@@ -18856,11 +18856,11 @@ export const grantsData = [
     name: 'Ppe for Africa',
     slug: 'https://gitcoin.co/grants/744/ppe-for-africa',
     tx_cnt: 13,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001426905900000"
+  "balance": "0.001426905900"
 }
 
 ],
@@ -18872,14 +18872,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1151,
     address: '0xd6db4be0b1c33987dc01cbf113b5f07c0232a07a',
-    name: 'Fuzzing @ Home - Helping Find Bugs in Eth 2.0 Clie',
+    name: 'Fuzzing @ Home - Helping Find Bugs in Et',
     slug: 'https://gitcoin.co/grants/1151/fuzzing-home-helping-find-bugs-in-eth-20-clients',
     tx_cnt: 112,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.487291500000000"
+  "balance": "0.330011586000"
 }
 
 ],
@@ -18894,11 +18894,11 @@ export const grantsData = [
     name: 'Justice Committee',
     slug: 'https://gitcoin.co/grants/831/justice-committee',
     tx_cnt: 74,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002756890000000"
+  "balance": "0.002756890000"
 }
 
 ],
@@ -18913,11 +18913,11 @@ export const grantsData = [
     name: 'Ez.lol',
     slug: 'https://gitcoin.co/grants/1680/ezlol',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18929,14 +18929,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1971,
     address: '0xd77bab833568dd0c8e59ab62013165ce2fb611b7',
-    name: 'Elixi/o Decentralized Social Network with Social C',
+    name: 'Elixi/o Decentralized Social Network wit',
     slug: 'https://gitcoin.co/grants/1971/elixio-decentralized-social-network-with-social-c',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18951,11 +18951,11 @@ export const grantsData = [
     name: 'the Blockcode',
     slug: 'https://gitcoin.co/grants/1332/the-blockcode',
     tx_cnt: 5,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18970,11 +18970,11 @@ export const grantsData = [
     name: 'Feel the Yearn 2',
     slug: 'https://gitcoin.co/grants/1647/feel-the-yearn-2',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -18989,11 +18989,11 @@ export const grantsData = [
     name: 'Open Raise',
     slug: 'https://gitcoin.co/grants/255/open-raise',
     tx_cnt: 151,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.205847696604578"
+  "balance": "0.205847696605"
 }
 
 ],
@@ -19008,11 +19008,11 @@ export const grantsData = [
     name: 'Equality',
     slug: 'https://gitcoin.co/grants/1909/equality',
     tx_cnt: 1,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001946400000000"
+  "balance": "0.001946400000"
 }
 
 ],
@@ -19027,11 +19027,11 @@ export const grantsData = [
     name: 'Devcon Scholars Program',
     slug: 'https://gitcoin.co/grants/112/devcon-scholars-program',
     tx_cnt: 806,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013570000000000"
+  "balance": "0.013570000000"
 }
 
 ],
@@ -19043,14 +19043,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1577,
     address: '0xd8ff82d36d1439ed3ef8cbb4b28178ff7f6b7209',
-    name: 'Ethcc by Ethereum France (panvala League)',
+    name: 'Ethcc by Ethereum France (panvala League',
     slug: 'https://gitcoin.co/grants/1577/ethcc-by-ethereum-france-panvala-league',
     tx_cnt: 108,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013101561655000"
+  "balance": "0.013101561655"
 }
 
 ],
@@ -19062,14 +19062,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1139,
     address: '0xd91ec22114897e5e68997f77a6182de3cb09ba9b',
-    name: 'Metacartel Community Awards (panvala League) 🛡',
+    name: 'Metacartel Community Awards (panvala Lea',
     slug: 'https://gitcoin.co/grants/1139/metacartel-community-awards-panvala-league',
     tx_cnt: 112,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.166548128647256"
+  "balance": "0.166548128647"
 }
 
 ],
@@ -19084,11 +19084,11 @@ export const grantsData = [
     name: 'Blockchain Registry',
     slug: 'https://gitcoin.co/grants/1324/blockchain-registry',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19103,11 +19103,11 @@ export const grantsData = [
     name: 'Cryptoassault',
     slug: 'https://gitcoin.co/grants/1015/cryptoassault',
     tx_cnt: 782,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "35.185619186742201"
+  "balance": "35.185619186742"
 }
 
 ],
@@ -19122,11 +19122,11 @@ export const grantsData = [
     name: 'Matic Mitra [panvala League]',
     slug: 'https://gitcoin.co/grants/1686/matic-mitra-panvala-league',
     tx_cnt: 129,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.042810257578285"
+  "balance": "0.042810257578"
 }
 
 ],
@@ -19141,11 +19141,11 @@ export const grantsData = [
     name: 'Cent Token',
     slug: 'https://gitcoin.co/grants/1003/cent-token',
     tx_cnt: 21,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19160,11 +19160,11 @@ export const grantsData = [
     name: 'Pulp Network',
     slug: 'https://gitcoin.co/grants/1229/pulp-network',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19179,11 +19179,11 @@ export const grantsData = [
     name: 'the Genesys Block',
     slug: 'https://gitcoin.co/grants/1980/the-genesys-block',
     tx_cnt: 15,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013849930476366"
+  "balance": "0.013849930476"
 }
 
 ],
@@ -19198,11 +19198,11 @@ export const grantsData = [
     name: 'Ethereum Explained',
     slug: 'https://gitcoin.co/grants/661/ethereum-explained',
     tx_cnt: 10,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19214,14 +19214,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 595,
     address: '0xdaacd1e11302375b3d7661948b50b7efa5c6160b',
-    name: 'ETH DEX on Layer 2 with Uniswaplike price discover',
+    name: 'ETH DEX on Layer 2 with Uniswaplike pric',
     slug: 'https://gitcoin.co/grants/595/eth-btc-layer-2-uniswap-like-dex',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005903420676030"
+  "balance": "0.005903420676"
 }
 
 ],
@@ -19236,11 +19236,11 @@ export const grantsData = [
     name: 'End of the Chain Podcast',
     slug: 'https://gitcoin.co/grants/279/end-of-the-chain-podcast',
     tx_cnt: 68,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19255,11 +19255,11 @@ export const grantsData = [
     name: 'Zkpay',
     slug: 'https://gitcoin.co/grants/1744/zkpay',
     tx_cnt: 5,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19271,14 +19271,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 375,
     address: '0xdb4d88080ed478c729b07e23f8e0ccd1f57d3f9b',
-    name: 'Sense Collective: Collaborative Sensemaking and Co',
+    name: 'Sense Collective: Collaborative Sensemak',
     slug: 'https://gitcoin.co/grants/375/sense-collective-collaborative-sensemaking-and-col',
     tx_cnt: 271,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.193245308655502"
+  "balance": "0.193245308656"
 }
 
 ],
@@ -19293,11 +19293,11 @@ export const grantsData = [
     name: 'Crypto Fonts',
     slug: 'https://gitcoin.co/grants/720/crypto-fonts',
     tx_cnt: 284,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "35.579480210765198"
+  "balance": "35.579480210765"
 }
 
 ],
@@ -19309,14 +19309,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 89,
     address: '0xdb7fc5e20fe4567ececba1df82a234781aa37f8c',
-    name: 'Hopr Decentralized Privacy Preserving Messaging',
+    name: 'Hopr Decentralized Privacy Preserving Me',
     slug: 'https://gitcoin.co/grants/89/hopr-decentralized-privacy-preserving-messaging-2',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003780000000000"
+  "balance": "0.003780000000"
 }
 
 ],
@@ -19331,11 +19331,11 @@ export const grantsData = [
     name: 'Ether Data Science',
     slug: 'https://gitcoin.co/grants/328/ether-data-science',
     tx_cnt: 180,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19350,11 +19350,11 @@ export const grantsData = [
     name: 'Urllib3 - Python Http Library',
     slug: 'https://gitcoin.co/grants/65/urllib3-python-http-library',
     tx_cnt: 103,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.071534419949561"
+  "balance": "0.071534419950"
 }
 
 ],
@@ -19369,11 +19369,11 @@ export const grantsData = [
     name: 'El Dorado',
     slug: 'https://gitcoin.co/grants/1402/el-dorado',
     tx_cnt: 56,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003658908592274"
+  "balance": "0.003658908592"
 }
 
 ],
@@ -19388,11 +19388,11 @@ export const grantsData = [
     name: 'National Black Chamber of Commerce',
     slug: 'https://gitcoin.co/grants/812/national-black-chamber-of-commerce',
     tx_cnt: 67,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.006000000000000"
+  "balance": "0.006000000000"
 }
 
 ],
@@ -19407,11 +19407,11 @@ export const grantsData = [
     name: 'Cryptocrow.net',
     slug: 'https://gitcoin.co/grants/953/cryptocrownet',
     tx_cnt: 1,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19426,11 +19426,11 @@ export const grantsData = [
     name: 'Play Ethereum',
     slug: 'https://gitcoin.co/grants/197/play-ethereum',
     tx_cnt: 59,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19445,11 +19445,11 @@ export const grantsData = [
     name: 'Better to Be Better Neighbor',
     slug: 'https://gitcoin.co/grants/1981/better-to-be-better-neighbor',
     tx_cnt: 72,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.003065205458691"
+  "balance": "0.003065205459"
 }
 
 ],
@@ -19464,11 +19464,11 @@ export const grantsData = [
     name: 'Decentralized Office',
     slug: 'https://gitcoin.co/grants/1549/decentralized-office',
     tx_cnt: 109,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000703644015672"
+  "balance": "0.000703644016"
 }
 
 ],
@@ -19483,11 +19483,11 @@ export const grantsData = [
     name: 'Intellij Solidity',
     slug: 'https://gitcoin.co/grants/1047/intellij-solidity',
     tx_cnt: 10,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001474995664229"
+  "balance": "0.001474995664"
 }
 
 ],
@@ -19502,11 +19502,11 @@ export const grantsData = [
     name: 'Tornado.cash',
     slug: 'https://gitcoin.co/grants/198/tornadocash',
     tx_cnt: 987,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.860442974831418"
+  "balance": "2.860442974831"
 }
 
 ],
@@ -19521,11 +19521,11 @@ export const grantsData = [
     name: 'the Blockcore Fund',
     slug: 'https://gitcoin.co/grants/1172/the-blockcore-fund',
     tx_cnt: 1,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19537,14 +19537,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 281,
     address: '0xddb1cb4edbcd83066abf26e7102dc0e88009deab',
-    name: 'Upala 🤖 Price-of-forgery Digital Identity (panv',
+    name: 'Upala 🤖 Price-of-forgery Digital Iden',
     slug: 'https://gitcoin.co/grants/281/upala-price-of-forgery-digital-identity-panvala-l',
     tx_cnt: 72,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.387577179220000"
+  "balance": "0.387577179220"
 }
 
 ],
@@ -19556,14 +19556,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1505,
     address: '0xddb5eb5b0ba08601af1feff591bf5be6b59ba5f6',
-    name: 'Moip Network: Send Ethereum or Erc20 Tokens Throug',
+    name: 'Moip Network: Send Ethereum or Erc20 Tok',
     slug: 'https://gitcoin.co/grants/1505/moip-network-send-ethereum-or-erc20-tokens-throug',
     tx_cnt: 12,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.083595820050600"
+  "balance": "0.083595820051"
 }
 
 ],
@@ -19578,11 +19578,11 @@ export const grantsData = [
     name: 'Wiflo :: Global Aura Ui for Spirit',
     slug: 'https://gitcoin.co/grants/1169/wiflo-global-aura-ui-for-spirit',
     tx_cnt: 7,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.010063765805739"
+  "balance": "0.010063765806"
 }
 
 ],
@@ -19597,11 +19597,11 @@ export const grantsData = [
     name: 'Floflis Os',
     slug: 'https://gitcoin.co/grants/455/floflis-os',
     tx_cnt: 1748,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.500403899056791"
+  "balance": "0.500403899057"
 }
 
 ],
@@ -19613,14 +19613,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 12,
     address: '0xde21f729137c5af1b01d73af1dc21effa2b8a0d6',
-    name: 'Gitcoin Grants Official Matching Pool Fund',
+    name: 'Gitcoin Grants Official Matching Pool Fu',
     slug: 'https://gitcoin.co/grants/12/gitcoin-grants-official-matching-pool-fund',
     tx_cnt: 355,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "776.181926661631223"
+  "balance": "776.181926661631"
 }
 
 ],
@@ -19635,11 +19635,11 @@ export const grantsData = [
     name: 'Geo Web',
     slug: 'https://gitcoin.co/grants/1403/geo-web',
     tx_cnt: 112,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.404834840000000"
+  "balance": "0.404834840000"
 }
 
 ],
@@ -19654,11 +19654,11 @@ export const grantsData = [
     name: 'Gerov Photography',
     slug: 'https://gitcoin.co/grants/1969/gerov-photography',
     tx_cnt: 4,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000126000000000"
+  "balance": "0.000126000000"
 }
 
 ],
@@ -19673,11 +19673,11 @@ export const grantsData = [
     name: 'International Medical Corps',
     slug: 'https://gitcoin.co/grants/656/international-medical-corps',
     tx_cnt: 54,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.052675175000000"
+  "balance": "0.052675175000"
 }
 
 ],
@@ -19692,11 +19692,11 @@ export const grantsData = [
     name: 'Qualla - a Platform for Creators',
     slug: 'https://gitcoin.co/grants/1667/qualla-a-platform-for-creators',
     tx_cnt: 9,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005553802000000"
+  "balance": "0.005553802000"
 }
 
 ],
@@ -19708,14 +19708,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1571,
     address: '0xdedb9311bb46a654eaa815f32e98ec092b0c2655',
-    name: 'Habitat - Grow and Collaborate on Ethereum',
+    name: 'Habitat - Grow and Collaborate on Ethere',
     slug: 'https://gitcoin.co/grants/1571/habitat-grow-and-collaborate-on-ethereum',
     tx_cnt: 77,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.455745000000000"
+  "balance": "2.455745000000"
 }
 
 ],
@@ -19727,14 +19727,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1298,
     address: '0xdeedfacbb6fe862cccc39e1a941f9314df409f45',
-    name: 'Huddle 01 - Revolutionizing Video Conferences Usin',
+    name: 'Huddle 01 - Revolutionizing Video Confer',
     slug: 'https://gitcoin.co/grants/1298/huddle-01-revolutionizing-video-conferences-using',
     tx_cnt: 269,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19749,11 +19749,11 @@ export const grantsData = [
     name: 'Sambam Thank You Ma&#39;am',
     slug: 'https://gitcoin.co/grants/658/sambam-thank-you-maam',
     tx_cnt: 7972,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.049920919789929"
+  "balance": "0.049920919790"
 }
 
 ],
@@ -19765,14 +19765,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 833,
     address: '0xdf631777df4debcbcd647e85bdcb868b43663ba0',
-    name: 'Capitaleth: Systematic Investments on Ethereum',
+    name: 'Capitaleth: Systematic Investments on Et',
     slug: 'https://gitcoin.co/grants/833/capitaleth-systematic-investments-on-ethereum',
     tx_cnt: 889,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.086575017519260"
+  "balance": "0.086575017519"
 }
 
 ],
@@ -19787,11 +19787,11 @@ export const grantsData = [
     name: '1 Minute',
     slug: 'https://gitcoin.co/grants/950/1-minute',
     tx_cnt: 4,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.015692992000000"
+  "balance": "0.015692992000"
 }
 
 ],
@@ -19806,11 +19806,11 @@ export const grantsData = [
     name: 'Trinity - Ethereum 2.0 Client',
     slug: 'https://gitcoin.co/grants/147/trinity-ethereum-20-client',
     tx_cnt: 1085,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.531630033349281"
+  "balance": "0.531630033349"
 }
 
 ],
@@ -19825,11 +19825,11 @@ export const grantsData = [
     name: 'Build Finance DAO',
     slug: 'https://gitcoin.co/grants/1906/build-finance-dao',
     tx_cnt: 1791,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19844,11 +19844,11 @@ export const grantsData = [
     name: 'No Kid Hungry',
     slug: 'https://gitcoin.co/grants/493/no-kid-hungry',
     tx_cnt: 86,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.012000000000000"
+  "balance": "0.012000000000"
 }
 
 ],
@@ -19860,14 +19860,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1716,
     address: '0xe0a8b9c2df8023326001d2b63218746b28f7ed26',
-    name: 'Every Bit Helps Creating Educational Youtube Tutor',
+    name: 'Every Bit Helps Creating Educational You',
     slug: 'https://gitcoin.co/grants/1716/every-bit-helps-creating-educational-youtube-tuto',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -19879,14 +19879,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1618,
     address: '0xe0c76dc4028c6b24d781ef0a298da47fbd355bb8',
-    name: 'Approve.sh - Smart Contracts Approvals Dashboard',
+    name: 'Approve.sh - Smart Contracts Approvals D',
     slug: 'https://gitcoin.co/grants/1618/approvesh-smart-contracts-approvals-dashboard',
     tx_cnt: 18,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.063650000000000"
+  "balance": "0.063650000000"
 }
 
 ],
@@ -19901,11 +19901,11 @@ export const grantsData = [
     name: 'Rosco Kalis - Crypto Software Engineer',
     slug: 'https://gitcoin.co/grants/259/rosco-kalis-crypto-software-engineer',
     tx_cnt: 632,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.106598844633169"
+  "balance": "0.106598844633"
 }
 
 ],
@@ -19920,11 +19920,11 @@ export const grantsData = [
     name: 'Test This This And',
     slug: 'https://gitcoin.co/grants/357/test-this-this-and',
     tx_cnt: 72,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001096280000000"
+  "balance": "0.001096280000"
 }
 
 ],
@@ -19939,11 +19939,11 @@ export const grantsData = [
     name: 'Seedbed',
     slug: 'https://gitcoin.co/grants/825/seedbed',
     tx_cnt: 61,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000186152679574"
+  "balance": "0.000186152680"
 }
 
 ],
@@ -19958,11 +19958,11 @@ export const grantsData = [
     name: 'Cryptocurrency Jobs',
     slug: 'https://gitcoin.co/grants/1676/cryptocurrency-jobs',
     tx_cnt: 20,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.013686900000000"
+  "balance": "0.013686900000"
 }
 
 ],
@@ -19977,11 +19977,11 @@ export const grantsData = [
     name: 'Decentral Games',
     slug: 'https://gitcoin.co/grants/993/decentral-games',
     tx_cnt: 1160,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.405839638389824"
+  "balance": "0.405839638390"
 }
 
 ],
@@ -19996,11 +19996,11 @@ export const grantsData = [
     name: 'Jusd: Profitable Stablecoin for DeFi',
     slug: 'https://gitcoin.co/grants/1079/jusd-profitable-stablecoin-for-defi',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20015,11 +20015,11 @@ export const grantsData = [
     name: 'Fission Network',
     slug: 'https://gitcoin.co/grants/1827/fission-network',
     tx_cnt: 1054,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.331660703975168"
+  "balance": "1.331660703975"
 }
 
 ],
@@ -20031,14 +20031,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 210,
     address: '0xe317c793ebc9d4a3732ca66e5a8fc4ffc213b989',
-    name: 'Dan&#39;s Million Dollar Day of Freedom (testing! Do N',
+    name: 'Dan&#39;s Million Dollar Day of Freedom (tes',
     slug: 'https://gitcoin.co/grants/210/dans-million-dollar-day-of-freedom-testing-do-not',
     tx_cnt: 318,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.377509707607946"
+  "balance": "1.377509707608"
 }
 
 ],
@@ -20053,11 +20053,11 @@ export const grantsData = [
     name: 'Liquidity Vision',
     slug: 'https://gitcoin.co/grants/1268/liquidity-vision',
     tx_cnt: 115,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "13.906916169771003"
+  "balance": "13.906916169771"
 }
 
 ],
@@ -20069,14 +20069,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 485,
     address: '0xe3856fbf298f539b6585224ece523488bfb9f82c',
-    name: 'Needslist: Connecting Needs and Offers in Real-tim',
+    name: 'Needslist: Connecting Needs and Offers i',
     slug: 'https://gitcoin.co/grants/485/needslist-connecting-needs-and-offers-in-real-tim',
     tx_cnt: 64,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.166179428000000"
+  "balance": "0.166179428000"
 }
 
 ],
@@ -20091,11 +20091,11 @@ export const grantsData = [
     name: 'Christ&#39;s Capital',
     slug: 'https://gitcoin.co/grants/893/christs-capital',
     tx_cnt: 9,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000017801820674"
+  "balance": "0.000017801821"
 }
 
 ],
@@ -20110,11 +20110,11 @@ export const grantsData = [
     name: 'Democracy Mars',
     slug: 'https://gitcoin.co/grants/927/democracy-mars',
     tx_cnt: 33,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.052228372932121"
+  "balance": "0.052228372932"
 }
 
 ],
@@ -20129,11 +20129,11 @@ export const grantsData = [
     name: 'Lease',
     slug: 'https://gitcoin.co/grants/353/lease',
     tx_cnt: 167,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20148,11 +20148,11 @@ export const grantsData = [
     name: 'Cryptoonestop',
     slug: 'https://gitcoin.co/grants/1910/cryptoonestop',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20164,14 +20164,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1728,
     address: '0xe4c84ae002475e48850ed78796a477ba97ed90dc',
-    name: 'Argantreeproject - Operation Argan Rescue',
+    name: 'Argantreeproject - Operation Argan Rescu',
     slug: 'https://gitcoin.co/grants/1728/argantreeproject-operation-argan-rescue',
     tx_cnt: 20,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.005420937442154"
+  "balance": "0.005420937442"
 }
 
 ],
@@ -20186,11 +20186,11 @@ export const grantsData = [
     name: 'Gister — Decentralizing Pastes/gists',
     slug: 'https://gitcoin.co/grants/538/gister-decentralizing-pastesgists',
     tx_cnt: 9,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002471250554360"
+  "balance": "0.002471250554"
 }
 
 ],
@@ -20205,11 +20205,11 @@ export const grantsData = [
     name: 'Crypto College',
     slug: 'https://gitcoin.co/grants/1646/crypto-college',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20224,11 +20224,11 @@ export const grantsData = [
     name: 'Organicblock - Redefining Urban Farming!',
     slug: 'https://gitcoin.co/grants/1134/organicblock-redefining-urban-farming',
     tx_cnt: 66,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.097632000000000"
+  "balance": "0.097632000000"
 }
 
 ],
@@ -20243,11 +20243,11 @@ export const grantsData = [
     name: 'End Volatile Gas Prices',
     slug: 'https://gitcoin.co/grants/1553/end-volatile-gas-prices',
     tx_cnt: 5,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002457000000000"
+  "balance": "0.002457000000"
 }
 
 ],
@@ -20262,11 +20262,11 @@ export const grantsData = [
     name: 'DeFi Fund',
     slug: 'https://gitcoin.co/grants/327/defi-fund',
     tx_cnt: 2657,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.659112088240367"
+  "balance": "0.659112088240"
 }
 
 ],
@@ -20281,11 +20281,11 @@ export const grantsData = [
     name: 'Nixocoin Project',
     slug: 'https://gitcoin.co/grants/1617/nixocoin-project',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20297,14 +20297,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1325,
     address: '0xe64e9187d513b455732fd63fd1398ecd1925a03e',
-    name: 'Kolektivo: Regenerative Economy in Curaçao',
+    name: 'Kolektivo: Regenerative Economy in Cura�',
     slug: 'https://gitcoin.co/grants/1325/kolektivo-regenerative-economy-in-curacao',
     tx_cnt: 25,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.050000000000000"
+  "balance": "0.050000000000"
 }
 
 ],
@@ -20319,11 +20319,11 @@ export const grantsData = [
     name: 'Digiwillst',
     slug: 'https://gitcoin.co/grants/1154/digiwills',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20335,14 +20335,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1649,
     address: '0xe6ce4e57b6cbcd4012ffbfd8487e776eb524fcbe',
-    name: 'DAIso- a Project Fundraising (token Swap) Scheme',
+    name: 'DAIso- a Project Fundraising (token Swap',
     slug: 'https://gitcoin.co/grants/1649/daiso-a-project-fundraising-token-swap-scheme',
     tx_cnt: 26,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.034498142071235"
+  "balance": "0.034498142071"
 }
 
 ],
@@ -20357,11 +20357,11 @@ export const grantsData = [
     name: 'Black Girls Code',
     slug: 'https://gitcoin.co/grants/810/black-girls-code',
     tx_cnt: 210,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.411456993010695"
+  "balance": "0.411456993011"
 }
 
 ],
@@ -20376,11 +20376,11 @@ export const grantsData = [
     name: 'Pepemon: Degen Battleground',
     slug: 'https://gitcoin.co/grants/1805/pepemon-degen-battleground',
     tx_cnt: 5088,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "28.910614399911598"
+  "balance": "28.924864399912"
 }
 
 ],
@@ -20395,11 +20395,11 @@ export const grantsData = [
     name: 'Stitch',
     slug: 'https://gitcoin.co/grants/679/stitch',
     tx_cnt: 775,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.200895638161747"
+  "balance": "1.200895638162"
 }
 
 ],
@@ -20414,11 +20414,11 @@ export const grantsData = [
     name: 'Nft Arts',
     slug: 'https://gitcoin.co/grants/1968/nft-arts',
     tx_cnt: 23,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.065009076400000"
+  "balance": "0.065009076400"
 }
 
 ],
@@ -20433,11 +20433,11 @@ export const grantsData = [
     name: 'Pods Finance',
     slug: 'https://gitcoin.co/grants/837/pods-finance',
     tx_cnt: 13,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20452,11 +20452,11 @@ export const grantsData = [
     name: 'Ara - Open Source Voice Assistant',
     slug: 'https://gitcoin.co/grants/737/ara-open-source-voice-assistant',
     tx_cnt: 35,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.072318134396945"
+  "balance": "0.072318134397"
 }
 
 ],
@@ -20471,11 +20471,11 @@ export const grantsData = [
     name: 'DeFi Safety',
     slug: 'https://gitcoin.co/grants/1041/defi-safety',
     tx_cnt: 140,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.320937455000000"
+  "balance": "0.320937455000"
 }
 
 ],
@@ -20490,11 +20490,11 @@ export const grantsData = [
     name: 'Outlet Finance',
     slug: 'https://gitcoin.co/grants/478/outlet-finance',
     tx_cnt: 141,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.066993034314440"
+  "balance": "0.066993034314"
 }
 
 ],
@@ -20509,11 +20509,11 @@ export const grantsData = [
     name: 'Building the DAO Controlled Land Trust',
     slug: 'https://gitcoin.co/grants/1929/building-the-dao-controlled-land-trust',
     tx_cnt: 29,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.026282913071597"
+  "balance": "0.026282913072"
 }
 
 ],
@@ -20528,11 +20528,11 @@ export const grantsData = [
     name: 'Help: Debt+work Affected by Covid-19',
     slug: 'https://gitcoin.co/grants/967/help-debtwork-affected-by-covid-19',
     tx_cnt: 81,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20547,11 +20547,11 @@ export const grantsData = [
     name: 'Ching! Point of Sale',
     slug: 'https://gitcoin.co/grants/356/ching-point-of-sale',
     tx_cnt: 1815,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.388736883957234"
+  "balance": "0.388736883957"
 }
 
 ],
@@ -20566,11 +20566,11 @@ export const grantsData = [
     name: 'Spacedx',
     slug: 'https://gitcoin.co/grants/1482/spacedx',
     tx_cnt: 19,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20585,11 +20585,11 @@ export const grantsData = [
     name: 'Writing is Designing',
     slug: 'https://gitcoin.co/grants/769/writing-is-designing',
     tx_cnt: 36,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20601,14 +20601,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 497,
     address: '0xea0dd72cadf88ea3b1b371d987644ca00901d9d6',
-    name: 'Co2ken: Towards a Carbon Negative Web3 🌱🌟',
+    name: 'Co2ken: Towards a Carbon Negative Web3 �',
     slug: 'https://gitcoin.co/grants/497/co2ken-towards-a-carbon-negative-web3',
     tx_cnt: 112,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.718536867047808"
+  "balance": "3.718536867048"
 }
 
 ],
@@ -20623,11 +20623,11 @@ export const grantsData = [
     name: 'Moovit Fitness',
     slug: 'https://gitcoin.co/grants/1876/moovit-fitness',
     tx_cnt: 534,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.048345961408577"
+  "balance": "0.048345961409"
 }
 
 ],
@@ -20642,11 +20642,11 @@ export const grantsData = [
     name: 'Memorial.network',
     slug: 'https://gitcoin.co/grants/1487/memorialnetwork',
     tx_cnt: 17,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.202089248200000"
+  "balance": "0.202089248200"
 }
 
 ],
@@ -20661,11 +20661,11 @@ export const grantsData = [
     name: 'Trial',
     slug: 'https://gitcoin.co/grants/166/trial',
     tx_cnt: 114,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.058013112279491"
+  "balance": "0.058013112279"
 }
 
 ],
@@ -20680,11 +20680,11 @@ export const grantsData = [
     name: 'Froshfeel',
     slug: 'https://gitcoin.co/grants/1152/froshfeel',
     tx_cnt: 2,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20699,11 +20699,11 @@ export const grantsData = [
     name: 'Paylock Escrow',
     slug: 'https://gitcoin.co/grants/1426/paylock-escrow',
     tx_cnt: 87,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.004067179200000"
+  "balance": "0.004067179200"
 }
 
 ],
@@ -20715,14 +20715,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 350,
     address: '0xeb355c18a4baf212da05ed455cf2db760704d34c',
-    name: 'Bllockchain & DeFi in African Universities',
+    name: 'Bllockchain & DeFi in African Universiti',
     slug: 'https://gitcoin.co/grants/350/bllockchain-defi-in-african-universities',
     tx_cnt: 97,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.041987646527254"
+  "balance": "0.041987646527"
 }
 
 ],
@@ -20737,11 +20737,11 @@ export const grantsData = [
     name: 'Loft Radio',
     slug: 'https://gitcoin.co/grants/332/loft-radio',
     tx_cnt: 629,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.132285401316913"
+  "balance": "0.132285401317"
 }
 
 ],
@@ -20756,11 +20756,11 @@ export const grantsData = [
     name: 'Democracy.js',
     slug: 'https://gitcoin.co/grants/527/democracyjs',
     tx_cnt: 143,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.264175881500000"
+  "balance": "0.264175881500"
 }
 
 ],
@@ -20772,14 +20772,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 699,
     address: '0xeb7cdd00b97242900640fd3658e54344c8036e58',
-    name: 'Mattereum - Retooling for Securing the Covid19 Med',
+    name: 'Mattereum - Retooling for Securing the C',
     slug: 'https://gitcoin.co/grants/699/mattereum-retooling-for-securing-the-covid19-medi',
     tx_cnt: 3,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.021175669655870"
+  "balance": "0.021175669656"
 }
 
 ],
@@ -20794,11 +20794,11 @@ export const grantsData = [
     name: 'DeFiprime.com',
     slug: 'https://gitcoin.co/grants/139/defiprimecom',
     tx_cnt: 10887,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.108508190021787"
+  "balance": "5.108508190022"
 }
 
 ],
@@ -20813,11 +20813,11 @@ export const grantsData = [
     name: 'Cryptorado: OSS Dev Fund',
     slug: 'https://gitcoin.co/grants/525/cryptorado-oss-dev-fund',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -20832,11 +20832,11 @@ export const grantsData = [
     name: 'Black Girls Code X Blockchain Ecosystem',
     slug: 'https://gitcoin.co/grants/130/black-girls-code-x-blockchain-ecosystem',
     tx_cnt: 172,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "4.259567327801772"
+  "balance": "4.259567327802"
 }
 
 ],
@@ -20848,14 +20848,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1677,
     address: '0xed625c9aba1245fa8e22eb1f1825881517a9dce7',
-    name: 'Lakshman&#39;s Blog About the Future of Ethereum',
+    name: 'Lakshman&#39;s Blog About the Future of Ethe',
     slug: 'https://gitcoin.co/grants/1677/lakshmans-blog-about-the-future-of-ethereum',
     tx_cnt: 45,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001211329821942"
+  "balance": "0.001211329822"
 }
 
 ],
@@ -20870,11 +20870,11 @@ export const grantsData = [
     name: 'Gitcoin Developer Grant - Zoek1',
     slug: 'https://gitcoin.co/grants/465/gitcoin-developer-grant-zoek1',
     tx_cnt: 655,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.031506240782563"
+  "balance": "2.031506240783"
 }
 
 ],
@@ -20889,11 +20889,11 @@ export const grantsData = [
     name: 'Octavio Personal',
     slug: 'https://gitcoin.co/grants/992/octavio-personal',
     tx_cnt: 111,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.858273137188561"
+  "balance": "5.858273137189"
 }
 
 ],
@@ -20908,11 +20908,11 @@ export const grantsData = [
     name: 'Netsepio',
     slug: 'https://gitcoin.co/grants/1406/netsepio',
     tx_cnt: 12,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.100603358000000"
+  "balance": "0.100603358000"
 }
 
 ],
@@ -20924,14 +20924,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 635,
     address: '0xee0579b4c36fd52ec0a2b542fb801f136838b7f1',
-    name: 'Ethack Management Ethical Hacking Service',
+    name: 'Ethack Management Ethical Hacking Servic',
     slug: 'https://gitcoin.co/grants/635/ethack-management-ethical-hacking-service',
     tx_cnt: 511,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000258271985547"
+  "balance": "0.000258271986"
 }
 
 ],
@@ -20946,11 +20946,11 @@ export const grantsData = [
     name: 'Kewasm and Kwasm',
     slug: 'https://gitcoin.co/grants/592/kewasm-and-kwasm',
     tx_cnt: 78,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.084904418000000"
+  "balance": "0.084904418000"
 }
 
 ],
@@ -20965,11 +20965,11 @@ export const grantsData = [
     name: 'Goodghosting - a DeFi Savings Game',
     slug: 'https://gitcoin.co/grants/1112/goodghosting-a-defi-savings-game',
     tx_cnt: 99,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.902635000000000"
+  "balance": "0.902635000000"
 }
 
 ],
@@ -20984,11 +20984,11 @@ export const grantsData = [
     name: 'Education for All',
     slug: 'https://gitcoin.co/grants/969/education-for-all',
     tx_cnt: 101,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.018080480220281"
+  "balance": "0.018080480220"
 }
 
 ],
@@ -21003,11 +21003,11 @@ export const grantsData = [
     name: 'Dandelion',
     slug: 'https://gitcoin.co/grants/564/dandelion',
     tx_cnt: 22,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21022,11 +21022,11 @@ export const grantsData = [
     name: 'Tokencast',
     slug: 'https://gitcoin.co/grants/378/tokencast',
     tx_cnt: 253,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.949492479251991"
+  "balance": "5.949492479252"
 }
 
 ],
@@ -21041,11 +21041,11 @@ export const grantsData = [
     name: 'Chievmint',
     slug: 'https://gitcoin.co/grants/1814/chievmint',
     tx_cnt: 3,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21057,14 +21057,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1762,
     address: '0xeed5389a9db621a61aa4b07949b88f55c9506bda',
-    name: 'Investisseur Crypto: a Blog About Crypto and Strat',
+    name: 'Investisseur Crypto: a Blog About Crypto',
     slug: 'https://gitcoin.co/grants/1762/investisseur-crypto-a-blog-about-crypto-and-strat',
     tx_cnt: 41,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21079,11 +21079,11 @@ export const grantsData = [
     name: 'Ethdevtools',
     slug: 'https://gitcoin.co/grants/188/ethdevtools',
     tx_cnt: 598,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "19.245242451355939"
+  "balance": "19.245242451356"
 }
 
 ],
@@ -21098,11 +21098,11 @@ export const grantsData = [
     name: 'Potion',
     slug: 'https://gitcoin.co/grants/852/potion',
     tx_cnt: 468,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.591842840521549"
+  "balance": "1.591842840522"
 }
 
 ],
@@ -21114,14 +21114,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1834,
     address: '0xf00e0d4f19691e17ff73367cc86ab9d56618aae4',
-    name: 'Futures and Margin Trading on the Ufo Money DeFi S',
+    name: 'Futures and Margin Trading on the Ufo Mo',
     slug: 'https://gitcoin.co/grants/1834/futures-and-margin-trading-on-the-ufo-money-defi-',
     tx_cnt: 162,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21133,14 +21133,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 550,
     address: '0xf053adb5d6310219f84b5792db23a4fed3c25d57',
-    name: 'Interaxis - Whiteboard Videos and Education',
+    name: 'Interaxis - Whiteboard Videos and Educat',
     slug: 'https://gitcoin.co/grants/550/interaxis-whiteboard-videos-and-education',
     tx_cnt: 983,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.032843540285733"
+  "balance": "1.032843540286"
 }
 
 ],
@@ -21155,11 +21155,11 @@ export const grantsData = [
     name: 'Dytokens',
     slug: 'https://gitcoin.co/grants/767/dytokens',
     tx_cnt: 226,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "5.589935041523395"
+  "balance": "5.589935041523"
 }
 
 ],
@@ -21174,11 +21174,11 @@ export const grantsData = [
     name: 'Hardhat-deploy',
     slug: 'https://gitcoin.co/grants/972/hardhat-deploy',
     tx_cnt: 48,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.985338680000000"
+  "balance": "0.985338680000"
 }
 
 ],
@@ -21193,11 +21193,11 @@ export const grantsData = [
     name: 'DeFi Netherlands',
     slug: 'https://gitcoin.co/grants/374/defi-netherlands',
     tx_cnt: 14,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.090600936000000"
+  "balance": "0.090600936000"
 }
 
 ],
@@ -21212,11 +21212,11 @@ export const grantsData = [
     name: 'Conquer Fear',
     slug: 'https://gitcoin.co/grants/1986/conquer-fear',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21231,11 +21231,11 @@ export const grantsData = [
     name: 'Bpluslab',
     slug: 'https://gitcoin.co/grants/758/bpluslab',
     tx_cnt: 52,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21247,14 +21247,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 503,
     address: '0xf223bcaed22ddd7358c0a8279ed50bdd33c5ce9e',
-    name: 'the Gathering Place: a Refuge for Rebuilding Lives',
+    name: 'the Gathering Place: a Refuge for Rebuil',
     slug: 'https://gitcoin.co/grants/503/the-gathering-place-a-refuge-for-rebuilding-lives',
     tx_cnt: 45,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001760234000000"
+  "balance": "0.001760234000"
 }
 
 ],
@@ -21269,11 +21269,11 @@ export const grantsData = [
     name: 'Gbdev',
     slug: 'https://gitcoin.co/grants/1545/gbdev',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.650000000000000"
+  "balance": "0.650000000000"
 }
 
 ],
@@ -21285,14 +21285,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 689,
     address: '0xf2c0e63c26067d5ab1c3157bccc70f4f12115af0',
-    name: 'Unspent.io – Smart Portfolio & DeFi Dashboard',
+    name: 'Unspent.io – Smart Portfolio & DeFi Da',
     slug: 'https://gitcoin.co/grants/689/unspentio-smart-portfolio-defi-dashboard',
     tx_cnt: 20,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.041048673180000"
+  "balance": "0.041048673180"
 }
 
 ],
@@ -21307,11 +21307,11 @@ export const grantsData = [
     name: 'Coinjournal - Cryptocurrency News',
     slug: 'https://gitcoin.co/grants/345/coinjournal-cryptocurrency-news',
     tx_cnt: 7,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.001253830762374"
+  "balance": "0.001253830762"
 }
 
 ],
@@ -21323,14 +21323,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 106,
     address: '0xf3047b2b495e31c1e39f198448ae5f382739264a',
-    name: 'Holochain Core Development and Gaja Development',
+    name: 'Holochain Core Development and Gaja Deve',
     slug: 'https://gitcoin.co/grants/106/holochain-core-development-and-gaja-development',
     tx_cnt: 163,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.092434692641346"
+  "balance": "0.092434692641"
 }
 
 ],
@@ -21345,11 +21345,11 @@ export const grantsData = [
     name: 'the DAIly Crypto Youtube Channel',
     slug: 'https://gitcoin.co/grants/1797/the-daily-crypto-youtube-channel',
     tx_cnt: 110,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.034849296604398"
+  "balance": "0.034849296604"
 }
 
 ],
@@ -21361,14 +21361,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1912,
     address: '0xf3829dc5c3aac332218928dee626e641116e8556',
-    name: 'Mavin: Restoring Online Trust in Media and Fightin',
+    name: 'Mavin: Restoring Online Trust in Media a',
     slug: 'https://gitcoin.co/grants/1912/mavin-restoring-online-trust-in-media-and-fightin',
     tx_cnt: 14,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21383,11 +21383,11 @@ export const grantsData = [
     name: 'Decentpay.app',
     slug: 'https://gitcoin.co/grants/947/decentpayapp',
     tx_cnt: 12880,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "22.241967131248614"
+  "balance": "22.241967131249"
 }
 
 ],
@@ -21402,11 +21402,11 @@ export const grantsData = [
     name: 'You. - Decentralized Password Management',
     slug: 'https://gitcoin.co/grants/131/you-decentralized-password-management',
     tx_cnt: 18,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.064250000000000"
+  "balance": "0.064250000000"
 }
 
 ],
@@ -21425,7 +21425,7 @@ export const grantsData = [
     donation_cnt: 2113,
     bals: [{
   "asset": "ETH",
-  "balance": "30.501093281843033"
+  "balance": "30.501093281843"
 }
 
 ],
@@ -21440,11 +21440,11 @@ export const grantsData = [
     name: 'Cryptotesters - Onboard People to Crypto',
     slug: 'https://gitcoin.co/grants/529/cryptotesters-onboard-people-to-crypto',
     tx_cnt: 318,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.268292033654000"
+  "balance": "1.268292033654"
 }
 
 ],
@@ -21459,11 +21459,11 @@ export const grantsData = [
     name: 'Add Colony DAOs to Deep DAO',
     slug: 'https://gitcoin.co/grants/784/add-colony-daos-to-deep-dao',
     tx_cnt: 310,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "7.233974159452112"
+  "balance": "7.252974159452"
 }
 
 ],
@@ -21478,11 +21478,11 @@ export const grantsData = [
     name: 'Peeker Bot',
     slug: 'https://gitcoin.co/grants/1862/peeker-bot',
     tx_cnt: 50,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.025324927366679"
+  "balance": "0.025324927367"
 }
 
 ],
@@ -21497,11 +21497,11 @@ export const grantsData = [
     name: 'Daze of the Wolf',
     slug: 'https://gitcoin.co/grants/991/daze-of-the-wolf',
     tx_cnt: 266,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.056700016947952"
+  "balance": "0.056700016948"
 }
 
 ],
@@ -21516,11 +21516,11 @@ export const grantsData = [
     name: 'Godbledger',
     slug: 'https://gitcoin.co/grants/741/godbledger',
     tx_cnt: 25,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.292504128600000"
+  "balance": "0.292504128600"
 }
 
 ],
@@ -21535,11 +21535,11 @@ export const grantsData = [
     name: 'Parkour x Ethereum = Coloradical',
     slug: 'https://gitcoin.co/grants/388/parkour-x-ethereum-coloradical',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21551,14 +21551,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 313,
     address: '0xf6411340cef876cedef61fdc644e34e1907a408d',
-    name: 'Georgios Konstantopoulos Optimistic ZK Rollup Rese',
+    name: 'Georgios Konstantopoulos Optimistic ZK R',
     slug: 'https://gitcoin.co/grants/313/georgios-konstantopoulos-optimistic-zk-rollup-rese',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21573,11 +21573,11 @@ export const grantsData = [
     name: 'Bloom Network - Panvala League',
     slug: 'https://gitcoin.co/grants/1595/bloom-network-panvala-league',
     tx_cnt: 23,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.016324208369421"
+  "balance": "0.016324208369"
 }
 
 ],
@@ -21592,11 +21592,11 @@ export const grantsData = [
     name: 'Community Platform',
     slug: 'https://gitcoin.co/grants/509/community-platform',
     tx_cnt: 6,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.579263990200000"
+  "balance": "0.579263990200"
 }
 
 ],
@@ -21611,11 +21611,11 @@ export const grantsData = [
     name: 'Idea Factory',
     slug: 'https://gitcoin.co/grants/1894/idea-factory',
     tx_cnt: 1,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21630,11 +21630,11 @@ export const grantsData = [
     name: 'Try',
     slug: 'https://gitcoin.co/grants/1056/try',
     tx_cnt: 7,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.014508637500000"
+  "balance": "0.014508637500"
 }
 
 ],
@@ -21649,11 +21649,11 @@ export const grantsData = [
     name: 'DAOhaus/pokemol',
     slug: 'https://gitcoin.co/grants/135/daohauspokemol',
     tx_cnt: 325,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.216000000000006"
+  "balance": "0.216000000000"
 }
 
 ],
@@ -21668,11 +21668,11 @@ export const grantsData = [
     name: 'Lucrum',
     slug: 'https://gitcoin.co/grants/878/lucrum',
     tx_cnt: 359,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.008401878930832"
+  "balance": "0.008401878931"
 }
 
 ],
@@ -21687,11 +21687,11 @@ export const grantsData = [
     name: 'Nestfans.com',
     slug: 'https://gitcoin.co/grants/1756/nestfanscom',
     tx_cnt: 244,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000805273649590"
+  "balance": "0.000805273650"
 }
 
 ],
@@ -21706,11 +21706,11 @@ export const grantsData = [
     name: 'Ärorust',
     slug: 'https://gitcoin.co/grants/426/aerorust-2',
     tx_cnt: 4,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21725,11 +21725,11 @@ export const grantsData = [
     name: 'Bondly Finance',
     slug: 'https://gitcoin.co/grants/1412/bondly-finance',
     tx_cnt: 71,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.061633237767472"
+  "balance": "0.061633237767"
 }
 
 ],
@@ -21744,11 +21744,11 @@ export const grantsData = [
     name: 'Ethturin Virtual Hackathon',
     slug: 'https://gitcoin.co/grants/372/ethturin-virtual-hackathon',
     tx_cnt: 243,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.829624229646598"
+  "balance": "1.829624229647"
 }
 
 ],
@@ -21763,11 +21763,11 @@ export const grantsData = [
     name: 'Dijital Art',
     slug: 'https://gitcoin.co/grants/1963/dijital-art',
     tx_cnt: 59,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000925908366142"
+  "balance": "0.000925908366"
 }
 
 ],
@@ -21782,11 +21782,11 @@ export const grantsData = [
     name: 'Dudesahn&#39;s Crypto Onboarding Made Easy',
     slug: 'https://gitcoin.co/grants/1879/dudesahns-crypto-onboarding-made-easy',
     tx_cnt: 1,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.020000000000000"
+  "balance": "0.020000000000"
 }
 
 ],
@@ -21801,11 +21801,11 @@ export const grantsData = [
     name: 'Metafactory',
     slug: 'https://gitcoin.co/grants/265/metafactory',
     tx_cnt: 312,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "3.151157186540373"
+  "balance": "3.151157186540"
 }
 
 ],
@@ -21820,11 +21820,11 @@ export const grantsData = [
     name: 'Decentralize Data Now Cat Herding',
     slug: 'https://gitcoin.co/grants/81/decentralize-data-now-cat-herding',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.031657318945971"
+  "balance": "0.031657318946"
 }
 
 ],
@@ -21839,11 +21839,11 @@ export const grantsData = [
     name: 'Smart Swap',
     slug: 'https://gitcoin.co/grants/1035/smart-swap',
     tx_cnt: 92,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000231169700000"
+  "balance": "0.000231169700"
 }
 
 ],
@@ -21858,11 +21858,11 @@ export const grantsData = [
     name: 'Meme Pools',
     slug: 'https://gitcoin.co/grants/607/meme-pools',
     tx_cnt: 102,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21877,11 +21877,11 @@ export const grantsData = [
     name: 'Decentralized Management of Public Good',
     slug: 'https://gitcoin.co/grants/1054/decentralized-management-of-public-good',
     tx_cnt: 9,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.036314764184426"
+  "balance": "1.036314764184"
 }
 
 ],
@@ -21896,11 +21896,11 @@ export const grantsData = [
     name: 'Hedgie Game',
     slug: 'https://gitcoin.co/grants/1309/hedgie-game',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -21915,11 +21915,11 @@ export const grantsData = [
     name: 'Suma DeFi Interest Rate Derivatives',
     slug: 'https://gitcoin.co/grants/267/suma-defi-interest-rate-derivatives',
     tx_cnt: 3468,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.218620781812788"
+  "balance": "0.218620781813"
 }
 
 ],
@@ -21934,11 +21934,11 @@ export const grantsData = [
     name: 'Everyone Can Be a Chef with Sushi',
     slug: 'https://gitcoin.co/grants/1983/everyone-can-be-a-chef-with-sushi',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.002000000000000"
+  "balance": "0.002000000000"
 }
 
 ],
@@ -21950,14 +21950,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 370,
     address: '0xfb2f080bcfb10ed3117a3b23653bf23fc3caec71',
-    name: 'Ltokens: Solving the Paradox Between Staking & DeF',
+    name: 'Ltokens: Solving the Paradox Between Sta',
     slug: 'https://gitcoin.co/grants/370/ltokens-solving-the-paradox-between-staking-defi',
     tx_cnt: 511,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.244700430942952"
+  "balance": "2.244700430943"
 }
 
 ],
@@ -21972,11 +21972,11 @@ export const grantsData = [
     name: 'Uçurtma Projesi',
     slug: 'https://gitcoin.co/grants/262/ucurtma-projesi',
     tx_cnt: 121,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.016477951349744"
+  "balance": "0.016477951350"
 }
 
 ],
@@ -21991,11 +21991,11 @@ export const grantsData = [
     name: 'Compost',
     slug: 'https://gitcoin.co/grants/1385/compost',
     tx_cnt: 3,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -22010,11 +22010,11 @@ export const grantsData = [
     name: 'Synagonism-mcs-worldview',
     slug: 'https://gitcoin.co/grants/1725/synagonism-mcs-worldview',
     tx_cnt: 25,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.018618000000000"
+  "balance": "0.018618000000"
 }
 
 ],
@@ -22029,11 +22029,11 @@ export const grantsData = [
     name: 'Mess Adoption',
     slug: 'https://gitcoin.co/grants/644/mess-adoption',
     tx_cnt: 103,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.187004186583133"
+  "balance": "0.187004186583"
 }
 
 ],
@@ -22048,11 +22048,11 @@ export const grantsData = [
     name: 'Swap Box',
     slug: 'https://gitcoin.co/grants/403/swap-box',
     tx_cnt: 142,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "31.358030540877166"
+  "balance": "31.358030540877"
 }
 
 ],
@@ -22067,11 +22067,11 @@ export const grantsData = [
     name: 'DAIsm',
     slug: 'https://gitcoin.co/grants/185/daism',
     tx_cnt: 176,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.170062954237877"
+  "balance": "2.170062954238"
 }
 
 ],
@@ -22086,11 +22086,11 @@ export const grantsData = [
     name: 'Cryptofonts for Developers and Designers',
     slug: 'https://gitcoin.co/grants/1908/cryptofonts-for-developers-and-designers',
     tx_cnt: 34,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.081515331921822"
+  "balance": "1.081515331922"
 }
 
 ],
@@ -22105,11 +22105,11 @@ export const grantsData = [
     name: 'Prettier Solidity',
     slug: 'https://gitcoin.co/grants/1534/prettier-solidity',
     tx_cnt: 57,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.061184246400000"
+  "balance": "0.061184246400"
 }
 
 ],
@@ -22124,11 +22124,11 @@ export const grantsData = [
     name: 'Whatisonchain?',
     slug: 'https://gitcoin.co/grants/389/whatisonchain',
     tx_cnt: 582,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.581035367751467"
+  "balance": "0.581035367751"
 }
 
 ],
@@ -22143,11 +22143,11 @@ export const grantsData = [
     name: 'Clr.fund',
     slug: 'https://gitcoin.co/grants/524/clrfund',
     tx_cnt: 118,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.505163963327674"
+  "balance": "1.505163963328"
 }
 
 ],
@@ -22162,11 +22162,11 @@ export const grantsData = [
     name: 'Chainid Network',
     slug: 'https://gitcoin.co/grants/44/chainid-network',
     tx_cnt: 14,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -22181,11 +22181,11 @@ export const grantsData = [
     name: 'Etherdrops',
     slug: 'https://gitcoin.co/grants/1661/etherdrops',
     tx_cnt: 353,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.784931381095873"
+  "balance": "2.784931381096"
 }
 
 ],
@@ -22200,11 +22200,11 @@ export const grantsData = [
     name: 'Eth20 Implementers Call Meeting Notes',
     slug: 'https://gitcoin.co/grants/23/eth20-implementers-call-meeting-notes',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.033334828400000"
+  "balance": "0.033334828400"
 }
 
 ],
@@ -22219,11 +22219,11 @@ export const grantsData = [
     name: 'Blocklendr',
     slug: 'https://gitcoin.co/grants/1899/blocklendr',
     tx_cnt: 11,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000425868431912"
+  "balance": "0.000425868432"
 }
 
 ],
@@ -22235,14 +22235,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1225,
     address: '0xfd762f515199f76b219fb97c1e28850bea44a48c',
-    name: 'Teach Kids About Ethereum with Virtual Reality (&#39;b',
+    name: 'Teach Kids About Ethereum with Virtual R',
     slug: 'https://gitcoin.co/grants/1225/teach-kids-about-ethereum-with-virtual-reality-b-',
     tx_cnt: 37,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000649095142087"
+  "balance": "0.000649095142"
 }
 
 ],
@@ -22254,14 +22254,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1877,
     address: '0xfd9f082936529471430dc4c5aa9c97e48b91c154',
-    name: 'Protocol: Gemini. Building a Better Future.',
+    name: 'Protocol: Gemini. Building a Better Futu',
     slug: 'https://gitcoin.co/grants/1877/protocol-gemini-building-a-better-future',
     tx_cnt: 71,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.113111496843623"
+  "balance": "0.113111496844"
 }
 
 ],
@@ -22276,11 +22276,11 @@ export const grantsData = [
     name: 'Bankless',
     slug: '',
     tx_cnt: 1143,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "2.329420358317695"
+  "balance": "2.329420358318"
 }
 
 ],
@@ -22292,14 +22292,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1147,
     address: '0xfe1d177037df1abbdde4c0e4afcde9447f8511d0',
-    name: 'Coinosis - Earn Crypto for Sharing Your Knowledge',
+    name: 'Coinosis - Earn Crypto for Sharing Your ',
     slug: 'https://gitcoin.co/grants/1147/coinosis-earn-crypto-for-sharing-your-knowledge',
     tx_cnt: 378,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.086877440109298"
+  "balance": "0.086877440109"
 }
 
 ],
@@ -22314,11 +22314,11 @@ export const grantsData = [
     name: 'Hacker Vision',
     slug: 'https://gitcoin.co/grants/252/hacker-vision',
     tx_cnt: 2246,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -22330,14 +22330,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 103,
     address: '0xfe222247735b3c7ef099ba761f9477450f5256fe',
-    name: 'Tradescope: Investigating Market Manipulation',
+    name: 'Tradescope: Investigating Market Manipul',
     slug: 'https://gitcoin.co/grants/103/tradescope-investigating-market-manipulation',
     tx_cnt: 18,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000261399800000"
+  "balance": "0.000261399800"
 }
 
 ],
@@ -22352,11 +22352,11 @@ export const grantsData = [
     name: 'Mrelief',
     slug: 'https://gitcoin.co/grants/572/mrelief',
     tx_cnt: 38,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.006000000000000"
+  "balance": "0.006000000000"
 }
 
 ],
@@ -22371,11 +22371,11 @@ export const grantsData = [
     name: 'Paid Vacation for Yearn Devs',
     slug: 'https://gitcoin.co/grants/1900/paid-vacation-for-yearn-devs',
     tx_cnt: 1207,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "44.468232687322299"
+  "balance": "44.468232687322"
 }
 
 ],
@@ -22390,11 +22390,11 @@ export const grantsData = [
     name: 'Eth Colombia Community Growth 🇨🇴',
     slug: 'https://gitcoin.co/grants/1609/eth-colombia-community-growth',
     tx_cnt: 32,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.073345000000000"
+  "balance": "0.073345000000"
 }
 
 ],
@@ -22409,11 +22409,11 @@ export const grantsData = [
     name: 'Vyper Smart Contract Language Dev Fund',
     slug: 'https://gitcoin.co/grants/128/vyper-smart-contract-language-dev-fund',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],
@@ -22425,14 +22425,14 @@ export const grantsData = [
     type: 'logs',
     grant_id: 239,
     address: '0xff7040a65dd36b9da95b05ef8e1eeea222f6c5fe',
-    name: 'the Application Alliance Community Initiative to M',
+    name: 'the Application Alliance Community Initi',
     slug: '',
     tx_cnt: 0,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.077897222758071"
+  "balance": "0.077897222758"
 }
 
 ],
@@ -22447,11 +22447,11 @@ export const grantsData = [
     name: 'Metaville',
     slug: 'https://gitcoin.co/grants/922/metaville',
     tx_cnt: 165,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "1.721772157436418"
+  "balance": "1.721772157436"
 }
 
 ],
@@ -22466,11 +22466,11 @@ export const grantsData = [
     name: 'African Angels',
     slug: 'https://gitcoin.co/grants/545/african-angels',
     tx_cnt: 82,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.150289030469291"
+  "balance": "0.150289030469"
 }
 
 ],
@@ -22485,11 +22485,11 @@ export const grantsData = [
     name: 'Ethereum Explorer',
     slug: 'https://gitcoin.co/grants/1732/ethereum-explorer',
     tx_cnt: 7,
-    log_cnt: 18446744073709551615,
+    log_cnt: 0,
     donation_cnt: 0,
     bals: [{
   "asset": "ETH",
-  "balance": "0.000000000000000"
+  "balance": "0.000000000000"
 }
 
 ],

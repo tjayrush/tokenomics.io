@@ -16,7 +16,7 @@ export const columns = [
     title: 'Type',
     dataIndex: 'type',
     key: 'type',
-    width: '8%',
+    width: '6%',
     filters: [
       {text: 'Transactions', value: 'txs'},
       {text: 'Logs', value: 'logs'},
@@ -93,7 +93,7 @@ export const columns = [
     },
   },
   {
-    title: 'nTxs',
+    title: 'Txs',
     dataIndex: 'tx_cnt',
     key: 'tx_cnt',
     width: '4%',
@@ -111,7 +111,7 @@ export const columns = [
     ),
   },
   {
-    title: 'nLogs',
+    title: 'Logs',
     dataIndex: 'log_cnt',
     key: 'log_cnt',
     width: '4%',
@@ -129,7 +129,7 @@ export const columns = [
     ),
   },
   {
-    title: 'nDonations',
+    title: 'Count',
     dataIndex: 'donation_cnt',
     key: 'donation_cnt',
     width: '4%',
