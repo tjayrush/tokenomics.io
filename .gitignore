@@ -1,3 +1,4 @@
+*.save
 pouch/bin*
 pouch/objs*
 data
