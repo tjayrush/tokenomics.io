@@ -6,8 +6,6 @@ export const contractData = [
     address: '0x7d655c57f71464b6f83811c55d84009cd9f5221c',
     name: 'GitCoin Grants Core Rounds 6, 7, 8, and 9',
     cnt: 2,
-    csv: 'Download CSV',
-    json: 'Download JSON',
   },
   {
     key: 1,
