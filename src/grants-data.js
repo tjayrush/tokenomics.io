@@ -129,7 +129,7 @@ export const grantsData = [
     cnt: 36755,
     bals: [{
   "asset": "ETH",
-  "balance": "13.99371347308752601"
+  "balance": "13.99424347308752601"
 }
 
 ],
@@ -1667,20 +1667,20 @@ export const grantsData = [
   },
   {
     key: 99,
-    date: '2021-03-13 01:18:05 UTC',
+    date: '2021-03-15 03:05:23 UTC',
     type: 'logs',
     grant_id: 704,
     address: '0x1208a26faa0f4ac65b42098419eb4daa5e580ac6',
     name: 'Tumafare - Social Payments Platform',
     slug: 'https://gitcoin.co/grants/704/tumafare-social-payments-platform',
-    cnt: 126,
+    cnt: 139,
     bals: [{
   "asset": "ETH",
   "balance": "0.22565481469827574"
 }
 
 ],
-    has_data: 0,
+    has_data: 1,
   },
   {
     key: 100,
@@ -1697,41 +1697,41 @@ export const grantsData = [
 }
 
 ],
-    has_data: 0,
+    has_data: 1,
   },
   {
     key: 101,
-    date: '2021-03-13 01:18:05 UTC',
+    date: '2021-03-15 03:05:35 UTC',
     type: 'logs',
     grant_id: 1127,
     address: '0x1251a94b6d800979d2d933b8bd5914b892772ac6',
     name: 'Commons Stack Community Fund - Panvala League',
     slug: 'https://gitcoin.co/grants/1127/commons-stack-community-fund-panvala-league',
-    cnt: 121,
+    cnt: 125,
     bals: [{
   "asset": "ETH",
   "balance": "0.115755368136417374"
 }
 
 ],
-    has_data: 0,
+    has_data: 1,
   },
   {
     key: 102,
-    date: 'n/a',
+    date: '2021-03-15 03:06:03 UTC',
     type: 'logs',
     grant_id: 723,
     address: '0x1266f928b7964173434d3feb6da2554b141920b8',
     name: 'EtherDNA',
     slug: 'https://gitcoin.co/grants/723/etherdna',
-    cnt: 0,
+    cnt: 124,
     bals: [{
   "asset": "ETH",
   "balance": "0.000000000000000000"
 }
 
 ],
-    has_data: 0,
+    has_data: 1,
   },
   {
     key: 103,
@@ -1748,24 +1748,24 @@ export const grantsData = [
 }
 
 ],
-    has_data: 0,
+    has_data: 1,
   },
   {
     key: 104,
-    date: '2021-02-26 08:46:51 UTC',
+    date: '2021-03-15 03:06:22 UTC',
     type: 'logs',
     grant_id: 473,
     address: '0x12a0e25e62c1dbd32e505446062b26aecb65f028',
     name: 'Bbft Podcast Show',
     slug: 'https://gitcoin.co/grants/473/bbft-podcast-show',
-    cnt: 3164,
+    cnt: 3303,
     bals: [{
   "asset": "ETH",
   "balance": "0.352141348705172821"
 }
 
 ],
-    has_data: 0,
+    has_data: 1,
   },
   {
     key: 105,
@@ -1782,7 +1782,7 @@ export const grantsData = [
 }
 
 ],
-    has_data: 0,
+    has_data: 1,
   },
   {
     key: 106,
