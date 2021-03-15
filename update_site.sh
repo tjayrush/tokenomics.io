@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cd pouch
-touch *.cpp
+#touch *.cpp
 make
 bin/pouch >../src/grants-data.js
 cd -

@@ -53,7 +53,7 @@ int main(int argc, const char* argv[]) {
         CBalance bal;
         bal.asset = "ETH";
         bal.balance = padRight(wei_2_Ether(balance), 18, '0');
-        if (balance == 0)
+        if (balance < 1)
             bal.balance = "0." + bal.balance;
         record.bals["ETH"] = bal;
         record.has_data = 0;
