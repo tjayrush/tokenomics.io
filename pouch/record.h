@@ -26,16 +26,17 @@ namespace qblocks {
 //--------------------------------------------------------------------------
 class CRecord : public CBaseNode {
   public:
-    uint32_t key;
+    uint64_t key;
     string_q date;
     string_q type;
-    uint32_t grant_id;
+    uint64_t grant_id;
     address_t address;
     string_q name;
     string_q slug;
-    uint32_t cnt;
-    uint32_t core;
-    uint32_t has_data;
+    uint64_t tx_cnt;
+    uint64_t log_cnt;
+    uint64_t donation_cnt;
+    uint64_t core;
 
   public:
     CRecord(void);
@@ -106,9 +107,10 @@ inline void CRecord::initialize(void) {
     address = "";
     name = "";
     slug = "";
-    cnt = 0;
+    tx_cnt = 0;
+    log_cnt = 0;
+    donation_cnt = 0;
     core = 0;
-    has_data = 0;
 
     // EXISTING_CODE
     // EXISTING_CODE
@@ -126,9 +128,10 @@ inline void CRecord::duplicate(const CRecord& re) {
     address = re.address;
     name = re.name;
     slug = re.slug;
-    cnt = re.cnt;
+    tx_cnt = re.tx_cnt;
+    log_cnt = re.log_cnt;
+    donation_cnt = re.donation_cnt;
     core = re.core;
-    has_data = re.has_data;
 
     // EXISTING_CODE
     // EXISTING_CODE

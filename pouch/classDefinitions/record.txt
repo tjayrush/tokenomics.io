@@ -1,15 +1,16 @@
 [settings]
 class = CRecord
 fields = \
-    uint32 key|\
+    uint64 key|\
     string date|\
     string type|\
-    uint32 grant_id|\
+    uint64 grant_id|\
     address address|\
     string name|\
     string slug|\
-    uint32 cnt|\
-    uint32 core|\
-    uint32 has_data
+    uint64 tx_cnt|\
+    uint64 log_cnt|\
+    uint64 donation_cnt|\
+    uint64 core
 includes = etherlib.h|balance.h
 display_str = key, date, type, address, name, cnt, csv, json

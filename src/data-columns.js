@@ -94,13 +94,49 @@ export const columns = [
   },
   {
     title: 'nTxs',
-    dataIndex: 'cnt',
-    key: 'cnt',
-    width: '12%',
+    dataIndex: 'tx_cnt',
+    key: 'tx_cnt',
+    width: '4%',
     align: 'right',
     sorter: {
       compare: (a, b) => {
-        return a.cnt - b.cnt;
+        return a.tx_cnt - b.tx_cnt;
+      },
+      multiple: 3,
+    },
+    render: (text) => (
+      <pre>
+        <small>{text}</small>
+      </pre>
+    ),
+  },
+  {
+    title: 'nLogs',
+    dataIndex: 'log_cnt',
+    key: 'log_cnt',
+    width: '4%',
+    align: 'right',
+    sorter: {
+      compare: (a, b) => {
+        return a.log_cnt - b.log_cnt;
+      },
+      multiple: 3,
+    },
+    render: (text) => (
+      <pre>
+        <small>{text}</small>
+      </pre>
+    ),
+  },
+  {
+    title: 'nDonations',
+    dataIndex: 'donation_cnt',
+    key: 'donation_cnt',
+    width: '4%',
+    align: 'right',
+    sorter: {
+      compare: (a, b) => {
+        return a.donation_cnt - b.donation_cnt;
       },
       multiple: 3,
     },
@@ -116,7 +152,7 @@ export const columns = [
     key: 'csv',
     width: '5%',
     render: function (text, record) {
-      return downloadLink(record, ".csv");
+      return downloadLink(record, '.csv');
     },
   },
   {
@@ -125,13 +161,13 @@ export const columns = [
     key: 'json',
     width: '5%',
     render: function (text, record) {
-      return downloadLink(record, ".json");
+      return downloadLink(record, '.json');
     },
   },
 ];
 
 function downloadLink(record, type) {
-  if (!record.has_data) {
+  if (record.tx_cnt === 0 && record.log_cnt === 0) {
     return (
       <div>
         <pre>

@@ -32,7 +32,7 @@ int main(int argc, const char* argv[]) {
     }
 
     //string_q types[] = {"txs", "logs", "traces"};
-    uint32_t cnt = 1;
+    uint64_t cnt = 1;
     cout << "export const grantsData = [\n";
     for (auto grant : grants) {
         string_q fn = getCachePath("monitors/" + toLower(grant.address) + ".acct.bin");
@@ -40,29 +40,39 @@ int main(int argc, const char* argv[]) {
 
         CRecord record;
         record.key = cnt++;
-        record.date = (exists ? fileLastModifyDate(fn).Format(FMT_JSON) : "n/a");
-        record.type = "logs"; // types[cnt % 3];
-        record.grant_id = (uint32_t)str_2_Uint(substitute(grant.name, "Grant ", ""));
+
+        record.grant_id = str_2_Uint(substitute(grant.name, "Grant ", ""));
         nextTokenClear(grant.name, ' ');
         nextTokenClear(grant.name, ' ');
         record.name = substitute(grant.name.substr(0, 50), "'", "&#39;");
+
+        record.date = (exists ? fileLastModifyDate(fn).Format(FMT_JSON) : "n/a");
+        record.type = "logs"; // types[cnt % 3];
         record.address = grant.address;
         record.slug = grant.source;
-        record.cnt = (uint32_t)(exists ? (fileSize(fn) / sizeof(CAppearance_base)) : 0);
-        wei_t balance = getBalanceAt(grant.address, latest);
+        record.core = contains(grant.tags, ":Core");
+
         CBalance bal;
         bal.asset = "ETH";
-        record.core = contains(grant.tags, ":Core");
-        bal.balance = padRight(wei_2_Ether(balance), 18, '0');
-        if (balance < 1)
-            bal.balance = "0." + bal.balance;
+        wei_t balance = getBalanceAt(grant.address, latest);
+        bal.balance = wei_2_Ether(balance);
+        bal.balance = double_2_Str(str_2_Double(bal.balance), 15);
         record.bals["ETH"] = bal;
-        record.has_data = 0;
-        if (fileExists("./data/" + record.address + ".json") || fileExists("./data/" + record.address + ".csv"))
-            record.has_data = 1;
+
+        string_q jsonFile = "./data/" + record.address + ".json";
+        string_q csvFile = "./data/" + record.address + ".csv";
+        record.tx_cnt = (exists ? (fileSize(fn) / sizeof(CAppearance_base)) : 0);
+        if (fileExists(csvFile)) {
+            record.log_cnt = str_2_Uint(doCommand("wc " + csvFile)) - 1;
+            record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Donation | wc"));
+        } else {
+            record.log_cnt = record.tx_cnt;
+            record.donation_cnt = 0;
+        }
+
         cout << substitute(record.Format(STR_OUTPUT), "[{KEY}]", uint_2_Str(cnt)) << endl;
 
-        cerr << fn << " : " << exists << " : " << (record.has_data ? "true" : "false") << endl;
+        cerr << fn << " : " << exists << endl;
     }
     cout << "]";
 
@@ -70,7 +80,7 @@ int main(int argc, const char* argv[]) {
     return 1;
 }
 
-const char* STR_OUTPUT =
+const char *STR_OUTPUT =
     "  {\n"
     "    key: [{KEY}],\n"
     "    date: '[{DATE}]',\n"
@@ -79,8 +89,9 @@ const char* STR_OUTPUT =
     "    address: '[{ADDRESS}]',\n"
     "    name: '[{NAME}]',\n"
     "    slug: '[{SLUG}]',\n"
-    "    cnt: [{CNT}],\n"
+    "    tx_cnt: [{TX_CNT}],\n"
+    "    log_cnt: [{LOG_CNT}],\n"
+    "    donation_cnt: [{DONATION_CNT}],\n"
     "    bals: [{BALS}],\n"
     "    core: [{CORE}],\n"
-    "    has_data: [{HAS_DATA}],\n"
     "  },";

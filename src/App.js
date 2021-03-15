@@ -7,7 +7,6 @@ import './App.css';
 import 'antd/dist/antd.css';
 
 import {grantsData} from './grants-data.js';
-//import {contractData} from './contract-data.js';
 import {columns} from './data-columns.js';
 
 const {Header, Footer, Sider, Content} = Layout;

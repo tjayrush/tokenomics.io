@@ -79,9 +79,6 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
             }
             break;
         case 'c':
-            if (fieldName % "cnt") {
-                return uint_2_Str(cnt);
-            }
             if (fieldName % "core") {
                 return uint_2_Str(core);
             }
@@ -90,20 +87,23 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
             if (fieldName % "date") {
                 return date;
             }
+            if (fieldName % "donation_cnt") {
+                return uint_2_Str(donation_cnt);
+            }
             break;
         case 'g':
             if (fieldName % "grant_id") {
                 return uint_2_Str(grant_id);
             }
             break;
-        case 'h':
-            if (fieldName % "has_data") {
-                return uint_2_Str(has_data);
-            }
-            break;
         case 'k':
             if (fieldName % "key") {
                 return uint_2_Str(key);
+            }
+            break;
+        case 'l':
+            if (fieldName % "log_cnt") {
+                return uint_2_Str(log_cnt);
             }
             break;
         case 'n':
@@ -119,6 +119,9 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
         case 't':
             if (fieldName % "type") {
                 return type;
+            }
+            if (fieldName % "tx_cnt") {
+                return uint_2_Str(tx_cnt);
             }
             break;
         default:
@@ -148,12 +151,8 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
             }
             break;
         case 'c':
-            if (fieldName % "cnt") {
-                cnt = (uint32_t)str_2_Uint(fieldValue);
-                return true;
-            }
             if (fieldName % "core") {
-                core = (uint32_t)str_2_Uint(fieldValue);
+                core = str_2_Uint(fieldValue);
                 return true;
             }
             break;
@@ -162,22 +161,26 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
                 date = fieldValue;
                 return true;
             }
-            break;
-        case 'g':
-            if (fieldName % "grant_id") {
-                grant_id = (uint32_t)str_2_Uint(fieldValue);
+            if (fieldName % "donation_cnt") {
+                donation_cnt = str_2_Uint(fieldValue);
                 return true;
             }
             break;
-        case 'h':
-            if (fieldName % "has_data") {
-                has_data = (uint32_t)str_2_Uint(fieldValue);
+        case 'g':
+            if (fieldName % "grant_id") {
+                grant_id = str_2_Uint(fieldValue);
                 return true;
             }
             break;
         case 'k':
             if (fieldName % "key") {
-                key = (uint32_t)str_2_Uint(fieldValue);
+                key = str_2_Uint(fieldValue);
+                return true;
+            }
+            break;
+        case 'l':
+            if (fieldName % "log_cnt") {
+                log_cnt = str_2_Uint(fieldValue);
                 return true;
             }
             break;
@@ -196,6 +199,10 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
         case 't':
             if (fieldName % "type") {
                 type = fieldValue;
+                return true;
+            }
+            if (fieldName % "tx_cnt") {
+                tx_cnt = str_2_Uint(fieldValue);
                 return true;
             }
             break;
@@ -231,9 +238,10 @@ bool CRecord::Serialize(CArchive& archive) {
     archive >> address;
     archive >> name;
     archive >> slug;
-    archive >> cnt;
+    archive >> tx_cnt;
+    archive >> log_cnt;
+    archive >> donation_cnt;
     archive >> core;
-    archive >> has_data;
     finishParse();
     return true;
 }
@@ -252,9 +260,10 @@ bool CRecord::SerializeC(CArchive& archive) const {
     archive << address;
     archive << name;
     archive << slug;
-    archive << cnt;
+    archive << tx_cnt;
+    archive << log_cnt;
+    archive << donation_cnt;
     archive << core;
-    archive << has_data;
 
     return true;
 }
@@ -298,9 +307,10 @@ void CRecord::registerClass(void) {
     ADD_FIELD(CRecord, "address", T_ADDRESS | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "name", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "slug", T_TEXT | TS_OMITEMPTY, ++fieldNum);
-    ADD_FIELD(CRecord, "cnt", T_UNUMBER, ++fieldNum);
+    ADD_FIELD(CRecord, "tx_cnt", T_UNUMBER, ++fieldNum);
+    ADD_FIELD(CRecord, "log_cnt", T_UNUMBER, ++fieldNum);
+    ADD_FIELD(CRecord, "donation_cnt", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "core", T_UNUMBER, ++fieldNum);
-    ADD_FIELD(CRecord, "has_data", T_UNUMBER, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like
     HIDE_FIELD(CRecord, "schema");
