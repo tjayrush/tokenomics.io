@@ -213,7 +213,7 @@ export const HomePage = () => {
         </TabPane>
         <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
           The future home of some charts<br />
-          <img width="1280px" alt='Count By Date' src='http://tokenomics.io/chart-folder/Donation Count by Date.png' />
+          <img width="640px" alt='Count By Date' src='http://tokenomics.io/chart-folder/Donation Count by Date.png' />
         </TabPane>
       </Tabs>
     </Content>
