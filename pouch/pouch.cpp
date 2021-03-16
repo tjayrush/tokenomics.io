@@ -69,17 +69,17 @@ int main(int argc, const char *argv[])
                 os << substitute(record.Format(STR_OUTPUT), "++BALANCES++", oss.str()) << endl;
             }
             stringToAsciiFile("../src/grants-data.js", os.str());
-            cerr << "Sleeping for 28 seconds";
-            size_t cnt = 0;
-            while (++cnt < 28 && !shouldQuit())
-            {
-                cerr << ".";
-                cerr.flush();
-                sleep(1);
-            }
-            cerr << endl;
+ //           cerr << "Sleeping for 28 seconds";
+//            size_t cnt = 0;
+//            while (++cnt < 28 && !shouldQuit())
+//            {
+//                cerr << ".";
+//                cerr.flush();
+//                sleep(1);
+//            }
+//            cerr << endl;
             key = 1;
-            updateSome(records, grants);
+//            updateSome(records, grants);
             return 0;
         }
     }
