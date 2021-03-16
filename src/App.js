@@ -8,9 +8,10 @@ import 'antd/dist/antd.css';
 
 import {faq_title, faq_text} from './FAQ.js';
 import {grantsData} from './grants-data.js';
-import {columns} from './data-columns.js';
+import { columns } from './data-columns.js';
+import { Foot } from './Foot.js'
 
-const {Header, Footer, Sider, Content} = Layout;
+const { Header, Sider, Content } = Layout;
 const {Title, Paragraph, Text} = Typography;
 const {TabPane} = Tabs;
 const Table = (props) => {
@@ -68,15 +69,6 @@ export const Head = () => {
         </Title>
       </Typography>
     </Header>
-  );
-};
-
-export const Foot = () => {
-  return (
-    <Footer style={{height: '10px', fontSize: '8pt'}}>
-      A project of TrueBlocks, LLC &diams; Powered by <a href='https://twitter.com/trueblocks'>@trueblocks</a> and{' '}
-      <a href='http://tokenomics.io'>tokenomics.io</a>
-    </Footer>
   );
 };
 
