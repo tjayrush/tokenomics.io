@@ -8,6 +8,7 @@ import 'antd/dist/antd.css';
 
 import {grantsData} from './grants-data.js';
 import {columns} from './data-columns.js';
+import { faq_title, faq_text } from './FAQ.js';
 
 const {Header, Footer, Sider, Content} = Layout;
 const {Title, Paragraph, Text} = Typography;
@@ -23,8 +24,6 @@ const Table = (props) => {
   return <AntTable pagination={pag} size='small' bordered={true} {...props} />;
 };
 
-var homePage = true;
-
 function callback(key) {
   console.log(key);
 }
@@ -39,7 +38,7 @@ function App() {
         <LeftSider />
         <Content style={{padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue'}}>
           <Layout>
-            {homePage ? <HomePage /> : <FAQ/>}
+            <HomePage />
             <RightSider />
           </Layout>
         </Content>
@@ -130,90 +129,16 @@ export const MyCard = ({children}) => {
   );
 };
 
-  /*Automate for every block
-Produce logs
-, traces, txs, accounting, appearances
-
-
-
-Add Matching Contract
-
-
-Search
-*/
-
 export const RightSider = () => {
   const hover1_text = (
     <ul style={{marginLeft: '-20px'}}>
-      <li>Automate to produce per-block data</li>
-      <li>Export tx, trace and accounting data</li>
-      <li>Allow download of all data in .gz file</li>
-      <li>Allow for search by name</li>
+      <li>Enable search by name</li>
+      <li>Update the data after every block</li>
+      <li>Export more data per address (tx, trace, accounting, etc.)</li>
+      <li>Allow download of the entire data pages as .gz</li>
     </ul>
   );
   const hover1_title = 'To Do List';
-  const hover2_text = (
-    <ul style={{marginLeft: '-20px'}}>
-      <li>
-        <b>Can I download all the data at once?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>How is this different than theGraph? Don't they index the chain as well?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>What kind of server infrastructure do you have?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>Are you running your own Ethereum node?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>How much does it cost to run your infrastructure?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>What are your plans for TrueBlocks?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>
-          Why do you only export logs? Can I get a history of all transactions? How about traces? How about accounting?
-        </b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>What do you mean by permission less?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>What do you mean by instantaneous?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>What do you mean by 18-decimal-place accurate?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-      <li>
-        <b>What do you mean by radically transparent?</b>
-        <br />
-        <div>Answer</div>
-      </li>
-    </ul>
-  );
-  const hover2_title = 'FAQ';
   return (
     <Sider style={{backgroundColor: 'lightblue'}}>
       <MyCard>
@@ -256,8 +181,8 @@ export const RightSider = () => {
           style={{border: '1px dashed black'}}
           color='lightblue'
           placement='left'
-          title={hover2_title}
-          content={hover2_text}
+          title={faq_title}
+          content={faq_text}
           trigger='hover'>
           <div style={{width: '100%', height: '100%'}}>
             FAQ
@@ -281,56 +206,16 @@ export const HomePage = () => {
     <Content>
       <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
         <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
-          <Table
-            dataSource={grantData}
-            columns={columns}
-          />
+          <Table dataSource={grantData} columns={columns} />
         </TabPane>
         <TabPane tab='Donation Contracts' key='2' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
+        <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
+          The future home of some charts<br />
+          <img alt='Count By Date' src='http://tokenomics.io/chart-folder/Donation Count by Date.png' />
+        </TabPane>
       </Tabs>
-    </Content>
-  );
-};
-
-export const FAQ = () => {
-const faq_columns = [
-  {
-    title: 'Question',
-    dataIndex: 'question',
-    key: 'question',
-    width: "20%"
-  },
-  {
-    title: 'Answer',
-    dataIndex: 'answer',
-    key: 'answer',
-  },
-];
-
-  const faqs = [
-    {
-      key: 1,
-      question: 'What the fuck is going on with you?',
-      answer: "Not much how about you?"
-    },
-    {
-      key: 2,
-      question: 'Will you ever actually release software?',
-      answer: "Probably not."
-    },
-    {
-      key: 2,
-      question: 'Do you realize how amazing this is?',
-      answer: "Yes."
-    }
-  ];
-
-  return (
-    <Content>
-      <Title align="left" level={2} style={{paddingLeft: "10px"}}>FAQ</Title>
-      <AntTable pagination={false} bordered={true} dataSource={faqs} columns={faq_columns} />
     </Content>
   );
 };
