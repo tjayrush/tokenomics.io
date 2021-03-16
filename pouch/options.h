@@ -25,10 +25,10 @@
 class COptions : public COptionsBase {
   public:
     // BEG_CODE_DECLARE
-    // END_CODE_DECLARE
-
     bool freshen;
-    bool option2;
+    bool json2Csv;
+    bool csv2Json;
+    // END_CODE_DECLARE
 
     COptions(void);
     ~COptions(void);
