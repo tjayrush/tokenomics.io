@@ -68,16 +68,17 @@ int main(int argc, const char *argv[])
                 }
                 os << substitute(record.Format(STR_OUTPUT), "++BALANCES++", oss.str()) << endl;
             }
+            os << "];";
             stringToAsciiFile("../src/grants-data.js", os.str());
-//            cerr << "Sleeping for 28 seconds";
-//            size_t cnt = 0;
-//            while (++cnt < 28 && !shouldQuit())
-//            {
-//                cerr << ".";
-//                cerr.flush();
-//                sleep(1);
-//            }
-//            cerr << endl;
+            //            cerr << "Sleeping for 28 seconds";
+            //            size_t cnt = 0;
+            //            while (++cnt < 28 && !shouldQuit())
+            //            {
+            //                cerr << ".";
+            //                cerr.flush();
+            //                sleep(1);
+            //            }
+            //            cerr << endl;
             key = 1;
 //            updateSome(records, grants);
             return 0;
@@ -201,7 +202,18 @@ bool updateOne(CRecord &record, CAccountName &grant, blknum_t latest)
         record.log_cnt = str_2_Uint(doCommand("wc " + csvFile));
         if (record.log_cnt > 0)
             record.log_cnt -= 1;
-        record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Donation | wc"));
+        if (record.address == "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6")
+        {
+            record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Payout | wc"));
+        }
+        else if (record.address == "0xdf869fad6db91f437b59f1edefab319493d4c4ce")
+        {
+            record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep 0xdf869fad6db91f437b59f1edefab319493d4c4ce | wc"));
+        }
+        else
+        {
+            record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Donation | wc"));
+        }
     }
     else
     {
