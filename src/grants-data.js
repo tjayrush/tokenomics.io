@@ -39,7 +39,7 @@ export const grantsData = [
     type: 'logs',
     grant_id: 0,
     address: '0xdf869fad6db91f437b59f1edefab319493d4c4ce',
-    name: 'GitCoin Grant Contract - Round 5',
+    name: 'GitCoin Grant Contract - Pre Round 6',
     slug: '',
     tx_cnt: 33560,
     log_cnt: 48806,
