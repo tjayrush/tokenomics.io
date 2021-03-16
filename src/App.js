@@ -205,10 +205,10 @@ export const HomePage = () => {
   return (
     <Content>
       <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
-        <TabPane tab='Donation Contracts' key='2' style={{paddingLeft: '8px'}}>
+        <TabPane tab='Donation Contracts' key='1' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
-        <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
+        <TabPane tab='Individual Grants' key='2' style={{paddingLeft: '8px'}}>
           <Table dataSource={grantData} columns={columns} />
         </TabPane>
         <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
