@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 cd pouch
+rm data/records.bin
 # touch *.cpp
 make
 bin/pouch --freshen
