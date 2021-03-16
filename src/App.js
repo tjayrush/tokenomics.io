@@ -6,9 +6,9 @@ import {Affix} from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
+import {faq_title, faq_text} from './FAQ.js';
 import {grantsData} from './grants-data.js';
 import {columns} from './data-columns.js';
-import { faq_title, faq_text } from './FAQ.js';
 
 const {Header, Footer, Sider, Content} = Layout;
 const {Title, Paragraph, Text} = Typography;
@@ -135,7 +135,7 @@ export const RightSider = () => {
       <li>Enable search by name</li>
       <li>Update the data after every block</li>
       <li>Export more data per address (tx, trace, accounting, etc.)</li>
-      <li>Allow download of the entire data pages as .gz</li>
+      <li>Allow download of the entire data set as a <i>.tar.gz</i></li>
     </ul>
   );
   const hover1_title = 'To Do List';
@@ -205,15 +205,16 @@ export const HomePage = () => {
   return (
     <Content>
       <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
-        <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
-          <Table dataSource={grantData} columns={columns} />
-        </TabPane>
         <TabPane tab='Donation Contracts' key='2' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
+        <TabPane tab='Individual Grants' key='1' style={{paddingLeft: '8px'}}>
+          <Table dataSource={grantData} columns={columns} />
+        </TabPane>
         <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
-          The future home of some charts<br />
-          <img width="640px" alt='Count By Date' src='http://tokenomics.io/chart-folder/Donation Count by Date.png' />
+          The future home of some charts
+          <br />
+          <img width='640px' alt='Count By Date' src='http://tokenomics.io/chart-folder/Donation Count by Date.png' />
         </TabPane>
       </Tabs>
     </Content>

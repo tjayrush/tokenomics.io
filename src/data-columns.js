@@ -78,7 +78,7 @@ export const columns = [
           <pre>
             <small>{name}</small>
             <br />
-            <a target={'top'} href={'http://etherscan.io/address/' + text}>
+            <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
               <small>{record.address}</small>
             </a>
           </pre>
