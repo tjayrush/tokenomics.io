@@ -125,13 +125,13 @@ export const columns = [
     width: '10%',
     render: (text, record) => (
       <pre>
-        <small>{record.bals[0].balance}</small>
+        <small>{record.balances[0].balance}</small>
       </pre>
     ),
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return a.bals[0].balance - b.bals[0].balance;
+        return a.balances[0].balance - b.balances[0].balance;
       },
     },
   },

@@ -16,6 +16,7 @@ dest=$(bin)/$(exec)
 
 #-------------------------------------------------
 src= \
+options.cpp \
 record.cpp \
 balance.cpp \
 $(exec).cpp
