@@ -11,6 +11,7 @@ fields = \
     uint64 tx_cnt|\
     uint64 log_cnt|\
     uint64 donation_cnt|\
-    uint64 core
+    uint64 core|\
+    CBalanceArray balances
 includes = etherlib.h|balance.h
 display_str = key, date, type, address, name, cnt, csv, json

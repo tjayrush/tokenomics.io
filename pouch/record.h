@@ -37,6 +37,7 @@ class CRecord : public CBaseNode {
     uint64_t log_cnt;
     uint64_t donation_cnt;
     uint64_t core;
+    CBalanceArray balances;
 
   public:
     CRecord(void);
@@ -46,8 +47,9 @@ class CRecord : public CBaseNode {
 
     DECLARE_NODE(CRecord);
 
+    const CBaseNode* getObjectAt(const string_q& fieldName, size_t index) const override;
+
     // EXISTING_CODE
-    CBalanceMap bals;
     // EXISTING_CODE
     bool operator==(const CRecord& it) const;
     bool operator!=(const CRecord& it) const {
@@ -111,6 +113,7 @@ inline void CRecord::initialize(void) {
     log_cnt = 0;
     donation_cnt = 0;
     core = 0;
+    balances.clear();
 
     // EXISTING_CODE
     // EXISTING_CODE
@@ -132,6 +135,7 @@ inline void CRecord::duplicate(const CRecord& re) {
     log_cnt = re.log_cnt;
     donation_cnt = re.donation_cnt;
     core = re.core;
+    balances = re.balances;
 
     // EXISTING_CODE
     // EXISTING_CODE

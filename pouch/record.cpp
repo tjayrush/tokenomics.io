@@ -78,6 +78,21 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
                 return addr_2_Str(address);
             }
             break;
+        case 'b':
+            if (fieldName % "balances" || fieldName % "balancesCnt") {
+                size_t cnt = balances.size();
+                if (endsWith(toLower(fieldName), "cnt"))
+                    return uint_2_Str(cnt);
+                if (!cnt)
+                    return "";
+                string_q retS;
+                for (size_t i = 0; i < cnt; i++) {
+                    retS += balances[i].Format();
+                    retS += ((i < cnt - 1) ? ",\n" : "\n");
+                }
+                return retS;
+            }
+            break;
         case 'c':
             if (fieldName % "core") {
                 return uint_2_Str(core);
@@ -147,6 +162,17 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
         case 'a':
             if (fieldName % "address") {
                 address = str_2_Addr(fieldValue);
+                return true;
+            }
+            break;
+        case 'b':
+            if (fieldName % "balances") {
+                CBalance obj;
+                string_q str = fieldValue;
+                while (obj.parseJson3(str)) {
+                    balances.push_back(obj);
+                    obj = CBalance();  // reset
+                }
                 return true;
             }
             break;
@@ -242,6 +268,7 @@ bool CRecord::Serialize(CArchive& archive) {
     archive >> log_cnt;
     archive >> donation_cnt;
     archive >> core;
+    archive >> balances;
     finishParse();
     return true;
 }
@@ -264,6 +291,7 @@ bool CRecord::SerializeC(CArchive& archive) const {
     archive << log_cnt;
     archive << donation_cnt;
     archive << core;
+    archive << balances;
 
     return true;
 }
@@ -311,6 +339,7 @@ void CRecord::registerClass(void) {
     ADD_FIELD(CRecord, "log_cnt", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "donation_cnt", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "core", T_UNUMBER, ++fieldNum);
+    ADD_FIELD(CRecord, "balances", T_OBJECT | TS_ARRAY | TS_OMITEMPTY, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like
     HIDE_FIELD(CRecord, "schema");
@@ -321,6 +350,7 @@ void CRecord::registerClass(void) {
     builtIns.push_back(_biCRecord);
 
     // EXISTING_CODE
+    ADD_FIELD(CRecord, "bals", T_OBJECT | TS_ARRAY | TS_OMITEMPTY, ++fieldNum);
     // EXISTING_CODE
 }
 
@@ -331,14 +361,14 @@ string_q nextRecordChunk_custom(const string_q& fieldIn, const void* dataPtr) {
         switch (tolower(fieldIn[0])) {
             // EXISTING_CODE
             case 'b':
-                if (fieldIn % "bals") {
+                if (fieldIn % "balances") {
                     ostringstream os;
                     os << "[";
                     bool first = true;
-                    for (auto b : rec->bals) {
+                    for (auto balance : rec->balances) {
                         if (!first)
                             os << ",\n";
-                        os << b.second << endl;
+                        os << balance << endl;
                         first = false;
                     }
                     os << "]";
@@ -377,6 +407,21 @@ ostream& operator<<(ostream& os, const CRecord& it) {
     it.Format(os, "", nullptr);
     os << "\n";
     return os;
+}
+
+//---------------------------------------------------------------------------
+const CBaseNode* CRecord::getObjectAt(const string_q& fieldName, size_t index) const {
+    if (fieldName % "balances") {
+        if (index == NOPOS) {
+            CBalance empty;
+            ((CRecord*)this)->balances.push_back(empty);  // NOLINT
+            index = balances.size() - 1;
+        }
+        if (index < balances.size())
+            return &balances[index];
+    }
+
+    return NULL;
 }
 
 //---------------------------------------------------------------------------

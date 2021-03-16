@@ -1447,13 +1447,6 @@
   },
   {
     "tags": "31-Gitcoin Grants:Grant",
-    "address": "0x322d58b9e75a6918f7e7849aee0ff09369977e08",
-    "name": "Grant 0296 DeFi Saver",
-    "source": "https://gitcoin.co/grants/296/defi-saver",
-    "description": "https://defisaver.com/"
-  },
-  {
-    "tags": "31-Gitcoin Grants:Grant",
     "address": "0x323e5692152cdf04d84ea8aed57ec8a8caf43e92",
     "name": "Grant 0214 Axiom Finance ahoffaxiom"
   },
