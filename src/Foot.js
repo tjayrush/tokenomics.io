@@ -17,13 +17,15 @@ export const Foot = () => {
         </div>
         <div style={{textAlign: 'right'}}>
           <a rel='noreferrer' target='_blank' href='http://twitter.com/@trueblocks'>
-            <TwitterOutlined style={{fontSize: '14pt', color: 'darkblue'}} />
-          </a>{'  '}
+            <TwitterOutlined style={{fontSize: '14pt', color: '#282c34'}} />
+          </a>
+          {'  '}
           <a rel='noreferrer' target='_blank' href='https://github.com/TrueBlocks'>
-            <GithubOutlined style={{fontSize: '14pt', color: 'darkblue'}} />
-          </a>{'  '}
+            <GithubOutlined style={{fontSize: '14pt', color: '#282c34'}} />
+          </a>
+          {'  '}
           <a rel='noreferrer' target='_blank' href='mailto:info@trueblocks.io'>
-            <MailOutlined style={{fontSize: '14pt', color: 'darkblue'}} />
+            <MailOutlined style={{fontSize: '14pt', color: '#282c34'}} />
           </a>{' '}
         </div>
       </div>

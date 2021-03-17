@@ -4,7 +4,21 @@ const { Text} = Typography;
 
 export const columns = [
   {
-    title: 'Last Update',
+    title: (
+      <div>
+        Last Activity{' '}
+        <Popover
+          color='lightblue'
+          content={
+            <div>
+              The most recent interaction this address<br />
+              had with a GitCoin-related contract.
+            </div>
+          }>
+          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
+        </Popover>
+      </div>
+    ),
     dataIndex: 'date',
     key: 'date',
     width: '15%',
@@ -13,6 +27,10 @@ export const columns = [
         <small>{text}</small>
       </pre>
     ),
+    showSorterTooltip: false,
+    sorter: {
+      compare: (a, b) => a.date < b.date,
+    },
   },
   {
     title: (
@@ -22,9 +40,11 @@ export const columns = [
           color='lightblue'
           content={
             <div>
-              The type of data to download. One
+              The type of data to download. Currently,
               <br />
-              of txs, logs, traces, or accounting.
+              only logs, but coming soon txs,
+              <br />
+              traces, accounting, etc.
             </div>
           }>
           <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
@@ -60,7 +80,7 @@ export const columns = [
               <br />
               grant or core contract linked
               <br />
-              either to the grant or Etherscan.
+              either to the GitCoin grant or Etherscan.
             </div>
           }>
           <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
@@ -110,9 +130,9 @@ export const columns = [
             <div>
               The balances for the account
               <br />
-              in ETH and possibly DAI. Hover
+              in ETH. We will add DAI and
               <br />
-              to see other balances.
+              other tokens in the future.
             </div>
           }>
           <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
@@ -147,7 +167,7 @@ export const columns = [
               <br />
               this address. (An appearance is any
               <br />
-              transaction the account was appeared in.
+              transaction the account has appeared in.)
             </div>
           }>
           <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>

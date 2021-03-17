@@ -79,7 +79,7 @@ export const LeftSider = () => {
         What is a data pouch?
       </Paragraph>
       <Text style={{color: 'lightblue'}}>
-        A data pouch is a website that provides access to data files and nothing more
+        A data pouch is a website that provides access to data files and nothing more using TrueBlocks.
       </Text>
       <br />
       <br />
@@ -88,7 +88,8 @@ export const LeftSider = () => {
         Ecosystem accounting
       </Paragraph>
       <Text style={{color: 'lightblue'}}>
-        Per-block, eighteen-decimal-place accurate, permissionless, radically-transparent accounting for communities over large collections of addresses.
+        Permissionless, per-block, eighteen-decimal-place accurate, radically-transparent data accounting for
+        communities and individuals.
       </Text>
       <br />
       <br />
@@ -97,11 +98,13 @@ export const LeftSider = () => {
       <br />
       <br />
       <br />
-      <Paragraph type='warning'>Note:</Paragraph>
-      <Text style={{color: 'lightblue'}}>
-        This website is not only <i>alpha</i> it is <i>seriously alpha</i>. This means we take no responsibility for the
-        data provided.
-      </Text>
+      <small>
+        <Text style={{color: 'lightblue'}}>
+          This website is <i>seriously alpha</i>, meaning we take no responsibility for the data provided.
+        </Text>
+      </small>
+      <br />
+      <br />
     </Sider>
   );
 };
