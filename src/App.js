@@ -197,7 +197,7 @@ export const RightSider = () => {
 
 export const HomePage = () => {
   const [searchText, setSearchText] = useState('');
-  const [defKey, setDefKey] = useState(1);
+  const [defKey, setDefKey] = useState('1');
 
   const onSearch = (value) => {
     setSearchText(value);
@@ -205,16 +205,23 @@ export const HomePage = () => {
   };
 
   const contractData = grantsData.filter((item) => {
-    return item.core && (searchText === '' || item.name.includes(searchText));
+    return item.core && (searchText === '' || item.name.includes(searchText) || item.address.includes(searchText));
   });
   const grantData = grantsData.filter((item) => {
-    return !item.core && (searchText === '' || item.name.includes(searchText));
+    return !item.core && (searchText === '' || item.name.includes(searchText) || item.address.includes(searchText));
   });
+
   useEffect(() => {
     setDefKey(!!contractData && contractData !== [] ? '1' : '2');
   }, [searchText, contractData]);
 
-  /*<div>searchText: [ {searchText} ][{defKey}][{JSON.stringify(contractData, 2, null)}]</div>*/
+  /*
+      <div>
+        searchText: [ {searchText} ][{defKey}][{JSON.stringify(contractData, 2, null)}]
+      </div>
+  */
+  const tab1Title = 'Donation Contracts (' + contractData.length + ')';
+  const tab2Title = 'Individual Grants (' + grantData.length + ')';
   return (
     <Content>
       <div style={{display: 'grid', gridTemplateColumns: '3fr 1fr'}}>
@@ -227,10 +234,10 @@ export const HomePage = () => {
           enterButton></Search>
       </div>
       <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
-        <TabPane tab='Donation Contracts' key='1' style={{paddingLeft: '8px'}}>
+        <TabPane tab={tab1Title} key='1' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
-        <TabPane tab='Individual Grants' key='2' style={{paddingLeft: '8px'}}>
+        <TabPane tab={tab2Title} key='2' style={{paddingLeft: '8px'}}>
           <Table dataSource={grantData} columns={columns} />
         </TabPane>
         <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
@@ -239,6 +246,9 @@ export const HomePage = () => {
           <img width='640px' alt='Count By Date' src='http://tokenomics.io/gitcoin/charts/Donation Count by Date.png' />
         </TabPane>
       </Tabs>
+      <i>
+        <small>Data Last Updated: 2021-03-16 03:30:04 UTC (block 12047274)</small>
+      </i>
     </Content>
   );
 };

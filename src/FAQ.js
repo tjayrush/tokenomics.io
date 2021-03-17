@@ -42,10 +42,27 @@ export const faq_text = (
         <br />
         The full suite of TrueBlocks tools produces much more data, though. Full tranactional details,
         <br />
-        full tracing data and even ETH accounting, are available, but we do not include that data on
+        full tracing data, and even full ETH accounting are available, but we do not include that data on
         <br />
         this website at this time.
       </div>
+    </li>
+    <li>
+      <b>What's hard about what you did?</b>
+      <br />
+      <ul style={{marginLeft: '-20px'}}>
+        <li>The data comes directly from an Ethereum node.</li>
+        <li>
+          Without TrueBlocks, getting this same data{' '}
+          <i>
+            <u>from a node</u>
+          </i>{' '}
+          takes WEEKS!
+        </li>
+        <li>TrueBlocks core runs on our Mac desktop using zero third-party APIs.</li>
+        <li>There are no databases to install or maintain. Local-first baby.</li>
+        <li>Perfect privacy. We ask no-one's permission, get no API keys, complete no logins.</li>
+      </ul>
     </li>
     <li>
       <b>Why did you build the data pouch?</b>
