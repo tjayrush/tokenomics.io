@@ -199,31 +199,33 @@ export const HomePage = () => {
   const [searchText, setSearchText] = useState('');
   const [defKey, setDefKey] = useState(1);
 
-  const onSearch = (value) => { setSearchText(value); console.log(value); };
-  
+  const onSearch = (value) => {
+    setSearchText(value);
+    console.log(value);
+  };
+
   const contractData = grantsData.filter((item) => {
     return item.core && (searchText === '' || item.name.includes(searchText));
   });
   const grantData = grantsData.filter((item) => {
     return !item.core && (searchText === '' || item.name.includes(searchText));
-  })
+  });
   useEffect(() => {
     setDefKey(!!contractData && contractData !== [] ? '1' : '2');
   }, [searchText, contractData]);
 
+  /*<div>searchText: [ {searchText} ][{defKey}][{JSON.stringify(contractData, 2, null)}]</div>*/
   return (
     <Content>
       <div style={{display: 'grid', gridTemplateColumns: '3fr 1fr'}}>
         <div></div>
-          <Search
-            style={{paddingRight: '2px'}}
-            width='10px'
-            placeholder='search grants by address or name...'
-            onSearch={onSearch}
-            enterButton>
-          </Search>
+        <Search
+          style={{paddingRight: '2px'}}
+          width='10px'
+          placeholder='search grants by address or name...'
+          onSearch={onSearch}
+          enterButton></Search>
       </div>
-      <div>searchText: [ {searchText} ][{defKey}][{JSON.stringify(contractData, 2, null)}]</div>
       <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
         <TabPane tab='Donation Contracts' key='1' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
