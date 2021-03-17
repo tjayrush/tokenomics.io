@@ -1,13 +1,13 @@
 export const grantsData = [
   {
     key: 1,
-    date: '2021-03-15 00:01:20 UTC',
+    date: '2021-03-16 21:15:20 UTC',
     type: 'logs',
     grant_id: 0,
     address: '0x7d655c57f71464b6f83811c55d84009cd9f5221c',
     name: 'GitCoin Grant Contract - Rounds 6 through 9',
     slug: '',
-    tx_cnt: 22659,
+    tx_cnt: 22983,
     log_cnt: 88878,
     donation_cnt: 46406,
     balances: [{
@@ -3218,7 +3218,7 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1887,
     address: '0x2759538121f4d604e7b7e5d1e5f562a05a524d45',
-    name: 'Каждодневное исследование скам �',
+    name: '￐ﾚ￐ﾰ￐ﾶ￐ﾴ￐ﾾ￐ﾴ￐ﾽ￐ﾵ￐ﾲ￐ﾽ￐ﾾ￐ﾵ ￐ﾸ￑ﾁ￑ﾁ￐ﾻ￐ﾵ￐ﾴ￐ﾾ￐ﾲ￐ﾰ￐ﾽ￐ﾸ￐ﾵ ￑ﾁ￐ﾺ￐ﾰ￐ﾼ ￑',
     slug: 'https://gitcoin.co/grants/1887/defi',
     tx_cnt: 20,
     log_cnt: 16,
@@ -10361,7 +10361,7 @@ export const grantsData = [
     name: 'Decentralized Docker Hub',
     slug: 'https://gitcoin.co/grants/1611/decentralized-docker-hub',
     tx_cnt: 3,
-    log_cnt: 63,
+    log_cnt: 126,
     donation_cnt: 63,
     balances: [{
       asset: 'ETH',
@@ -10378,7 +10378,7 @@ export const grantsData = [
     name: 'Knownorigin.io <> Art DAO',
     slug: 'https://gitcoin.co/grants/341/knownoriginio-art-dao',
     tx_cnt: 426,
-    log_cnt: 176,
+    log_cnt: 2638,
     donation_cnt: 176,
     balances: [{
       asset: 'ETH',
@@ -10395,7 +10395,7 @@ export const grantsData = [
     name: 'Civitas',
     slug: 'https://gitcoin.co/grants/226/civitas',
     tx_cnt: 1465,
-    log_cnt: 119,
+    log_cnt: 11326,
     donation_cnt: 119,
     balances: [{
       asset: 'ETH',
@@ -10412,7 +10412,7 @@ export const grantsData = [
     name: 'Treejer: a Climate Action Protocol',
     slug: 'https://gitcoin.co/grants/1080/treejer-a-climate-action-protocol',
     tx_cnt: 4,
-    log_cnt: 2,
+    log_cnt: 6,
     donation_cnt: 2,
     balances: [{
       asset: 'ETH',
@@ -10429,7 +10429,7 @@ export const grantsData = [
     name: 'Bityond',
     slug: 'https://gitcoin.co/grants/724/bityond',
     tx_cnt: 72,
-    log_cnt: 19,
+    log_cnt: 2689,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -10446,7 +10446,7 @@ export const grantsData = [
     name: 'the Department of Decentralization (neé Ethberlin)',
     slug: 'https://gitcoin.co/grants/556/the-department-of-decentralization-nee-ethberlin',
     tx_cnt: 304,
-    log_cnt: 1417,
+    log_cnt: 4378,
     donation_cnt: 1297,
     balances: [{
       asset: 'ETH',
@@ -10463,7 +10463,7 @@ export const grantsData = [
     name: 'Kickback',
     slug: 'https://gitcoin.co/grants/775/kickback',
     tx_cnt: 69,
-    log_cnt: 1723,
+    log_cnt: 3510,
     donation_cnt: 1603,
     balances: [{
       asset: 'ETH',
@@ -10480,7 +10480,7 @@ export const grantsData = [
     name: 'Impact on Global Mobility - Global Data Science Project for ',
     slug: 'https://gitcoin.co/grants/612/impact-on-global-mobility-global-data-science-pro',
     tx_cnt: 2,
-    log_cnt: 38,
+    log_cnt: 78,
     donation_cnt: 38,
     balances: [{
       asset: 'ETH',
@@ -10497,7 +10497,7 @@ export const grantsData = [
     name: 'Nito.cash',
     slug: 'https://gitcoin.co/grants/414/nitocash',
     tx_cnt: 27,
-    log_cnt: 19,
+    log_cnt: 63,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -10531,7 +10531,7 @@ export const grantsData = [
     name: 'Web 3.0 Arabic',
     slug: 'https://gitcoin.co/grants/827/web-30-arabic',
     tx_cnt: 137,
-    log_cnt: 679,
+    log_cnt: 1180,
     donation_cnt: 559,
     balances: [{
       asset: 'ETH',
@@ -10565,7 +10565,7 @@ export const grantsData = [
     name: 'Rogue Idle: a Free-to-play Idle Game',
     slug: 'https://gitcoin.co/grants/330/rogue-idle-a-free-to-play-idle-game',
     tx_cnt: 21,
-    log_cnt: 19,
+    log_cnt: 118,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -10582,7 +10582,7 @@ export const grantsData = [
     name: 'Battle Racers',
     slug: 'https://gitcoin.co/grants/1098/battle-racers',
     tx_cnt: 312,
-    log_cnt: 24,
+    log_cnt: 769,
     donation_cnt: 24,
     balances: [{
       asset: 'ETH',
@@ -10599,7 +10599,7 @@ export const grantsData = [
     name: 'Akasha Hub Barcelona',
     slug: 'https://gitcoin.co/grants/368/akasha-hub-barcelona',
     tx_cnt: 128,
-    log_cnt: 453,
+    log_cnt: 2259,
     donation_cnt: 333,
     balances: [{
       asset: 'ETH',
@@ -10616,7 +10616,7 @@ export const grantsData = [
     name: 'Mediadao',
     slug: 'https://gitcoin.co/grants/1361/mediadao',
     tx_cnt: 10,
-    log_cnt: 6,
+    log_cnt: 337,
     donation_cnt: 6,
     balances: [{
       asset: 'ETH',
@@ -10633,8 +10633,8 @@ export const grantsData = [
     name: 'Bankless',
     slug: 'https://gitcoin.co/grants/238/bankless',
     tx_cnt: 734,
-    log_cnt: 4450,
-    donation_cnt: 4445,
+    log_cnt: 7783,
+    donation_cnt: 4361,
     balances: [{
       asset: 'ETH',
       balance: '1.274473549866'
@@ -10684,7 +10684,7 @@ export const grantsData = [
     name: 'Arweave Makes Information Permanence Sustainable.',
     slug: 'https://gitcoin.co/grants/628/arweave-makes-information-permanence-sustainable',
     tx_cnt: 16,
-    log_cnt: 50,
+    log_cnt: 110,
     donation_cnt: 50,
     balances: [{
       asset: 'ETH',
@@ -10701,7 +10701,7 @@ export const grantsData = [
     name: 'Crypto Mining',
     slug: 'https://gitcoin.co/grants/1882/crypto-mining',
     tx_cnt: 80,
-    log_cnt: 0,
+    log_cnt: 129,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -10718,7 +10718,7 @@ export const grantsData = [
     name: 'Liquidefi',
     slug: 'https://gitcoin.co/grants/770/liquidefi',
     tx_cnt: 17,
-    log_cnt: 98,
+    log_cnt: 203,
     donation_cnt: 98,
     balances: [{
       asset: 'ETH',
@@ -10735,7 +10735,7 @@ export const grantsData = [
     name: 'Mars Robertson&#39;s Personal Grant • Smart Contracts • Prog',
     slug: 'https://gitcoin.co/grants/680/mars-robertsons-personal-grant-smart-contracts-pr',
     tx_cnt: 937,
-    log_cnt: 0,
+    log_cnt: 12343,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -10752,7 +10752,7 @@ export const grantsData = [
     name: 'Ethereum Magicians',
     slug: 'https://gitcoin.co/grants/223/ethereum-magicians',
     tx_cnt: 501,
-    log_cnt: 3866,
+    log_cnt: 8599,
     donation_cnt: 3866,
     balances: [{
       asset: 'ETH',
@@ -10769,7 +10769,7 @@ export const grantsData = [
     name: 'Readaratus: a Dynamic Book Reading System for Computers',
     slug: 'https://gitcoin.co/grants/667/readaratus-a-dynamic-book-reading-system-for-comp',
     tx_cnt: 43,
-    log_cnt: 0,
+    log_cnt: 359,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -10786,7 +10786,7 @@ export const grantsData = [
     name: 'Community Based Audit',
     slug: 'https://gitcoin.co/grants/762/community-based-audit',
     tx_cnt: 267,
-    log_cnt: 65,
+    log_cnt: 1222,
     donation_cnt: 65,
     balances: [{
       asset: 'ETH',
@@ -10803,7 +10803,7 @@ export const grantsData = [
     name: 'Cobox Cooperative Cloud',
     slug: 'https://gitcoin.co/grants/808/cobox-cooperative-cloud',
     tx_cnt: 7,
-    log_cnt: 26,
+    log_cnt: 48,
     donation_cnt: 26,
     balances: [{
       asset: 'ETH',
@@ -10820,7 +10820,7 @@ export const grantsData = [
     name: 'Ens-updater',
     slug: 'https://gitcoin.co/grants/218/ens-updater',
     tx_cnt: 24,
-    log_cnt: 168,
+    log_cnt: 418,
     donation_cnt: 168,
     balances: [{
       asset: 'ETH',
@@ -10837,7 +10837,7 @@ export const grantsData = [
     name: 'Wizards of Dapps Podcast',
     slug: 'https://gitcoin.co/grants/204/wizards-of-dapps-podcast',
     tx_cnt: 4734,
-    log_cnt: 2023,
+    log_cnt: 40074,
     donation_cnt: 2023,
     balances: [{
       asset: 'ETH',
@@ -10854,7 +10854,7 @@ export const grantsData = [
     name: 'Web3-react',
     slug: 'https://gitcoin.co/grants/248/web3-react',
     tx_cnt: 803,
-    log_cnt: 110,
+    log_cnt: 9488,
     donation_cnt: 110,
     balances: [{
       asset: 'ETH',
@@ -10871,7 +10871,7 @@ export const grantsData = [
     name: 'Gasless: Send Erc20 Tokens Without Eth',
     slug: 'https://gitcoin.co/grants/323/gasless-send-erc20-tokens-without-eth',
     tx_cnt: 50,
-    log_cnt: 134,
+    log_cnt: 456,
     donation_cnt: 134,
     balances: [{
       asset: 'ETH',
@@ -10888,7 +10888,7 @@ export const grantsData = [
     name: 'Secrets.market',
     slug: 'https://gitcoin.co/grants/1104/secretsmarket',
     tx_cnt: 4,
-    log_cnt: 50,
+    log_cnt: 100,
     donation_cnt: 50,
     balances: [{
       asset: 'ETH',
@@ -10905,7 +10905,7 @@ export const grantsData = [
     name: 'Blockscout Blockchain Explorer',
     slug: 'https://gitcoin.co/grants/854/blockscout-blockchain-explorer',
     tx_cnt: 259,
-    log_cnt: 103,
+    log_cnt: 5778,
     donation_cnt: 103,
     balances: [{
       asset: 'ETH',
@@ -10922,7 +10922,7 @@ export const grantsData = [
     name: 'the Trojan DAO',
     slug: 'https://gitcoin.co/grants/579/the-trojan-dao',
     tx_cnt: 383,
-    log_cnt: 347,
+    log_cnt: 1529,
     donation_cnt: 347,
     balances: [{
       asset: 'ETH',
@@ -10939,7 +10939,7 @@ export const grantsData = [
     name: 'Thedrizzlybear Ethereum Developement Kit',
     slug: 'https://gitcoin.co/grants/1458/thedrizzlybear-ethereum-developement-kit',
     tx_cnt: 24,
-    log_cnt: 0,
+    log_cnt: 28,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -10956,7 +10956,7 @@ export const grantsData = [
     name: 'Donations to Hugh Karp for the Recent Hack of Personal Funds',
     slug: 'https://gitcoin.co/grants/1848/donations-to-hugh-karp-for-the-recent-hack-of-per',
     tx_cnt: 947,
-    log_cnt: 8,
+    log_cnt: 4682,
     donation_cnt: 8,
     balances: [{
       asset: 'ETH',
@@ -10973,7 +10973,7 @@ export const grantsData = [
     name: 'Ot Needs Help',
     slug: 'https://gitcoin.co/grants/1915/ot-needs-help',
     tx_cnt: 298,
-    log_cnt: 3,
+    log_cnt: 2678,
     donation_cnt: 3,
     balances: [{
       asset: 'ETH',
@@ -10990,7 +10990,7 @@ export const grantsData = [
     name: 'Idena: the First Proof-of-person Blockchain',
     slug: 'https://gitcoin.co/grants/1669/idena-the-first-proof-of-person-blockchain',
     tx_cnt: 38,
-    log_cnt: 623,
+    log_cnt: 1000,
     donation_cnt: 503,
     balances: [{
       asset: 'ETH',
@@ -11007,7 +11007,7 @@ export const grantsData = [
     name: 'Native',
     slug: 'https://gitcoin.co/grants/1540/native',
     tx_cnt: 11,
-    log_cnt: 74,
+    log_cnt: 154,
     donation_cnt: 74,
     balances: [{
       asset: 'ETH',
@@ -11024,7 +11024,7 @@ export const grantsData = [
     name: 'Fusionledger',
     slug: 'https://gitcoin.co/grants/1446/fusionledger',
     tx_cnt: 13,
-    log_cnt: 24,
+    log_cnt: 61,
     donation_cnt: 24,
     balances: [{
       asset: 'ETH',
@@ -11041,7 +11041,7 @@ export const grantsData = [
     name: 'Festdao',
     slug: 'https://gitcoin.co/grants/305/festdao',
     tx_cnt: 930,
-    log_cnt: 368,
+    log_cnt: 3867,
     donation_cnt: 368,
     balances: [{
       asset: 'ETH',
@@ -11058,7 +11058,7 @@ export const grantsData = [
     name: 'DeFi Composability Security Matching Round',
     slug: 'https://gitcoin.co/grants/728/defi-composability-security-matching-round',
     tx_cnt: 18,
-    log_cnt: 251,
+    log_cnt: 399,
     donation_cnt: 131,
     balances: [{
       asset: 'ETH',
@@ -11075,7 +11075,7 @@ export const grantsData = [
     name: 'One Minute Block Time Newsletter',
     slug: 'https://gitcoin.co/grants/156/one-minute-block-time-newsletter',
     tx_cnt: 164,
-    log_cnt: 1038,
+    log_cnt: 2654,
     donation_cnt: 918,
     balances: [{
       asset: 'ETH',
@@ -11092,7 +11092,7 @@ export const grantsData = [
     name: 'Geon App: Augmented Reality App Leveraging Poa Core Network',
     slug: 'https://gitcoin.co/grants/101/geon-app-augmented-reality-app-leveraging-poa-cor',
     tx_cnt: 174,
-    log_cnt: 30,
+    log_cnt: 452,
     donation_cnt: 30,
     balances: [{
       asset: 'ETH',
@@ -11109,7 +11109,7 @@ export const grantsData = [
     name: 'Yfnft',
     slug: 'https://gitcoin.co/grants/1474/yfnft',
     tx_cnt: 64,
-    log_cnt: 0,
+    log_cnt: 74,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11126,7 +11126,7 @@ export const grantsData = [
     name: 'Decentralized Dance Party (ddp)',
     slug: 'https://gitcoin.co/grants/697/decentralized-dance-party-ddp',
     tx_cnt: 45,
-    log_cnt: 299,
+    log_cnt: 1518,
     donation_cnt: 299,
     balances: [{
       asset: 'ETH',
@@ -11143,7 +11143,7 @@ export const grantsData = [
     name: 'Triad - Decentralized Blockchain',
     slug: 'https://gitcoin.co/grants/264/triad-decentralized-blockchain',
     tx_cnt: 9,
-    log_cnt: 0,
+    log_cnt: 377,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11160,7 +11160,7 @@ export const grantsData = [
     name: 'DeFi Italy - the Backbone of the DeFi World in Italy',
     slug: 'https://gitcoin.co/grants/1701/defi-italy-the-backbone-of-the-defi-world-in-ital',
     tx_cnt: 13,
-    log_cnt: 173,
+    log_cnt: 223,
     donation_cnt: 53,
     balances: [{
       asset: 'ETH',
@@ -11177,7 +11177,7 @@ export const grantsData = [
     name: 'Gelato An automation protocol for Ethereum',
     slug: 'https://gitcoin.co/grants/295/gelato-if-this-then-that-for-ethereum',
     tx_cnt: 837,
-    log_cnt: 1516,
+    log_cnt: 10826,
     donation_cnt: 1395,
     balances: [{
       asset: 'ETH',
@@ -11194,7 +11194,7 @@ export const grantsData = [
     name: 'Turbo Geth alexeyakhunov',
     slug: 'https://gitcoin.co/grants/224/turbo-geth?tab=description',
     tx_cnt: 697,
-    log_cnt: 2944,
+    log_cnt: 11049,
     donation_cnt: 2944,
     balances: [{
       asset: 'ETH',
@@ -11211,7 +11211,7 @@ export const grantsData = [
     name: 'the Gitcoin Covid19 Relief Fund',
     slug: 'https://gitcoin.co/grants/691/the-gitcoin-covid19-relief-fund',
     tx_cnt: 587,
-    log_cnt: 37,
+    log_cnt: 1988,
     donation_cnt: 37,
     balances: [{
       asset: 'ETH',
@@ -11228,8 +11228,8 @@ export const grantsData = [
     name: 'Snapshot',
     slug: 'https://gitcoin.co/grants/1093/snapshot',
     tx_cnt: 340,
-    log_cnt: 3902,
-    donation_cnt: 3781,
+    log_cnt: 7217,
+    donation_cnt: 3651,
     balances: [{
       asset: 'ETH',
       balance: '14.154798889740'
@@ -11245,7 +11245,7 @@ export const grantsData = [
     name: 'Building Ethereum Together',
     slug: 'https://gitcoin.co/grants/708/building-ethereum-together',
     tx_cnt: 15,
-    log_cnt: 19,
+    log_cnt: 304,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -11262,7 +11262,7 @@ export const grantsData = [
     name: 'DAI Para Principiantes',
     slug: 'https://gitcoin.co/grants/949/dai-para-principiantes',
     tx_cnt: 127,
-    log_cnt: 524,
+    log_cnt: 1017,
     donation_cnt: 403,
     balances: [{
       asset: 'ETH',
@@ -11279,7 +11279,7 @@ export const grantsData = [
     name: 'Sportsdapp',
     slug: 'https://gitcoin.co/grants/996/sportsdapp',
     tx_cnt: 40,
-    log_cnt: 97,
+    log_cnt: 182,
     donation_cnt: 97,
     balances: [{
       asset: 'ETH',
@@ -11296,7 +11296,7 @@ export const grantsData = [
     name: 'a Way for the Masses to Passively Acquire the Top 20 Ethereu',
     slug: 'https://gitcoin.co/grants/1244/a-way-for-the-masses-to-passively-acquire-the-top',
     tx_cnt: 39,
-    log_cnt: 0,
+    log_cnt: 36,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11313,8 +11313,8 @@ export const grantsData = [
     name: 'the DeFiant',
     slug: 'https://gitcoin.co/grants/567/the-defiant',
     tx_cnt: 877,
-    log_cnt: 5347,
-    donation_cnt: 5226,
+    log_cnt: 13924,
+    donation_cnt: 5218,
     balances: [{
       asset: 'ETH',
       balance: '29.013840493794'
@@ -11330,8 +11330,8 @@ export const grantsData = [
     name: 'DeFi Study Club',
     slug: 'https://gitcoin.co/grants/1799/defi-study-club',
     tx_cnt: 21,
-    log_cnt: 261,
-    donation_cnt: 141,
+    log_cnt: 334,
+    donation_cnt: 139,
     balances: [{
       asset: 'ETH',
       balance: '0.028690000000'
@@ -11347,7 +11347,7 @@ export const grantsData = [
     name: 'Private Dapps',
     slug: 'https://gitcoin.co/grants/671/private-dapps',
     tx_cnt: 3,
-    log_cnt: 0,
+    log_cnt: 3,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11364,7 +11364,7 @@ export const grantsData = [
     name: 'Eve&#39;s Place',
     slug: 'https://gitcoin.co/grants/617/eves-place',
     tx_cnt: 31,
-    log_cnt: 19,
+    log_cnt: 258,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -11381,7 +11381,7 @@ export const grantsData = [
     name: 'Training 1000 Ethereum Developers for Free in 2019',
     slug: 'https://gitcoin.co/grants/56/training-1000-ethereum-developers-for-free-in-201',
     tx_cnt: 30,
-    log_cnt: 125,
+    log_cnt: 386,
     donation_cnt: 125,
     balances: [{
       asset: 'ETH',
@@ -11398,7 +11398,7 @@ export const grantsData = [
     name: 'Ethereum Space War',
     slug: 'https://gitcoin.co/grants/1552/ethereum-space-war',
     tx_cnt: 3,
-    log_cnt: 23,
+    log_cnt: 26,
     donation_cnt: 23,
     balances: [{
       asset: 'ETH',
@@ -11415,8 +11415,8 @@ export const grantsData = [
     name: 'Web3api',
     slug: 'https://gitcoin.co/grants/1252/web3api',
     tx_cnt: 486,
-    log_cnt: 2073,
-    donation_cnt: 2073,
+    log_cnt: 4370,
+    donation_cnt: 2046,
     balances: [{
       asset: 'ETH',
       balance: '2.831177663328'
@@ -11432,7 +11432,7 @@ export const grantsData = [
     name: 'Planet a Test',
     slug: 'https://gitcoin.co/grants/242/planet-a-test',
     tx_cnt: 390,
-    log_cnt: 0,
+    log_cnt: 3900,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11449,7 +11449,7 @@ export const grantsData = [
     name: 'Paymi Ewallet',
     slug: 'https://gitcoin.co/grants/984/paymi-ewallet',
     tx_cnt: 1,
-    log_cnt: 0,
+    log_cnt: 7,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11466,7 +11466,7 @@ export const grantsData = [
     name: 'Flowstake - Activity Staking Blockchain Network',
     slug: 'https://gitcoin.co/grants/681/flowstake-activity-staking-blockchain-network',
     tx_cnt: 55,
-    log_cnt: 0,
+    log_cnt: 609,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11483,7 +11483,7 @@ export const grantsData = [
     name: 'on Time - Schedule Your Transactions',
     slug: 'https://gitcoin.co/grants/1384/on-time-schedule-your-transactions',
     tx_cnt: 113,
-    log_cnt: 120,
+    log_cnt: 1398,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11500,7 +11500,7 @@ export const grantsData = [
     name: 'Pine Finance (ex Uniswapex V2)',
     slug: 'https://gitcoin.co/grants/765/pine-finance-ex-uniswapex-v2',
     tx_cnt: 28,
-    log_cnt: 282,
+    log_cnt: 434,
     donation_cnt: 162,
     balances: [{
       asset: 'ETH',
@@ -11517,7 +11517,7 @@ export const grantsData = [
     name: 'Cherryxlucky',
     slug: 'https://gitcoin.co/grants/1922/cherryxlucky',
     tx_cnt: 8,
-    log_cnt: 2,
+    log_cnt: 16,
     donation_cnt: 2,
     balances: [{
       asset: 'ETH',
@@ -11534,8 +11534,8 @@ export const grantsData = [
     name: 'Giveth 2.0',
     slug: 'https://gitcoin.co/grants/795/giveth-20',
     tx_cnt: 206,
-    log_cnt: 2739,
-    donation_cnt: 2619,
+    log_cnt: 5549,
+    donation_cnt: 2578,
     balances: [{
       asset: 'ETH',
       balance: '0.680279500000'
@@ -11551,8 +11551,8 @@ export const grantsData = [
     name: 'D¢ent Co. + Matic Nft Product Authentication System',
     slug: 'https://gitcoin.co/grants/1901/dent-co-matic-nft-product-authentication-system',
     tx_cnt: 162,
-    log_cnt: 607,
-    donation_cnt: 607,
+    log_cnt: 1323,
+    donation_cnt: 516,
     balances: [{
       asset: 'ETH',
       balance: '2.105476838428'
@@ -11568,7 +11568,7 @@ export const grantsData = [
     name: 'Mailchain - Email-like Messaging Built on Blockchain Protoco',
     slug: 'https://gitcoin.co/grants/153/mailchain-email-like-messaging-built-on-blockchai',
     tx_cnt: 102,
-    log_cnt: 231,
+    log_cnt: 919,
     donation_cnt: 111,
     balances: [{
       asset: 'ETH',
@@ -11585,7 +11585,7 @@ export const grantsData = [
     name: 'Integrate Bitski Wallet Support on Gnosis Safe with Onboard.',
     slug: 'https://gitcoin.co/grants/1121/integrate-bitski-wallet-support-on-gnosis-safe-wi',
     tx_cnt: 3,
-    log_cnt: 0,
+    log_cnt: 1,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11602,7 +11602,7 @@ export const grantsData = [
     name: 'Smart Wallet Trends',
     slug: 'https://gitcoin.co/grants/1580/smart-wallet-trends',
     tx_cnt: 236,
-    log_cnt: 0,
+    log_cnt: 908,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11619,7 +11619,7 @@ export const grantsData = [
     name: 'Codefund Development (ron)',
     slug: 'https://gitcoin.co/grants/115/codefund-development-ron',
     tx_cnt: 25,
-    log_cnt: 0,
+    log_cnt: 468,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11636,7 +11636,7 @@ export const grantsData = [
     name: 'Burner Wallet 2 & Burner Factory',
     slug: 'https://gitcoin.co/grants/145/burner-wallet-2-burner-factory',
     tx_cnt: 379,
-    log_cnt: 1190,
+    log_cnt: 6386,
     donation_cnt: 1190,
     balances: [{
       asset: 'ETH',
@@ -11653,7 +11653,7 @@ export const grantsData = [
     name: 'Plasma by Kyokan Secure Low Fee Instant Payments',
     slug: 'https://gitcoin.co/grants/55/plasma-by-kyokan-secure-low-fee-instant-payments',
     tx_cnt: 92,
-    log_cnt: 35,
+    log_cnt: 1859,
     donation_cnt: 35,
     balances: [{
       asset: 'ETH',
@@ -11670,7 +11670,7 @@ export const grantsData = [
     name: 'Spread Hope',
     slug: 'https://gitcoin.co/grants/560/spread-hope',
     tx_cnt: 2554,
-    log_cnt: 210,
+    log_cnt: 8902,
     donation_cnt: 90,
     balances: [{
       asset: 'ETH',
@@ -11687,7 +11687,7 @@ export const grantsData = [
     name: 'Idea Markets',
     slug: 'https://gitcoin.co/grants/175/idea-markets',
     tx_cnt: 524,
-    log_cnt: 142,
+    log_cnt: 5030,
     donation_cnt: 22,
     balances: [{
       asset: 'ETH',
@@ -11704,7 +11704,7 @@ export const grantsData = [
     name: 'Agency',
     slug: 'https://gitcoin.co/grants/939/agency',
     tx_cnt: 37,
-    log_cnt: 11,
+    log_cnt: 201,
     donation_cnt: 11,
     balances: [{
       asset: 'ETH',
@@ -11721,7 +11721,7 @@ export const grantsData = [
     name: 'Nodedata',
     slug: 'https://gitcoin.co/grants/985/nodedata',
     tx_cnt: 12,
-    log_cnt: 0,
+    log_cnt: 260,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11738,8 +11738,8 @@ export const grantsData = [
     name: 'Zeropool - Scaling Anonymous Transactions for Ethereum',
     slug: 'https://gitcoin.co/grants/172/zeropool-scaling-anonymous-transactions-for-ether',
     tx_cnt: 245,
-    log_cnt: 1898,
-    donation_cnt: 1778,
+    log_cnt: 4806,
+    donation_cnt: 1639,
     balances: [{
       asset: 'ETH',
       balance: '7.602390620084'
@@ -11755,7 +11755,7 @@ export const grantsData = [
     name: 'Rtrees - DeFi Charity App',
     slug: 'https://gitcoin.co/grants/221/rtrees-defi-charity-app',
     tx_cnt: 540,
-    log_cnt: 680,
+    log_cnt: 4714,
     donation_cnt: 680,
     balances: [{
       asset: 'ETH',
@@ -11772,8 +11772,8 @@ export const grantsData = [
     name: 'Rotki - the Portfolio Tracker and Accounting Tool That Prote',
     slug: 'https://gitcoin.co/grants/149/rotki-the-portfolio-tracker-and-accounting-tool-t',
     tx_cnt: 691,
-    log_cnt: 6229,
-    donation_cnt: 6108,
+    log_cnt: 12255,
+    donation_cnt: 5939,
     balances: [{
       asset: 'ETH',
       balance: '2.360114542408'
@@ -11789,7 +11789,7 @@ export const grantsData = [
     name: 'Yearn Finance Sublimate',
     slug: 'https://gitcoin.co/grants/1717/yearn-finance-sublimate',
     tx_cnt: 123,
-    log_cnt: 0,
+    log_cnt: 141,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11806,7 +11806,7 @@ export const grantsData = [
     name: 'Vipnode',
     slug: 'https://gitcoin.co/grants/32/vipnode',
     tx_cnt: 132,
-    log_cnt: 71,
+    log_cnt: 1338,
     donation_cnt: 71,
     balances: [{
       asset: 'ETH',
@@ -11823,7 +11823,7 @@ export const grantsData = [
     name: 'Btc Ath Today',
     slug: 'https://gitcoin.co/grants/1803/btc-ath-today',
     tx_cnt: 258,
-    log_cnt: 123,
+    log_cnt: 2935,
     donation_cnt: 3,
     balances: [{
       asset: 'ETH',
@@ -11840,7 +11840,7 @@ export const grantsData = [
     name: 'Openbits',
     slug: 'https://gitcoin.co/grants/1690/openbits',
     tx_cnt: 34,
-    log_cnt: 0,
+    log_cnt: 30,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11857,7 +11857,7 @@ export const grantsData = [
     name: 'White Box Fapkc',
     slug: 'https://gitcoin.co/grants/705/white-box-fapkc',
     tx_cnt: 37,
-    log_cnt: 23,
+    log_cnt: 702,
     donation_cnt: 23,
     balances: [{
       asset: 'ETH',
@@ -11874,7 +11874,7 @@ export const grantsData = [
     name: 'a Hitchhiker&#39;s Guide to Token Engineering',
     slug: 'https://gitcoin.co/grants/798/a-hitchhikers-guide-to-token-engineering',
     tx_cnt: 81,
-    log_cnt: 1546,
+    log_cnt: 3567,
     donation_cnt: 1426,
     balances: [{
       asset: 'ETH',
@@ -11891,7 +11891,7 @@ export const grantsData = [
     name: 'the Bail Project',
     slug: 'https://gitcoin.co/grants/836/the-bail-project',
     tx_cnt: 82,
-    log_cnt: 961,
+    log_cnt: 2069,
     donation_cnt: 961,
     balances: [{
       asset: 'ETH',
@@ -11908,7 +11908,7 @@ export const grantsData = [
     name: 'lexDAO Standardize Legal Goods on Ethereum in 2020',
     slug: 'https://gitcoin.co/grants/307/lexdao-standardize-legal-goods-on-ethereum-in-2020',
     tx_cnt: 356,
-    log_cnt: 594,
+    log_cnt: 2986,
     donation_cnt: 594,
     balances: [{
       asset: 'ETH',
@@ -11925,7 +11925,7 @@ export const grantsData = [
     name: 'the Datafruits Fund',
     slug: 'https://gitcoin.co/grants/1016/the-datafruits-fund',
     tx_cnt: 96,
-    log_cnt: 40,
+    log_cnt: 614,
     donation_cnt: 40,
     balances: [{
       asset: 'ETH',
@@ -11942,7 +11942,7 @@ export const grantsData = [
     name: 'Rush Token Launch',
     slug: 'https://gitcoin.co/grants/1835/rush-token-launch',
     tx_cnt: 123,
-    log_cnt: 0,
+    log_cnt: 457,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -11959,7 +11959,7 @@ export const grantsData = [
     name: 'Ethereum 2: Educational Grant',
     slug: 'https://gitcoin.co/grants/1709/ethereum-2-educational-grant',
     tx_cnt: 15,
-    log_cnt: 125,
+    log_cnt: 160,
     donation_cnt: 4,
     balances: [{
       asset: 'ETH',
@@ -11976,7 +11976,7 @@ export const grantsData = [
     name: 'Shadowsocks',
     slug: 'https://gitcoin.co/grants/1681/shadowsocks',
     tx_cnt: 2,
-    log_cnt: 142,
+    log_cnt: 164,
     donation_cnt: 22,
     balances: [{
       asset: 'ETH',
@@ -11993,7 +11993,7 @@ export const grantsData = [
     name: 'Buidl Guidl',
     slug: 'https://gitcoin.co/grants/1636/buidl-guidl',
     tx_cnt: 157,
-    log_cnt: 710,
+    log_cnt: 1389,
     donation_cnt: 590,
     balances: [{
       asset: 'ETH',
@@ -12010,7 +12010,7 @@ export const grantsData = [
     name: 'Next Gen Blockchain and Ai Based Job Platform',
     slug: 'https://gitcoin.co/grants/832/next-gen-blockchain-and-ai-based-job-platform',
     tx_cnt: 27,
-    log_cnt: 25,
+    log_cnt: 70,
     donation_cnt: 25,
     balances: [{
       asset: 'ETH',
@@ -12027,7 +12027,7 @@ export const grantsData = [
     name: 'Bitcoin Faucet Development',
     slug: 'https://gitcoin.co/grants/1831/bitcoin-faucet-development',
     tx_cnt: 4,
-    log_cnt: 122,
+    log_cnt: 126,
     donation_cnt: 2,
     balances: [{
       asset: 'ETH',
@@ -12044,7 +12044,7 @@ export const grantsData = [
     name: 'Huddln',
     slug: 'https://gitcoin.co/grants/1405/huddln',
     tx_cnt: 139,
-    log_cnt: 40,
+    log_cnt: 348,
     donation_cnt: 40,
     balances: [{
       asset: 'ETH',
@@ -12061,7 +12061,7 @@ export const grantsData = [
     name: 'DAO.care',
     slug: 'https://gitcoin.co/grants/1031/daocare',
     tx_cnt: 57,
-    log_cnt: 0,
+    log_cnt: 141,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12078,7 +12078,7 @@ export const grantsData = [
     name: 'Decentralised Supply Chain of 3d Printed Protective Gear for',
     slug: 'https://gitcoin.co/grants/694/decentralised-supply-chain-of-3d-printed-protecti',
     tx_cnt: 176,
-    log_cnt: 372,
+    log_cnt: 1809,
     donation_cnt: 372,
     balances: [{
       asset: 'ETH',
@@ -12095,7 +12095,7 @@ export const grantsData = [
     name: 'Token Attestation: Proof of Ownership in Eth',
     slug: 'https://gitcoin.co/grants/1826/token-attestation-proof-of-ownership-in-eth',
     tx_cnt: 220,
-    log_cnt: 321,
+    log_cnt: 4056,
     donation_cnt: 201,
     balances: [{
       asset: 'ETH',
@@ -12112,7 +12112,7 @@ export const grantsData = [
     name: 'Proof of Humanity',
     slug: 'https://gitcoin.co/grants/599/proof-of-humanity',
     tx_cnt: 49,
-    log_cnt: 694,
+    log_cnt: 1173,
     donation_cnt: 574,
     balances: [{
       asset: 'ETH',
@@ -12129,7 +12129,7 @@ export const grantsData = [
     name: 'Eth Based Games',
     slug: 'https://gitcoin.co/grants/100/eth-based-games',
     tx_cnt: 4,
-    log_cnt: 0,
+    log_cnt: 1,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12146,7 +12146,7 @@ export const grantsData = [
     name: 'Tides',
     slug: 'https://gitcoin.co/grants/1516/tides',
     tx_cnt: 45,
-    log_cnt: 0,
+    log_cnt: 176,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12163,7 +12163,7 @@ export const grantsData = [
     name: 'Molochdao',
     slug: 'https://gitcoin.co/grants/36/molochdao',
     tx_cnt: 154,
-    log_cnt: 310,
+    log_cnt: 1082,
     donation_cnt: 310,
     balances: [{
       asset: 'ETH',
@@ -12180,7 +12180,7 @@ export const grantsData = [
     name: 'Curadai - a DeFi Based Stable Coin for Curaçao',
     slug: 'https://gitcoin.co/grants/229/curadai-a-defi-based-stable-coin-for-curacao',
     tx_cnt: 1499,
-    log_cnt: 1223,
+    log_cnt: 9712,
     donation_cnt: 1102,
     balances: [{
       asset: 'ETH',
@@ -12197,8 +12197,8 @@ export const grantsData = [
     name: 'DAOsquare',
     slug: 'https://gitcoin.co/grants/482/daosquare',
     tx_cnt: 930,
-    log_cnt: 2163,
-    donation_cnt: 2042,
+    log_cnt: 7562,
+    donation_cnt: 1994,
     balances: [{
       asset: 'ETH',
       balance: '7.464228708377'
@@ -12214,7 +12214,7 @@ export const grantsData = [
     name: 'Medium Scraper',
     slug: 'https://gitcoin.co/grants/935/medium-scraper',
     tx_cnt: 1,
-    log_cnt: 0,
+    log_cnt: 2,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12231,8 +12231,8 @@ export const grantsData = [
     name: 'Prysm by Prysmatic Labs',
     slug: 'https://gitcoin.co/grants/24/prysm-by-prysmatic-labs',
     tx_cnt: 1357,
-    log_cnt: 5477,
-    donation_cnt: 5356,
+    log_cnt: 18965,
+    donation_cnt: 5291,
     balances: [{
       asset: 'ETH',
       balance: '732.067949834670'
@@ -12248,7 +12248,7 @@ export const grantsData = [
     name: 'Cryptomaniac- Crypto Blog with Media and Entertainment Conte',
     slug: 'https://gitcoin.co/grants/361/cryptomaniac-crypto-blog-with-media-and-entertain',
     tx_cnt: 841,
-    log_cnt: 165,
+    log_cnt: 9905,
     donation_cnt: 165,
     balances: [{
       asset: 'ETH',
@@ -12265,7 +12265,7 @@ export const grantsData = [
     name: 'Virtual Reset',
     slug: 'https://gitcoin.co/grants/1684/virtual-reset',
     tx_cnt: 387,
-    log_cnt: 0,
+    log_cnt: 1771,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12282,7 +12282,7 @@ export const grantsData = [
     name: 'Our Network - Community Driven Analytics',
     slug: 'https://gitcoin.co/grants/565/our-network-community-driven-analytics',
     tx_cnt: 237,
-    log_cnt: 1929,
+    log_cnt: 4255,
     donation_cnt: 1809,
     balances: [{
       asset: 'ETH',
@@ -12299,7 +12299,7 @@ export const grantsData = [
     name: 'Wrapped Filecoin (wfil)',
     slug: 'https://gitcoin.co/grants/1454/wrapped-filecoin-wfil',
     tx_cnt: 39,
-    log_cnt: 359,
+    log_cnt: 698,
     donation_cnt: 359,
     balances: [{
       asset: 'ETH',
@@ -12316,8 +12316,8 @@ export const grantsData = [
     name: 'Now.eth - Uncensorable. Instant. Now.',
     slug: 'https://gitcoin.co/grants/314/noweth-uncensorable-instant-now',
     tx_cnt: 1586,
-    log_cnt: 19,
-    donation_cnt: 19,
+    log_cnt: 10602,
+    donation_cnt: 20,
     balances: [{
       asset: 'ETH',
       balance: '18.123186562183'
@@ -12333,7 +12333,7 @@ export const grantsData = [
     name: 'Help Food Bank Prepare for Increased Need',
     slug: 'https://gitcoin.co/grants/643/help-food-bank-prepare-for-increased-need',
     tx_cnt: 11,
-    log_cnt: 37,
+    log_cnt: 78,
     donation_cnt: 37,
     balances: [{
       asset: 'ETH',
@@ -12350,7 +12350,7 @@ export const grantsData = [
     name: 'Decentralized Infrastructure Solutions (dis)',
     slug: 'https://gitcoin.co/grants/234/decentralized-infrastructure-solutions-dis',
     tx_cnt: 22,
-    log_cnt: 251,
+    log_cnt: 465,
     donation_cnt: 131,
     balances: [{
       asset: 'ETH',
@@ -12367,8 +12367,8 @@ export const grantsData = [
     name: 'Beaconcha.in - Open Source Eth2 Blockchain Explorer',
     slug: 'https://gitcoin.co/grants/258/beaconchain-open-source-eth2-blockchain-explorer',
     tx_cnt: 267,
-    log_cnt: 3380,
-    donation_cnt: 3259,
+    log_cnt: 6066,
+    donation_cnt: 3169,
     balances: [{
       asset: 'ETH',
       balance: '5.348024368100'
@@ -12384,7 +12384,7 @@ export const grantsData = [
     name: 'Buck.social',
     slug: 'https://gitcoin.co/grants/1414/bucksocial',
     tx_cnt: 2,
-    log_cnt: 122,
+    log_cnt: 124,
     donation_cnt: 2,
     balances: [{
       asset: 'ETH',
@@ -12401,7 +12401,7 @@ export const grantsData = [
     name: 'Our Bible',
     slug: 'https://gitcoin.co/grants/1273/our-bible',
     tx_cnt: 79,
-    log_cnt: 450,
+    log_cnt: 826,
     donation_cnt: 328,
     balances: [{
       asset: 'ETH',
@@ -12418,7 +12418,7 @@ export const grantsData = [
     name: 'Dextf- Decentralized Traded Fund',
     slug: 'https://gitcoin.co/grants/1227/dextf-decentralized-traded-fund',
     tx_cnt: 839,
-    log_cnt: 22,
+    log_cnt: 4237,
     donation_cnt: 22,
     balances: [{
       asset: 'ETH',
@@ -12435,7 +12435,7 @@ export const grantsData = [
     name: 'Security Token Offering',
     slug: 'https://gitcoin.co/grants/1135/security-token-offering',
     tx_cnt: 32,
-    log_cnt: 0,
+    log_cnt: 45,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12452,7 +12452,7 @@ export const grantsData = [
     name: 'Savedai',
     slug: 'https://gitcoin.co/grants/462/savedai',
     tx_cnt: 41,
-    log_cnt: 58,
+    log_cnt: 179,
     donation_cnt: 58,
     balances: [{
       asset: 'ETH',
@@ -12469,7 +12469,7 @@ export const grantsData = [
     name: 'Etherlime',
     slug: 'https://gitcoin.co/grants/593/etherlime',
     tx_cnt: 192,
-    log_cnt: 62,
+    log_cnt: 2274,
     donation_cnt: 62,
     balances: [{
       asset: 'ETH',
@@ -12486,7 +12486,7 @@ export const grantsData = [
     name: 'Ipfs Ios Backup',
     slug: 'https://gitcoin.co/grants/912/ipfs-ios-backup',
     tx_cnt: 50,
-    log_cnt: 2,
+    log_cnt: 433,
     donation_cnt: 2,
     balances: [{
       asset: 'ETH',
@@ -12503,7 +12503,7 @@ export const grantsData = [
     name: 'Geo Protocol',
     slug: 'https://gitcoin.co/grants/400/geo-protocol',
     tx_cnt: 27,
-    log_cnt: 19,
+    log_cnt: 74,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -12520,7 +12520,7 @@ export const grantsData = [
     name: 'Ethereumetl',
     slug: 'https://gitcoin.co/grants/233/ethereumetl',
     tx_cnt: 194,
-    log_cnt: 262,
+    log_cnt: 1760,
     donation_cnt: 262,
     balances: [{
       asset: 'ETH',
@@ -12537,7 +12537,7 @@ export const grantsData = [
     name: 'Mass Adoption Llc.',
     slug: 'https://gitcoin.co/grants/749/mass-adoption-llc',
     tx_cnt: 850,
-    log_cnt: 22,
+    log_cnt: 11843,
     donation_cnt: 22,
     balances: [{
       asset: 'ETH',
@@ -12554,7 +12554,7 @@ export const grantsData = [
     name: 'Commons Simulator: Reverse the Apocalypse with Economies Tha',
     slug: 'https://gitcoin.co/grants/277/commons-simulator-reverse-the-apocalypse-with-eco',
     tx_cnt: 608,
-    log_cnt: 2808,
+    log_cnt: 8097,
     donation_cnt: 2687,
     balances: [{
       asset: 'ETH',
@@ -12588,7 +12588,7 @@ export const grantsData = [
     name: 'Fission Codes',
     slug: 'https://gitcoin.co/grants/43/fission-codes',
     tx_cnt: 62,
-    log_cnt: 15,
+    log_cnt: 540,
     donation_cnt: 15,
     balances: [{
       asset: 'ETH',
@@ -12622,7 +12622,7 @@ export const grantsData = [
     name: 'Deltatheta - P2p Options Trading Platform on Ethereum',
     slug: 'https://gitcoin.co/grants/1948/deltatheta-p2p-options-trading-platform-on-ethere',
     tx_cnt: 89,
-    log_cnt: 4,
+    log_cnt: 204,
     donation_cnt: 4,
     balances: [{
       asset: 'ETH',
@@ -12639,8 +12639,8 @@ export const grantsData = [
     name: 'Staybit',
     slug: 'https://gitcoin.co/grants/1612/staybit',
     tx_cnt: 29,
-    log_cnt: 497,
-    donation_cnt: 376,
+    log_cnt: 738,
+    donation_cnt: 353,
     balances: [{
       asset: 'ETH',
       balance: '0.005747500000'
@@ -12656,7 +12656,7 @@ export const grantsData = [
     name: 'Kulap.io',
     slug: 'https://gitcoin.co/grants/1947/kulapio',
     tx_cnt: 17,
-    log_cnt: 0,
+    log_cnt: 1918,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12673,7 +12673,7 @@ export const grantsData = [
     name: 'Interstate Network EVM optimistic rollup',
     slug: 'https://gitcoin.co/grants/334/interstate-network-evm-generic-optimistic-rollups',
     tx_cnt: 104,
-    log_cnt: 152,
+    log_cnt: 762,
     donation_cnt: 152,
     balances: [{
       asset: 'ETH',
@@ -12690,7 +12690,7 @@ export const grantsData = [
     name: 'rDAI',
     slug: 'https://gitcoin.co/grants/250/rdai',
     tx_cnt: 456,
-    log_cnt: 0,
+    log_cnt: 2606,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12707,8 +12707,8 @@ export const grantsData = [
     name: 'Ethhub - Ethereum Information Hub',
     slug: 'https://gitcoin.co/grants/40/ethhub-ethereum-information-hub',
     tx_cnt: 1282,
-    log_cnt: 6414,
-    donation_cnt: 6293,
+    log_cnt: 16677,
+    donation_cnt: 6246,
     balances: [{
       asset: 'ETH',
       balance: '2.252511875751'
@@ -12724,7 +12724,7 @@ export const grantsData = [
     name: 'Alice',
     slug: 'https://gitcoin.co/grants/169/alice',
     tx_cnt: 1285,
-    log_cnt: 737,
+    log_cnt: 14818,
     donation_cnt: 737,
     balances: [{
       asset: 'ETH',
@@ -12741,7 +12741,7 @@ export const grantsData = [
     name: 'the (still) Unnamed and (still) Inexistent Project',
     slug: 'https://gitcoin.co/grants/442/the-still-unnamed-and-still-inexistent-project',
     tx_cnt: 485,
-    log_cnt: 53,
+    log_cnt: 4110,
     donation_cnt: 53,
     balances: [{
       asset: 'ETH',
@@ -12758,7 +12758,7 @@ export const grantsData = [
     name: 'Telegram Totality',
     slug: 'https://gitcoin.co/grants/799/telegram-totality',
     tx_cnt: 3,
-    log_cnt: 19,
+    log_cnt: 41,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -12775,7 +12775,7 @@ export const grantsData = [
     name: 'Altcoin Author Crypto Podcast/newsletter - #ethismoney Advan',
     slug: 'https://gitcoin.co/grants/571/altcoin-author-crypto-podcastnewsletter-ethismone',
     tx_cnt: 755,
-    log_cnt: 19,
+    log_cnt: 2091,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -12792,7 +12792,7 @@ export const grantsData = [
     name: 'Eth-ter-i-die',
     slug: 'https://gitcoin.co/grants/1119/eth-ter-i-die',
     tx_cnt: 7,
-    log_cnt: 167,
+    log_cnt: 457,
     donation_cnt: 47,
     balances: [{
       asset: 'ETH',
@@ -12809,7 +12809,7 @@ export const grantsData = [
     name: 'Covid-19 Tracker with Latest Updates & News Articles - Coron',
     slug: 'https://gitcoin.co/grants/501/covid-19-tracker-with-latest-updates-news-article',
     tx_cnt: 12,
-    log_cnt: 19,
+    log_cnt: 301,
     donation_cnt: 19,
     balances: [{
       asset: 'ETH',
@@ -12826,8 +12826,8 @@ export const grantsData = [
     name: 'Finematics - DeFi Education',
     slug: 'https://gitcoin.co/grants/1158/finematics-defi-education',
     tx_cnt: 100,
-    log_cnt: 1090,
-    donation_cnt: 969,
+    log_cnt: 2367,
+    donation_cnt: 952,
     balances: [{
       asset: 'ETH',
       balance: '3.581772072518'
@@ -12843,7 +12843,7 @@ export const grantsData = [
     name: 'clr.fund',
     slug: 'https://gitcoin.co/grants/524/clrfund',
     tx_cnt: 558,
-    log_cnt: 2968,
+    log_cnt: 6471,
     donation_cnt: 2847,
     balances: [{
       asset: 'ETH',
@@ -12860,7 +12860,7 @@ export const grantsData = [
     name: 'Notus basselstine',
     slug: 'https://gitcoin.co/grants/124/notus',
     tx_cnt: 351,
-    log_cnt: 71,
+    log_cnt: 3836,
     donation_cnt: 71,
     balances: [{
       asset: 'ETH',
@@ -12877,7 +12877,7 @@ export const grantsData = [
     name: 'Freeze Crypto',
     slug: 'https://gitcoin.co/grants/1935/freeze-crypto',
     tx_cnt: 77,
-    log_cnt: 0,
+    log_cnt: 1361,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12894,7 +12894,7 @@ export const grantsData = [
     name: 'Zksync Powered Mobile Dapp to Make Faster and Lower Fee Tran',
     slug: 'https://gitcoin.co/grants/1237/zksync-powered-mobile-dapp-to-make-faster-and-low',
     tx_cnt: 33,
-    log_cnt: 120,
+    log_cnt: 417,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12911,8 +12911,8 @@ export const grantsData = [
     name: 'Archivenode.io - the Public Access Ethereum Archive Node',
     slug: 'https://gitcoin.co/grants/1101/archivenodeio-the-public-access-ethereum-archive-',
     tx_cnt: 262,
-    log_cnt: 3614,
-    donation_cnt: 3493,
+    log_cnt: 6678,
+    donation_cnt: 3448,
     balances: [{
       asset: 'ETH',
       balance: '2.907864083412'
@@ -12928,7 +12928,7 @@ export const grantsData = [
     name: 'Unbu Chain - Fintech Property Investment Platform',
     slug: 'https://gitcoin.co/grants/266/unbu-chain-fintech-property-investment-platform',
     tx_cnt: 60,
-    log_cnt: 0,
+    log_cnt: 1618,
     donation_cnt: 0,
     balances: [{
       asset: 'ETH',
@@ -12945,7 +12945,7 @@ export const grantsData = [
     name: 'Locketh',
     slug: 'https://gitcoin.co/grants/1563/locketh',
     tx_cnt: 32,
-    log_cnt: 498,
+    log_cnt: 943,
     donation_cnt: 377,
     balances: [{
       asset: 'ETH',
@@ -12962,7 +12962,7 @@ export const grantsData = [
     name: 'Breadcrumbs',
     slug: 'https://gitcoin.co/grants/1280/breadcrumbs',
     tx_cnt: 3,
-    log_cnt: 2,
+    log_cnt: 6,
     donation_cnt: 2,
     balances: [{
       asset: 'ETH',
@@ -12979,7 +12979,7 @@ export const grantsData = [
     name: 'Dapp University',
     slug: 'https://gitcoin.co/grants/847/dapp-university',
     tx_cnt: 58,
-    log_cnt: 624,
+    log_cnt: 1423,
     donation_cnt: 624,
     balances: [{
       asset: 'ETH',
@@ -12996,7 +12996,7 @@ export const grantsData = [
     name: 'Insurenet Blockchain Insurance Platform',
     slug: 'https://gitcoin.co/grants/975/insurenet-blockchain-insurance-platform',
     tx_cnt: 206,
-    log_cnt: 4,
+    log_cnt: 961,
     donation_cnt: 4,
     balances: [{
       asset: 'ETH',
@@ -13013,7 +13013,7 @@ export const grantsData = [
     name: 'Linkdrop',
     slug: 'https://gitcoin.co/grants/1440/linkdrop',
     tx_cnt: 678,
-    log_cnt: 11,
+    log_cnt: 3941,
     donation_cnt: 11,
     balances: [{
       asset: 'ETH',
@@ -13554,7 +13554,7 @@ export const grantsData = [
     type: 'logs',
     grant_id: 1550,
     address: '0xae0ea7b59557335fd1c536e800aebcb107c79160',
-    name: 'За сёрфинг сайтов вы получаете с�',
+    name: '￐ﾗ￐ﾰ ￑ﾁ￑ﾑ￑ﾀ￑ﾄ￐ﾸ￐ﾽ￐ﾳ ￑ﾁ￐ﾰ￐ﾹ￑ﾂ￐ﾾ￐ﾲ ￐ﾲ￑ﾋ ￐﾿￐ﾾ￐ﾻ￑ﾃ￑ﾇ￐ﾰ￐ﾵ￑ﾂ￐ﾵ ￑ﾁ￐',
     slug: 'https://gitcoin.co/grants/1550/-6',
     tx_cnt: 0,
     log_cnt: 0,
