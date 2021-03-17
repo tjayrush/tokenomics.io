@@ -41,7 +41,7 @@ function App() {
         <Content style={{padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue'}}>
           <Layout>
             <div style={{width: '2000px'}}>
-              <h2>Under Contruction</h2>
+              <h2>Under Construction</h2>
             </div>
             <RightSider />
           </Layout>
