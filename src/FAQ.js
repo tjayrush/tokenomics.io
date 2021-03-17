@@ -20,10 +20,21 @@ const oneFAQ = (title, text) => {
 }
 export const faq_text = (
   <ul style={{marginLeft: '-20px'}}>
-    {oneFAQ(
-      'What even is this website?',
-      'Access to the Gitcoin Grants data from two perspectives. First, from the perspective of the smart contracts. The second is from the perspective of the individual grants. The website is an experiment in monitoring and presenting the activity on a large collection of addresses in a fully permissionless way that we call <i>ecosystem accounting</i>. This code runs on a desktop computer with access to a node.'
-    )}
+    <li>
+      <b>What even is this website?</b>
+      <br />
+      <div>
+        Access to the Gitcoin Grants data from two perspectives. First, from the perspective of the
+        <br />
+        smart contracts. The second is from the perspective of the individual grants. The website is an
+        <br />
+        experiment in monitoring and presenting the activity on a large collection of addresses in a fully
+        <br />
+        permissionless way that we call <i>ecosystem accounting</i>. This code runs on a desktop computer
+        <br />
+        with access to a node.
+      </div>
+    </li>
     <li>
       <b>May I download the entire data dump in a single file?</b>
       <br />
