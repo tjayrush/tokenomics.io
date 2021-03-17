@@ -40,7 +40,7 @@ function App() {
         <LeftSider />
         <Content style={{padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue'}}>
           <Layout>
-            <HomePage />
+            <div>Under Contruction</div>
             <RightSider />
           </Layout>
         </Content>
