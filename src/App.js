@@ -40,8 +40,17 @@ function App() {
         <LeftSider />
         <Content style={{padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue'}}>
           <Layout>
-            <div style={{width: '2000px'}}>
+            <div style={{width: '2400px'}}>
+              <br />
               <h2>Under Construction</h2>
+              <br />
+              <h4>We're fixing a few problems. Be right back.</h4>
+              In the meantime, you can get any data you want by going to
+              <div>
+                <p />
+                <pre>http://tokenomics.io/gitcoin/data/[ADDRESSS].json</pre>
+                <pre>http://tokenomics.io/gitcoin/data/[ADDRESSS].csv</pre>
+              </div>
             </div>
             <RightSider />
           </Layout>
