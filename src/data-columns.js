@@ -258,7 +258,7 @@ function downloadLink(record, type) {
 
   return (
     <div>
-      <a target={'blank'} href={'http://tokenomics.io/data/' + record.address + type}>
+      <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + record.address + type}>
         <pre>
           <DownloadOutlined /> <small>Download</small>
         </pre>
