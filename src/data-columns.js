@@ -149,9 +149,9 @@ export const columns = [
             <div>
               The balances for the account
               <br />
-              in ETH. We will add DAI and
+              in ETH. We're adding DAI and
               <br />
-              other tokens in the future.
+              other tokens later.
             </div>
           }>
           <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
@@ -175,7 +175,7 @@ export const columns = [
   {
     title: (
       <div>
-        Apps{' '}
+        Appearances{' '}
         <Popover
           color='lightblue'
           content={
@@ -210,7 +210,7 @@ export const columns = [
   {
     title: (
       <div>
-        Logs{' '}
+        Event Logs{' '}
         <Popover
           color='lightblue'
           content={

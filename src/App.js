@@ -74,7 +74,7 @@ export const Head = () => {
           <small>
             <small>
               <font style={{color: 'lightblue'}}>
-                We are <Text type='warning'>permissionlessly not affilated</Text> with GitCoin
+                A <Text type='warning'>permissionlessly</Text> built gift to the GitCoin Community
               </font>
             </small>
           </small>
@@ -91,19 +91,19 @@ export const LeftSider = () => {
         What is a data pouch?
       </Paragraph>
       <Text style={{color: 'lightblue'}}>
-        A data pouch is a website that provides access to data files and nothing more. This data pouch was built using TrueBlocks.
+        A data pouch is a place to store data.
+        <p />
+        The data was extracted using TrueBlocks and our own local Ethereum node. We will update the site daily.
       </Text>
-      <br />
       <br />
       <br />
       <Paragraph style={{textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue'}}>
-        Ecosystem accounting
+        Why we built this
       </Paragraph>
       <Text style={{color: 'lightblue'}}>
-        Permissionless, per-block, eighteen-decimal-place accurate, radically-transparent data accounting for
-        communities and individuals.
+        To provide the data scientists in our community (including ourselves) an independant source of fully-transparent
+        data about GitCoin contracts, donors, and grants.
       </Text>
-      <br />
       <br />
       <br />
       <br />
@@ -182,8 +182,6 @@ export const RightSider = () => {
           trigger='hover'>
           <div style={{width: '100%', height: '100%'}}>
             To Do List
-            <br />
-            (on hover)
           </div>
         </Popover>
       </MyCard>
@@ -197,8 +195,6 @@ export const RightSider = () => {
           trigger='hover'>
           <div style={{width: '100%', height: '100%'}}>
             FAQ
-            <br />
-            (on hover)
           </div>
         </Popover>
       </MyCard>
@@ -230,11 +226,6 @@ export const HomePage = () => {
     setDefKey(!!contractData && contractData !== [] ? '1' : '2');
   }, [searchText, contractData]);
 
-  /*
-      <div>
-        searchText: [ {searchText} ][{defKey}][{JSON.stringify(contractData, 2, null)}]
-      </div>
-  */
   const tab1Title = 'Donation Contracts (' + contractData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
   return (
