@@ -12,7 +12,7 @@ export const faq_text = (
         <br />
         website is an experiment in monitoring and presenting the activity on a large collection
         <br />
-        of addresses in a full permissionless way that we call <i>ecosystem accounting</i>.
+        of addresses in a fully permissionless way that we call <i>ecosystem accounting</i>.
       </div>
     </li>
     <li>
@@ -27,24 +27,24 @@ export const faq_text = (
         Currently, we run two OpenEthereum archive nodes in-house (switching to{' '}
         <a href='http://twitter.com/@turbogeth'>TurboGeth</a> soon).
         <br />
-        Five years ago, we made a capital investment of about $2,500 for a "hefty" Linux computer.
+        Five years ago, we made a capital investment of about $5,000 for two "hefty" Linux computers.
         <br />
-        We've upgraded twice since then to increase the hard-drive space (Raid 0, 12 TB, SSD). We
+        Since them, we've upgraded twice to increase the hard-drive space (Raid 0, 12 TB, SSD). We
         <br />
-        also pay about $30.00 US per month for a Digital Ocean server.
+        also pay about $30.00 US per month for this Digital Ocean server.
       </div>
     </li>
     <li>
       <b>Why do you only export event logs?</b>
       <br />
       <div>
-        People are most familiar with logs, plus their analytical piplines can already handle
+        People are most familiar with logs, plus their analytical piplines already handle that type of data.
         <br />
-        that type of data. The full suite of TrueBlocks tools produces much more data, though. Full
+        The full suite of TrueBlocks tools produces much more data, though. Full tranactional details,
         <br />
-        tranactional details, full tracing data and even ETH accounting, are available, but we do
+        full tracing data and even ETH accounting, are available, but we do not include that data on
         <br />
-        not include that data on this website.
+        this website at this time.
       </div>
     </li>
     <li>
@@ -57,9 +57,9 @@ export const faq_text = (
         <br />
         TrueBlocks, we are trying to build on that dream. Recently, we've expanded the idea
         <br />
-        into something we call <i>Ecosystem Accounting</i> which means accounting for community-wide
+        into something we call <i>ecosystem accounting</i> which means accounting for community-wide
         <br />
-        constilations of inter-related Ethereum addresses such as the GitCoin grant community.
+        constellations of inter-related Ethereum addresses such as the GitCoin grant community.
       </div>
     </li>
   </ul>

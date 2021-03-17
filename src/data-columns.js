@@ -1,6 +1,15 @@
-import { Popover, Tag, Typography } from 'antd';
+import {Popover, Tag, Typography} from 'antd';
 import {DownloadOutlined} from '@ant-design/icons';
-const { Text} = Typography;
+const {Text} = Typography;
+
+const widths = {
+  date: '15%',
+  type: '8%',
+  name: '41%',
+  balance: '8%',
+  tx_cnt: '8%',
+  log_cnt: '8%',
+};
 
 export const columns = [
   {
@@ -11,7 +20,8 @@ export const columns = [
           color='lightblue'
           content={
             <div>
-              The most recent interaction this address<br />
+              The most recent interaction this address
+              <br />
               had with a GitCoin-related contract.
             </div>
           }>
@@ -21,12 +31,10 @@ export const columns = [
     ),
     dataIndex: 'date',
     key: 'date',
-    width: '15%',
-    render: (text) => (
-      <pre>
-        <small>{text}</small>
-      </pre>
-    ),
+    width: widths['date'],
+    render: (text) => {
+      return renderCell(text);
+    },
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => a.date < b.date,
@@ -53,7 +61,7 @@ export const columns = [
     ),
     dataIndex: 'type',
     key: 'type',
-    width: '8%',
+    width: widths['type'],
     filters: [
       {text: 'Transactions', value: 'txs'},
       {text: 'Logs', value: 'logs'},
@@ -61,11 +69,16 @@ export const columns = [
     ],
     onFilter: (value, record) => record.type.includes(value),
     render: (text, record) => (
-      <pre>
-        <Tag color='blue' key={record.address}>
-          <small>{text}</small>
-        </Tag>
-      </pre>
+      <div style={{marginTop: '-25px'}}>
+        <pre>
+          <br />
+          <Tag color='blue' key={record.address}>
+            <small>{text}</small>
+          </Tag>
+        </pre>{' '}
+        <br />
+        <br />
+      </div>
     ),
   },
   {
@@ -89,7 +102,7 @@ export const columns = [
     ),
     dataIndex: 'name',
     key: 'name',
-    width: '30%',
+    width: widths['name'],
     render: function (text, record) {
       var name = !!record.grant_id ? record.name + ' (#' + record.grant_id + ')' : record.name;
       name = name.replace('&#39;', "'");
@@ -101,18 +114,24 @@ export const columns = [
             <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
               <small>{record.address}</small>
             </a>
+            <br />
+            <br />
           </pre>
         );
       return (
-        <pre>
-          <a target={'top'} href={record.slug}>
-            <small>{name}</small>
-          </a>
+        <div>
+          <pre>
+            <a target={'top'} href={record.slug}>
+              <small>{name}</small>
+            </a>
+            <br />
+            <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
+              <small>{record.address}</small>
+            </a>
+          </pre>
           <br />
-          <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
-            <small>{record.address}</small>
-          </a>
-        </pre>
+          <br />
+        </div>
       );
     },
     showSorterTooltip: false,
@@ -142,12 +161,10 @@ export const columns = [
     dataIndex: 'balance',
     key: 'balance',
     align: 'right',
-    width: '10%',
-    render: (text, record) => (
-      <pre>
-        <small>{record.balances[0].balance}</small>
-      </pre>
-    ),
+    width: widths['balance'],
+    render: (text, record) => {
+      return renderCell(record.balances[0].balance);
+    },
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
@@ -158,7 +175,7 @@ export const columns = [
   {
     title: (
       <div>
-        Txs{' '}
+        Apps{' '}
         <Popover
           color='lightblue'
           content={
@@ -176,7 +193,7 @@ export const columns = [
     ),
     dataIndex: 'tx_cnt',
     key: 'tx_cnt',
-    width: '4%',
+    width: widths['tx_cnt'],
     align: 'right',
     showSorterTooltip: false,
     sorter: {
@@ -184,11 +201,9 @@ export const columns = [
         return a.tx_cnt - b.tx_cnt;
       },
     },
-    render: (text) => (
-      <pre>
-        <small>{text}</small>
-      </pre>
-    ),
+    render: function (text, record) {
+      return downloadLink(record, 'apps/');
+    },
   },
   {
     title: (
@@ -207,62 +222,68 @@ export const columns = [
         </Popover>
       </div>
     ),
-    dataIndex: 'donation_cnt',
-    key: 'donation_cnt',
-    width: '4%',
+    dataIndex: 'log_cnt',
+    key: 'log_cnt',
+    width: widths['log_cnt'],
     align: 'right',
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return a.donation_cnt - b.donation_cnt;
+        return a.log_cnt - b.log_cnt;
       },
     },
-    render: (text) => (
-      <pre>
-        <small>{text}</small>
-      </pre>
-    ),
-  },
-  {
-    title: 'CSV',
-    dataIndex: 'csv',
-    key: 'csv',
-    width: '5%',
     render: function (text, record) {
-      return downloadLink(record, '.csv');
-    },
-  },
-  {
-    title: 'JSON',
-    dataIndex: 'json',
-    key: 'json',
-    width: '5%',
-    render: function (text, record) {
-      return downloadLink(record, '.json');
+      return downloadLink(record, '');
     },
   },
 ];
 
-function downloadLink(record, type) {
-  if (record.tx_cnt === 0 && record.log_cnt === 0) {
+function downloadLink(record, extra) {
+  if (extra !== '') {
     return (
-      <div>
+      <div style={{display: 'grid', gridTemplateColumns: '1fr'}}>
         <pre>
-          <div>
-            <small>{'<no-data>'}</small>
-          </div>
+          <small>({record.tx_cnt})</small>
+          <br />
+          <small>
+            <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.csv'}>
+              <DownloadOutlined /> csv
+            </a>
+          </small>
+          <br />
+          <br />
         </pre>
       </div>
     );
   }
 
   return (
-    <div>
-      <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + record.address + type}>
-        <pre>
-          <DownloadOutlined /> <small>Download</small>
-        </pre>
-      </a>
+    <div style={{display: 'grid', gridTemplateColumns: '1fr'}}>
+      <pre>
+        <small>({record.log_cnt})</small>
+        <br />
+        <small>
+          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.csv'}>
+            <DownloadOutlined /> csv{' '}
+          </a>
+          <br />
+          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.json'}>
+            <DownloadOutlined /> json
+          </a>
+        </small>
+      </pre>
     </div>
   );
 }
+
+const renderCell = (text) => {
+  return (
+    <div>
+      <pre>
+        <small>{text}</small>
+      </pre>
+      <br />
+      <br />
+    </div>
+  );
+};

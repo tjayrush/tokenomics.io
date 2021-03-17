@@ -13,18 +13,17 @@
 #include "etherlib.h"
 #include "options.h"
 
-extern const char *STR_OUTPUT;
-extern const char *STR_BALANCE_OUTPUT;
-extern bool loadGrantList(CAccountNameArray &grants);
-extern bool loadRecords(CRecordArray &records);
-extern bool saveRecords(const CRecordArray &records);
-extern bool updateAll(CRecordArray &records, CAccountNameArray &grants);
-extern bool updateSome(CRecordArray &records, const CAccountNameArray &grants);
-extern bool updateOne(CRecord &record, CAccountName &grant, blknum_t latest);
+extern const char* STR_OUTPUT;
+extern const char* STR_BALANCE_OUTPUT;
+extern bool loadGrantList(CAccountNameArray& grants);
+extern bool loadRecords(CRecordArray& records);
+extern bool saveRecords(const CRecordArray& records);
+extern bool updateAll(CRecordArray& records, CAccountNameArray& grants);
+extern bool updateSome(CRecordArray& records, const CAccountNameArray& grants);
+extern bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest);
 static uint64_t key = 1;
 //----------------------------------------------------------------
-int main(int argc, const char *argv[])
-{
+int main(int argc, const char* argv[]) {
     etherlib_init(quickQuitHandler);
     CRecord::registerClass();
     CBalance::registerClass();
@@ -34,8 +33,7 @@ int main(int argc, const char *argv[])
     if (!options.prepareArguments(argc, argv))
         return 0;
 
-    for (auto command : options.commandLines)
-    {
+    for (auto command : options.commandLines) {
         if (!options.parseArguments(command))
             return 0;
 
@@ -44,23 +42,19 @@ int main(int argc, const char *argv[])
             return options.usage("Could not load grants list. Are you in the pouch folder?");
 
         CRecordArray records;
-        if (!loadRecords(records))
-        {
+        if (!loadRecords(records)) {
             key = 1;
             if (!updateAll(records, grants))
                 return options.usage("Could not load records.");
         }
 
-        while (!shouldQuit())
-        {
+        while (!shouldQuit()) {
             ostringstream os;
             os << "export const grantsData = [\n";
-            for (auto record : records)
-            {
+            for (auto record : records) {
                 ostringstream oss;
                 bool first = true;
-                for (auto balance : record.balances)
-                {
+                for (auto balance : record.balances) {
                     if (!first)
                         oss << ",";
                     oss << "[" << balance.Format(STR_BALANCE_OUTPUT) << "]";
@@ -80,7 +74,7 @@ int main(int argc, const char *argv[])
             //            }
             //            cerr << endl;
             key = 1;
-//            updateSome(records, grants);
+            //            updateSome(records, grants);
             return 0;
         }
     }
@@ -90,11 +84,9 @@ int main(int argc, const char *argv[])
 }
 
 //----------------------------------------------------------------
-bool saveRecords(const CRecordArray &records)
-{
+bool saveRecords(const CRecordArray& records) {
     CArchive archive(WRITING_ARCHIVE);
-    if (archive.Lock("./data/records.bin", modeWriteCreate, LOCK_WAIT))
-    {
+    if (archive.Lock("./data/records.bin", modeWriteCreate, LOCK_WAIT)) {
         archive << records;
         archive.Release();
         return true;
@@ -102,19 +94,18 @@ bool saveRecords(const CRecordArray &records)
     return false;
 }
 
-class CCheckup
-{
-public:
+//----------------------------------------------------------------
+class CCheckup {
+  public:
     CAddressBoolMap grantMap;
     CAddressBoolMap needsMap;
 };
 
 //----------------------------------------------------------------
-bool visitAddrs(const CAppearance &item, void *data)
-{
+bool visitAddrs(const CAppearance& item, void* data) {
     cerr << "Checking address " << item.addr << "\r";
     cerr.flush();
-    CCheckup *check = (CCheckup *)data;
+    CCheckup* check = (CCheckup*)data;
     if (check->grantMap[item.addr] && !check->needsMap[item.addr]) {
         check->needsMap[item.addr] = true;
         cout << "Address " << item.addr << " needs update." << endl;
@@ -123,22 +114,19 @@ bool visitAddrs(const CAppearance &item, void *data)
 }
 
 //----------------------------------------------------------------
-bool transFilter(const CTransaction *trans, void *data)
-{
+bool transFilter(const CTransaction* trans, void* data) {
     return true;
 }
 
 //----------------------------------------------------------------
-bool updateSome(CRecordArray &records, const CAccountNameArray &grants)
-{
+bool updateSome(CRecordArray& records, const CAccountNameArray& grants) {
     blknum_t latest = getBlockProgress(BP_CLIENT).client;
     blknum_t prev = str_2_Uint(asciiFileToString("./data/latest.txt"));
     cerr << "Loading map..." << endl;
     CCheckup checkup;
     for (auto grant : grants)
         checkup.grantMap[grant.address] = true;
-    for (blknum_t bn = prev + 1; bn < latest; bn++)
-    {
+    for (blknum_t bn = prev + 1; bn < latest; bn++) {
         CBlock block;
         cerr << "Getting block " << bn << " of " << latest << string_q(70, ' ') << "\r";
         cerr.flush();
@@ -150,16 +138,14 @@ bool updateSome(CRecordArray &records, const CAccountNameArray &grants)
     for (auto entry : checkup.needsMap)
         cerr << "Address " << entry.first << " needs update." << endl;
     return true;
-    //updateAll(records, g);
+    // updateAll(records, g);
 }
 
 //----------------------------------------------------------------
-bool updateAll(CRecordArray &records, CAccountNameArray &grants)
-{
+bool updateAll(CRecordArray& records, CAccountNameArray& grants) {
     blknum_t latest = getBlockProgress(BP_CLIENT).client;
     records.clear();
-    for (auto grant : grants)
-    {
+    for (auto grant : grants) {
         cerr << "Processing grant: " << grant.address << " " << grant.name.substr(0, 60) << endl;
         CRecord record;
         if (updateOne(record, grant, latest))
@@ -169,8 +155,7 @@ bool updateAll(CRecordArray &records, CAccountNameArray &grants)
 }
 
 //----------------------------------------------------------------
-bool updateOne(CRecord &record, CAccountName &grant, blknum_t latest)
-{
+bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
     string_q fn = getCachePath("monitors/" + toLower(grant.address) + ".acct.bin");
     bool exists = fileExists(fn);
 
@@ -182,7 +167,7 @@ bool updateOne(CRecord &record, CAccountName &grant, blknum_t latest)
     record.name = substitute(grant.name.substr(0, 60), "'", "&#39;");
 
     record.date = (exists ? fileLastModifyDate(fn).Format(FMT_JSON) : "n/a");
-    record.type = "logs"; // types[key % 3];
+    record.type = "logs";  // types[key % 3];
     record.address = grant.address;
     record.slug = grant.source;
     record.core = contains(grant.tags, ":Core");
@@ -197,26 +182,19 @@ bool updateOne(CRecord &record, CAccountName &grant, blknum_t latest)
     string_q jsonFile = "./data/" + record.address + ".json";
     string_q csvFile = "./data/" + record.address + ".csv";
     record.tx_cnt = (exists ? (fileSize(fn) / sizeof(CAppearance_base)) : 0);
-    if (fileExists(csvFile))
-    {
+    if (fileExists(csvFile)) {
         record.log_cnt = str_2_Uint(doCommand("wc " + csvFile));
         if (record.log_cnt > 0)
             record.log_cnt -= 1;
-        if (record.address == "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6")
-        {
+        if (record.address == "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6") {
             record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Payout | wc"));
-        }
-        else if (record.address == "0xdf869fad6db91f437b59f1edefab319493d4c4ce")
-        {
-            record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep 0xdf869fad6db91f437b59f1edefab319493d4c4ce | wc"));
-        }
-        else
-        {
+        } else if (record.address == "0xdf869fad6db91f437b59f1edefab319493d4c4ce") {
+            record.donation_cnt =
+                str_2_Uint(doCommand("cat " + csvFile + " | grep 0xdf869fad6db91f437b59f1edefab319493d4c4ce | wc"));
+        } else {
             record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Donation | wc"));
         }
-    }
-    else
-    {
+    } else {
         record.log_cnt = record.tx_cnt;
         record.donation_cnt = 0;
     }
@@ -225,13 +203,12 @@ bool updateOne(CRecord &record, CAccountName &grant, blknum_t latest)
 }
 
 //----------------------------------------------------------------
-bool loadGrantList(CAccountNameArray &grants)
-{
+bool loadGrantList(CAccountNameArray& grants) {
     CAccountName name;
     string_q contents = asciiFileToString("./grants.json");
-    while (name.parseJson3(contents))
-    {
-        if (name.address == "0x322d58b9e75a6918f7e7849aee0ff09369977e08") // Skip this. It's both inactive and really big
+    while (name.parseJson3(contents)) {
+        if (name.address ==
+            "0x322d58b9e75a6918f7e7849aee0ff09369977e08")  // Skip this. It's both inactive and really big
             continue;
         name.address = toLower(name.address);
         grants.push_back(name);
@@ -241,11 +218,9 @@ bool loadGrantList(CAccountNameArray &grants)
 }
 
 //----------------------------------------------------------------
-bool loadRecords(CRecordArray &records)
-{
+bool loadRecords(CRecordArray& records) {
     CArchive archive(READING_ARCHIVE);
-    if (archive.Lock("./data/records.bin", modeReadOnly, LOCK_NOWAIT))
-    {
+    if (archive.Lock("./data/records.bin", modeReadOnly, LOCK_NOWAIT)) {
         archive >> records;
         archive.Release();
         return true;
@@ -254,7 +229,7 @@ bool loadRecords(CRecordArray &records)
 }
 
 //----------------------------------------------------------------
-const char *STR_OUTPUT =
+const char* STR_OUTPUT =
     "  {\n"
     "    key: [{KEY}],\n"
     "    date: '[{DATE}]',\n"
@@ -271,7 +246,7 @@ const char *STR_OUTPUT =
     "  },";
 
 //----------------------------------------------------------------
-const char *STR_BALANCE_OUTPUT =
+const char* STR_BALANCE_OUTPUT =
     "{\n"
     "      asset: 'ETH',\n"
     "      balance: '[{BALANCE}]'\n"

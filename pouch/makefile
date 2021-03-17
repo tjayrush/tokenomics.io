@@ -16,7 +16,9 @@ dest=$(bin)/$(exec)
 
 #-------------------------------------------------
 src= \
+handle_convert.cpp \
 options.cpp \
+logentry_min.cpp \
 record.cpp \
 balance.cpp \
 $(exec).cpp

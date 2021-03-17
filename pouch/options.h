@@ -26,8 +26,8 @@ class COptions : public COptionsBase {
   public:
     // BEG_CODE_DECLARE
     bool freshen;
-    bool json2Csv;
-    bool csv2Json;
+    bool json2csv;
+    bool csv2json;
     // END_CODE_DECLARE
 
     COptions(void);
@@ -35,6 +35,9 @@ class COptions : public COptionsBase {
 
     bool parseArguments(string_q& command);
     void Init(void);
+
+    bool handle_json_2_csv(void);
+    bool handle_csv_2_json(void);
 };
 
 //-----------------------------------------------------------------------------

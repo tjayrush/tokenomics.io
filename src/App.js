@@ -1,5 +1,5 @@
-import React from 'react';
-import {Typography, Layout, Tabs, Card} from 'antd';
+import React, {useState} from 'react';
+import {Input, Typography, Layout, Tabs, Card} from 'antd';
 import {Table as AntTable, Popover} from 'antd';
 import {Affix} from 'antd';
 
@@ -12,7 +12,8 @@ import { columns } from './data-columns.js';
 import { Foot } from './Foot.js'
 
 const { Header, Sider, Content } = Layout;
-const {Title, Paragraph, Text} = Typography;
+const { Title, Paragraph, Text } = Typography;
+const { Search } = Input;
 const {TabPane} = Tabs;
 const Table = (props) => {
   const pag = {
@@ -79,7 +80,7 @@ export const LeftSider = () => {
         What is a data pouch?
       </Paragraph>
       <Text style={{color: 'lightblue'}}>
-        A data pouch is a website that provides access to data files and nothing more using TrueBlocks.
+        A data pouch is a website that provides access to data files and nothing more. This data pouch was built using TrueBlocks.
       </Text>
       <br />
       <br />
@@ -127,10 +128,14 @@ export const MyCard = ({children}) => {
 export const RightSider = () => {
   const hover1_text = (
     <ul style={{marginLeft: '-20px'}}>
-      <li>Enable search by name</li>
+      <li style={{textDecoration: 'line-through'}}>Enable search by name</li>
       <li>Update the data after every block</li>
-      <li>Export more data per address (tx, trace, accounting, etc.)</li>
-      <li>Allow download of the entire data set as a <i>.tar.gz</i></li>
+      <li>
+        Export all data (<div style={{display: 'inline', textDecoration: 'line-through'}}>appearances</div>, tx, trace, statements)
+      </li>
+      <li>
+        Allow download of the entire data set as a <i>.tar.gz</i>
+      </li>
     </ul>
   );
   const hover1_title = 'To Do List';
@@ -191,15 +196,32 @@ export const RightSider = () => {
 };
 
 export const HomePage = () => {
+  const [searchText, setSearchText] = useState('');
+
+  const onSearch = (value) => { setSearchText(value); console.log(value); };
+  
   const contractData = grantsData.filter((item) => {
     return item.core;
   });
   const grantData = grantsData.filter((item) => {
     return !item.core;
   })
+  var defKey = '1'; // contractData && contractData.length() ? '1' : '2';
+
   return (
     <Content>
-      <Tabs defaultActiveKey='1' onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
+      <div style={{display: 'grid', gridTemplateColumns: '3fr 1fr'}}>
+        <div></div>
+          <Search
+            style={{paddingRight: '2px'}}
+            width='10px'
+            placeholder='search grants by address or name...'
+            onSearch={onSearch}
+            enterButton>
+          </Search>
+      </div>
+      <div>searchText: [ {searchText} ]</div>
+      <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
         <TabPane tab='Donation Contracts' key='1' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
