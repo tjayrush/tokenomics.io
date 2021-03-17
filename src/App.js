@@ -200,15 +200,19 @@ export const HomePage = () => {
   const [defKey, setDefKey] = useState('1');
 
   const onSearch = (value) => {
-    setSearchText(value);
+    setSearchText(value.toLowerCase());
     console.log(value);
   };
 
   const contractData = grantsData.filter((item) => {
-    return item.core && (searchText === '' || item.name.includes(searchText) || item.address.includes(searchText));
+    const n = item.name.toLowerCase();
+    const a = item.address.toLowerCase();
+    return item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
   });
   const grantData = grantsData.filter((item) => {
-    return !item.core && (searchText === '' || item.name.includes(searchText) || item.address.includes(searchText));
+    const n = item.name.toLowerCase();
+    const a = item.address.toLowerCase();
+    return !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
   });
 
   useEffect(() => {
@@ -234,11 +238,11 @@ export const HomePage = () => {
           enterButton></Search>
       </div>
       <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
-        <TabPane tab={tab1Title} key='1' style={{paddingLeft: '8px'}}>
-          <Table dataSource={contractData} columns={columns} />
-        </TabPane>
-        <TabPane tab={tab2Title} key='2' style={{paddingLeft: '8px'}}>
+        <TabPane tab={tab2Title} key='1' style={{paddingLeft: '8px'}}>
           <Table dataSource={grantData} columns={columns} />
+        </TabPane>
+        <TabPane tab={tab1Title} key='2' style={{paddingLeft: '8px'}}>
+          <Table dataSource={contractData} columns={columns} />
         </TabPane>
         <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
           The future home of some charts

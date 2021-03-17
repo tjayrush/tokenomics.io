@@ -1,24 +1,39 @@
 import React from "react"
 
+const toParagraph = (str, width) => {
+  const words = str.split(' ');
+  var ret = Array([]);
+  for (var i = 0; i < words.length; i++) {
+    ret.push_back(words[i])
+  }
+  return ret.join(' ');
+}
+
+const oneFAQ = (title, text) => {
+  return (
+    <li>
+      <b>{title}</b>
+      <br />
+      <div>{text}</div>
+    </li>
+  );
+}
 export const faq_text = (
   <ul style={{marginLeft: '-20px'}}>
-    <li>
-      <b>What is even this website?</b>
-      <br />
-      <div>
-        This website presents Gitcoin log data from two perspectives. The first perspective is that
-        <br />
-        of the smart contracts. The second is from the perspective of the individual grants. The
-        <br />
-        website is an experiment in monitoring and presenting the activity on a large collection
-        <br />
-        of addresses in a fully permissionless way that we call <i>ecosystem accounting</i>.
-      </div>
-    </li>
+    {oneFAQ(
+      'What even is this website?',
+      'Access to the Gitcoin Grants data from two perspectives. First, from the perspective of the smart contracts. The second is from the perspective of the individual grants. The website is an experiment in monitoring and presenting the activity on a large collection of addresses in a fully permissionless way that we call <i>ecosystem accounting</i>. This code runs on a desktop computer with access to a node.'
+    )}
     <li>
       <b>May I download the entire data dump in a single file?</b>
       <br />
-      <div>Currently no, but it's on our list of things to do. Dive in and help us there.</div>
+      <div>
+        Currently no, but it's on our list of things to do.{' '}
+        <a rel='noreferrer' target='_blank' href='http://github.com/TrueBlocks/tokenomics.io'>
+          Dive in and help us
+        </a>
+        .
+      </div>
     </li>
     <li>
       <b>What does your infrastructure look like? Are you running your own Ethereum nodes?</b>

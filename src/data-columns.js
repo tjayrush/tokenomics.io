@@ -184,7 +184,9 @@ export const columns = [
               <br />
               this address. (An appearance is any
               <br />
-              transaction the account has appeared in.)
+              transaction the account has ever
+              <br />
+              appeared in including internal txs.)
             </div>
           }>
           <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
