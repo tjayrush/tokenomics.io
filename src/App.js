@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Input, Typography, Layout, Tabs, Card} from 'antd';
 import {Table as AntTable, Popover} from 'antd';
 import {Affix} from 'antd';
@@ -197,16 +197,19 @@ export const RightSider = () => {
 
 export const HomePage = () => {
   const [searchText, setSearchText] = useState('');
+  const [defKey, setDefKey] = useState(1);
 
   const onSearch = (value) => { setSearchText(value); console.log(value); };
   
   const contractData = grantsData.filter((item) => {
-    return item.core;
+    return item.core && (searchText === '' || item.name.includes(searchText));
   });
   const grantData = grantsData.filter((item) => {
-    return !item.core;
+    return !item.core && (searchText === '' || item.name.includes(searchText));
   })
-  var defKey = '1'; // contractData && contractData.length() ? '1' : '2';
+  useEffect(() => {
+    setDefKey(!!contractData && contractData !== [] ? '1' : '2');
+  }, [searchText, contractData]);
 
   return (
     <Content>
@@ -220,7 +223,7 @@ export const HomePage = () => {
             enterButton>
           </Search>
       </div>
-      <div>searchText: [ {searchText} ]</div>
+      <div>searchText: [ {searchText} ][{defKey}][{JSON.stringify(contractData, 2, null)}]</div>
       <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
         <TabPane tab='Donation Contracts' key='1' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
