@@ -7,6 +7,8 @@ import 'antd/dist/antd.css';
 const {Footer} = Layout;
 
 export const Foot = () => {
+  var share =
+    'http://twitter.com/intent/tweet?text=A%20permissionlessly-generated%20gift%20to%20the%20@gitcoin%20community%20powered%20by%20@trueblocks.%20Gitcoin%20Grant%20Data%20Pouch%20(http://tokenomics.io/gitcoin).';
   return (
     <Footer>
       <div style={{height: '10px', fontSize: '8pt', display: 'grid', gridTemplateColumns: '1fr 10fr 1fr'}}>
@@ -16,7 +18,7 @@ export const Foot = () => {
           <a href='http://tokenomics.io'>tokenomics.io</a>
         </div>
         <div style={{textAlign: 'right'}}>
-          <a rel='noreferrer' target='_blank' href='http://twitter.com/@trueblocks'>
+          <a rel='noreferrer' target='_blank' href={share}>
             <TwitterOutlined style={{fontSize: '14pt', color: '#282c34'}} />
           </a>
           {'  '}

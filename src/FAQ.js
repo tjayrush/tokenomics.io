@@ -1,23 +1,5 @@
 import React from "react"
 
-const toParagraph = (str, width) => {
-  const words = str.split(' ');
-  var ret = Array([]);
-  for (var i = 0; i < words.length; i++) {
-    ret.push_back(words[i])
-  }
-  return ret.join(' ');
-}
-
-const oneFAQ = (title, text) => {
-  return (
-    <li>
-      <b>{title}</b>
-      <br />
-      <div>{text}</div>
-    </li>
-  );
-}
 export const faq_text = (
   <ul style={{marginLeft: '-20px'}}>
     <li>
