@@ -238,7 +238,7 @@ export const HomePage = () => {
         </TabPane>
       </Tabs>
       <i>
-        <small>Data Last Updated: 2021-03-16 03:30:04 UTC (block 12047274)</small>
+        <small>Data Last Updated: 2021-03-14 19:13:51 UTC (block 12038505)</small>
       </i>
     </Content>
   );
