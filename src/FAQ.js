@@ -6,19 +6,19 @@ export const faq_text = (
       <b>What even is this website?</b>
       <br />
       <div>
-        Access to the Gitcoin Grants data from two perspectives. First, from the perspective of the
+        Access Gitcoin Grants data from two perspectives. First, through smart contracts.
         <br />
-        smart contracts. The second is from the perspective of the individual grants. The website is an
+        Second, through individual grants. The website is an experiment in monitoring and
         <br />
-        experiment in monitoring and presenting the activity on a large collection of addresses in a fully
+        presenting the activity on a large collection of addresses in a fully permissionless way.
         <br />
-        permissionless way that we call <i>ecosystem accounting</i>. This code runs on a desktop computer
+        We call this <i>ecosystem accounting</i>. This code runs on a desktop computer
         <br />
-        with access to a node.
+        with node access.
       </div>
     </li>
     <li>
-      <b>May I download the entire data dump in a single file?</b>
+      <b>Can I download the entire data dump in a single file?</b>
       <br />
       <div>
         Currently no, but it's on our list of things to do.{' '}
@@ -37,7 +37,7 @@ export const faq_text = (
         <br />
         Five years ago, we made a capital investment of about $5,000 for two "hefty" Linux computers.
         <br />
-        Since them, we've upgraded twice to increase the hard-drive space (Raid 0, 12 TB, SSD). We
+        Since then, we've upgraded twice to increase the hard-drive space (Raid 0, 12 TB, SSD). We
         <br />
         also pay about $30.00 US per month for this Digital Ocean server.
       </div>
@@ -48,11 +48,9 @@ export const faq_text = (
       <div>
         People are most familiar with logs, plus their analytical piplines already handle that type of data.
         <br />
-        The full suite of TrueBlocks tools produces much more data, though. Full tranactional details,
+        Although the full suite of TrueBlocks tools produces much more data─including full transactional details,
         <br />
-        full tracing data, and even full ETH accounting are available, but we do not include that data on
-        <br />
-        this website at this time.
+        full tracing data, and full ETH accounting─this website doesn't include  that data at this time.
       </div>
     </li>
     <li>
@@ -69,22 +67,22 @@ export const faq_text = (
         </li>
         <li>TrueBlocks core runs on our Mac desktop using zero third-party APIs.</li>
         <li>There are no databases to install or maintain. Local-first baby.</li>
-        <li>Perfect privacy. We ask no-one's permission, get no API keys, complete no logins.</li>
+        <li>Perfect privacy. We ask no-one's permission, get no API keys, and complete no logins.</li>
       </ul>
     </li>
     <li>
       <b>Why did you build the data pouch?</b>
       <br />
       <div>
-        Five years ago we fell in love with the idea of per-block, 18-decimal-place-accurate
+        Five years ago we fell in love with the idea of balance sheets and profit-and-loss statements
         <br />
-        permissionless, radically-transparent balance sheets and profit-and-loss statements. At
+        that could be per-block, accurate to 18-decimal-places, permissionless, and radically-transparent.
         <br />
-        TrueBlocks, we are trying to build on that dream. Recently, we've expanded the idea
+        At TrueBlocks, we are trying to bring this idea to it's full potential. <i>Ecosystem accounting</i>
         <br />
-        into something we call <i>ecosystem accounting</i> which means accounting for community-wide
+        is our latest effort on that front. It brings accounting for community-wide
         <br />
-        constellations of inter-related Ethereum addresses such as the GitCoin grant community.
+        constellations of inter-related Ethereum addresses, such as the GitCoin grant community.
       </div>
     </li>
   </ul>
