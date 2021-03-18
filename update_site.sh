@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-cd pouch
-# touch *.cpp
-make
-bin/pouch --freshen
-cd -
+git pull
 yarn build
-yes | cp -pr build/* /home/jrush/Websites/tokenomics.io/
+yes | cp -pr build/* /home/jrush/Websites/tokenomics.io/gitcoin/
+yes | cp -pR charts/* /home/jrush/Websites/tokenomics.io/gitcoin/charts/
