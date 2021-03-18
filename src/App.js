@@ -40,18 +40,7 @@ function App() {
         <LeftSider />
         <Content style={{padding: '10px', paddingLeft: '10px', backgroundColor: 'lightblue'}}>
           <Layout>
-            <div style={{width: '2400px'}}>
-              <br />
-              <h2>Under Construction</h2>
-              <br />
-              <h4>We're fixing a few problems. Be right back.</h4>
-              In the meantime, you can get any data you want by going to
-              <div>
-                <p />
-                <pre>http://tokenomics.io/gitcoin/data/[ADDRESSS].json</pre>
-                <pre>http://tokenomics.io/gitcoin/data/[ADDRESSS].csv</pre>
-              </div>
-            </div>
+            <HomePage />
             <RightSider />
           </Layout>
         </Content>
@@ -98,11 +87,11 @@ export const LeftSider = () => {
       <br />
       <br />
       <Paragraph style={{textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue'}}>
-        Why we built this
+        Why did we build this
       </Paragraph>
       <Text style={{color: 'lightblue'}}>
-        To provide the data scientists in our community (including ourselves) an independant source of fully-transparent
-        data about GitCoin contracts, donors, and grants.
+        Mostly dogfooding, but also to provide the data scientists in our community (including ourselves) an independant source
+        of fully-transparent data about GitCoin smart contracts, donors, and grants.
       </Text>
       <br />
       <br />
@@ -149,7 +138,7 @@ export const RightSider = () => {
       </li>
     </ul>
   );
-  const hover1_title = 'To Do List';
+  const hover1_title = 'Future Work';
   return (
     <Sider style={{backgroundColor: 'lightblue'}}>
       <MyCard>
@@ -180,9 +169,7 @@ export const RightSider = () => {
           title={hover1_title}
           content={hover1_text}
           trigger='hover'>
-          <div style={{width: '100%', height: '100%'}}>
-            To Do List
-          </div>
+          <div style={{width: '100%', height: '100%'}}>Future Work</div>
         </Popover>
       </MyCard>
       <MyCard>
@@ -193,9 +180,7 @@ export const RightSider = () => {
           title={faq_title}
           content={faq_text}
           trigger='hover'>
-          <div style={{width: '100%', height: '100%'}}>
-            FAQ
-          </div>
+          <div style={{width: '100%', height: '100%'}}>FAQ</div>
         </Popover>
       </MyCard>
     </Sider>
