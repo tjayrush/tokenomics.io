@@ -15,7 +15,7 @@ export const Foot = () => {
         <div style={{textAlign: 'left'}}></div>
         <div>
           <small>
-            <i>A downloadable data dump of all logs for each Gitcoin grant and smart contract</i>
+            <i>A downloadable dump of every log for every Gitcoin grant and smart contract</i>
           </small>
           <br />
           A project of TrueBlocks, LLC &diams; Powered by <a href='https://twitter.com/trueblocks'>@trueblocks</a> and{' '}

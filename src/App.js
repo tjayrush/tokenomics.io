@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {Fragment, useEffect, useState} from 'react';
 import {Input, Typography, Layout, Tabs, Card} from 'antd';
 import {Table as AntTable, Popover} from 'antd';
 import {Affix} from 'antd';
@@ -73,35 +73,39 @@ export const Head = () => {
   );
 };
 
+export const SiderEntry = ({ question, answer }) => {
+  return (
+    <Fragment>
+      <Paragraph style={{textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue'}}>
+        {question}
+      </Paragraph>
+      <Text style={{color: 'lightblue'}}>
+        {answer}
+      </Text>
+      <br />
+      <br />
+    </Fragment>
+  );
+}
+
 export const LeftSider = () => {
   return (
     <Sider style={{paddingLeft: '20px', paddingRight: '20px'}}>
-      <Paragraph style={{textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue'}}>
-        What is a data pouch?
-      </Paragraph>
-      <Text style={{color: 'lightblue'}}>
-        A data pouch is a place to store data.
-        <p />
-        The data was extracted using TrueBlocks and our own local Ethereum node. We will update the site daily.
-      </Text>
-      <br />
-      <br />
-      <Paragraph style={{textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue'}}>
-        Why did we build this
-      </Paragraph>
-      <Text style={{color: 'lightblue'}}>
-        Mostly dogfooding, but also to provide the data scientists in our community (including ourselves) an independant source
-        of fully-transparent data about GitCoin smart contracts, donors, and grants.
-      </Text>
-      <br />
-      <br />
+      <SiderEntry
+        question='What is a data pouch?'
+        answer='A data pouch is a place to store data. In this case, the data was extracted using TrueBlocks and our own local Ethereum node. We will update the site periodically.'
+      />
+      <SiderEntry
+        question='Why did you build this?'
+        answer='Mostly dogfooding, but also to provide others in our community an independant source of complete, transparent data about GitCoin smart contracts, donors, and grants.'
+      />
       <br />
       <br />
       <br />
       <br />
       <small>
         <Text style={{color: 'lightblue'}}>
-          This website is <i>seriously alpha</i>, meaning we take no responsibility for the data provided.
+          This website is <i>alpha</i>, which means you should use the data with caution.
         </Text>
       </small>
       <br />
@@ -125,16 +129,19 @@ export const MyCard = ({children}) => {
   );
 };
 
+export const Strikeout = ({ text }) => {
+  return <div style={{display: 'inline', textDecoration: 'line-through'}}>{text}</div>;
+}
+
 export const RightSider = () => {
   const hover1_text = (
     <ul style={{marginLeft: '-20px'}}>
-      <li style={{textDecoration: 'line-through'}}>Enable search by name</li>
-      <li>Update the data after every block</li>
       <li>
-        Export all data (<div style={{display: 'inline', textDecoration: 'line-through'}}>appearances</div>, tx, trace, statements)
+        <Strikeout text='Enable search by name' />
       </li>
+      <li>Update the data at each block</li>
       <li>
-        Allow download of the entire data set as a <i>.tar.gz</i>
+        Export all data (<Strikeout text='appearances' />, transactions, traces, statements)
       </li>
     </ul>
   );
