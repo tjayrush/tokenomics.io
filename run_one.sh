@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export DICT_MODE=true
+
 chifra export --appearances $1 | cut -f2,3 >pouch/data/apps/$1.txt
 
 chifra export \
