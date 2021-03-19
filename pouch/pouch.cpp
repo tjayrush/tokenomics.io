@@ -15,7 +15,6 @@
 
 extern const char* STR_OUTPUT;
 extern const char* STR_BALANCE_OUTPUT;
-extern bool loadGrantList(CAccountNameArray& grants);
 extern bool loadRecords(CRecordArray& records);
 extern bool saveRecords(const CRecordArray& records);
 extern bool updateAll(CRecordArray& records, CAccountNameArray& grants);
@@ -38,7 +37,7 @@ int main(int argc, const char* argv[]) {
             return 0;
 
         CAccountNameArray grants;
-        if (!loadGrantList(grants))
+        if (!options.loadGrantList(grants))
             return options.usage("Could not load grants list. Are you in the pouch folder?");
 
         CRecordArray records;
@@ -203,7 +202,7 @@ bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
 }
 
 //----------------------------------------------------------------
-bool loadGrantList(CAccountNameArray& grants) {
+bool COptions::loadGrantList(CAccountNameArray& grants) {
     CAccountName name;
     string_q contents = asciiFileToString("./grants.json");
     while (name.parseJson3(contents)) {

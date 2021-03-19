@@ -17,6 +17,7 @@ static const COption params[] = {
     COption("freshen", "f", "", OPT_SWITCH, "the command to run"),
     COption("json2csv", "j", "", OPT_SWITCH, "folder containing TurboGeth data file (data.mdb)"),
     COption("csv2json", "c", "", OPT_SWITCH, "for 'dump' command only, the name of the table to dump"),
+    COption("lastExport", "l", "", OPT_SWITCH, "show the last export for each grant"),
     COption("", "", "", OPT_DESCRIPTION, "This is what the program does.\n"),
 };
 static const size_t nParams = sizeof(params) / sizeof(COption);
@@ -42,6 +43,9 @@ bool COptions::parseArguments(string_q& command) {
         } else if (arg == "-c" || arg == "--csv2json") {
             csv2json = true;
 
+        } else if (arg == "-l" || arg == "--lastExport") {
+            lastExport = true;
+
         } else if (startsWith(arg, '-')) {  // do not collapse
 
             if (!builtInCmd(arg)) {
@@ -58,16 +62,20 @@ bool COptions::parseArguments(string_q& command) {
     LOG_TEST_BOOL("csv2json", csv2json);
     // END_DEBUG_DISPLAY
 
+    if (lastExport + (json2csv || csv2json) > 1)
+        return usage("Choose either --lastExport or one of the converters, not both.");
+
     if (json2csv && csv2json)
         return usage("Choose on of --json2csv or --csv2json, not both.");
 
-    if (json2csv) {
+    if (json2csv)
         return handle_json_2_csv();
-    }
 
-    if (csv2json) {
+    if (csv2json)
         return handle_csv_2_json();
-    }
+
+    if (lastExport)
+        return last_export();
 
     return true;
 }
@@ -91,4 +99,16 @@ COptions::COptions(void) {
 
 //--------------------------------------------------------------------------------
 COptions::~COptions(void) {
+}
+
+//--------------------------------------------------------------------------------
+bool COptions::last_export(void) {
+    CAccountNameArray grants;
+    loadGrantList(grants);
+    for (auto grant : grants) {
+        CMonitor m;
+        m.address = grant.address;
+        cout << m.address << "\t" << m.getLastExportedBlock() << endl;
+    }
+    return true;
 }

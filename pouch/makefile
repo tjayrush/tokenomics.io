@@ -16,12 +16,13 @@ dest=$(bin)/$(exec)
 
 #-------------------------------------------------
 src= \
-handle_convert.cpp \
-options.cpp \
-logentry_min.cpp \
-record.cpp \
 balance.cpp \
-$(exec).cpp
+handle_handle_csv2json.cpp \
+handle_handle_json2csv.cpp \
+logentry_min.cpp \
+options.cpp \
+pouch.cpp \
+record.cpp
 
 #-------------------------------------------------
 all:

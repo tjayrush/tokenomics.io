@@ -15,10 +15,6 @@
 
 bool visitFile(const string_q& path, void* data);
 //--------------------------------------------------------------------
-bool COptions::handle_csv_2_json(void) {
-    return true;
-}
-
 bool COptions::handle_json_2_csv(void) {
     expContext().exportFmt = CSV1;
     configureDisplay("getLogs", "CLogEntry_min", STR_DISPLAY_LOGENTRY_MIN);

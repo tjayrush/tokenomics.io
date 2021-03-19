@@ -1,4 +1,3 @@
-#pragma once
 /*-------------------------------------------------------------------------------------------
  * qblocks - fast, easily-accessible, fully-decentralized data from blockchains
  * copyright (c) 2018, 2019 TrueBlocks, LLC (http://trueblocks.io)
@@ -11,39 +10,12 @@
  * General Public License for more details. You should have received a copy of the GNU General
  * Public License along with this program. If not, see http://www.gnu.org/licenses/.
  *-------------------------------------------------------------------------------------------*/
-/*
- * Parts of this file were generated with makeClass. Edit only those parts of the code
- * outside of the BEG_CODE/END_CODE sections
- */
-#include "acctlib.h"
-#include "record.h"
+#include "options.h"
+#include "logentry_min.h"
 
-// BEG_ERROR_DEFINES
-// END_ERROR_DEFINES
-
-//-----------------------------------------------------------------------------
-class COptions : public COptionsBase {
-  public:
-    // BEG_CODE_DECLARE
-    bool freshen;
-    bool json2csv;
-    bool csv2json;
-    bool lastExport;
-    // END_CODE_DECLARE
-
-    COptions(void);
-    ~COptions(void);
-
-    bool parseArguments(string_q& command);
-    void Init(void);
-
-    bool handle_json_2_csv(void);
-    bool handle_csv_2_json(void);
-    bool last_export(void);
-
-    bool loadGrantList(CAccountNameArray& grants);
-};
-
-//-----------------------------------------------------------------------------
-extern bool visitNonEmptyBlock(CBlock& node, void* data);
-extern bool visitEmptyBlock(CBlock& node, void* data);
+bool visitFile(const string_q& path, void* data);
+//--------------------------------------------------------------------
+bool COptions::handle_csv_2_json(void) {
+    // forEveryFileInFolder()
+    return true;
+}

@@ -5,12 +5,30 @@ const {Text} = Typography;
 const widths = {
   date: '15%',
   type: '8%',
-  name: '41%',
-  balance: '8%',
-  tx_cnt: '8%',
+  name: '23%',
+  match: '6%',
+  claim: '6%',
+  balance: '6%',
+  tx_cnt: '6%',
   log_cnt: '8%',
 };
 
+const ColumnTitle = ({title, tooltip}) => {
+  return (
+    <div>
+      {title}{' '}
+      <Popover
+        color='lightblue'
+        content={
+          <div style={{width: '200px', wordWrap: 'break-word'}}>
+            {tooltip}
+          </div>
+        }>
+        <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
+      </Popover>
+    </div>
+  );
+}
 export const columns = [
   {
     title: (
@@ -130,13 +148,49 @@ export const columns = [
             </a>
           </pre>
           <br />
-          <br />
         </div>
       );
     },
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => a.address - b.address,
+    },
+  },
+  {
+    title: <ColumnTitle title='Match' tooltip='The DAI amount (CLR match) from Round 8.' />,
+    dataIndex: 'match',
+    key: 'match',
+    align: 'right',
+    width: widths['match'],
+    render: (text, record) => {
+      return renderCell(record.balances[0].balance);
+    },
+    showSorterTooltip: false,
+    sorter: {
+      compare: function (a, b) {
+        return a.balances[0].balance - b.balances[0].balance;
+      },
+    },
+  },
+  {
+    title: (
+      <ColumnTitle
+        title='Claimable'
+        tooltip='The DAI amount (CLR match) from Round 8 that has yet to be claimed. Click on the link to claim your match.'
+      />
+    ),
+    dataIndex: 'claim',
+    key: 'claim',
+    align: 'right',
+    width: widths['claim'],
+    render: (text, record) => {
+      return renderCell('-'); //record.balances[0].balance);
+    },
+    showSorterTooltip: false,
+    sorter: {
+      compare: function (a, b) {
+        return a.balances[0].balance - b.balances[0].balance;
+      },
     },
   },
   {
