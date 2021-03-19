@@ -4,7 +4,7 @@ import {Layout, Card, Popover} from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
-import {faq_title, faq_text} from './FAQ.js';
+import {faq_title, faq_text} from './FAQ.jsx';
 
 const {Sider} = Layout;
 

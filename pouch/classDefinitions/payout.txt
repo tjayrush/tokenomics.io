@@ -1,0 +1,10 @@
+[settings]
+class = CPayout
+fields = \
+    blknum bn|\
+    blknum txid|\
+    blknum logid|\
+    wei match|\
+    wei claimed
+includes = etherlib.h
+display_str = bn, txid, logid, match, claimed

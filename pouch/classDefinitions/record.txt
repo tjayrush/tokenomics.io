@@ -3,6 +3,8 @@ class = CRecord
 fields = \
     uint64 key|\
     string date|\
+    blknum last_block|\
+    timestamp last_ts|\
     string type|\
     uint64 grant_id|\
     address address|\
@@ -10,8 +12,10 @@ fields = \
     string slug|\
     uint64 tx_cnt|\
     uint64 log_cnt|\
-    uint64 donation_cnt|\
     uint64 core|\
+    uint64 donation_cnt|\
+    wei matched|\
+    wei claimed|\
     CBalanceArray balances
 includes = etherlib.h|balance.h
 display_str = key, date, type, address, name, cnt, csv, json

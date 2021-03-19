@@ -16,7 +16,6 @@
  * of 'EXISTING_CODE' tags.
  */
 #include "etherlib.h"
-#include "balance.h"
 
 namespace qblocks {
 
@@ -24,48 +23,35 @@ namespace qblocks {
 // EXISTING_CODE
 
 //--------------------------------------------------------------------------
-class CRecord : public CBaseNode {
+class CPayout : public CBaseNode {
   public:
-    uint64_t key;
-    string_q date;
-    blknum_t last_block;
-    timestamp_t last_ts;
-    string_q type;
-    uint64_t grant_id;
-    address_t address;
-    string_q name;
-    string_q slug;
-    uint64_t tx_cnt;
-    uint64_t log_cnt;
-    uint64_t core;
-    uint64_t donation_cnt;
-    wei_t matched;
+    blknum_t bn;
+    blknum_t txid;
+    blknum_t logid;
+    wei_t match;
     wei_t claimed;
-    CBalanceArray balances;
 
   public:
-    CRecord(void);
-    CRecord(const CRecord& re);
-    virtual ~CRecord(void);
-    CRecord& operator=(const CRecord& re);
+    CPayout(void);
+    CPayout(const CPayout& pa);
+    virtual ~CPayout(void);
+    CPayout& operator=(const CPayout& pa);
 
-    DECLARE_NODE(CRecord);
-
-    const CBaseNode* getObjectAt(const string_q& fieldName, size_t index) const override;
+    DECLARE_NODE(CPayout);
 
     // EXISTING_CODE
     // EXISTING_CODE
-    bool operator==(const CRecord& it) const;
-    bool operator!=(const CRecord& it) const {
+    bool operator==(const CPayout& it) const;
+    bool operator!=(const CPayout& it) const {
         return !operator==(it);
     }
-    friend bool operator<(const CRecord& v1, const CRecord& v2);
-    friend ostream& operator<<(ostream& os, const CRecord& it);
+    friend bool operator<(const CPayout& v1, const CPayout& v2);
+    friend ostream& operator<<(ostream& os, const CPayout& it);
 
   protected:
     void clear(void);
     void initialize(void);
-    void duplicate(const CRecord& re);
+    void duplicate(const CPayout& pa);
     bool readBackLevel(CArchive& archive) override;
 
     // EXISTING_CODE
@@ -73,96 +59,74 @@ class CRecord : public CBaseNode {
 };
 
 //--------------------------------------------------------------------------
-inline CRecord::CRecord(void) {
+inline CPayout::CPayout(void) {
     initialize();
     // EXISTING_CODE
     // EXISTING_CODE
 }
 
 //--------------------------------------------------------------------------
-inline CRecord::CRecord(const CRecord& re) {
+inline CPayout::CPayout(const CPayout& pa) {
     // EXISTING_CODE
     // EXISTING_CODE
-    duplicate(re);
+    duplicate(pa);
 }
 
 // EXISTING_CODE
 // EXISTING_CODE
 
 //--------------------------------------------------------------------------
-inline CRecord::~CRecord(void) {
+inline CPayout::~CPayout(void) {
     clear();
     // EXISTING_CODE
     // EXISTING_CODE
 }
 
 //--------------------------------------------------------------------------
-inline void CRecord::clear(void) {
+inline void CPayout::clear(void) {
     // EXISTING_CODE
     // EXISTING_CODE
 }
 
 //--------------------------------------------------------------------------
-inline void CRecord::initialize(void) {
+inline void CPayout::initialize(void) {
     CBaseNode::initialize();
 
-    key = 0;
-    date = "";
-    last_block = 0;
-    last_ts = 0;
-    type = "";
-    grant_id = 0;
-    address = "";
-    name = "";
-    slug = "";
-    tx_cnt = 0;
-    log_cnt = 0;
-    core = 0;
-    donation_cnt = 0;
-    matched = 0;
+    bn = 0;
+    txid = 0;
+    logid = 0;
+    match = 0;
     claimed = 0;
-    balances.clear();
 
     // EXISTING_CODE
     // EXISTING_CODE
 }
 
 //--------------------------------------------------------------------------
-inline void CRecord::duplicate(const CRecord& re) {
+inline void CPayout::duplicate(const CPayout& pa) {
     clear();
-    CBaseNode::duplicate(re);
+    CBaseNode::duplicate(pa);
 
-    key = re.key;
-    date = re.date;
-    last_block = re.last_block;
-    last_ts = re.last_ts;
-    type = re.type;
-    grant_id = re.grant_id;
-    address = re.address;
-    name = re.name;
-    slug = re.slug;
-    tx_cnt = re.tx_cnt;
-    log_cnt = re.log_cnt;
-    core = re.core;
-    donation_cnt = re.donation_cnt;
-    matched = re.matched;
-    claimed = re.claimed;
-    balances = re.balances;
+    bn = pa.bn;
+    txid = pa.txid;
+    logid = pa.logid;
+    match = pa.match;
+    claimed = pa.claimed;
 
     // EXISTING_CODE
     // EXISTING_CODE
 }
 
 //--------------------------------------------------------------------------
-inline CRecord& CRecord::operator=(const CRecord& re) {
-    duplicate(re);
+inline CPayout& CPayout::operator=(const CPayout& pa) {
+    duplicate(pa);
     // EXISTING_CODE
     // EXISTING_CODE
     return *this;
 }
 
 //-------------------------------------------------------------------------
-inline bool CRecord::operator==(const CRecord& it) const {
+inline bool CPayout::operator==(const CPayout& it) const {
     // EXISTING_CODE
     // EXISTING_CODE
     // No default equal operator in class definition, assume none are equal (so find fails)
@@ -170,7 +134,7 @@ inline bool CRecord::operator==(const CRecord& it) const {
 }
 
 //-------------------------------------------------------------------------
-inline bool operator<(const CRecord& v1, const CRecord& v2) {
+inline bool operator<(const CPayout& v1, const CPayout& v2) {
     // EXISTING_CODE
     // EXISTING_CODE
     // No default sort defined in class definition, assume already sorted, preserve ordering
@@ -178,14 +142,15 @@ inline bool operator<(const CRecord& v1, const CRecord& v2) {
 }
 
 //---------------------------------------------------------------------------
-typedef vector<CRecord> CRecordArray;
-extern CArchive& operator>>(CArchive& archive, CRecordArray& array);
-extern CArchive& operator<<(CArchive& archive, const CRecordArray& array);
+typedef vector<CPayout> CPayoutArray;
+extern CArchive& operator>>(CArchive& archive, CPayoutArray& array);
+extern CArchive& operator<<(CArchive& archive, const CPayoutArray& array);
 
 //---------------------------------------------------------------------------
-extern const char* STR_DISPLAY_RECORD;
+extern const char* STR_DISPLAY_PAYOUT;
 
 //---------------------------------------------------------------------------
 // EXISTING_CODE
+typedef map<address_t, CPayout> CPayoutMap;
 // EXISTING_CODE
 }  // namespace qblocks

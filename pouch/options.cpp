@@ -75,6 +75,9 @@ bool COptions::parseArguments(string_q& command) {
     if (csv2json)
         return handle_csv_2_json();
 
+    if (!loadTimestamps())
+        return usage("Could not load timestamps file");
+
     if (lastBlock)
         return handle_last_block();
 
@@ -91,11 +94,18 @@ void COptions::Init(void) {
     csv2json = false;
     lastBlock = false;
     // END_CODE_INIT
+
+    if (tsArray)
+        delete [] tsArray;
+    tsArray = nullptr;
+    tsCnt = 0;
 }
 
 //---------------------------------------------------------------------------------------------------
 COptions::COptions(void) {
     setSorts(GETRUNTIME_CLASS(CBlock), GETRUNTIME_CLASS(CTransaction), GETRUNTIME_CLASS(CReceipt));
+    tsArray = nullptr;
+    tsCnt = 0;
     Init();
 }
 
@@ -104,24 +114,41 @@ COptions::~COptions(void) {
 }
 
 //--------------------------------------------------------------------------------
+bool COptions::loadTimestamps(void) {
+    if (tsArray)
+        return true;
+    if (!freshenTimestamps(getBlockProgress(BP_CLIENT).client))
+        return false;
+    loadTimestampFile(nullptr, tsCnt);
+    tsArray = new uint32_t[(tsCnt * 2) + 2];  // little bit of extra room
+    return loadTimestampFile(&tsArray, tsCnt);
+}
+
+//--------------------------------------------------------------------------------
+bool COptions::getGrantLastUpdate(CRecord& record) {
+    ostringstream cmd;
+    cmd << "tail -1 data/" << record.address << ".csv | sed 's/\\\"//g' | cut -f1 -d, | sed 's/blocknumber/0/'";
+    record.last_block = str_2_Uint(doCommand(cmd.str()));
+    if (record.last_block == 0) {
+        record.date = "n/a";
+        record.last_ts = 0;
+        return false;
+    }
+    record.last_ts = tsArray[(record.last_block * 2) + 1];
+    record.date = ts_2_Date(record.last_ts).Format(FMT_JSON);
+    return true;
+}
+
+//--------------------------------------------------------------------------------
 bool COptions::handle_last_block(void) {
-    blknum_t latest = getBlockProgress(BP_CLIENT).client;
-    freshenTimestamps(latest);
-    size_t nTimestamps;
-    loadTimestampFile(nullptr, nTimestamps);
-    uint32_t *tsArray = new uint32_t[(nTimestamps * 2) + 1]; // little bit of extra room
-    loadTimestampFile(&tsArray, nTimestamps);
-    CAccountNameArray grants;
-    loadGrantList(grants);
+    loadGrantList();
     for (auto grant : grants) {
         if (shouldQuit())
             break;
-        ostringstream cmd;
-        cmd << "tail -1 data/" << grant.address << ".csv | sed 's/\\\"//g' | cut -f1 -d, | sed 's/blocknumber/" << latest << "/'";
-        blknum_t last = str_2_Uint(doCommand(cmd.str()));
-        timestamp_t ts = tsArray[(last * 2)+1];
-        time_q date = ts_2_Date(ts);
-        cout << grant.address << "\t" << last << "\t" << ts << "\t" << date.Format(FMT_JSON) << endl;
+        CRecord record;
+        record.address = grant.address;
+        getGrantLastUpdate(record);
+        cout << record.address << "\t" << record.last_block << "\t" << record.last_ts << "\t" << record.date << endl;
         usleep(10000);
     }
 

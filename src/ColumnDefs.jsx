@@ -50,12 +50,29 @@ export const columns = [
     dataIndex: 'date',
     key: 'date',
     width: widths['date'],
-    render: (text) => {
-      return renderCell(text);
+    filters: [
+      {text: 'Round 9', value: '9'},
+      {text: 'Round 8', value: '8'},
+      {text: 'Round 7', value: '7'},
+      {text: 'Round 6', value: '6'},
+      {text: 'Round 5', value: '5'},
+    ],
+    render: (text, record) => {
+      const dd = (
+        <div>
+          {text}
+          <div>
+            <small>
+              <i>(round: { record.last_ts} block: {record.last_block})</i>
+            </small>
+          </div>
+        </div>
+      );
+      return renderCell(dd);
     },
     showSorterTooltip: false,
     sorter: {
-      compare: (a, b) => a.date < b.date,
+      compare: (a, b) => a.last_block - b.last_block,
     },
   },
   {
@@ -157,7 +174,7 @@ export const columns = [
     },
   },
   {
-    title: <ColumnTitle title='Match' tooltip='The DAI amount (CLR match) from Round 8.' />,
+    title: <ColumnTitle title='Match' tooltip='The match amount (in DAI) from Round 8.' />,
     dataIndex: 'match',
     key: 'match',
     align: 'right',
@@ -173,12 +190,7 @@ export const columns = [
     },
   },
   {
-    title: (
-      <ColumnTitle
-        title='Claimable'
-        tooltip='The DAI amount (CLR match) from Round 8 that has yet to be claimed. Click on the link to claim your match.'
-      />
-    ),
+    title: <ColumnTitle title='Claimable' tooltip='The amount of match from Round 8 yet to be claimed.' />,
     dataIndex: 'claim',
     key: 'claim',
     align: 'right',

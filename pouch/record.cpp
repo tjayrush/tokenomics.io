@@ -97,6 +97,9 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
             if (fieldName % "core") {
                 return uint_2_Str(core);
             }
+            if (fieldName % "claimed") {
+                return wei_2_Str(claimed);
+            }
             break;
         case 'd':
             if (fieldName % "date") {
@@ -117,8 +120,19 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
             }
             break;
         case 'l':
+            if (fieldName % "last_block") {
+                return uint_2_Str(last_block);
+            }
+            if (fieldName % "last_ts") {
+                return ts_2_Str(last_ts);
+            }
             if (fieldName % "log_cnt") {
                 return uint_2_Str(log_cnt);
+            }
+            break;
+        case 'm':
+            if (fieldName % "matched") {
+                return wei_2_Str(matched);
             }
             break;
         case 'n':
@@ -181,6 +195,10 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
                 core = str_2_Uint(fieldValue);
                 return true;
             }
+            if (fieldName % "claimed") {
+                claimed = str_2_Wei(fieldValue);
+                return true;
+            }
             break;
         case 'd':
             if (fieldName % "date") {
@@ -205,8 +223,22 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
             }
             break;
         case 'l':
+            if (fieldName % "last_block") {
+                last_block = str_2_Uint(fieldValue);
+                return true;
+            }
+            if (fieldName % "last_ts") {
+                last_ts = str_2_Ts(fieldValue);
+                return true;
+            }
             if (fieldName % "log_cnt") {
                 log_cnt = str_2_Uint(fieldValue);
+                return true;
+            }
+            break;
+        case 'm':
+            if (fieldName % "matched") {
+                matched = str_2_Wei(fieldValue);
                 return true;
             }
             break;
@@ -259,6 +291,8 @@ bool CRecord::Serialize(CArchive& archive) {
     // EXISTING_CODE
     archive >> key;
     archive >> date;
+    archive >> last_block;
+    archive >> last_ts;
     archive >> type;
     archive >> grant_id;
     archive >> address;
@@ -266,8 +300,10 @@ bool CRecord::Serialize(CArchive& archive) {
     archive >> slug;
     archive >> tx_cnt;
     archive >> log_cnt;
-    archive >> donation_cnt;
     archive >> core;
+    archive >> donation_cnt;
+    archive >> matched;
+    archive >> claimed;
     archive >> balances;
     finishParse();
     return true;
@@ -282,6 +318,8 @@ bool CRecord::SerializeC(CArchive& archive) const {
     // EXISTING_CODE
     archive << key;
     archive << date;
+    archive << last_block;
+    archive << last_ts;
     archive << type;
     archive << grant_id;
     archive << address;
@@ -289,8 +327,10 @@ bool CRecord::SerializeC(CArchive& archive) const {
     archive << slug;
     archive << tx_cnt;
     archive << log_cnt;
-    archive << donation_cnt;
     archive << core;
+    archive << donation_cnt;
+    archive << matched;
+    archive << claimed;
     archive << balances;
 
     return true;
@@ -330,6 +370,8 @@ void CRecord::registerClass(void) {
     ADD_FIELD(CRecord, "cname", T_TEXT, ++fieldNum);
     ADD_FIELD(CRecord, "key", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "date", T_TEXT | TS_OMITEMPTY, ++fieldNum);
+    ADD_FIELD(CRecord, "last_block", T_BLOCKNUM, ++fieldNum);
+    ADD_FIELD(CRecord, "last_ts", T_TIMESTAMP, ++fieldNum);
     ADD_FIELD(CRecord, "type", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "grant_id", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "address", T_ADDRESS | TS_OMITEMPTY, ++fieldNum);
@@ -337,8 +379,10 @@ void CRecord::registerClass(void) {
     ADD_FIELD(CRecord, "slug", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CRecord, "tx_cnt", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "log_cnt", T_UNUMBER, ++fieldNum);
-    ADD_FIELD(CRecord, "donation_cnt", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "core", T_UNUMBER, ++fieldNum);
+    ADD_FIELD(CRecord, "donation_cnt", T_UNUMBER, ++fieldNum);
+    ADD_FIELD(CRecord, "matched", T_WEI, ++fieldNum);
+    ADD_FIELD(CRecord, "claimed", T_WEI, ++fieldNum);
     ADD_FIELD(CRecord, "balances", T_OBJECT | TS_ARRAY | TS_OMITEMPTY, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like

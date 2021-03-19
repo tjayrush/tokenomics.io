@@ -16,6 +16,7 @@ dest=$(bin)/$(exec)
 
 #-------------------------------------------------
 src= \
+payout.cpp \
 balance.cpp \
 handle_csv2json.cpp \
 handle_json2csv.cpp \

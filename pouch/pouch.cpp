@@ -15,11 +15,8 @@
 
 extern const char* STR_OUTPUT;
 extern const char* STR_BALANCE_OUTPUT;
-extern bool loadRecords(CRecordArray& records);
 extern bool saveRecords(const CRecordArray& records);
-extern bool updateAll(CRecordArray& records, CAccountNameArray& grants);
 extern bool updateSome(CRecordArray& records, const CAccountNameArray& grants);
-extern bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest);
 static uint64_t key = 1;
 //----------------------------------------------------------------
 int main(int argc, const char* argv[]) {
@@ -36,21 +33,22 @@ int main(int argc, const char* argv[]) {
         if (!options.parseArguments(command))
             return 0;
 
-        CAccountNameArray grants;
-        if (!options.loadGrantList(grants))
+        if (!options.loadPayouts())
+            return options.usage("Could not load the payouts file.");
+        
+        if (!options.loadGrantList())
             return options.usage("Could not load grants list. Are you in the pouch folder?");
 
-        CRecordArray records;
-        if (!loadRecords(records)) {
+        if (!options.loadRecords()) {
             key = 1;
-            if (!updateAll(records, grants))
+            if (!options.updateAll(options.records, options.grants))
                 return options.usage("Could not load records.");
         }
 
         while (!shouldQuit()) {
             ostringstream os;
             os << "export const grantsData = [\n";
-            for (auto record : records) {
+            for (auto record : options.records) {
                 ostringstream oss;
                 bool first = true;
                 for (auto balance : record.balances) {
@@ -79,6 +77,9 @@ int main(int argc, const char* argv[]) {
     }
 
     etherlib_cleanup();
+    if (options.tsArray)
+        delete[] options.tsArray;
+
     return 0;
 }
 
@@ -141,7 +142,7 @@ bool updateSome(CRecordArray& records, const CAccountNameArray& grants) {
 }
 
 //----------------------------------------------------------------
-bool updateAll(CRecordArray& records, CAccountNameArray& grants) {
+bool COptions::updateAll(CRecordArray& records, CAccountNameArray& grants) {
     blknum_t latest = getBlockProgress(BP_CLIENT).client;
     records.clear();
     for (auto grant : grants) {
@@ -154,9 +155,8 @@ bool updateAll(CRecordArray& records, CAccountNameArray& grants) {
 }
 
 //----------------------------------------------------------------
-bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
+bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
     string_q fn = getCachePath("monitors/" + toLower(grant.address) + ".acct.bin");
-    bool exists = fileExists(fn);
 
     record.key = key++;
 
@@ -165,11 +165,11 @@ bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
     nextTokenClear(grant.name, ' ');
     record.name = substitute(grant.name.substr(0, 60), "'", "&#39;");
 
-    record.date = (exists ? fileLastModifyDate(fn).Format(FMT_JSON) : "n/a");
     record.type = "logs";  // types[key % 3];
     record.address = grant.address;
     record.slug = grant.source;
     record.core = contains(grant.tags, ":Core");
+    getGrantLastUpdate(record);
 
     CBalance bal;
     bal.asset = "ETH";
@@ -180,6 +180,7 @@ bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
 
     string_q jsonFile = "./data/" + record.address + ".json";
     string_q csvFile = "./data/" + record.address + ".csv";
+    bool exists = fileExists(fn);
     record.tx_cnt = (exists ? (fileSize(fn) / sizeof(CAppearance_base)) : 0);
     if (fileExists(csvFile)) {
         record.log_cnt = str_2_Uint(doCommand("wc " + csvFile));
@@ -202,7 +203,7 @@ bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
 }
 
 //----------------------------------------------------------------
-bool COptions::loadGrantList(CAccountNameArray& grants) {
+bool COptions::loadGrantList(void) {
     CAccountName name;
     string_q contents = asciiFileToString("./grants.json");
     while (name.parseJson3(contents)) {
@@ -217,7 +218,19 @@ bool COptions::loadGrantList(CAccountNameArray& grants) {
 }
 
 //----------------------------------------------------------------
-bool loadRecords(CRecordArray& records) {
+bool COptions::loadPayouts(void) {
+    CStringArray lines;
+    asciiFileToLines("./data/payouts.csv", lines);
+    cerr << lines.size() << endl;
+    for (auto line : lines) {
+        cerr << line << endl;
+        getchar();
+    }
+    return true;
+}
+
+//----------------------------------------------------------------
+bool COptions::loadRecords(void) {
     CArchive archive(READING_ARCHIVE);
     if (archive.Lock("./data/records.bin", modeReadOnly, LOCK_NOWAIT)) {
         archive >> records;
@@ -232,6 +245,8 @@ const char* STR_OUTPUT =
     "  {\n"
     "    key: [{KEY}],\n"
     "    date: '[{DATE}]',\n"
+    "    last_block: '[{LAST_BLOCK}]',\n"
+    "    last_ts: '[{LAST_TS}]',\n"
     "    type: '[{TYPE}]',\n"
     "    grant_id: [{GRANT_ID}],\n"
     "    address: '[{ADDRESS}]',\n"

@@ -1,4 +1,4 @@
-import React, {Fragment, useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Input, Typography, Layout, Tabs} from 'antd';
 import {Table as AntTable} from 'antd';
 import {Affix} from 'antd';
@@ -6,13 +6,14 @@ import {Affix} from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
 
-import {grantsData} from './grants-data.js';
-import { columns } from './data-columns.js';
-import { RightSider } from './RightSider.js'
-import { Foot } from './Foot.js'
+import {grantsData} from './grants-data';
+import {columns} from './ColumnDefs';
+import { RightSider } from './RightSider'
+import {LeftSider} from './LeftSider';
+import {Foot} from './Footer';
 
-const { Header, Sider, Content } = Layout;
-const { Title, Paragraph, Text } = Typography;
+const { Header, Content } = Layout;
+const { Title, Text } = Typography;
 const { Search } = Input;
 const {TabPane} = Tabs;
 const Table = (props) => {
@@ -73,47 +74,6 @@ export const Head = () => {
   );
 };
 
-export const SiderEntry = ({ question, answer }) => {
-  return (
-    <Fragment>
-      <Paragraph style={{textDecoration: 'underline', fontWeight: 'bold', color: 'lightblue'}}>
-        {question}
-      </Paragraph>
-      <Text style={{color: 'lightblue'}}>
-        {answer}
-      </Text>
-      <br />
-      <br />
-    </Fragment>
-  );
-}
-
-export const LeftSider = () => {
-  return (
-    <Sider style={{paddingLeft: '20px', paddingRight: '20px'}}>
-      <SiderEntry
-        question='What is a data pouch?'
-        answer='A data pouch is a place to store data. In this case, the data was extracted using TrueBlocks and our own local Ethereum node. We will update the site periodically.'
-      />
-      <SiderEntry
-        question='Why did you build this?'
-        answer='Mostly dogfooding, but also to provide others in our community an independant source of complete, transparent data about GitCoin smart contracts, donors, and grants.'
-      />
-      <br />
-      <br />
-      <br />
-      <br />
-      <small>
-        <Text style={{color: 'lightblue'}}>
-          This website is <i>alpha</i>, which means you should use the data with caution.
-        </Text>
-      </small>
-      <br />
-      <br />
-    </Sider>
-  );
-};
-
 export const HomePage = () => {
   const [searchText, setSearchText] = useState('');
   const [defKey, setDefKey] = useState('1');
@@ -165,7 +125,7 @@ export const HomePage = () => {
         </TabPane>
       </Tabs>
       <i>
-        <small>Data Last Updated: 2021-03-14 19:13:51 UTC (block 12038505)</small>
+        <small>Date Last Updated: 2021-03-18 18:46:27 UTC (block 12064391)</small>
       </i>
     </Content>
   );

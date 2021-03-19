@@ -15,11 +15,11 @@ export const Foot = () => {
         <div style={{textAlign: 'left'}}></div>
         <div>
           <small>
-            <i>A downloadable dump of every log for every Gitcoin grant and smart contract</i>
+            <i>A downloadable dump of every log for every Gitcoin grant and smart contract directly from the mainnet</i>
           </small>
           <br />
-          A project of TrueBlocks, LLC &diams; Powered by <a href='https://twitter.com/trueblocks'>@trueblocks</a> and{' '}
-          <a href='http://tokenomics.io'>tokenomics.io</a>
+          A project of TrueBlocks, LLC &diams; Powered by <a href='https://twitter.com/trueblocks'>@trueblocks</a>{' '}
+          and <a href='http://tokenomics.io'>tokenomics.io</a>
         </div>
         <div style={{textAlign: 'right'}}>
           <a rel='noreferrer' target='_blank' href={share}>
@@ -32,7 +32,7 @@ export const Foot = () => {
           {'  '}
           <a rel='noreferrer' target='_blank' href='mailto:info@trueblocks.io'>
             <MailOutlined style={{fontSize: '14pt', color: '#282c34'}} />
-          </a>{' '}
+          </a>
         </div>
       </div>
     </Footer>

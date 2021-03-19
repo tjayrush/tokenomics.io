@@ -17,6 +17,7 @@
  */
 #include "acctlib.h"
 #include "record.h"
+#include "payout.h"
 
 // BEG_ERROR_DEFINES
 // END_ERROR_DEFINES
@@ -31,6 +32,11 @@ class COptions : public COptionsBase {
     bool lastBlock;
     // END_CODE_DECLARE
 
+    CPayoutMap payouts;
+    CAccountNameArray grants;
+    CRecordArray records;
+    size_t tsCnt;
+    uint32_t* tsArray;
     COptions(void);
     ~COptions(void);
 
@@ -41,7 +47,13 @@ class COptions : public COptionsBase {
     bool handle_csv_2_json(void);
     bool handle_last_block(void);
 
-    bool loadGrantList(CAccountNameArray& grants);
+    bool loadGrantList(void);
+    bool loadPayouts(void);
+    bool loadRecords(void);
+    bool loadTimestamps(void);
+    bool getGrantLastUpdate(CRecord& record);
+    bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest);
+    bool updateAll(CRecordArray& records, CAccountNameArray& grants);
 };
 
 //-----------------------------------------------------------------------------
