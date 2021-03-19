@@ -17,7 +17,7 @@ static const COption params[] = {
     COption("freshen", "f", "", OPT_SWITCH, "the command to run"),
     COption("json2csv", "j", "", OPT_SWITCH, "folder containing TurboGeth data file (data.mdb)"),
     COption("csv2json", "c", "", OPT_SWITCH, "for 'dump' command only, the name of the table to dump"),
-    COption("lastExport", "l", "", OPT_SWITCH, "show the last export for each grant"),
+    COption("lastBlock", "l", "", OPT_SWITCH, "show the last export for each grant"),
     COption("", "", "", OPT_DESCRIPTION, "This is what the program does.\n"),
 };
 static const size_t nParams = sizeof(params) / sizeof(COption);
@@ -43,8 +43,8 @@ bool COptions::parseArguments(string_q& command) {
         } else if (arg == "-c" || arg == "--csv2json") {
             csv2json = true;
 
-        } else if (arg == "-l" || arg == "--lastExport") {
-            lastExport = true;
+        } else if (arg == "-l" || arg == "--lastBlock") {
+            lastBlock = true;
 
         } else if (startsWith(arg, '-')) {  // do not collapse
 
@@ -60,10 +60,11 @@ bool COptions::parseArguments(string_q& command) {
     LOG_TEST_BOOL("freshen", freshen);
     LOG_TEST_BOOL("json2csv", json2csv);
     LOG_TEST_BOOL("csv2json", csv2json);
+    LOG_TEST_BOOL("lastBlock", lastBlock);
     // END_DEBUG_DISPLAY
 
-    if (lastExport + (json2csv || csv2json) > 1)
-        return usage("Choose either --lastExport or one of the converters, not both.");
+    if (lastBlock + (json2csv || csv2json) > 1)
+        return usage("Choose either --lastBlock or one of the converters, not both.");
 
     if (json2csv && csv2json)
         return usage("Choose on of --json2csv or --csv2json, not both.");
@@ -74,8 +75,8 @@ bool COptions::parseArguments(string_q& command) {
     if (csv2json)
         return handle_csv_2_json();
 
-    if (lastExport)
-        return last_export();
+    if (lastBlock)
+        return handle_last_block();
 
     return true;
 }
@@ -88,6 +89,7 @@ void COptions::Init(void) {
     freshen = false;
     json2csv = false;
     csv2json = false;
+    lastBlock = false;
     // END_CODE_INIT
 }
 
@@ -102,13 +104,26 @@ COptions::~COptions(void) {
 }
 
 //--------------------------------------------------------------------------------
-bool COptions::last_export(void) {
+bool COptions::handle_last_block(void) {
+    blknum_t latest = getBlockProgress(BP_CLIENT).client;
+    freshenTimestamps(latest);
+    size_t nTimestamps;
+    loadTimestampFile(nullptr, nTimestamps);
+    uint32_t *tsArray = new uint32_t[(nTimestamps * 2) + 1]; // little bit of extra room
+    loadTimestampFile(&tsArray, nTimestamps);
     CAccountNameArray grants;
     loadGrantList(grants);
     for (auto grant : grants) {
-        CMonitor m;
-        m.address = grant.address;
-        cout << m.address << "\t" << m.getLastExportedBlock() << endl;
+        if (shouldQuit())
+            break;
+        ostringstream cmd;
+        cmd << "tail -1 data/" << grant.address << ".csv | sed 's/\\\"//g' | cut -f1 -d, | sed 's/blocknumber/" << latest << "/'";
+        blknum_t last = str_2_Uint(doCommand(cmd.str()));
+        timestamp_t ts = tsArray[(last * 2)+1];
+        time_q date = ts_2_Date(ts);
+        cout << grant.address << "\t" << last << "\t" << ts << "\t" << date.Format(FMT_JSON) << endl;
+        usleep(10000);
     }
+
     return true;
 }

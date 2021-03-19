@@ -28,7 +28,7 @@ class COptions : public COptionsBase {
     bool freshen;
     bool json2csv;
     bool csv2json;
-    bool lastExport;
+    bool lastBlock;
     // END_CODE_DECLARE
 
     COptions(void);
@@ -39,7 +39,7 @@ class COptions : public COptionsBase {
 
     bool handle_json_2_csv(void);
     bool handle_csv_2_json(void);
-    bool last_export(void);
+    bool handle_last_block(void);
 
     bool loadGrantList(CAccountNameArray& grants);
 };
