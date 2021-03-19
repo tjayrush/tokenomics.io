@@ -27,3 +27,9 @@ From the Payout Contract there were:
 Function calls per contract
 
 
+
+The donations contract has 'dest' and 'donor' for each address that gave and received
+    Chart of 'give to take'
+    tit for tat
+
+Calculated estimate after each donation vs. actual

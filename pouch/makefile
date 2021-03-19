@@ -17,8 +17,8 @@ dest=$(bin)/$(exec)
 #-------------------------------------------------
 src= \
 balance.cpp \
-handle_handle_csv2json.cpp \
-handle_handle_json2csv.cpp \
+handle_csv2json.cpp \
+handle_json2csv.cpp \
 logentry_min.cpp \
 options.cpp \
 pouch.cpp \

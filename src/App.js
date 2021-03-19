@@ -1,12 +1,11 @@
 import React, {Fragment, useEffect, useState} from 'react';
-import {Input, Typography, Layout, Tabs, Card} from 'antd';
-import {Table as AntTable, Popover} from 'antd';
+import {Input, Typography, Layout, Tabs} from 'antd';
+import {Table as AntTable} from 'antd';
 import {Affix} from 'antd';
 
 import './App.css';
 import 'antd/dist/antd.css';
 
-import {faq_title, faq_text} from './FAQ.js';
 import {grantsData} from './grants-data.js';
 import { columns } from './data-columns.js';
 import { RightSider } from './RightSider.js'
@@ -24,7 +23,7 @@ const Table = (props) => {
     showSizeChanger: false,
     showTotal: (total, range) => '(' + total + ' grants) ',
   };
-  return <AntTable pagination={pag} size='small' bordered={true} {...props} />;
+  return <AntTable className='table-striped-rows' pagination={pag} size='small' bordered={true} {...props} />;
 };
 
 function callback(key) {

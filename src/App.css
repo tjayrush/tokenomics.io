@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.table-striped-rows tr:nth-child(2n) td, thead {
+    background-color: #fafafa;
+    vertical-align: top;
+}
+.table-striped-rows thead, th {
+    background-color: #f1f1f1;
+    vertical-align: top;
+}

@@ -298,7 +298,7 @@ function downloadLink(record, extra) {
   if (extra !== '') {
     return (
       <div style={{display: 'grid', gridTemplateColumns: '1fr'}}>
-        <pre>
+        <pre style={{margin: '0px'}}>
           <small>({record.tx_cnt})</small>
           <br />
           <small>
@@ -315,7 +315,7 @@ function downloadLink(record, extra) {
 
   return (
     <div style={{display: 'grid', gridTemplateColumns: '1fr'}}>
-      <pre>
+      <pre style={{margin: '0px'}}>
         <small>({record.log_cnt})</small>
         <br />
         <small>
