@@ -12,6 +12,8 @@ export const grantsData = [
     tx_cnt: 22983,
     log_cnt: 90542,
     donation_cnt: 47327,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -31,6 +33,8 @@ export const grantsData = [
     tx_cnt: 175,
     log_cnt: 702,
     donation_cnt: 531,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -50,6 +54,8 @@ export const grantsData = [
     tx_cnt: 33560,
     log_cnt: 48806,
     donation_cnt: 17581,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -69,6 +75,8 @@ export const grantsData = [
     tx_cnt: 85,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.189131648499'
@@ -88,6 +96,8 @@ export const grantsData = [
     tx_cnt: 148,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000515543641'
@@ -107,6 +117,8 @@ export const grantsData = [
     tx_cnt: 96,
     log_cnt: 13,
     donation_cnt: 13,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.567895341666'
@@ -126,6 +138,8 @@ export const grantsData = [
     tx_cnt: 233,
     log_cnt: 94,
     donation_cnt: 92,
+    matched: 332.80900,
+    claimed: 332.80900,
     balances: [{
       asset: 'ETH',
       balance: '8.724932650621'
@@ -145,6 +159,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -164,6 +180,8 @@ export const grantsData = [
     tx_cnt: 1013,
     log_cnt: 504,
     donation_cnt: 502,
+    matched: 11111.39333,
+    claimed: 11111.39333,
     balances: [{
       asset: 'ETH',
       balance: '9.090595739178'
@@ -183,9 +201,11 @@ export const grantsData = [
     tx_cnt: 37154,
     log_cnt: 13157,
     donation_cnt: 13154,
+    matched: 7616.02614,
+    claimed: 7616.02614,
     balances: [{
       asset: 'ETH',
-      balance: '15.187841838719'
+      balance: '15.249552338719'
     }],
     core: 0,
   },
@@ -202,6 +222,8 @@ export const grantsData = [
     tx_cnt: 1222,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -221,6 +243,8 @@ export const grantsData = [
     tx_cnt: 506,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -240,6 +264,8 @@ export const grantsData = [
     tx_cnt: 120,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.075568711133'
@@ -259,6 +285,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -278,6 +306,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.161211355000'
@@ -297,6 +327,8 @@ export const grantsData = [
     tx_cnt: 114,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -316,6 +348,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -335,6 +369,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002500000000'
@@ -354,6 +390,8 @@ export const grantsData = [
     tx_cnt: 156,
     log_cnt: 44,
     donation_cnt: 42,
+    matched: 0.38384,
+    claimed: 0.38384,
     balances: [{
       asset: 'ETH',
       balance: '40.899043423000'
@@ -373,6 +411,8 @@ export const grantsData = [
     tx_cnt: 54,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -392,6 +432,8 @@ export const grantsData = [
     tx_cnt: 119,
     log_cnt: 18,
     donation_cnt: 18,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.719614686984'
@@ -411,6 +453,8 @@ export const grantsData = [
     tx_cnt: 15,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.144268077119'
@@ -430,6 +474,8 @@ export const grantsData = [
     tx_cnt: 201,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -449,6 +495,8 @@ export const grantsData = [
     tx_cnt: 2008,
     log_cnt: 74,
     donation_cnt: 74,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.186515022270'
@@ -468,6 +516,8 @@ export const grantsData = [
     tx_cnt: 764,
     log_cnt: 56,
     donation_cnt: 56,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.178280571539'
@@ -487,6 +537,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.943143315452'
@@ -506,6 +558,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -525,6 +579,8 @@ export const grantsData = [
     tx_cnt: 317,
     log_cnt: 5,
     donation_cnt: 4,
+    matched: 0.82986,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.657305479871'
@@ -544,6 +600,8 @@ export const grantsData = [
     tx_cnt: 66,
     log_cnt: 4,
     donation_cnt: 2,
+    matched: 0.18705,
+    claimed: 0.18705,
     balances: [{
       asset: 'ETH',
       balance: '0.027942981723'
@@ -563,6 +621,8 @@ export const grantsData = [
     tx_cnt: 59,
     log_cnt: 14,
     donation_cnt: 14,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.008390275000'
@@ -582,6 +642,8 @@ export const grantsData = [
     tx_cnt: 182,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.045202567671'
@@ -601,6 +663,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -620,6 +684,8 @@ export const grantsData = [
     tx_cnt: 220,
     log_cnt: 13,
     donation_cnt: 12,
+    matched: 4.83689,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.075320244000'
@@ -639,6 +705,8 @@ export const grantsData = [
     tx_cnt: 51,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.050814870000'
@@ -658,6 +726,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 5,
     donation_cnt: 3,
+    matched: 0.06404,
+    claimed: 0.06404,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -677,6 +747,8 @@ export const grantsData = [
     tx_cnt: 432,
     log_cnt: 47,
     donation_cnt: 47,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.277980004139'
@@ -696,6 +768,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.098015820026'
@@ -715,6 +789,8 @@ export const grantsData = [
     tx_cnt: 242,
     log_cnt: 12,
     donation_cnt: 12,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.516387754637'
@@ -734,6 +810,8 @@ export const grantsData = [
     tx_cnt: 102,
     log_cnt: 37,
     donation_cnt: 35,
+    matched: 42.54937,
+    claimed: 42.54937,
     balances: [{
       asset: 'ETH',
       balance: '0.366508754400'
@@ -753,6 +831,8 @@ export const grantsData = [
     tx_cnt: 47,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009999754022'
@@ -772,6 +852,8 @@ export const grantsData = [
     tx_cnt: 106,
     log_cnt: 9,
     donation_cnt: 8,
+    matched: 82.35473,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002099837424'
@@ -791,6 +873,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000950000'
@@ -810,6 +894,8 @@ export const grantsData = [
     tx_cnt: 179,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.70202,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.139416327309'
@@ -829,6 +915,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 20,
     donation_cnt: 18,
+    matched: 803.21862,
+    claimed: 803.21862,
     balances: [{
       asset: 'ETH',
       balance: '0.028624012650'
@@ -848,6 +936,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.198068000000'
@@ -867,9 +957,11 @@ export const grantsData = [
     tx_cnt: 425,
     log_cnt: 391,
     donation_cnt: 389,
+    matched: 15678.99748,
+    claimed: 15678.99748,
     balances: [{
       asset: 'ETH',
-      balance: '1.353307857186'
+      balance: '1.353807857186'
     }],
     core: 0,
   },
@@ -886,6 +978,8 @@ export const grantsData = [
     tx_cnt: 267,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.147842102686'
@@ -905,6 +999,8 @@ export const grantsData = [
     tx_cnt: 156,
     log_cnt: 89,
     donation_cnt: 87,
+    matched: 859.76128,
+    claimed: 859.76128,
     balances: [{
       asset: 'ETH',
       balance: '2.051569337485'
@@ -924,6 +1020,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.729411564143'
@@ -943,6 +1041,8 @@ export const grantsData = [
     tx_cnt: 312,
     log_cnt: 11,
     donation_cnt: 9,
+    matched: 8.67549,
+    claimed: 8.67549,
     balances: [{
       asset: 'ETH',
       balance: '0.454451740434'
@@ -962,6 +1062,8 @@ export const grantsData = [
     tx_cnt: 402,
     log_cnt: 102,
     donation_cnt: 102,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -981,6 +1083,8 @@ export const grantsData = [
     tx_cnt: 116,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.042649514386'
@@ -1000,6 +1104,8 @@ export const grantsData = [
     tx_cnt: 2290,
     log_cnt: 66,
     donation_cnt: 65,
+    matched: 53.71736,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.769668193381'
@@ -1019,9 +1125,11 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 26,
     donation_cnt: 26,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.034456466000'
+      balance: '0.031299488000'
     }],
     core: 0,
   },
@@ -1038,6 +1146,8 @@ export const grantsData = [
     tx_cnt: 268,
     log_cnt: 250,
     donation_cnt: 249,
+    matched: 21417.48954,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.065594489000'
@@ -1057,6 +1167,8 @@ export const grantsData = [
     tx_cnt: 29,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000051'
@@ -1076,6 +1188,8 @@ export const grantsData = [
     tx_cnt: 115,
     log_cnt: 88,
     donation_cnt: 86,
+    matched: 972.39096,
+    claimed: 972.39096,
     balances: [{
       asset: 'ETH',
       balance: '0.063581117464'
@@ -1095,6 +1209,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1114,6 +1230,8 @@ export const grantsData = [
     tx_cnt: 956,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.578052647983'
@@ -1133,6 +1251,8 @@ export const grantsData = [
     tx_cnt: 276,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.759113766401'
@@ -1152,6 +1272,8 @@ export const grantsData = [
     tx_cnt: 851,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.861895149572'
@@ -1171,6 +1293,8 @@ export const grantsData = [
     tx_cnt: 77,
     log_cnt: 19,
     donation_cnt: 18,
+    matched: 0.99878,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.706400000000'
@@ -1190,6 +1314,8 @@ export const grantsData = [
     tx_cnt: 72,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003755348379'
@@ -1209,6 +1335,8 @@ export const grantsData = [
     tx_cnt: 983,
     log_cnt: 84,
     donation_cnt: 84,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.287660695276'
@@ -1228,6 +1356,8 @@ export const grantsData = [
     tx_cnt: 648,
     log_cnt: 22,
     donation_cnt: 22,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.921668794823'
@@ -1247,6 +1377,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1266,6 +1398,8 @@ export const grantsData = [
     tx_cnt: 313,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1285,6 +1419,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.285928127226'
@@ -1304,6 +1440,8 @@ export const grantsData = [
     tx_cnt: 26,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.141197397569'
@@ -1323,6 +1461,8 @@ export const grantsData = [
     tx_cnt: 328,
     log_cnt: 82,
     donation_cnt: 81,
+    matched: 55.12490,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.521643219849'
@@ -1342,6 +1482,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000008464'
@@ -1361,6 +1503,8 @@ export const grantsData = [
     tx_cnt: 102,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.637077380905'
@@ -1380,6 +1524,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1399,6 +1545,8 @@ export const grantsData = [
     tx_cnt: 104,
     log_cnt: 18,
     donation_cnt: 18,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.385249588915'
@@ -1418,6 +1566,8 @@ export const grantsData = [
     tx_cnt: 790,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000956095141'
@@ -1437,6 +1587,8 @@ export const grantsData = [
     tx_cnt: 58,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1456,6 +1608,8 @@ export const grantsData = [
     tx_cnt: 55,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.463767791391'
@@ -1475,6 +1629,8 @@ export const grantsData = [
     tx_cnt: 141,
     log_cnt: 137,
     donation_cnt: 136,
+    matched: 1045.67129,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.379371365935'
@@ -1494,6 +1650,8 @@ export const grantsData = [
     tx_cnt: 47,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.11678,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.033132847054'
@@ -1513,6 +1671,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1532,6 +1692,8 @@ export const grantsData = [
     tx_cnt: 28,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '16.104902063045'
@@ -1551,6 +1713,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005214585635'
@@ -1570,6 +1734,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 23,
     donation_cnt: 22,
+    matched: 92.23268,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1589,6 +1755,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.040121654000'
@@ -1608,6 +1776,8 @@ export const grantsData = [
     tx_cnt: 59,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1627,6 +1797,8 @@ export const grantsData = [
     tx_cnt: 392,
     log_cnt: 76,
     donation_cnt: 75,
+    matched: 26.22350,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1646,6 +1818,8 @@ export const grantsData = [
     tx_cnt: 3337,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.535480191159'
@@ -1665,9 +1839,11 @@ export const grantsData = [
     tx_cnt: 208,
     log_cnt: 44,
     donation_cnt: 42,
+    matched: 65.65317,
+    claimed: 65.65317,
     balances: [{
       asset: 'ETH',
-      balance: '0.194862240573'
+      balance: '0.195362240573'
     }],
     core: 0,
   },
@@ -1684,6 +1860,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 1,
     donation_cnt: 0,
+    matched: 0.74276,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.000000000000'
@@ -1703,6 +1881,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1722,6 +1902,8 @@ export const grantsData = [
     tx_cnt: 414,
     log_cnt: 5,
     donation_cnt: 4,
+    matched: 0.16987,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.387293992311'
@@ -1741,6 +1923,8 @@ export const grantsData = [
     tx_cnt: 34,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000042100000'
@@ -1760,6 +1944,8 @@ export const grantsData = [
     tx_cnt: 333,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.043317973909'
@@ -1779,6 +1965,8 @@ export const grantsData = [
     tx_cnt: 303,
     log_cnt: 8,
     donation_cnt: 6,
+    matched: 5.11919,
+    claimed: 5.11919,
     balances: [{
       asset: 'ETH',
       balance: '0.377690446068'
@@ -1798,6 +1986,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.057675290000'
@@ -1817,6 +2007,8 @@ export const grantsData = [
     tx_cnt: 780,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.017285903912'
@@ -1836,6 +2028,8 @@ export const grantsData = [
     tx_cnt: 115,
     log_cnt: 17,
     donation_cnt: 17,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.666732746463'
@@ -1855,6 +2049,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1874,6 +2070,8 @@ export const grantsData = [
     tx_cnt: 1063,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '16.922158367062'
@@ -1893,6 +2091,8 @@ export const grantsData = [
     tx_cnt: 5136,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.457370159749'
@@ -1912,6 +2112,8 @@ export const grantsData = [
     tx_cnt: 143,
     log_cnt: 93,
     donation_cnt: 92,
+    matched: 0.02312,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.251404814698'
@@ -1931,6 +2133,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007658495000'
@@ -1950,6 +2154,8 @@ export const grantsData = [
     tx_cnt: 125,
     log_cnt: 100,
     donation_cnt: 99,
+    matched: 1437.77158,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.115755368136'
@@ -1969,6 +2175,8 @@ export const grantsData = [
     tx_cnt: 124,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -1988,6 +2196,8 @@ export const grantsData = [
     tx_cnt: 126,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000113792000'
@@ -2007,6 +2217,8 @@ export const grantsData = [
     tx_cnt: 3318,
     log_cnt: 17,
     donation_cnt: 16,
+    matched: 0.86259,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.657722329878'
@@ -2026,6 +2238,8 @@ export const grantsData = [
     tx_cnt: 100,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.601350078395'
@@ -2045,6 +2259,8 @@ export const grantsData = [
     tx_cnt: 555,
     log_cnt: 65,
     donation_cnt: 65,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.121613677511'
@@ -2064,6 +2280,8 @@ export const grantsData = [
     tx_cnt: 554,
     log_cnt: 157,
     donation_cnt: 155,
+    matched: 826.56512,
+    claimed: 826.56512,
     balances: [{
       asset: 'ETH',
       balance: '3.415921377805'
@@ -2083,6 +2301,8 @@ export const grantsData = [
     tx_cnt: 42,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002114380100'
@@ -2102,6 +2322,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.115500200000'
@@ -2121,9 +2343,11 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 32,
     donation_cnt: 30,
+    matched: 179.48502,
+    claimed: 179.48502,
     balances: [{
       asset: 'ETH',
-      balance: '0.454046850000'
+      balance: '0.454141850000'
     }],
     core: 0,
   },
@@ -2140,6 +2364,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2159,6 +2385,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2178,6 +2406,8 @@ export const grantsData = [
     tx_cnt: 162,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.470837216608'
@@ -2197,6 +2427,8 @@ export const grantsData = [
     tx_cnt: 33,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '144.168720147389'
@@ -2216,6 +2448,8 @@ export const grantsData = [
     tx_cnt: 177,
     log_cnt: 15,
     donation_cnt: 14,
+    matched: 0.18883,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.058690790593'
@@ -2235,6 +2469,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2254,6 +2490,8 @@ export const grantsData = [
     tx_cnt: 48,
     log_cnt: 33,
     donation_cnt: 32,
+    matched: 263.76751,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.368450000000'
@@ -2273,6 +2511,8 @@ export const grantsData = [
     tx_cnt: 258,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.165407524477'
@@ -2292,6 +2532,8 @@ export const grantsData = [
     tx_cnt: 309,
     log_cnt: 32,
     donation_cnt: 30,
+    matched: 18.75942,
+    claimed: 18.75942,
     balances: [{
       asset: 'ETH',
       balance: '0.856309504009'
@@ -2311,6 +2553,8 @@ export const grantsData = [
     tx_cnt: 236,
     log_cnt: 65,
     donation_cnt: 63,
+    matched: 169.64887,
+    claimed: 169.64887,
     balances: [{
       asset: 'ETH',
       balance: '3.511144933774'
@@ -2330,6 +2574,8 @@ export const grantsData = [
     tx_cnt: 171,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2349,6 +2595,8 @@ export const grantsData = [
     tx_cnt: 89,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.172612120999'
@@ -2368,6 +2616,8 @@ export const grantsData = [
     tx_cnt: 608,
     log_cnt: 10,
     donation_cnt: 9,
+    matched: 0.57722,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.597514445290'
@@ -2387,6 +2637,8 @@ export const grantsData = [
     tx_cnt: 918,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003355307639'
@@ -2406,6 +2658,8 @@ export const grantsData = [
     tx_cnt: 432,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.276816613382'
@@ -2425,6 +2679,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.515000000000'
@@ -2444,6 +2700,8 @@ export const grantsData = [
     tx_cnt: 61,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009180935000'
@@ -2463,6 +2721,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.081666785421'
@@ -2482,6 +2742,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.066848718281'
@@ -2501,6 +2763,8 @@ export const grantsData = [
     tx_cnt: 1576,
     log_cnt: 16,
     donation_cnt: 16,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.027529976821'
@@ -2520,6 +2784,8 @@ export const grantsData = [
     tx_cnt: 118,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.018895677300'
@@ -2539,6 +2805,8 @@ export const grantsData = [
     tx_cnt: 109,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.060359812956'
@@ -2558,6 +2826,8 @@ export const grantsData = [
     tx_cnt: 200,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.045830847007'
@@ -2577,6 +2847,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002313603903'
@@ -2596,6 +2868,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2615,6 +2889,8 @@ export const grantsData = [
     tx_cnt: 46,
     log_cnt: 31,
     donation_cnt: 30,
+    matched: 6.57107,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '18.578474812630'
@@ -2634,6 +2910,8 @@ export const grantsData = [
     tx_cnt: 31,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000312352111'
@@ -2653,9 +2931,11 @@ export const grantsData = [
     tx_cnt: 487,
     log_cnt: 117,
     donation_cnt: 115,
+    matched: 5302.51789,
+    claimed: 5302.51789,
     balances: [{
       asset: 'ETH',
-      balance: '0.470831681693'
+      balance: '0.471331681693'
     }],
     core: 0,
   },
@@ -2672,6 +2952,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2691,6 +2973,8 @@ export const grantsData = [
     tx_cnt: 675,
     log_cnt: 148,
     donation_cnt: 146,
+    matched: 798.53764,
+    claimed: 798.53764,
     balances: [{
       asset: 'ETH',
       balance: '3.749477069254'
@@ -2710,6 +2994,8 @@ export const grantsData = [
     tx_cnt: 68,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.149826234637'
@@ -2729,6 +3015,8 @@ export const grantsData = [
     tx_cnt: 57,
     log_cnt: 42,
     donation_cnt: 40,
+    matched: 506.92081,
+    claimed: 506.92081,
     balances: [{
       asset: 'ETH',
       balance: '0.011344000000'
@@ -2748,6 +3036,8 @@ export const grantsData = [
     tx_cnt: 40,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2767,6 +3057,8 @@ export const grantsData = [
     tx_cnt: 320,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2786,6 +3078,8 @@ export const grantsData = [
     tx_cnt: 30,
     log_cnt: 28,
     donation_cnt: 27,
+    matched: 172.35080,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.124776200000'
@@ -2805,6 +3099,8 @@ export const grantsData = [
     tx_cnt: 50,
     log_cnt: 27,
     donation_cnt: 27,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2824,6 +3120,8 @@ export const grantsData = [
     tx_cnt: 37,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000756000000'
@@ -2843,6 +3141,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.017760591951'
@@ -2862,6 +3162,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 9,
     donation_cnt: 8,
+    matched: 17.49049,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.104508945500'
@@ -2881,6 +3183,8 @@ export const grantsData = [
     tx_cnt: 96,
     log_cnt: 43,
     donation_cnt: 43,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.368508471853'
@@ -2900,6 +3204,8 @@ export const grantsData = [
     tx_cnt: 6104,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.412142753543'
@@ -2919,6 +3225,8 @@ export const grantsData = [
     tx_cnt: 58,
     log_cnt: 29,
     donation_cnt: 28,
+    matched: 0.28482,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.083603632334'
@@ -2938,6 +3246,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 19,
     donation_cnt: 19,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2957,6 +3267,8 @@ export const grantsData = [
     tx_cnt: 38,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.387251445000'
@@ -2976,6 +3288,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -2995,6 +3309,8 @@ export const grantsData = [
     tx_cnt: 46,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.088990205000'
@@ -3014,6 +3330,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.39201,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3033,6 +3351,8 @@ export const grantsData = [
     tx_cnt: 445,
     log_cnt: 19,
     donation_cnt: 17,
+    matched: 18.63506,
+    claimed: 18.63506,
     balances: [{
       asset: 'ETH',
       balance: '0.046211736864'
@@ -3052,6 +3372,8 @@ export const grantsData = [
     tx_cnt: 138,
     log_cnt: 39,
     donation_cnt: 39,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001710705459'
@@ -3071,6 +3393,8 @@ export const grantsData = [
     tx_cnt: 948,
     log_cnt: 16,
     donation_cnt: 16,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3090,9 +3414,11 @@ export const grantsData = [
     tx_cnt: 728,
     log_cnt: 539,
     donation_cnt: 537,
+    matched: 5306.43857,
+    claimed: 5306.43857,
     balances: [{
       asset: 'ETH',
-      balance: '4.484440176158'
+      balance: '4.495840176158'
     }],
     core: 0,
   },
@@ -3109,6 +3435,8 @@ export const grantsData = [
     tx_cnt: 37,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3128,6 +3456,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3147,6 +3477,8 @@ export const grantsData = [
     tx_cnt: 369,
     log_cnt: 71,
     donation_cnt: 70,
+    matched: 2.44709,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.418667671476'
@@ -3166,6 +3498,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 4.50243,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.441631963400'
@@ -3185,6 +3519,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3204,6 +3540,8 @@ export const grantsData = [
     tx_cnt: 163,
     log_cnt: 147,
     donation_cnt: 147,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.087654090249'
@@ -3223,6 +3561,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009500000000'
@@ -3242,6 +3582,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3261,6 +3603,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 11,
     donation_cnt: 11,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.008196175000'
@@ -3280,6 +3624,8 @@ export const grantsData = [
     tx_cnt: 28,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.066015375000'
@@ -3299,6 +3645,8 @@ export const grantsData = [
     tx_cnt: 67,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001187818700'
@@ -3318,6 +3666,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.895087424200'
@@ -3337,6 +3687,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 7,
     donation_cnt: 6,
+    matched: 12.06236,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000095000000'
@@ -3356,6 +3708,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 19,
     donation_cnt: 18,
+    matched: 163.40584,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.251945068900'
@@ -3375,6 +3729,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3394,6 +3750,8 @@ export const grantsData = [
     tx_cnt: 26,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.402452546561'
@@ -3413,6 +3771,8 @@ export const grantsData = [
     tx_cnt: 103,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.451300019412'
@@ -3432,6 +3792,8 @@ export const grantsData = [
     tx_cnt: 417,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '818.226612813879'
@@ -3451,6 +3813,8 @@ export const grantsData = [
     tx_cnt: 1580,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.016641849820'
@@ -3470,6 +3834,8 @@ export const grantsData = [
     tx_cnt: 567,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.783892243200'
@@ -3489,6 +3855,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 18,
     donation_cnt: 17,
+    matched: 40.35671,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.160302800000'
@@ -3508,6 +3876,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.097909211000'
@@ -3527,6 +3897,8 @@ export const grantsData = [
     tx_cnt: 64,
     log_cnt: 24,
     donation_cnt: 24,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.054516788698'
@@ -3546,6 +3918,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 1.06152,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3565,6 +3939,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.131706246315'
@@ -3584,6 +3960,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002882825000'
@@ -3603,6 +3981,8 @@ export const grantsData = [
     tx_cnt: 23,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.196911890969'
@@ -3622,6 +4002,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 9,
     donation_cnt: 8,
+    matched: 11.20130,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.027351780000'
@@ -3641,6 +4023,8 @@ export const grantsData = [
     tx_cnt: 356,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3660,6 +4044,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3679,6 +4065,8 @@ export const grantsData = [
     tx_cnt: 316,
     log_cnt: 23,
     donation_cnt: 23,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.377614705495'
@@ -3698,6 +4086,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 5,
     donation_cnt: 3,
+    matched: 3.35764,
+    claimed: 3.35764,
     balances: [{
       asset: 'ETH',
       balance: '0.092712893166'
@@ -3717,6 +4107,8 @@ export const grantsData = [
     tx_cnt: 345,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.010766423575'
@@ -3736,6 +4128,8 @@ export const grantsData = [
     tx_cnt: 32,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000442699200'
@@ -3755,6 +4149,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3774,6 +4170,8 @@ export const grantsData = [
     tx_cnt: 33,
     log_cnt: 16,
     donation_cnt: 16,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.250671589432'
@@ -3793,6 +4191,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.015000000000'
@@ -3812,6 +4212,8 @@ export const grantsData = [
     tx_cnt: 102,
     log_cnt: 85,
     donation_cnt: 85,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.176708357400'
@@ -3831,6 +4233,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009000000000'
@@ -3850,6 +4254,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.119128527400'
@@ -3869,6 +4275,8 @@ export const grantsData = [
     tx_cnt: 92,
     log_cnt: 17,
     donation_cnt: 17,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.026634716190'
@@ -3888,6 +4296,8 @@ export const grantsData = [
     tx_cnt: 239,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.894375827056'
@@ -3907,6 +4317,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3926,6 +4338,8 @@ export const grantsData = [
     tx_cnt: 106,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -3945,6 +4359,8 @@ export const grantsData = [
     tx_cnt: 81,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.025547180471'
@@ -3964,6 +4380,8 @@ export const grantsData = [
     tx_cnt: 111,
     log_cnt: 78,
     donation_cnt: 77,
+    matched: 248.90582,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.882734939607'
@@ -3983,6 +4401,8 @@ export const grantsData = [
     tx_cnt: 260,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001882255142'
@@ -4002,6 +4422,8 @@ export const grantsData = [
     tx_cnt: 987,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004812500000'
@@ -4021,6 +4443,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4040,6 +4464,8 @@ export const grantsData = [
     tx_cnt: 13629,
     log_cnt: 268,
     donation_cnt: 268,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.653150087430'
@@ -4059,6 +4485,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4078,6 +4506,8 @@ export const grantsData = [
     tx_cnt: 107,
     log_cnt: 18,
     donation_cnt: 18,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.418950000000'
@@ -4097,6 +4527,8 @@ export const grantsData = [
     tx_cnt: 81,
     log_cnt: 35,
     donation_cnt: 35,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006000000000'
@@ -4116,9 +4548,11 @@ export const grantsData = [
     tx_cnt: 1197,
     log_cnt: 471,
     donation_cnt: 469,
+    matched: 5488.90762,
+    claimed: 5488.90762,
     balances: [{
       asset: 'ETH',
-      balance: '3.540664503116'
+      balance: '3.543514503116'
     }],
     core: 0,
   },
@@ -4135,6 +4569,8 @@ export const grantsData = [
     tx_cnt: 32,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.175480911986'
@@ -4154,6 +4590,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.096699345800'
@@ -4173,6 +4611,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4192,6 +4632,8 @@ export const grantsData = [
     tx_cnt: 157,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4211,6 +4653,8 @@ export const grantsData = [
     tx_cnt: 90,
     log_cnt: 78,
     donation_cnt: 78,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4230,6 +4674,8 @@ export const grantsData = [
     tx_cnt: 664,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.315192650656'
@@ -4249,6 +4695,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4268,6 +4716,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.063019583070'
@@ -4287,6 +4737,8 @@ export const grantsData = [
     tx_cnt: 59,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '11.720549487792'
@@ -4306,6 +4758,8 @@ export const grantsData = [
     tx_cnt: 1455,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.334300264505'
@@ -4325,6 +4779,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4344,6 +4800,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.032137729576'
@@ -4363,6 +4821,8 @@ export const grantsData = [
     tx_cnt: 157,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.014509642794'
@@ -4382,6 +4842,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4401,6 +4863,8 @@ export const grantsData = [
     tx_cnt: 161,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019746152520'
@@ -4420,6 +4884,8 @@ export const grantsData = [
     tx_cnt: 168,
     log_cnt: 126,
     donation_cnt: 124,
+    matched: 3476.88599,
+    claimed: 3476.88599,
     balances: [{
       asset: 'ETH',
       balance: '0.004708490000'
@@ -4439,9 +4905,11 @@ export const grantsData = [
     tx_cnt: 146,
     log_cnt: 30,
     donation_cnt: 28,
+    matched: 97.74886,
+    claimed: 97.74886,
     balances: [{
       asset: 'ETH',
-      balance: '0.316330170765'
+      balance: '0.802195655309'
     }],
     core: 0,
   },
@@ -4458,6 +4926,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4477,6 +4947,8 @@ export const grantsData = [
     tx_cnt: 2568,
     log_cnt: 63,
     donation_cnt: 62,
+    matched: 39.46939,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.320014400000'
@@ -4496,6 +4968,8 @@ export const grantsData = [
     tx_cnt: 673,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009090448935'
@@ -4515,6 +4989,8 @@ export const grantsData = [
     tx_cnt: 168,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004850000000'
@@ -4534,6 +5010,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.013711351000'
@@ -4553,6 +5031,8 @@ export const grantsData = [
     tx_cnt: 55,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.846391854704'
@@ -4572,6 +5052,8 @@ export const grantsData = [
     tx_cnt: 159,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 1.18918,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.108736759633'
@@ -4591,6 +5073,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4610,6 +5094,8 @@ export const grantsData = [
     tx_cnt: 15,
     log_cnt: 14,
     donation_cnt: 14,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000462000000'
@@ -4629,6 +5115,8 @@ export const grantsData = [
     tx_cnt: 126,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.083006878613'
@@ -4648,6 +5136,8 @@ export const grantsData = [
     tx_cnt: 40,
     log_cnt: 13,
     donation_cnt: 12,
+    matched: 0.20554,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.331457731826'
@@ -4667,6 +5157,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4686,6 +5178,8 @@ export const grantsData = [
     tx_cnt: 38,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.107728352151'
@@ -4705,6 +5199,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4724,6 +5220,8 @@ export const grantsData = [
     tx_cnt: 99,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000055164774'
@@ -4743,6 +5241,8 @@ export const grantsData = [
     tx_cnt: 90,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.501366410021'
@@ -4762,6 +5262,8 @@ export const grantsData = [
     tx_cnt: 375,
     log_cnt: 26,
     donation_cnt: 25,
+    matched: 0.10992,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.018746535268'
@@ -4781,6 +5283,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.510205402000'
@@ -4800,6 +5304,8 @@ export const grantsData = [
     tx_cnt: 422,
     log_cnt: 8,
     donation_cnt: 7,
+    matched: 0.26693,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.059236192776'
@@ -4819,6 +5325,8 @@ export const grantsData = [
     tx_cnt: 202,
     log_cnt: 26,
     donation_cnt: 24,
+    matched: 15.52278,
+    claimed: 15.52278,
     balances: [{
       asset: 'ETH',
       balance: '2.066941869235'
@@ -4838,6 +5346,8 @@ export const grantsData = [
     tx_cnt: 43,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000381710000'
@@ -4857,6 +5367,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002383826000'
@@ -4876,6 +5388,8 @@ export const grantsData = [
     tx_cnt: 49,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.000000000000'
@@ -4895,6 +5409,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004750000000'
@@ -4914,6 +5430,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 47,
     donation_cnt: 47,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.093123584890'
@@ -4933,6 +5451,8 @@ export const grantsData = [
     tx_cnt: 192,
     log_cnt: 71,
     donation_cnt: 70,
+    matched: 27.74167,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.312299412962'
@@ -4952,6 +5472,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -4971,6 +5493,8 @@ export const grantsData = [
     tx_cnt: 233,
     log_cnt: 127,
     donation_cnt: 125,
+    matched: 825.14140,
+    claimed: 825.14140,
     balances: [{
       asset: 'ETH',
       balance: '3.500143686137'
@@ -4990,6 +5514,8 @@ export const grantsData = [
     tx_cnt: 162,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005518986000'
@@ -5009,6 +5535,8 @@ export const grantsData = [
     tx_cnt: 262,
     log_cnt: 130,
     donation_cnt: 128,
+    matched: 761.92146,
+    claimed: 761.92146,
     balances: [{
       asset: 'ETH',
       balance: '0.080612386000'
@@ -5028,6 +5556,8 @@ export const grantsData = [
     tx_cnt: 152,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.304076798951'
@@ -5047,6 +5577,8 @@ export const grantsData = [
     tx_cnt: 828,
     log_cnt: 262,
     donation_cnt: 260,
+    matched: 1431.47733,
+    claimed: 1431.47733,
     balances: [{
       asset: 'ETH',
       balance: '8.784883006169'
@@ -5066,6 +5598,8 @@ export const grantsData = [
     tx_cnt: 92017,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '442.288338847693'
@@ -5085,6 +5619,8 @@ export const grantsData = [
     tx_cnt: 4628,
     log_cnt: 40,
     donation_cnt: 40,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.107033068000'
@@ -5104,6 +5640,8 @@ export const grantsData = [
     tx_cnt: 31,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002805096131'
@@ -5123,6 +5661,8 @@ export const grantsData = [
     tx_cnt: 1215,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.100272608352'
@@ -5142,6 +5682,8 @@ export const grantsData = [
     tx_cnt: 30,
     log_cnt: 23,
     donation_cnt: 22,
+    matched: 32.76406,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.167214521436'
@@ -5161,6 +5703,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 10,
     donation_cnt: 10,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009500000000'
@@ -5180,6 +5724,8 @@ export const grantsData = [
     tx_cnt: 286,
     log_cnt: 158,
     donation_cnt: 156,
+    matched: 841.91715,
+    claimed: 841.91715,
     balances: [{
       asset: 'ETH',
       balance: '3.549900118023'
@@ -5199,6 +5745,8 @@ export const grantsData = [
     tx_cnt: 42,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.051564437000'
@@ -5218,6 +5766,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5237,6 +5787,8 @@ export const grantsData = [
     tx_cnt: 313,
     log_cnt: 31,
     donation_cnt: 29,
+    matched: 819.33502,
+    claimed: 819.33502,
     balances: [{
       asset: 'ETH',
       balance: '0.080776840552'
@@ -5256,9 +5808,11 @@ export const grantsData = [
     tx_cnt: 429,
     log_cnt: 280,
     donation_cnt: 278,
+    matched: 4437.34225,
+    claimed: 4437.34225,
     balances: [{
       asset: 'ETH',
-      balance: '5.164123784888'
+      balance: '5.556473784888'
     }],
     core: 0,
   },
@@ -5275,6 +5829,8 @@ export const grantsData = [
     tx_cnt: 85,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.043389528605'
@@ -5294,6 +5850,8 @@ export const grantsData = [
     tx_cnt: 154,
     log_cnt: 54,
     donation_cnt: 52,
+    matched: 241.26556,
+    claimed: 241.26556,
     balances: [{
       asset: 'ETH',
       balance: '1.819258917414'
@@ -5313,6 +5871,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5332,6 +5892,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.013169313000'
@@ -5351,6 +5913,8 @@ export const grantsData = [
     tx_cnt: 70,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000887575434'
@@ -5370,6 +5934,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.066249691852'
@@ -5389,6 +5955,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5408,6 +5976,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5427,6 +5997,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5446,6 +6018,8 @@ export const grantsData = [
     tx_cnt: 368,
     log_cnt: 133,
     donation_cnt: 132,
+    matched: 9.03919,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.218018850000'
@@ -5465,6 +6039,8 @@ export const grantsData = [
     tx_cnt: 54,
     log_cnt: 47,
     donation_cnt: 46,
+    matched: 1.53706,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.128080143420'
@@ -5484,6 +6060,8 @@ export const grantsData = [
     tx_cnt: 128,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.436956167960'
@@ -5503,6 +6081,8 @@ export const grantsData = [
     tx_cnt: 222,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.658717183870'
@@ -5522,6 +6102,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5541,6 +6123,8 @@ export const grantsData = [
     tx_cnt: 763,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '6.711128801063'
@@ -5560,6 +6144,8 @@ export const grantsData = [
     tx_cnt: 80,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5579,6 +6165,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -5598,6 +6186,8 @@ export const grantsData = [
     tx_cnt: 81,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.637227161552'
@@ -5617,6 +6207,8 @@ export const grantsData = [
     tx_cnt: 339,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.289075479399'
@@ -5636,6 +6228,8 @@ export const grantsData = [
     tx_cnt: 68,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.776868898821'
@@ -5655,6 +6249,8 @@ export const grantsData = [
     tx_cnt: 182,
     log_cnt: 169,
     donation_cnt: 167,
+    matched: 10393.42022,
+    claimed: 10393.42022,
     balances: [{
       asset: 'ETH',
       balance: '1.026539101367'
@@ -5674,6 +6270,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001000000000'
@@ -5693,6 +6291,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.084902100000'
@@ -5712,6 +6312,8 @@ export const grantsData = [
     tx_cnt: 482,
     log_cnt: 66,
     donation_cnt: 64,
+    matched: 31.02988,
+    claimed: 31.02988,
     balances: [{
       asset: 'ETH',
       balance: '0.232891369286'
@@ -5731,6 +6333,8 @@ export const grantsData = [
     tx_cnt: 84,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.030678077894'
@@ -5750,6 +6354,8 @@ export const grantsData = [
     tx_cnt: 246,
     log_cnt: 170,
     donation_cnt: 168,
+    matched: 4330.63648,
+    claimed: 4330.63648,
     balances: [{
       asset: 'ETH',
       balance: '0.293457703192'
@@ -5769,6 +6375,8 @@ export const grantsData = [
     tx_cnt: 491,
     log_cnt: 51,
     donation_cnt: 49,
+    matched: 17.80721,
+    claimed: 17.80721,
     balances: [{
       asset: 'ETH',
       balance: '6.448143405304'
@@ -5788,6 +6396,8 @@ export const grantsData = [
     tx_cnt: 72,
     log_cnt: 67,
     donation_cnt: 67,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.104310447828'
@@ -5807,6 +6417,8 @@ export const grantsData = [
     tx_cnt: 128,
     log_cnt: 112,
     donation_cnt: 111,
+    matched: 1221.25953,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.812041001000'
@@ -5826,6 +6438,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 38,
     donation_cnt: 36,
+    matched: 2729.51629,
+    claimed: 2729.51629,
     balances: [{
       asset: 'ETH',
       balance: '0.099370728992'
@@ -5845,6 +6459,8 @@ export const grantsData = [
     tx_cnt: 1064,
     log_cnt: 13,
     donation_cnt: 13,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.045944651392'
@@ -5864,6 +6480,8 @@ export const grantsData = [
     tx_cnt: 106,
     log_cnt: 14,
     donation_cnt: 12,
+    matched: 7.92050,
+    claimed: 7.92050,
     balances: [{
       asset: 'ETH',
       balance: '0.632422024522'
@@ -5883,6 +6501,8 @@ export const grantsData = [
     tx_cnt: 1191,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '16.319170334450'
@@ -5902,6 +6522,8 @@ export const grantsData = [
     tx_cnt: 270,
     log_cnt: 79,
     donation_cnt: 79,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.745214112605'
@@ -5921,6 +6543,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 0.79610,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009816217250'
@@ -5940,6 +6564,8 @@ export const grantsData = [
     tx_cnt: 130,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.796646281500'
@@ -5959,6 +6585,8 @@ export const grantsData = [
     tx_cnt: 6759,
     log_cnt: 131,
     donation_cnt: 131,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.312314198712'
@@ -5978,6 +6606,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.089029023623'
@@ -5997,6 +6627,8 @@ export const grantsData = [
     tx_cnt: 231,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.024070430000'
@@ -6016,6 +6648,8 @@ export const grantsData = [
     tx_cnt: 40,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 0.88126,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.623660525599'
@@ -6035,6 +6669,8 @@ export const grantsData = [
     tx_cnt: 63,
     log_cnt: 39,
     donation_cnt: 38,
+    matched: 638.95546,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.303570000000'
@@ -6054,6 +6690,8 @@ export const grantsData = [
     tx_cnt: 58,
     log_cnt: 15,
     donation_cnt: 15,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.823942330410'
@@ -6073,6 +6711,8 @@ export const grantsData = [
     tx_cnt: 26,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.015000000000'
@@ -6092,6 +6732,8 @@ export const grantsData = [
     tx_cnt: 637,
     log_cnt: 49,
     donation_cnt: 46,
+    matched: 116.58260,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.891580198667'
@@ -6111,9 +6753,11 @@ export const grantsData = [
     tx_cnt: 1049,
     log_cnt: 32,
     donation_cnt: 30,
+    matched: 13.46553,
+    claimed: 13.46553,
     balances: [{
       asset: 'ETH',
-      balance: '4.470366740110'
+      balance: '4.349329735110'
     }],
     core: 0,
   },
@@ -6130,6 +6774,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 37,
     donation_cnt: 36,
+    matched: 19.15624,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009807400000'
@@ -6149,6 +6795,8 @@ export const grantsData = [
     tx_cnt: 55,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000005111195'
@@ -6168,6 +6816,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6187,6 +6837,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6206,6 +6858,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.031733028530'
@@ -6225,6 +6879,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009000000000'
@@ -6244,6 +6900,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6263,6 +6921,8 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004607806440'
@@ -6282,6 +6942,8 @@ export const grantsData = [
     tx_cnt: 262,
     log_cnt: 192,
     donation_cnt: 192,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.065599692100'
@@ -6301,6 +6963,8 @@ export const grantsData = [
     tx_cnt: 87,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.33998,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6320,6 +6984,8 @@ export const grantsData = [
     tx_cnt: 3935,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.990714527057'
@@ -6339,6 +7005,8 @@ export const grantsData = [
     tx_cnt: 43,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.029996751692'
@@ -6358,6 +7026,8 @@ export const grantsData = [
     tx_cnt: 1049,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '39.197731414664'
@@ -6377,6 +7047,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6396,6 +7068,8 @@ export const grantsData = [
     tx_cnt: 29,
     log_cnt: 12,
     donation_cnt: 12,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.294439862064'
@@ -6415,6 +7089,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001156127326'
@@ -6434,6 +7110,8 @@ export const grantsData = [
     tx_cnt: 68,
     log_cnt: 67,
     donation_cnt: 66,
+    matched: 545.96215,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.087083511000'
@@ -6453,6 +7131,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6472,6 +7152,8 @@ export const grantsData = [
     tx_cnt: 230,
     log_cnt: 81,
     donation_cnt: 79,
+    matched: 631.24948,
+    claimed: 631.24948,
     balances: [{
       asset: 'ETH',
       balance: '1.084885271490'
@@ -6491,6 +7173,8 @@ export const grantsData = [
     tx_cnt: 469,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.267055620596'
@@ -6510,6 +7194,8 @@ export const grantsData = [
     tx_cnt: 41,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 0.36971,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.132030158849'
@@ -6529,6 +7215,8 @@ export const grantsData = [
     tx_cnt: 398,
     log_cnt: 373,
     donation_cnt: 371,
+    matched: 5355.67587,
+    claimed: 5355.67587,
     balances: [{
       asset: 'ETH',
       balance: '0.954795778552'
@@ -6548,6 +7236,8 @@ export const grantsData = [
     tx_cnt: 1030,
     log_cnt: 68,
     donation_cnt: 67,
+    matched: 24.17543,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6567,6 +7257,8 @@ export const grantsData = [
     tx_cnt: 393,
     log_cnt: 189,
     donation_cnt: 187,
+    matched: 1342.12516,
+    claimed: 1342.12516,
     balances: [{
       asset: 'ETH',
       balance: '1.392865248503'
@@ -6586,6 +7278,8 @@ export const grantsData = [
     tx_cnt: 890,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005209054632'
@@ -6605,6 +7299,8 @@ export const grantsData = [
     tx_cnt: 191,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.930470428155'
@@ -6624,6 +7320,8 @@ export const grantsData = [
     tx_cnt: 303,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.139130503147'
@@ -6643,6 +7341,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6662,6 +7362,8 @@ export const grantsData = [
     tx_cnt: 45,
     log_cnt: 20,
     donation_cnt: 20,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.072493103188'
@@ -6681,6 +7383,8 @@ export const grantsData = [
     tx_cnt: 2350,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '501.154848148529'
@@ -6700,6 +7404,8 @@ export const grantsData = [
     tx_cnt: 91,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6719,6 +7425,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6738,6 +7446,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.016317638000'
@@ -6757,6 +7467,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 18,
     donation_cnt: 17,
+    matched: 283.22533,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.349374033900'
@@ -6776,6 +7488,8 @@ export const grantsData = [
     tx_cnt: 67421,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.865119267854'
@@ -6795,6 +7509,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000772750329'
@@ -6814,9 +7530,11 @@ export const grantsData = [
     tx_cnt: 670,
     log_cnt: 160,
     donation_cnt: 158,
+    matched: 687.14747,
+    claimed: 687.14747,
     balances: [{
       asset: 'ETH',
-      balance: '0.056929984864'
+      balance: '0.058449984864'
     }],
     core: 0,
   },
@@ -6833,6 +7551,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.416048216322'
@@ -6852,6 +7572,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006530000000'
@@ -6871,6 +7593,8 @@ export const grantsData = [
     tx_cnt: 223,
     log_cnt: 91,
     donation_cnt: 91,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.265658617454'
@@ -6890,6 +7614,8 @@ export const grantsData = [
     tx_cnt: 38,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6909,6 +7635,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019526354000'
@@ -6928,6 +7656,8 @@ export const grantsData = [
     tx_cnt: 44,
     log_cnt: 34,
     donation_cnt: 33,
+    matched: 35.90920,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.176563247984'
@@ -6947,6 +7677,8 @@ export const grantsData = [
     tx_cnt: 135,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.014067399000'
@@ -6966,6 +7698,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -6985,6 +7719,8 @@ export const grantsData = [
     tx_cnt: 114,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.096000000000'
@@ -7004,6 +7740,8 @@ export const grantsData = [
     tx_cnt: 73,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.317044217027'
@@ -7023,6 +7761,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 15,
     donation_cnt: 15,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.525972743025'
@@ -7042,6 +7782,8 @@ export const grantsData = [
     tx_cnt: 9393,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '19391.921401917836'
@@ -7061,6 +7803,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.041968702500'
@@ -7080,6 +7824,8 @@ export const grantsData = [
     tx_cnt: 82,
     log_cnt: 67,
     donation_cnt: 67,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -7099,6 +7845,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.011104609714'
@@ -7118,6 +7866,8 @@ export const grantsData = [
     tx_cnt: 185,
     log_cnt: 22,
     donation_cnt: 20,
+    matched: 819.24396,
+    claimed: 819.24396,
     balances: [{
       asset: 'ETH',
       balance: '3.921147690945'
@@ -7137,6 +7887,8 @@ export const grantsData = [
     tx_cnt: 319,
     log_cnt: 15,
     donation_cnt: 13,
+    matched: 11.98834,
+    claimed: 11.98834,
     balances: [{
       asset: 'ETH',
       balance: '10.209688882290'
@@ -7156,6 +7908,8 @@ export const grantsData = [
     tx_cnt: 111,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.201083844287'
@@ -7175,6 +7929,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -7194,6 +7950,8 @@ export const grantsData = [
     tx_cnt: 270,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -7213,6 +7971,8 @@ export const grantsData = [
     tx_cnt: 1279,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.161989341466'
@@ -7232,6 +7992,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.020000000000'
@@ -7251,6 +8013,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.304000000000'
@@ -7270,6 +8034,8 @@ export const grantsData = [
     tx_cnt: 27,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 0.18507,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.013708332958'
@@ -7289,6 +8055,8 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.085848374500'
@@ -7308,6 +8076,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 7,
     donation_cnt: 5,
+    matched: 12.19865,
+    claimed: 12.19865,
     balances: [{
       asset: 'ETH',
       balance: '0.034500000000'
@@ -7327,6 +8097,8 @@ export const grantsData = [
     tx_cnt: 579,
     log_cnt: 46,
     donation_cnt: 43,
+    matched: 124.42411,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.312422648892'
@@ -7346,6 +8118,8 @@ export const grantsData = [
     tx_cnt: 105,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.957352760421'
@@ -7365,6 +8139,8 @@ export const grantsData = [
     tx_cnt: 2873,
     log_cnt: 82,
     donation_cnt: 82,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '13.973588644585'
@@ -7384,6 +8160,8 @@ export const grantsData = [
     tx_cnt: 30,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.012624650407'
@@ -7403,6 +8181,8 @@ export const grantsData = [
     tx_cnt: 101,
     log_cnt: 17,
     donation_cnt: 16,
+    matched: 22.05901,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.655627163222'
@@ -7422,6 +8202,8 @@ export const grantsData = [
     tx_cnt: 1130,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.143720662033'
@@ -7441,6 +8223,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 10,
     donation_cnt: 9,
+    matched: 17.15418,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007073682000'
@@ -7460,6 +8244,8 @@ export const grantsData = [
     tx_cnt: 2372,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.464499327689'
@@ -7479,6 +8265,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -7498,6 +8286,8 @@ export const grantsData = [
     tx_cnt: 164,
     log_cnt: 8,
     donation_cnt: 7,
+    matched: 4.58958,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.580383805397'
@@ -7517,6 +8307,8 @@ export const grantsData = [
     tx_cnt: 125,
     log_cnt: 121,
     donation_cnt: 119,
+    matched: 953.27392,
+    claimed: 953.27392,
     balances: [{
       asset: 'ETH',
       balance: '0.379354900000'
@@ -7536,6 +8328,8 @@ export const grantsData = [
     tx_cnt: 160,
     log_cnt: 24,
     donation_cnt: 22,
+    matched: 38.08284,
+    claimed: 38.08284,
     balances: [{
       asset: 'ETH',
       balance: '0.730613323922'
@@ -7555,6 +8349,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.025921957859'
@@ -7574,6 +8370,8 @@ export const grantsData = [
     tx_cnt: 2190,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.008843575534'
@@ -7593,6 +8391,8 @@ export const grantsData = [
     tx_cnt: 429,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.130024843985'
@@ -7612,6 +8412,8 @@ export const grantsData = [
     tx_cnt: 66,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.407926924962'
@@ -7631,6 +8433,8 @@ export const grantsData = [
     tx_cnt: 274,
     log_cnt: 29,
     donation_cnt: 27,
+    matched: 159.84958,
+    claimed: 159.84958,
     balances: [{
       asset: 'ETH',
       balance: '0.024482142056'
@@ -7650,6 +8454,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.076291842000'
@@ -7669,6 +8475,8 @@ export const grantsData = [
     tx_cnt: 32,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001838564059'
@@ -7688,6 +8496,8 @@ export const grantsData = [
     tx_cnt: 927,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.554338624371'
@@ -7707,6 +8517,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -7726,6 +8538,8 @@ export const grantsData = [
     tx_cnt: 101,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.013917625040'
@@ -7745,6 +8559,8 @@ export const grantsData = [
     tx_cnt: 405,
     log_cnt: 17,
     donation_cnt: 17,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.095950000000'
@@ -7764,6 +8580,8 @@ export const grantsData = [
     tx_cnt: 125,
     log_cnt: 120,
     donation_cnt: 120,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.275111222000'
@@ -7783,9 +8601,11 @@ export const grantsData = [
     tx_cnt: 397,
     log_cnt: 34,
     donation_cnt: 33,
+    matched: 20.18432,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '2.605562160986'
+      balance: '2.474074712986'
     }],
     core: 0,
   },
@@ -7802,6 +8622,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 1.21091,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.021850000000'
@@ -7821,6 +8643,8 @@ export const grantsData = [
     tx_cnt: 51,
     log_cnt: 9,
     donation_cnt: 8,
+    matched: 5.16978,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.085654320000'
@@ -7840,6 +8664,8 @@ export const grantsData = [
     tx_cnt: 461,
     log_cnt: 7,
     donation_cnt: 6,
+    matched: 6.03806,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.014152145796'
@@ -7859,6 +8685,8 @@ export const grantsData = [
     tx_cnt: 108,
     log_cnt: 98,
     donation_cnt: 96,
+    matched: 4175.55346,
+    claimed: 4175.55346,
     balances: [{
       asset: 'ETH',
       balance: '0.314942076000'
@@ -7878,6 +8706,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003579552325'
@@ -7897,6 +8727,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 19,
     donation_cnt: 19,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.030637500000'
@@ -7916,6 +8748,8 @@ export const grantsData = [
     tx_cnt: 291,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.733958090542'
@@ -7935,6 +8769,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -7954,6 +8790,8 @@ export const grantsData = [
     tx_cnt: 320,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.011768941896'
@@ -7973,6 +8811,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -7992,6 +8832,8 @@ export const grantsData = [
     tx_cnt: 62,
     log_cnt: 13,
     donation_cnt: 13,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.709969881489'
@@ -8011,6 +8853,8 @@ export const grantsData = [
     tx_cnt: 181,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.452055900000'
@@ -8030,6 +8874,8 @@ export const grantsData = [
     tx_cnt: 600,
     log_cnt: 25,
     donation_cnt: 25,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019950000000'
@@ -8049,6 +8895,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8068,6 +8916,8 @@ export const grantsData = [
     tx_cnt: 455,
     log_cnt: 29,
     donation_cnt: 29,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.365081844421'
@@ -8087,6 +8937,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000068380000'
@@ -8106,6 +8958,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000722000000'
@@ -8125,6 +8979,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8144,6 +9000,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8163,6 +9021,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8182,6 +9042,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000731500000'
@@ -8201,6 +9063,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.104751330466'
@@ -8220,6 +9084,8 @@ export const grantsData = [
     tx_cnt: 91,
     log_cnt: 85,
     donation_cnt: 85,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.506298336000'
@@ -8239,6 +9105,8 @@ export const grantsData = [
     tx_cnt: 68,
     log_cnt: 17,
     donation_cnt: 17,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.014227872756'
@@ -8258,6 +9126,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.03665,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005564130000'
@@ -8277,6 +9147,8 @@ export const grantsData = [
     tx_cnt: 822,
     log_cnt: 18,
     donation_cnt: 18,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '9.956452794888'
@@ -8296,6 +9168,8 @@ export const grantsData = [
     tx_cnt: 399,
     log_cnt: 41,
     donation_cnt: 41,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.161223885485'
@@ -8315,6 +9189,8 @@ export const grantsData = [
     tx_cnt: 452,
     log_cnt: 81,
     donation_cnt: 81,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.516300000000'
@@ -8334,6 +9210,8 @@ export const grantsData = [
     tx_cnt: 30,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.080570134848'
@@ -8353,6 +9231,8 @@ export const grantsData = [
     tx_cnt: 43,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001100000000'
@@ -8372,6 +9252,8 @@ export const grantsData = [
     tx_cnt: 126,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '18.053112393672'
@@ -8391,6 +9273,8 @@ export const grantsData = [
     tx_cnt: 204,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.543711579766'
@@ -8410,6 +9294,8 @@ export const grantsData = [
     tx_cnt: 28,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8429,6 +9315,8 @@ export const grantsData = [
     tx_cnt: 540,
     log_cnt: 38,
     donation_cnt: 37,
+    matched: 27.74266,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000413594935'
@@ -8448,6 +9336,8 @@ export const grantsData = [
     tx_cnt: 73,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '165.179638904368'
@@ -8467,6 +9357,8 @@ export const grantsData = [
     tx_cnt: 158,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.217664939414'
@@ -8486,6 +9378,8 @@ export const grantsData = [
     tx_cnt: 264,
     log_cnt: 93,
     donation_cnt: 91,
+    matched: 777.92804,
+    claimed: 777.92804,
     balances: [{
       asset: 'ETH',
       balance: '0.306549568331'
@@ -8505,6 +9399,8 @@ export const grantsData = [
     tx_cnt: 489,
     log_cnt: 5,
     donation_cnt: 3,
+    matched: 0.93944,
+    claimed: 0.93944,
     balances: [{
       asset: 'ETH',
       balance: '5.041346044737'
@@ -8524,6 +9420,8 @@ export const grantsData = [
     tx_cnt: 54,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001637215000'
@@ -8543,6 +9441,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8562,6 +9462,8 @@ export const grantsData = [
     tx_cnt: 426,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '34.662991324672'
@@ -8581,6 +9483,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 1,
     donation_cnt: 0,
+    matched: 0.11250,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8600,6 +9504,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.020388575283'
@@ -8619,6 +9525,8 @@ export const grantsData = [
     tx_cnt: 834,
     log_cnt: 393,
     donation_cnt: 391,
+    matched: 2155.40408,
+    claimed: 2155.40408,
     balances: [{
       asset: 'ETH',
       balance: '8.679535532769'
@@ -8638,6 +9546,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.846691546917'
@@ -8657,6 +9567,8 @@ export const grantsData = [
     tx_cnt: 36,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.362414031383'
@@ -8676,6 +9588,8 @@ export const grantsData = [
     tx_cnt: 313,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.023059416749'
@@ -8695,6 +9609,8 @@ export const grantsData = [
     tx_cnt: 29,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8714,6 +9630,8 @@ export const grantsData = [
     tx_cnt: 1667,
     log_cnt: 35,
     donation_cnt: 35,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.131468919379'
@@ -8733,6 +9651,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.011800687400'
@@ -8752,6 +9672,8 @@ export const grantsData = [
     tx_cnt: 477,
     log_cnt: 55,
     donation_cnt: 54,
+    matched: 0.12897,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.472913164794'
@@ -8771,6 +9693,8 @@ export const grantsData = [
     tx_cnt: 2484,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.227241132671'
@@ -8790,6 +9714,8 @@ export const grantsData = [
     tx_cnt: 1118,
     log_cnt: 346,
     donation_cnt: 344,
+    matched: 2602.19759,
+    claimed: 2602.19759,
     balances: [{
       asset: 'ETH',
       balance: '198.199189883435'
@@ -8809,6 +9735,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.988603496233'
@@ -8828,6 +9756,8 @@ export const grantsData = [
     tx_cnt: 29,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.030451843591'
@@ -8847,6 +9777,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8866,6 +9798,8 @@ export const grantsData = [
     tx_cnt: 221,
     log_cnt: 37,
     donation_cnt: 36,
+    matched: 126.58594,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.168266555515'
@@ -8885,6 +9819,8 @@ export const grantsData = [
     tx_cnt: 1612,
     log_cnt: 34,
     donation_cnt: 34,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.042688491020'
@@ -8904,6 +9840,8 @@ export const grantsData = [
     tx_cnt: 86,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.039832909353'
@@ -8923,6 +9861,8 @@ export const grantsData = [
     tx_cnt: 111,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -8942,6 +9882,8 @@ export const grantsData = [
     tx_cnt: 313,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000016433566'
@@ -8961,6 +9903,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001160000000'
@@ -8980,6 +9924,8 @@ export const grantsData = [
     tx_cnt: 34396,
     log_cnt: 29,
     donation_cnt: 29,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.211668329263'
@@ -8999,9 +9945,11 @@ export const grantsData = [
     tx_cnt: 75,
     log_cnt: 61,
     donation_cnt: 59,
+    matched: 725.74729,
+    claimed: 725.74729,
     balances: [{
       asset: 'ETH',
-      balance: '0.020875000000'
+      balance: '0.021435000000'
     }],
     core: 0,
   },
@@ -9018,6 +9966,8 @@ export const grantsData = [
     tx_cnt: 23,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007928472000'
@@ -9037,6 +9987,8 @@ export const grantsData = [
     tx_cnt: 184,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.257263725483'
@@ -9056,6 +10008,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9075,6 +10029,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9094,6 +10050,8 @@ export const grantsData = [
     tx_cnt: 31,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009442981064'
@@ -9113,6 +10071,8 @@ export const grantsData = [
     tx_cnt: 231,
     log_cnt: 141,
     donation_cnt: 140,
+    matched: 66.95051,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.043621844000'
@@ -9132,6 +10092,8 @@ export const grantsData = [
     tx_cnt: 75,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.42414,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.037203112645'
@@ -9151,6 +10113,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9170,6 +10134,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.196149030000'
@@ -9189,6 +10155,8 @@ export const grantsData = [
     tx_cnt: 365,
     log_cnt: 58,
     donation_cnt: 56,
+    matched: 311.50145,
+    claimed: 311.50145,
     balances: [{
       asset: 'ETH',
       balance: '7.689724298565'
@@ -9208,6 +10176,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.034722956000'
@@ -9227,6 +10197,8 @@ export const grantsData = [
     tx_cnt: 1102,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.469312370993'
@@ -9246,6 +10218,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.010450000000'
@@ -9265,6 +10239,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9284,6 +10260,8 @@ export const grantsData = [
     tx_cnt: 1021,
     log_cnt: 91,
     donation_cnt: 91,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9303,6 +10281,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 8,
     donation_cnt: 6,
+    matched: 0.46299,
+    claimed: 0.46299,
     balances: [{
       asset: 'ETH',
       balance: '0.067112627824'
@@ -9322,6 +10302,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9341,6 +10323,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9360,6 +10344,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.356440669777'
@@ -9379,6 +10365,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.091217037934'
@@ -9398,6 +10386,8 @@ export const grantsData = [
     tx_cnt: 66,
     log_cnt: 7,
     donation_cnt: 5,
+    matched: 1.72926,
+    claimed: 1.72926,
     balances: [{
       asset: 'ETH',
       balance: '2.276915195400'
@@ -9417,6 +10407,8 @@ export const grantsData = [
     tx_cnt: 146,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007794080000'
@@ -9436,6 +10428,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.083185435605'
@@ -9455,6 +10449,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019990023000'
@@ -9474,6 +10470,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9493,6 +10491,8 @@ export const grantsData = [
     tx_cnt: 58,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.313840630622'
@@ -9512,6 +10512,8 @@ export const grantsData = [
     tx_cnt: 28,
     log_cnt: 22,
     donation_cnt: 20,
+    matched: 64.84767,
+    claimed: 64.84767,
     balances: [{
       asset: 'ETH',
       balance: '0.319133824240'
@@ -9531,6 +10533,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.190516479472'
@@ -9550,6 +10554,8 @@ export const grantsData = [
     tx_cnt: 154,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.017377091439'
@@ -9569,6 +10575,8 @@ export const grantsData = [
     tx_cnt: 71,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.265789692688'
@@ -9588,6 +10596,8 @@ export const grantsData = [
     tx_cnt: 32,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.066866513667'
@@ -9607,9 +10617,11 @@ export const grantsData = [
     tx_cnt: 399,
     log_cnt: 321,
     donation_cnt: 319,
+    matched: 643.11525,
+    claimed: 643.11525,
     balances: [{
       asset: 'ETH',
-      balance: '5.072251335428'
+      balance: '5.075101335428'
     }],
     core: 0,
   },
@@ -9626,6 +10638,8 @@ export const grantsData = [
     tx_cnt: 199,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '17.480860799907'
@@ -9645,6 +10659,8 @@ export const grantsData = [
     tx_cnt: 263,
     log_cnt: 43,
     donation_cnt: 42,
+    matched: 0.74866,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.028870178381'
@@ -9664,6 +10680,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.68722,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9683,6 +10701,8 @@ export const grantsData = [
     tx_cnt: 150,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9702,6 +10722,8 @@ export const grantsData = [
     tx_cnt: 1040,
     log_cnt: 35,
     donation_cnt: 35,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.064158348184'
@@ -9721,6 +10743,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.045720573000'
@@ -9740,6 +10764,8 @@ export const grantsData = [
     tx_cnt: 168,
     log_cnt: 81,
     donation_cnt: 80,
+    matched: 960.42817,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.575075159592'
@@ -9759,6 +10785,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.048192598722'
@@ -9778,6 +10806,8 @@ export const grantsData = [
     tx_cnt: 788,
     log_cnt: 30,
     donation_cnt: 30,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.580828322018'
@@ -9797,6 +10827,8 @@ export const grantsData = [
     tx_cnt: 220,
     log_cnt: 57,
     donation_cnt: 57,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.888816588257'
@@ -9816,6 +10848,8 @@ export const grantsData = [
     tx_cnt: 183,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.192095124711'
@@ -9835,6 +10869,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9854,6 +10890,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 16,
     donation_cnt: 16,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.681257092000'
@@ -9873,6 +10911,8 @@ export const grantsData = [
     tx_cnt: 220,
     log_cnt: 71,
     donation_cnt: 69,
+    matched: 0.17490,
+    claimed: 0.17490,
     balances: [{
       asset: 'ETH',
       balance: '70.999322607364'
@@ -9892,6 +10932,8 @@ export const grantsData = [
     tx_cnt: 349,
     log_cnt: 218,
     donation_cnt: 217,
+    matched: 5003.44811,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '19.742753563639'
@@ -9911,6 +10953,8 @@ export const grantsData = [
     tx_cnt: 180,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.335644815077'
@@ -9930,6 +10974,8 @@ export const grantsData = [
     tx_cnt: 286,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -9949,6 +10995,8 @@ export const grantsData = [
     tx_cnt: 4281,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.094155394238'
@@ -9968,6 +11016,8 @@ export const grantsData = [
     tx_cnt: 108,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.248152210742'
@@ -9987,6 +11037,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10006,6 +11058,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10025,6 +11079,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009500000000'
@@ -10044,6 +11100,8 @@ export const grantsData = [
     tx_cnt: 216,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.013854149736'
@@ -10063,9 +11121,11 @@ export const grantsData = [
     tx_cnt: 151,
     log_cnt: 51,
     donation_cnt: 49,
+    matched: 880.47862,
+    claimed: 880.47862,
     balances: [{
       asset: 'ETH',
-      balance: '0.027210000000'
+      balance: '0.101785000000'
     }],
     core: 0,
   },
@@ -10082,6 +11142,8 @@ export const grantsData = [
     tx_cnt: 101,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.109402070000'
@@ -10101,6 +11163,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 8,
     donation_cnt: 7,
+    matched: 4.62074,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.136481070833'
@@ -10120,6 +11184,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001900000000'
@@ -10139,6 +11205,8 @@ export const grantsData = [
     tx_cnt: 42,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10158,6 +11226,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 12,
     donation_cnt: 10,
+    matched: 748.85743,
+    claimed: 748.85743,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10177,6 +11247,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10196,6 +11268,8 @@ export const grantsData = [
     tx_cnt: 391,
     log_cnt: 270,
     donation_cnt: 269,
+    matched: 3471.03591,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.823435363378'
@@ -10215,6 +11289,8 @@ export const grantsData = [
     tx_cnt: 558,
     log_cnt: 20,
     donation_cnt: 20,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.119580324927'
@@ -10234,6 +11310,8 @@ export const grantsData = [
     tx_cnt: 385,
     log_cnt: 175,
     donation_cnt: 173,
+    matched: 1108.15562,
+    claimed: 1108.15562,
     balances: [{
       asset: 'ETH',
       balance: '2.227275378103'
@@ -10253,9 +11331,11 @@ export const grantsData = [
     tx_cnt: 2904,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.863444733996'
+      balance: '0.358586907992'
     }],
     core: 0,
   },
@@ -10272,6 +11352,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10291,6 +11373,8 @@ export const grantsData = [
     tx_cnt: 107,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000084000000'
@@ -10310,6 +11394,8 @@ export const grantsData = [
     tx_cnt: 38,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10329,6 +11415,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10348,6 +11436,8 @@ export const grantsData = [
     tx_cnt: 42,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10367,6 +11457,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10386,6 +11478,8 @@ export const grantsData = [
     tx_cnt: 58,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.295895179047'
@@ -10405,6 +11499,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.012206051680'
@@ -10424,6 +11520,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10443,6 +11541,8 @@ export const grantsData = [
     tx_cnt: 89,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.100231904006'
@@ -10462,6 +11562,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 37,
     donation_cnt: 35,
+    matched: 2751.84254,
+    claimed: 2751.84254,
     balances: [{
       asset: 'ETH',
       balance: '0.715024249436'
@@ -10481,6 +11583,8 @@ export const grantsData = [
     tx_cnt: 216,
     log_cnt: 55,
     donation_cnt: 55,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.236114697888'
@@ -10500,6 +11604,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10519,6 +11625,8 @@ export const grantsData = [
     tx_cnt: 261,
     log_cnt: 48,
     donation_cnt: 48,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.467970745148'
@@ -10538,6 +11646,8 @@ export const grantsData = [
     tx_cnt: 71,
     log_cnt: 32,
     donation_cnt: 32,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10557,6 +11667,8 @@ export const grantsData = [
     tx_cnt: 121,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002080000000'
@@ -10576,6 +11688,8 @@ export const grantsData = [
     tx_cnt: 65,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.318478148240'
@@ -10595,6 +11709,8 @@ export const grantsData = [
     tx_cnt: 173,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.311946270289'
@@ -10614,6 +11730,8 @@ export const grantsData = [
     tx_cnt: 1116,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.087251974943'
@@ -10633,6 +11751,8 @@ export const grantsData = [
     tx_cnt: 63,
     log_cnt: 19,
     donation_cnt: 19,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10652,6 +11772,8 @@ export const grantsData = [
     tx_cnt: 6401,
     log_cnt: 27,
     donation_cnt: 25,
+    matched: 12.95867,
+    claimed: 12.95867,
     balances: [{
       asset: 'ETH',
       balance: '1.894854880522'
@@ -10671,6 +11793,8 @@ export const grantsData = [
     tx_cnt: 175,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.120819869000'
@@ -10690,6 +11814,8 @@ export const grantsData = [
     tx_cnt: 74,
     log_cnt: 23,
     donation_cnt: 22,
+    matched: 1.95767,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000002586225'
@@ -10709,6 +11835,8 @@ export const grantsData = [
     tx_cnt: 228,
     log_cnt: 109,
     donation_cnt: 107,
+    matched: 3087.61134,
+    claimed: 3087.61134,
     balances: [{
       asset: 'ETH',
       balance: '0.241515470570'
@@ -10728,6 +11856,8 @@ export const grantsData = [
     tx_cnt: 33,
     log_cnt: 11,
     donation_cnt: 9,
+    matched: 10.81670,
+    claimed: 10.81670,
     balances: [{
       asset: 'ETH',
       balance: '0.110155564603'
@@ -10747,6 +11877,8 @@ export const grantsData = [
     tx_cnt: 405,
     log_cnt: 23,
     donation_cnt: 23,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.043963868806'
@@ -10766,6 +11898,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000736368000'
@@ -10785,6 +11919,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000762570000'
@@ -10804,6 +11940,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.028500000000'
@@ -10823,6 +11961,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.095000000000'
@@ -10842,6 +11982,8 @@ export const grantsData = [
     tx_cnt: 95,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10861,6 +12003,8 @@ export const grantsData = [
     tx_cnt: 189,
     log_cnt: 186,
     donation_cnt: 185,
+    matched: 5989.60289,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '21.508211772900'
@@ -10880,6 +12024,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -10899,6 +12045,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 1.72178,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019565155918'
@@ -10918,6 +12066,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.095000000000'
@@ -10937,6 +12087,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019641572000'
@@ -10956,6 +12108,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007682280500'
@@ -10975,6 +12129,8 @@ export const grantsData = [
     tx_cnt: 108,
     log_cnt: 85,
     donation_cnt: 83,
+    matched: 453.43975,
+    claimed: 453.43975,
     balances: [{
       asset: 'ETH',
       balance: '0.222310023955'
@@ -10994,6 +12150,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11013,9 +12171,11 @@ export const grantsData = [
     tx_cnt: 272,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.038879754928'
+      balance: '0.032533558928'
     }],
     core: 0,
   },
@@ -11032,6 +12192,8 @@ export const grantsData = [
     tx_cnt: 1303,
     log_cnt: 26,
     donation_cnt: 25,
+    matched: 17.78778,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.272139560147'
@@ -11051,6 +12213,8 @@ export const grantsData = [
     tx_cnt: 15,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11070,6 +12234,8 @@ export const grantsData = [
     tx_cnt: 169,
     log_cnt: 152,
     donation_cnt: 151,
+    matched: 10865.83099,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.595511118787'
@@ -11089,6 +12255,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11108,6 +12276,8 @@ export const grantsData = [
     tx_cnt: 85,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.239616364636'
@@ -11127,6 +12297,8 @@ export const grantsData = [
     tx_cnt: 137,
     log_cnt: 19,
     donation_cnt: 17,
+    matched: 14.62719,
+    claimed: 14.62719,
     balances: [{
       asset: 'ETH',
       balance: '0.000095000000'
@@ -11146,6 +12318,8 @@ export const grantsData = [
     tx_cnt: 463,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.592160893592'
@@ -11165,9 +12339,11 @@ export const grantsData = [
     tx_cnt: 563,
     log_cnt: 71,
     donation_cnt: 70,
+    matched: 19.40398,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.083125811575'
+      balance: '0.113517912274'
     }],
     core: 0,
   },
@@ -11184,6 +12360,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11203,6 +12381,8 @@ export const grantsData = [
     tx_cnt: 731,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.010241261706'
@@ -11222,6 +12402,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11241,6 +12423,8 @@ export const grantsData = [
     tx_cnt: 668,
     log_cnt: 15,
     donation_cnt: 15,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.023983902208'
@@ -11260,6 +12444,8 @@ export const grantsData = [
     tx_cnt: 138,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '8.357896071522'
@@ -11279,6 +12465,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11298,6 +12486,8 @@ export const grantsData = [
     tx_cnt: 353,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 0.58532,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.392373898552'
@@ -11317,6 +12507,8 @@ export const grantsData = [
     tx_cnt: 48,
     log_cnt: 17,
     donation_cnt: 16,
+    matched: 75.52341,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.043950000000'
@@ -11336,6 +12528,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 5,
     donation_cnt: 3,
+    matched: 3.62290,
+    claimed: 3.62290,
     balances: [{
       asset: 'ETH',
       balance: '0.002519735000'
@@ -11355,6 +12549,8 @@ export const grantsData = [
     tx_cnt: 46,
     log_cnt: 11,
     donation_cnt: 11,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11374,6 +12570,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 6,
     donation_cnt: 5,
+    matched: 0.43069,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.016623380100'
@@ -11393,6 +12591,8 @@ export const grantsData = [
     tx_cnt: 164,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.080147104420'
@@ -11412,6 +12612,8 @@ export const grantsData = [
     tx_cnt: 195,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11431,6 +12633,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000589512629'
@@ -11450,6 +12654,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.041386850000'
@@ -11469,6 +12675,8 @@ export const grantsData = [
     tx_cnt: 16173,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 17.22545,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.449552098593'
@@ -11488,6 +12696,8 @@ export const grantsData = [
     tx_cnt: 36,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.475516927600'
@@ -11507,6 +12717,8 @@ export const grantsData = [
     tx_cnt: 829,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.894108517242'
@@ -11526,6 +12738,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.08456,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.033394269954'
@@ -11545,6 +12759,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11564,6 +12780,8 @@ export const grantsData = [
     tx_cnt: 998,
     log_cnt: 390,
     donation_cnt: 388,
+    matched: 10770.79095,
+    claimed: 10770.79095,
     balances: [{
       asset: 'ETH',
       balance: '0.506902854088'
@@ -11583,6 +12801,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11602,6 +12822,8 @@ export const grantsData = [
     tx_cnt: 426,
     log_cnt: 12,
     donation_cnt: 12,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.187407651292'
@@ -11621,6 +12843,8 @@ export const grantsData = [
     tx_cnt: 1465,
     log_cnt: 28,
     donation_cnt: 28,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.256348161262'
@@ -11640,6 +12864,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.022005529727'
@@ -11659,6 +12885,8 @@ export const grantsData = [
     tx_cnt: 72,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '19.983637176844'
@@ -11678,6 +12906,8 @@ export const grantsData = [
     tx_cnt: 304,
     log_cnt: 57,
     donation_cnt: 56,
+    matched: 3.59048,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.713269975197'
@@ -11697,6 +12927,8 @@ export const grantsData = [
     tx_cnt: 69,
     log_cnt: 55,
     donation_cnt: 54,
+    matched: 464.40229,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.083768946935'
@@ -11716,6 +12948,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11735,6 +12969,8 @@ export const grantsData = [
     tx_cnt: 27,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019953665000'
@@ -11754,6 +12990,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11773,6 +13011,8 @@ export const grantsData = [
     tx_cnt: 137,
     log_cnt: 119,
     donation_cnt: 118,
+    matched: 9.68559,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001735700000'
@@ -11792,6 +13032,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11811,6 +13053,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11830,6 +13074,8 @@ export const grantsData = [
     tx_cnt: 312,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.283171660236'
@@ -11849,6 +13095,8 @@ export const grantsData = [
     tx_cnt: 128,
     log_cnt: 11,
     donation_cnt: 10,
+    matched: 0.11597,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.225361139592'
@@ -11868,6 +13116,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.099151561000'
@@ -11887,9 +13137,11 @@ export const grantsData = [
     tx_cnt: 741,
     log_cnt: 679,
     donation_cnt: 677,
+    matched: 22948.94762,
+    claimed: 22948.94762,
     balances: [{
       asset: 'ETH',
-      balance: '1.386401549866'
+      balance: '1.387401549866'
     }],
     core: 0,
   },
@@ -11906,6 +13158,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001372880000'
@@ -11925,6 +13179,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -11944,6 +13200,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003312983800'
@@ -11963,6 +13221,8 @@ export const grantsData = [
     tx_cnt: 80,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.054835435000'
@@ -11982,6 +13242,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12001,6 +13263,8 @@ export const grantsData = [
     tx_cnt: 937,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.136924373870'
@@ -12020,6 +13284,8 @@ export const grantsData = [
     tx_cnt: 501,
     log_cnt: 181,
     donation_cnt: 181,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '96.968902735695'
@@ -12039,6 +13305,8 @@ export const grantsData = [
     tx_cnt: 43,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12058,6 +13326,8 @@ export const grantsData = [
     tx_cnt: 267,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.064275844007'
@@ -12077,6 +13347,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12096,6 +13368,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.044109728030'
@@ -12115,6 +13389,8 @@ export const grantsData = [
     tx_cnt: 4735,
     log_cnt: 108,
     donation_cnt: 108,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.730961050162'
@@ -12134,6 +13410,8 @@ export const grantsData = [
     tx_cnt: 804,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.430647199748'
@@ -12153,6 +13431,8 @@ export const grantsData = [
     tx_cnt: 50,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12172,6 +13452,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12191,6 +13473,8 @@ export const grantsData = [
     tx_cnt: 259,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '9.582280703775'
@@ -12210,6 +13494,8 @@ export const grantsData = [
     tx_cnt: 383,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.053795031937'
@@ -12229,6 +13515,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12248,6 +13536,8 @@ export const grantsData = [
     tx_cnt: 956,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '7.674590344545'
@@ -12267,6 +13557,8 @@ export const grantsData = [
     tx_cnt: 298,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000034121442'
@@ -12286,6 +13578,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 41,
     donation_cnt: 40,
+    matched: 204.78813,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.163555000000'
@@ -12305,6 +13599,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003321872000'
@@ -12324,6 +13620,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.186041114152'
@@ -12343,6 +13641,8 @@ export const grantsData = [
     tx_cnt: 930,
     log_cnt: 11,
     donation_cnt: 11,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.324423908581'
@@ -12362,6 +13662,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 6,
     donation_cnt: 5,
+    matched: 0.45745,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002850000000'
@@ -12381,6 +13683,8 @@ export const grantsData = [
     tx_cnt: 164,
     log_cnt: 41,
     donation_cnt: 40,
+    matched: 11.43624,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12400,6 +13704,8 @@ export const grantsData = [
     tx_cnt: 174,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.078381244101'
@@ -12419,6 +13725,8 @@ export const grantsData = [
     tx_cnt: 64,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.160000000000'
@@ -12438,6 +13746,8 @@ export const grantsData = [
     tx_cnt: 45,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.179005226424'
@@ -12457,6 +13767,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000010641000'
@@ -12476,6 +13788,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 12,
     donation_cnt: 11,
+    matched: 25.80257,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007183560000'
@@ -12495,6 +13809,8 @@ export const grantsData = [
     tx_cnt: 837,
     log_cnt: 88,
     donation_cnt: 86,
+    matched: 211.34117,
+    claimed: 211.34117,
     balances: [{
       asset: 'ETH',
       balance: '0.055350749852'
@@ -12514,6 +13830,8 @@ export const grantsData = [
     tx_cnt: 699,
     log_cnt: 148,
     donation_cnt: 148,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '73.511403532295'
@@ -12533,6 +13851,8 @@ export const grantsData = [
     tx_cnt: 587,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.221138605583'
@@ -12552,9 +13872,11 @@ export const grantsData = [
     tx_cnt: 356,
     log_cnt: 294,
     donation_cnt: 292,
+    matched: 5997.04462,
+    claimed: 5997.04462,
     balances: [{
       asset: 'ETH',
-      balance: '14.315073266740'
+      balance: '14.319823266740'
     }],
     core: 0,
   },
@@ -12571,6 +13893,8 @@ export const grantsData = [
     tx_cnt: 15,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.186329942100'
@@ -12590,6 +13914,8 @@ export const grantsData = [
     tx_cnt: 127,
     log_cnt: 95,
     donation_cnt: 93,
+    matched: 245.09816,
+    claimed: 245.09816,
     balances: [{
       asset: 'ETH',
       balance: '0.041768879860'
@@ -12609,6 +13935,8 @@ export const grantsData = [
     tx_cnt: 40,
     log_cnt: 23,
     donation_cnt: 23,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001396176410'
@@ -12628,6 +13956,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002035508055'
@@ -12647,6 +13977,8 @@ export const grantsData = [
     tx_cnt: 879,
     log_cnt: 411,
     donation_cnt: 409,
+    matched: 4224.32366,
+    claimed: 4224.32366,
     balances: [{
       asset: 'ETH',
       balance: '29.225119983794'
@@ -12666,6 +13998,8 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 23,
     donation_cnt: 22,
+    matched: 68.00431,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019328710000'
@@ -12685,6 +14019,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.091009343100'
@@ -12704,6 +14040,8 @@ export const grantsData = [
     tx_cnt: 31,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001759826000'
@@ -12723,6 +14061,8 @@ export const grantsData = [
     tx_cnt: 30,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12742,6 +14082,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005225000000'
@@ -12761,6 +14103,8 @@ export const grantsData = [
     tx_cnt: 488,
     log_cnt: 412,
     donation_cnt: 412,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.839527663328'
@@ -12780,6 +14124,8 @@ export const grantsData = [
     tx_cnt: 390,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.043822210000'
@@ -12799,6 +14145,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12818,6 +14166,8 @@ export const grantsData = [
     tx_cnt: 55,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.419428022771'
@@ -12837,6 +14187,8 @@ export const grantsData = [
     tx_cnt: 113,
     log_cnt: 1,
     donation_cnt: 0,
+    matched: 0.03467,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.588420237070'
@@ -12856,6 +14208,8 @@ export const grantsData = [
     tx_cnt: 28,
     log_cnt: 21,
     donation_cnt: 20,
+    matched: 88.65631,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -12875,6 +14229,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.017051476899'
@@ -12894,6 +14250,8 @@ export const grantsData = [
     tx_cnt: 207,
     log_cnt: 137,
     donation_cnt: 136,
+    matched: 1628.45170,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.691679500000'
@@ -12913,9 +14271,11 @@ export const grantsData = [
     tx_cnt: 168,
     log_cnt: 51,
     donation_cnt: 51,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '2.206664138428'
+      balance: '2.223789138428'
     }],
     core: 0,
   },
@@ -12932,6 +14292,8 @@ export const grantsData = [
     tx_cnt: 102,
     log_cnt: 7,
     donation_cnt: 6,
+    matched: 1.08461,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.196020124742'
@@ -12951,6 +14313,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000024000000'
@@ -12970,6 +14334,8 @@ export const grantsData = [
     tx_cnt: 236,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '92.230853220528'
@@ -12989,6 +14355,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.029344525829'
@@ -13008,6 +14376,8 @@ export const grantsData = [
     tx_cnt: 379,
     log_cnt: 44,
     donation_cnt: 44,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.463668206167'
@@ -13027,6 +14397,8 @@ export const grantsData = [
     tx_cnt: 92,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000063000000'
@@ -13046,9 +14418,11 @@ export const grantsData = [
     tx_cnt: 2559,
     log_cnt: 42,
     donation_cnt: 41,
+    matched: 2.91358,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '7.719945829029'
+      balance: '7.637121244029'
     }],
     core: 0,
   },
@@ -13065,6 +14439,8 @@ export const grantsData = [
     tx_cnt: 525,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.05395,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.330319073392'
@@ -13084,6 +14460,8 @@ export const grantsData = [
     tx_cnt: 37,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.026499141200'
@@ -13103,6 +14481,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009055205129'
@@ -13122,6 +14502,8 @@ export const grantsData = [
     tx_cnt: 253,
     log_cnt: 125,
     donation_cnt: 124,
+    matched: 20.67427,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '7.681929620084'
@@ -13141,6 +14523,8 @@ export const grantsData = [
     tx_cnt: 540,
     log_cnt: 49,
     donation_cnt: 49,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.834725575872'
@@ -13160,9 +14544,11 @@ export const grantsData = [
     tx_cnt: 701,
     log_cnt: 408,
     donation_cnt: 406,
+    matched: 7715.43568,
+    claimed: 7715.43568,
     balances: [{
       asset: 'ETH',
-      balance: '2.681561548408'
+      balance: '2.684411548408'
     }],
     core: 0,
   },
@@ -13179,6 +14565,8 @@ export const grantsData = [
     tx_cnt: 123,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13198,6 +14586,8 @@ export const grantsData = [
     tx_cnt: 132,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.832463271207'
@@ -13217,6 +14607,8 @@ export const grantsData = [
     tx_cnt: 258,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 2.36270,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.494109007689'
@@ -13236,6 +14628,8 @@ export const grantsData = [
     tx_cnt: 34,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.656711614381'
@@ -13255,6 +14649,8 @@ export const grantsData = [
     tx_cnt: 37,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.611338887861'
@@ -13274,6 +14670,8 @@ export const grantsData = [
     tx_cnt: 81,
     log_cnt: 68,
     donation_cnt: 67,
+    matched: 322.26565,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.684763652537'
@@ -13293,6 +14691,8 @@ export const grantsData = [
     tx_cnt: 82,
     log_cnt: 52,
     donation_cnt: 52,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001758194000'
@@ -13312,6 +14712,8 @@ export const grantsData = [
     tx_cnt: 356,
     log_cnt: 30,
     donation_cnt: 30,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.731191325546'
@@ -13331,6 +14733,8 @@ export const grantsData = [
     tx_cnt: 96,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.098767473830'
@@ -13350,6 +14754,8 @@ export const grantsData = [
     tx_cnt: 123,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.094637927093'
@@ -13369,6 +14775,8 @@ export const grantsData = [
     tx_cnt: 15,
     log_cnt: 6,
     donation_cnt: 4,
+    matched: 0.03579,
+    claimed: 0.03579,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13388,6 +14796,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.03215,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13407,6 +14817,8 @@ export const grantsData = [
     tx_cnt: 157,
     log_cnt: 42,
     donation_cnt: 41,
+    matched: 1371.03721,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.814189260000'
@@ -13426,6 +14838,8 @@ export const grantsData = [
     tx_cnt: 27,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000824112000'
@@ -13445,6 +14859,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.05385,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13464,6 +14880,8 @@ export const grantsData = [
     tx_cnt: 139,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '18.043791552892'
@@ -13483,6 +14901,8 @@ export const grantsData = [
     tx_cnt: 57,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.401803313238'
@@ -13502,6 +14922,8 @@ export const grantsData = [
     tx_cnt: 176,
     log_cnt: 14,
     donation_cnt: 14,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.018238230831'
@@ -13521,6 +14943,8 @@ export const grantsData = [
     tx_cnt: 220,
     log_cnt: 24,
     donation_cnt: 23,
+    matched: 79.77741,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.451153538527'
@@ -13540,6 +14964,8 @@ export const grantsData = [
     tx_cnt: 49,
     log_cnt: 28,
     donation_cnt: 27,
+    matched: 9.99178,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.063245000000'
@@ -13559,6 +14985,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004859183000'
@@ -13578,6 +15006,8 @@ export const grantsData = [
     tx_cnt: 45,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.214149753333'
@@ -13597,6 +15027,8 @@ export const grantsData = [
     tx_cnt: 154,
     log_cnt: 10,
     donation_cnt: 10,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003364330053'
@@ -13616,6 +15048,8 @@ export const grantsData = [
     tx_cnt: 1499,
     log_cnt: 41,
     donation_cnt: 39,
+    matched: 6.34980,
+    claimed: 6.34980,
     balances: [{
       asset: 'ETH',
       balance: '0.075987695255'
@@ -13635,9 +15069,11 @@ export const grantsData = [
     tx_cnt: 934,
     log_cnt: 161,
     donation_cnt: 159,
+    matched: 3323.62550,
+    claimed: 3323.62550,
     balances: [{
       asset: 'ETH',
-      balance: '7.558540030377'
+      balance: '7.560440030377'
     }],
     core: 0,
   },
@@ -13654,6 +15090,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13673,6 +15111,8 @@ export const grantsData = [
     tx_cnt: 1363,
     log_cnt: 389,
     donation_cnt: 387,
+    matched: 6634.29368,
+    claimed: 6634.29368,
     balances: [{
       asset: 'ETH',
       balance: '732.442144834670'
@@ -13692,6 +15132,8 @@ export const grantsData = [
     tx_cnt: 843,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.064186178802'
@@ -13711,6 +15153,8 @@ export const grantsData = [
     tx_cnt: 387,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13730,6 +15174,8 @@ export const grantsData = [
     tx_cnt: 237,
     log_cnt: 107,
     donation_cnt: 106,
+    matched: 355.89303,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.147180113818'
@@ -13749,6 +15195,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 37,
     donation_cnt: 37,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.015945950000'
@@ -13768,6 +15216,8 @@ export const grantsData = [
     tx_cnt: 1586,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '16.264661482183'
@@ -13787,6 +15237,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006363563300'
@@ -13806,6 +15258,8 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 7,
     donation_cnt: 6,
+    matched: 0.08973,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001450982105'
@@ -13825,9 +15279,11 @@ export const grantsData = [
     tx_cnt: 275,
     log_cnt: 235,
     donation_cnt: 233,
+    matched: 9735.65934,
+    claimed: 9735.65934,
     balances: [{
       asset: 'ETH',
-      balance: '5.304325576900'
+      balance: '5.408015576900'
     }],
     core: 0,
   },
@@ -13844,6 +15300,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.04769,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13863,6 +15321,8 @@ export const grantsData = [
     tx_cnt: 79,
     log_cnt: 21,
     donation_cnt: 19,
+    matched: 457.17348,
+    claimed: 457.17348,
     balances: [{
       asset: 'ETH',
       balance: '0.019443608389'
@@ -13882,6 +15342,8 @@ export const grantsData = [
     tx_cnt: 846,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.414862131678'
@@ -13901,6 +15363,8 @@ export const grantsData = [
     tx_cnt: 32,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13920,6 +15384,8 @@ export const grantsData = [
     tx_cnt: 41,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -13939,6 +15405,8 @@ export const grantsData = [
     tx_cnt: 192,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.008459771656'
@@ -13958,6 +15426,8 @@ export const grantsData = [
     tx_cnt: 50,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.462007343644'
@@ -13977,6 +15447,8 @@ export const grantsData = [
     tx_cnt: 27,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.085193947343'
@@ -13996,6 +15468,8 @@ export const grantsData = [
     tx_cnt: 194,
     log_cnt: 12,
     donation_cnt: 12,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.230792234792'
@@ -14015,6 +15489,8 @@ export const grantsData = [
     tx_cnt: 850,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.095374281272'
@@ -14034,6 +15510,8 @@ export const grantsData = [
     tx_cnt: 608,
     log_cnt: 123,
     donation_cnt: 121,
+    matched: 408.80099,
+    claimed: 408.80099,
     balances: [{
       asset: 'ETH',
       balance: '0.354646884268'
@@ -14053,6 +15531,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019450000000'
@@ -14072,6 +15552,8 @@ export const grantsData = [
     tx_cnt: 62,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.557000000000'
@@ -14091,6 +15573,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14110,6 +15594,8 @@ export const grantsData = [
     tx_cnt: 89,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005328760827'
@@ -14129,6 +15615,8 @@ export const grantsData = [
     tx_cnt: 30,
     log_cnt: 19,
     donation_cnt: 17,
+    matched: 907.44334,
+    claimed: 907.44334,
     balances: [{
       asset: 'ETH',
       balance: '0.005747500000'
@@ -14148,6 +15636,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14167,6 +15657,8 @@ export const grantsData = [
     tx_cnt: 104,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.067793306081'
@@ -14186,6 +15678,8 @@ export const grantsData = [
     tx_cnt: 456,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.433619467429'
@@ -14205,6 +15699,8 @@ export const grantsData = [
     tx_cnt: 1287,
     log_cnt: 407,
     donation_cnt: 405,
+    matched: 2974.40792,
+    claimed: 2974.40792,
     balances: [{
       asset: 'ETH',
       balance: '2.331836875751'
@@ -14224,6 +15720,8 @@ export const grantsData = [
     tx_cnt: 1285,
     log_cnt: 23,
     donation_cnt: 23,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.185478193820'
@@ -14243,6 +15741,8 @@ export const grantsData = [
     tx_cnt: 485,
     log_cnt: 10,
     donation_cnt: 10,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14262,6 +15762,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14281,6 +15783,8 @@ export const grantsData = [
     tx_cnt: 755,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14300,6 +15804,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 0.21865,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.023750000000'
@@ -14319,6 +15825,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.027883997835'
@@ -14338,6 +15846,8 @@ export const grantsData = [
     tx_cnt: 104,
     log_cnt: 95,
     donation_cnt: 93,
+    matched: 764.08594,
+    claimed: 764.08594,
     balances: [{
       asset: 'ETH',
       balance: '5.303172072518'
@@ -14357,6 +15867,8 @@ export const grantsData = [
     tx_cnt: 558,
     log_cnt: 241,
     donation_cnt: 239,
+    matched: 4430.99595,
+    claimed: 4430.99595,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14376,6 +15888,8 @@ export const grantsData = [
     tx_cnt: 351,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '10.056382150769'
@@ -14395,6 +15909,8 @@ export const grantsData = [
     tx_cnt: 77,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.128317192808'
@@ -14414,6 +15930,8 @@ export const grantsData = [
     tx_cnt: 33,
     log_cnt: 1,
     donation_cnt: 0,
+    matched: 0.11903,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14433,9 +15951,11 @@ export const grantsData = [
     tx_cnt: 267,
     log_cnt: 222,
     donation_cnt: 220,
+    matched: 4496.52121,
+    claimed: 4496.52121,
     balances: [{
       asset: 'ETH',
-      balance: '3.000964083412'
+      balance: '3.001505583412'
     }],
     core: 0,
   },
@@ -14452,6 +15972,8 @@ export const grantsData = [
     tx_cnt: 60,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14471,6 +15993,8 @@ export const grantsData = [
     tx_cnt: 32,
     log_cnt: 23,
     donation_cnt: 21,
+    matched: 983.90532,
+    claimed: 983.90532,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14490,6 +16014,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14509,6 +16035,8 @@ export const grantsData = [
     tx_cnt: 58,
     log_cnt: 24,
     donation_cnt: 24,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14528,6 +16056,8 @@ export const grantsData = [
     tx_cnt: 206,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.081766170549'
@@ -14547,6 +16077,8 @@ export const grantsData = [
     tx_cnt: 678,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.960675514924'
@@ -14566,6 +16098,8 @@ export const grantsData = [
     tx_cnt: 1439,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.703373335406'
@@ -14585,6 +16119,8 @@ export const grantsData = [
     tx_cnt: 264,
     log_cnt: 52,
     donation_cnt: 52,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.034208228000'
@@ -14604,6 +16140,8 @@ export const grantsData = [
     tx_cnt: 34,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000732167700'
@@ -14623,6 +16161,8 @@ export const grantsData = [
     tx_cnt: 379,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 0.84075,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003780864544'
@@ -14642,6 +16182,8 @@ export const grantsData = [
     tx_cnt: 124,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.028591927393'
@@ -14661,6 +16203,8 @@ export const grantsData = [
     tx_cnt: 138,
     log_cnt: 114,
     donation_cnt: 114,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.998530000094'
@@ -14680,6 +16224,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.176413712000'
@@ -14699,6 +16245,8 @@ export const grantsData = [
     tx_cnt: 962,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.060412504766'
@@ -14718,6 +16266,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14737,6 +16287,8 @@ export const grantsData = [
     tx_cnt: 23,
     log_cnt: 7,
     donation_cnt: 5,
+    matched: 2.69447,
+    claimed: 2.69447,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14756,6 +16308,8 @@ export const grantsData = [
     tx_cnt: 57,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14775,6 +16329,8 @@ export const grantsData = [
     tx_cnt: 1801,
     log_cnt: 26,
     donation_cnt: 26,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.118487921955'
@@ -14794,6 +16350,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.28495,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004811425000'
@@ -14813,6 +16371,8 @@ export const grantsData = [
     tx_cnt: 140,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.121828470200'
@@ -14832,6 +16392,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 2.09320,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14851,6 +16413,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.805204813957'
@@ -14870,6 +16434,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.031508179570'
@@ -14889,6 +16455,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -14908,6 +16476,8 @@ export const grantsData = [
     tx_cnt: 60,
     log_cnt: 55,
     donation_cnt: 54,
+    matched: 671.81966,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.261133941098'
@@ -14927,6 +16497,8 @@ export const grantsData = [
     tx_cnt: 862,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.015516964337'
@@ -14946,6 +16518,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.101832952000'
@@ -14965,6 +16539,8 @@ export const grantsData = [
     tx_cnt: 78,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001547288180'
@@ -14984,6 +16560,8 @@ export const grantsData = [
     tx_cnt: 567,
     log_cnt: 156,
     donation_cnt: 154,
+    matched: 115.24650,
+    claimed: 115.24650,
     balances: [{
       asset: 'ETH',
       balance: '2.061068064486'
@@ -15003,6 +16581,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.032931450434'
@@ -15022,6 +16602,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 0.30442,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15041,6 +16623,8 @@ export const grantsData = [
     tx_cnt: 1266,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.624165085581'
@@ -15060,6 +16644,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15079,6 +16665,8 @@ export const grantsData = [
     tx_cnt: 95,
     log_cnt: 29,
     donation_cnt: 29,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.161614668551'
@@ -15098,6 +16686,8 @@ export const grantsData = [
     tx_cnt: 195,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.979877763034'
@@ -15117,6 +16707,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15136,6 +16728,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 15,
     donation_cnt: 15,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.068473400000'
@@ -15155,6 +16749,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15174,6 +16770,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.010018309000'
@@ -15193,9 +16791,11 @@ export const grantsData = [
     tx_cnt: 174,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '5.090466170308'
+      balance: '4.973657330308'
     }],
     core: 0,
   },
@@ -15212,6 +16812,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005344739000'
@@ -15231,6 +16833,8 @@ export const grantsData = [
     tx_cnt: 308,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15250,6 +16854,8 @@ export const grantsData = [
     tx_cnt: 28,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001185000000'
@@ -15269,6 +16875,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15288,6 +16896,8 @@ export const grantsData = [
     tx_cnt: 123,
     log_cnt: 70,
     donation_cnt: 68,
+    matched: 2719.61045,
+    claimed: 2719.61045,
     balances: [{
       asset: 'ETH',
       balance: '0.464823382000'
@@ -15307,6 +16917,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15326,6 +16938,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15345,6 +16959,8 @@ export const grantsData = [
     tx_cnt: 188,
     log_cnt: 55,
     donation_cnt: 55,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.238554549373'
@@ -15364,6 +16980,8 @@ export const grantsData = [
     tx_cnt: 516,
     log_cnt: 14,
     donation_cnt: 14,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15383,6 +17001,8 @@ export const grantsData = [
     tx_cnt: 494,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.075002248805'
@@ -15402,6 +17022,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.012504555000'
@@ -15421,6 +17043,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15440,6 +17064,8 @@ export const grantsData = [
     tx_cnt: 303,
     log_cnt: 28,
     donation_cnt: 27,
+    matched: 114.83942,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '47.904423519254'
@@ -15459,6 +17085,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15478,6 +17106,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15497,6 +17127,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 9,
     donation_cnt: 7,
+    matched: 11.93082,
+    claimed: 11.93082,
     balances: [{
       asset: 'ETH',
       balance: '0.104000000000'
@@ -15516,6 +17148,8 @@ export const grantsData = [
     tx_cnt: 270,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.413580619074'
@@ -15535,6 +17169,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15554,6 +17190,8 @@ export const grantsData = [
     tx_cnt: 66,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '12.248676607967'
@@ -15573,6 +17211,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15592,6 +17232,8 @@ export const grantsData = [
     tx_cnt: 87,
     log_cnt: 47,
     donation_cnt: 46,
+    matched: 924.68071,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15611,6 +17253,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.021170147204'
@@ -15630,6 +17274,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15649,6 +17295,8 @@ export const grantsData = [
     tx_cnt: 1037,
     log_cnt: 38,
     donation_cnt: 38,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.338275505042'
@@ -15668,6 +17316,8 @@ export const grantsData = [
     tx_cnt: 51,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15687,6 +17337,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 54,
     donation_cnt: 52,
+    matched: 1772.70108,
+    claimed: 1772.70108,
     balances: [{
       asset: 'ETH',
       balance: '0.092964500000'
@@ -15706,6 +17358,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 5,
     donation_cnt: 4,
+    matched: 0.87601,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.079000000000'
@@ -15725,6 +17379,8 @@ export const grantsData = [
     tx_cnt: 147,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -15744,6 +17400,8 @@ export const grantsData = [
     tx_cnt: 10486,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.212394835956'
@@ -15763,6 +17421,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.211031660000'
@@ -15782,6 +17442,8 @@ export const grantsData = [
     tx_cnt: 59,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000542427000'
@@ -15801,6 +17463,8 @@ export const grantsData = [
     tx_cnt: 156,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.259052163444'
@@ -15820,6 +17484,8 @@ export const grantsData = [
     tx_cnt: 970,
     log_cnt: 78,
     donation_cnt: 77,
+    matched: 3.22596,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.373985733485'
@@ -15839,6 +17505,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '9.725918414670'
@@ -15858,6 +17526,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 20,
     donation_cnt: 19,
+    matched: 36.86457,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.358500000000'
@@ -15877,6 +17547,8 @@ export const grantsData = [
     tx_cnt: 5027,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.675657664601'
@@ -15896,6 +17568,8 @@ export const grantsData = [
     tx_cnt: 497,
     log_cnt: 80,
     donation_cnt: 79,
+    matched: 0.32148,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005787254000'
@@ -15915,6 +17589,8 @@ export const grantsData = [
     tx_cnt: 797,
     log_cnt: 50,
     donation_cnt: 50,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '9.147960484453'
@@ -15934,9 +17610,11 @@ export const grantsData = [
     tx_cnt: 146,
     log_cnt: 39,
     donation_cnt: 37,
+    matched: 126.23705,
+    claimed: 126.23705,
     balances: [{
       asset: 'ETH',
-      balance: '0.076034160463'
+      balance: '0.078409160463'
     }],
     core: 0,
   },
@@ -15953,6 +17631,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 7,
     donation_cnt: 6,
+    matched: 13.90435,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.105700000000'
@@ -15972,6 +17652,8 @@ export const grantsData = [
     tx_cnt: 383,
     log_cnt: 116,
     donation_cnt: 116,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.245927471484'
@@ -15991,6 +17673,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16010,6 +17694,8 @@ export const grantsData = [
     tx_cnt: 144,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007926848002'
@@ -16029,6 +17715,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 0.98857,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.089246325647'
@@ -16048,6 +17736,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004000000000'
@@ -16067,9 +17757,11 @@ export const grantsData = [
     tx_cnt: 1176,
     log_cnt: 14,
     donation_cnt: 13,
+    matched: 4.12843,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '9.112640257002'
+      balance: '2.141968418813'
     }],
     core: 0,
   },
@@ -16086,6 +17778,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000180000000'
@@ -16105,6 +17799,8 @@ export const grantsData = [
     tx_cnt: 111,
     log_cnt: 17,
     donation_cnt: 16,
+    matched: 87.71952,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.458674050719'
@@ -16124,6 +17820,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000283144000'
@@ -16143,6 +17841,8 @@ export const grantsData = [
     tx_cnt: 92,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002687334759'
@@ -16162,6 +17862,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.68114,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.957553500000'
@@ -16181,6 +17883,8 @@ export const grantsData = [
     tx_cnt: 148,
     log_cnt: 12,
     donation_cnt: 12,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16200,6 +17904,8 @@ export const grantsData = [
     tx_cnt: 101,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.846895726075'
@@ -16219,6 +17925,8 @@ export const grantsData = [
     tx_cnt: 189,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16238,6 +17946,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001502737647'
@@ -16257,6 +17967,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16276,6 +17988,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16295,6 +18009,8 @@ export const grantsData = [
     tx_cnt: 136,
     log_cnt: 80,
     donation_cnt: 78,
+    matched: 676.78714,
+    claimed: 676.78714,
     balances: [{
       asset: 'ETH',
       balance: '0.396166592929'
@@ -16314,6 +18030,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16333,6 +18051,8 @@ export const grantsData = [
     tx_cnt: 74,
     log_cnt: 75,
     donation_cnt: 74,
+    matched: 3.12280,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.204841109630'
@@ -16352,6 +18072,8 @@ export const grantsData = [
     tx_cnt: 50,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16371,6 +18093,8 @@ export const grantsData = [
     tx_cnt: 147,
     log_cnt: 23,
     donation_cnt: 22,
+    matched: 623.46818,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.155429046000'
@@ -16390,6 +18114,8 @@ export const grantsData = [
     tx_cnt: 105,
     log_cnt: 65,
     donation_cnt: 63,
+    matched: 613.76476,
+    claimed: 613.76476,
     balances: [{
       asset: 'ETH',
       balance: '0.500000000000'
@@ -16409,6 +18135,8 @@ export const grantsData = [
     tx_cnt: 3134,
     log_cnt: 327,
     donation_cnt: 327,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.127971038670'
@@ -16428,6 +18156,8 @@ export const grantsData = [
     tx_cnt: 1063,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.080462013026'
@@ -16447,6 +18177,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16466,9 +18198,11 @@ export const grantsData = [
     tx_cnt: 701,
     log_cnt: 307,
     donation_cnt: 305,
+    matched: 4994.94549,
+    claimed: 4994.94549,
     balances: [{
       asset: 'ETH',
-      balance: '38.674684783672'
+      balance: '38.676489783672'
     }],
     core: 0,
   },
@@ -16485,6 +18219,8 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 8,
     donation_cnt: 7,
+    matched: 3.08201,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007600000000'
@@ -16504,6 +18240,8 @@ export const grantsData = [
     tx_cnt: 31,
     log_cnt: 10,
     donation_cnt: 10,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.122394464350'
@@ -16523,6 +18261,8 @@ export const grantsData = [
     tx_cnt: 163,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16542,6 +18282,8 @@ export const grantsData = [
     tx_cnt: 68,
     log_cnt: 24,
     donation_cnt: 23,
+    matched: 1.83132,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '7.345310629329'
@@ -16561,6 +18303,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.193368132625'
@@ -16580,6 +18324,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.890907756101'
@@ -16599,6 +18345,8 @@ export const grantsData = [
     tx_cnt: 137,
     log_cnt: 114,
     donation_cnt: 113,
+    matched: 1292.11642,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.250814654082'
@@ -16618,6 +18366,8 @@ export const grantsData = [
     tx_cnt: 292,
     log_cnt: 54,
     donation_cnt: 54,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.012782262153'
@@ -16637,6 +18387,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002850000000'
@@ -16656,6 +18408,8 @@ export const grantsData = [
     tx_cnt: 349,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.801934622458'
@@ -16675,6 +18429,8 @@ export const grantsData = [
     tx_cnt: 148,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005637773901'
@@ -16694,6 +18450,8 @@ export const grantsData = [
     tx_cnt: 522,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004270346829'
@@ -16713,6 +18471,8 @@ export const grantsData = [
     tx_cnt: 66,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.009546369800'
@@ -16732,6 +18492,8 @@ export const grantsData = [
     tx_cnt: 489,
     log_cnt: 10,
     donation_cnt: 10,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16751,6 +18513,8 @@ export const grantsData = [
     tx_cnt: 431,
     log_cnt: 182,
     donation_cnt: 180,
+    matched: 1159.63643,
+    claimed: 1159.63643,
     balances: [{
       asset: 'ETH',
       balance: '0.950521684837'
@@ -16770,6 +18534,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16789,6 +18555,8 @@ export const grantsData = [
     tx_cnt: 73,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16808,6 +18576,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004750000000'
@@ -16827,6 +18597,8 @@ export const grantsData = [
     tx_cnt: 119,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.520429737334'
@@ -16846,6 +18618,8 @@ export const grantsData = [
     tx_cnt: 74,
     log_cnt: 56,
     donation_cnt: 54,
+    matched: 66.29431,
+    claimed: 66.29431,
     balances: [{
       asset: 'ETH',
       balance: '0.934845862402'
@@ -16865,6 +18639,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.010000000000'
@@ -16884,6 +18660,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16903,6 +18681,8 @@ export const grantsData = [
     tx_cnt: 725,
     log_cnt: 32,
     donation_cnt: 32,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.015495000000'
@@ -16922,6 +18702,8 @@ export const grantsData = [
     tx_cnt: 132,
     log_cnt: 8,
     donation_cnt: 6,
+    matched: 8.48131,
+    claimed: 8.48131,
     balances: [{
       asset: 'ETH',
       balance: '0.501174402220'
@@ -16941,6 +18723,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -16960,6 +18744,8 @@ export const grantsData = [
     tx_cnt: 1585,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002405672000'
@@ -16979,6 +18765,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.007895706566'
@@ -16998,6 +18786,8 @@ export const grantsData = [
     tx_cnt: 122,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005398511943'
@@ -17017,6 +18807,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.07174,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17036,6 +18828,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.015211370000'
@@ -17055,6 +18849,8 @@ export const grantsData = [
     tx_cnt: 562,
     log_cnt: 489,
     donation_cnt: 489,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '86.474187830803'
@@ -17074,6 +18870,8 @@ export const grantsData = [
     tx_cnt: 31,
     log_cnt: 16,
     donation_cnt: 16,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17093,6 +18891,8 @@ export const grantsData = [
     tx_cnt: 65,
     log_cnt: 16,
     donation_cnt: 16,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17112,6 +18912,8 @@ export const grantsData = [
     tx_cnt: 209,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.358697573176'
@@ -17131,6 +18933,8 @@ export const grantsData = [
     tx_cnt: 156,
     log_cnt: 28,
     donation_cnt: 26,
+    matched: 86.12879,
+    claimed: 86.12879,
     balances: [{
       asset: 'ETH',
       balance: '0.341649333300'
@@ -17150,6 +18954,8 @@ export const grantsData = [
     tx_cnt: 209,
     log_cnt: 33,
     donation_cnt: 32,
+    matched: 101.86781,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.033443805000'
@@ -17169,6 +18975,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17188,6 +18996,8 @@ export const grantsData = [
     tx_cnt: 405,
     log_cnt: 33,
     donation_cnt: 33,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.344134654985'
@@ -17207,6 +19017,8 @@ export const grantsData = [
     tx_cnt: 534,
     log_cnt: 11,
     donation_cnt: 11,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.397744232822'
@@ -17226,6 +19038,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17245,6 +19059,8 @@ export const grantsData = [
     tx_cnt: 202,
     log_cnt: 19,
     donation_cnt: 19,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.505577731502'
@@ -17264,6 +19080,8 @@ export const grantsData = [
     tx_cnt: 57,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001332829500'
@@ -17283,6 +19101,8 @@ export const grantsData = [
     tx_cnt: 11,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.69325,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17302,6 +19122,8 @@ export const grantsData = [
     tx_cnt: 1753,
     log_cnt: 17,
     donation_cnt: 17,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.806106021447'
@@ -17321,6 +19143,8 @@ export const grantsData = [
     tx_cnt: 53,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.024922962448'
@@ -17340,6 +19164,8 @@ export const grantsData = [
     tx_cnt: 1564,
     log_cnt: 70,
     donation_cnt: 67,
+    matched: 32.27402,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.347503650517'
@@ -17359,6 +19185,8 @@ export const grantsData = [
     tx_cnt: 3351,
     log_cnt: 12,
     donation_cnt: 12,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.011088993907'
@@ -17378,6 +19206,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005071594740'
@@ -17397,6 +19227,8 @@ export const grantsData = [
     tx_cnt: 125,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.562672940791'
@@ -17416,6 +19248,8 @@ export const grantsData = [
     tx_cnt: 1012,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17435,6 +19269,8 @@ export const grantsData = [
     tx_cnt: 550,
     log_cnt: 451,
     donation_cnt: 451,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.026186610591'
@@ -17454,6 +19290,8 @@ export const grantsData = [
     tx_cnt: 96,
     log_cnt: 26,
     donation_cnt: 25,
+    matched: 3.25612,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.061242387174'
@@ -17473,6 +19311,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17492,6 +19332,8 @@ export const grantsData = [
     tx_cnt: 60,
     log_cnt: 25,
     donation_cnt: 23,
+    matched: 144.35165,
+    claimed: 144.35165,
     balances: [{
       asset: 'ETH',
       balance: '0.262198376347'
@@ -17511,6 +19353,8 @@ export const grantsData = [
     tx_cnt: 1092,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '9.167943515184'
@@ -17530,6 +19374,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.27875,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17549,6 +19395,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.077000000000'
@@ -17568,6 +19416,8 @@ export const grantsData = [
     tx_cnt: 418,
     log_cnt: 14,
     donation_cnt: 14,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.167922548132'
@@ -17587,6 +19437,8 @@ export const grantsData = [
     tx_cnt: 40,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006000000000'
@@ -17606,6 +19458,8 @@ export const grantsData = [
     tx_cnt: 234,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17625,6 +19479,8 @@ export const grantsData = [
     tx_cnt: 612,
     log_cnt: 264,
     donation_cnt: 264,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '42.513969579000'
@@ -17644,6 +19500,8 @@ export const grantsData = [
     tx_cnt: 315,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17663,6 +19521,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17682,9 +19542,11 @@ export const grantsData = [
     tx_cnt: 742,
     log_cnt: 280,
     donation_cnt: 279,
+    matched: 9771.80262,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.291973179049'
+      balance: '0.299098179049'
     }],
     core: 0,
   },
@@ -17701,6 +19563,8 @@ export const grantsData = [
     tx_cnt: 54,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.118664322924'
@@ -17720,6 +19584,8 @@ export const grantsData = [
     tx_cnt: 144,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '15.804075707362'
@@ -17739,6 +19605,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17758,6 +19626,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 0.17974,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.129433845260'
@@ -17777,6 +19647,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17796,6 +19668,8 @@ export const grantsData = [
     tx_cnt: 818,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002933591841'
@@ -17815,6 +19689,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17834,6 +19710,8 @@ export const grantsData = [
     tx_cnt: 80,
     log_cnt: 29,
     donation_cnt: 28,
+    matched: 2348.75457,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '45.888805260725'
@@ -17853,6 +19731,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17872,6 +19752,8 @@ export const grantsData = [
     tx_cnt: 23,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.034642404000'
@@ -17891,6 +19773,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 3.58053,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -17910,6 +19794,8 @@ export const grantsData = [
     tx_cnt: 814,
     log_cnt: 315,
     donation_cnt: 313,
+    matched: 5956.48532,
+    claimed: 5956.48532,
     balances: [{
       asset: 'ETH',
       balance: '0.603691577908'
@@ -17929,6 +19815,8 @@ export const grantsData = [
     tx_cnt: 139,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004996141135'
@@ -17948,6 +19836,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.013300000000'
@@ -17967,6 +19857,8 @@ export const grantsData = [
     tx_cnt: 173,
     log_cnt: 105,
     donation_cnt: 104,
+    matched: 1812.13275,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.393294749749'
@@ -17986,6 +19878,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 42,
     donation_cnt: 40,
+    matched: 221.07120,
+    claimed: 221.07120,
     balances: [{
       asset: 'ETH',
       balance: '1.287398365922'
@@ -18005,6 +19899,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.886436393258'
@@ -18024,6 +19920,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 0.51433,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18043,6 +19941,8 @@ export const grantsData = [
     tx_cnt: 47,
     log_cnt: 7,
     donation_cnt: 6,
+    matched: 8.77639,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.974813467412'
@@ -18062,6 +19962,8 @@ export const grantsData = [
     tx_cnt: 48,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.532084285948'
@@ -18081,6 +19983,8 @@ export const grantsData = [
     tx_cnt: 30,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18100,6 +20004,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.086787795000'
@@ -18119,6 +20025,8 @@ export const grantsData = [
     tx_cnt: 137,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18138,6 +20046,8 @@ export const grantsData = [
     tx_cnt: 164,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.374967091692'
@@ -18157,6 +20067,8 @@ export const grantsData = [
     tx_cnt: 39,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18176,6 +20088,8 @@ export const grantsData = [
     tx_cnt: 731,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18195,6 +20109,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 20,
     donation_cnt: 20,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.085884000000'
@@ -18214,6 +20130,8 @@ export const grantsData = [
     tx_cnt: 303,
     log_cnt: 16,
     donation_cnt: 15,
+    matched: 24.30285,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.054819576172'
@@ -18233,6 +20151,8 @@ export const grantsData = [
     tx_cnt: 49,
     log_cnt: 58,
     donation_cnt: 56,
+    matched: 369.76526,
+    claimed: 369.76526,
     balances: [{
       asset: 'ETH',
       balance: '1.420826667771'
@@ -18252,6 +20172,8 @@ export const grantsData = [
     tx_cnt: 61,
     log_cnt: 28,
     donation_cnt: 27,
+    matched: 10.57747,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.056614771000'
@@ -18271,6 +20193,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18290,6 +20214,8 @@ export const grantsData = [
     tx_cnt: 216,
     log_cnt: 58,
     donation_cnt: 58,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.023034598835'
@@ -18309,6 +20235,8 @@ export const grantsData = [
     tx_cnt: 62,
     log_cnt: 52,
     donation_cnt: 50,
+    matched: 250.84139,
+    claimed: 250.84139,
     balances: [{
       asset: 'ETH',
       balance: '0.363760726679'
@@ -18328,6 +20256,8 @@ export const grantsData = [
     tx_cnt: 568,
     log_cnt: 161,
     donation_cnt: 159,
+    matched: 1672.88044,
+    claimed: 1672.88044,
     balances: [{
       asset: 'ETH',
       balance: '1.823990063874'
@@ -18347,6 +20277,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.11214,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18366,6 +20298,8 @@ export const grantsData = [
     tx_cnt: 171,
     log_cnt: 13,
     donation_cnt: 12,
+    matched: 40.93082,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.047602317572'
@@ -18385,6 +20319,8 @@ export const grantsData = [
     tx_cnt: 144,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.038293454993'
@@ -18404,6 +20340,8 @@ export const grantsData = [
     tx_cnt: 16,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18423,6 +20361,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004568517000'
@@ -18442,6 +20382,8 @@ export const grantsData = [
     tx_cnt: 86,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.055698274127'
@@ -18461,6 +20403,8 @@ export const grantsData = [
     tx_cnt: 167,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.103450563553'
@@ -18480,6 +20424,8 @@ export const grantsData = [
     tx_cnt: 167,
     log_cnt: 129,
     donation_cnt: 127,
+    matched: 4162.21914,
+    claimed: 4162.21914,
     balances: [{
       asset: 'ETH',
       balance: '45.048928091925'
@@ -18499,6 +20445,8 @@ export const grantsData = [
     tx_cnt: 335,
     log_cnt: 253,
     donation_cnt: 251,
+    matched: 4935.97451,
+    claimed: 4935.97451,
     balances: [{
       asset: 'ETH',
       balance: '10.147418120856'
@@ -18518,6 +20466,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.074108052000'
@@ -18537,6 +20487,8 @@ export const grantsData = [
     tx_cnt: 1028,
     log_cnt: 44,
     donation_cnt: 42,
+    matched: 16.24882,
+    claimed: 16.24882,
     balances: [{
       asset: 'ETH',
       balance: '0.053152717053'
@@ -18556,6 +20508,8 @@ export const grantsData = [
     tx_cnt: 1269,
     log_cnt: 146,
     donation_cnt: 144,
+    matched: 175.31621,
+    claimed: 175.31621,
     balances: [{
       asset: 'ETH',
       balance: '2.128052190077'
@@ -18575,6 +20529,8 @@ export const grantsData = [
     tx_cnt: 240,
     log_cnt: 61,
     donation_cnt: 61,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.180500000000'
@@ -18594,9 +20550,11 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 37,
     donation_cnt: 36,
+    matched: 30.45901,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '21.229486748051'
+      balance: '21.237466748051'
     }],
     core: 0,
   },
@@ -18613,6 +20571,8 @@ export const grantsData = [
     tx_cnt: 34,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18632,6 +20592,8 @@ export const grantsData = [
     tx_cnt: 326,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.178914347228'
@@ -18651,6 +20613,8 @@ export const grantsData = [
     tx_cnt: 971,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.196906783458'
@@ -18670,6 +20634,8 @@ export const grantsData = [
     tx_cnt: 49,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.012000000000'
@@ -18689,6 +20655,8 @@ export const grantsData = [
     tx_cnt: 41,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.126325479474'
@@ -18708,6 +20676,8 @@ export const grantsData = [
     tx_cnt: 3000,
     log_cnt: 32,
     donation_cnt: 32,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.941231670787'
@@ -18727,6 +20697,8 @@ export const grantsData = [
     tx_cnt: 72,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.012687570292'
@@ -18746,6 +20718,8 @@ export const grantsData = [
     tx_cnt: 693,
     log_cnt: 18,
     donation_cnt: 18,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '41.381782300134'
@@ -18765,6 +20739,8 @@ export const grantsData = [
     tx_cnt: 40,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18784,6 +20760,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18803,6 +20781,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 1,
     donation_cnt: 0,
+    matched: 0.03534,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.001797315000'
@@ -18822,6 +20802,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.091001868000'
@@ -18841,6 +20823,8 @@ export const grantsData = [
     tx_cnt: 243,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.107618865061'
@@ -18860,6 +20844,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001426905900'
@@ -18879,6 +20865,8 @@ export const grantsData = [
     tx_cnt: 118,
     log_cnt: 92,
     donation_cnt: 90,
+    matched: 1334.60865,
+    claimed: 1334.60865,
     balances: [{
       asset: 'ETH',
       balance: '0.321797586000'
@@ -18898,6 +20886,8 @@ export const grantsData = [
     tx_cnt: 74,
     log_cnt: 41,
     donation_cnt: 41,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002756890000'
@@ -18917,6 +20907,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18936,6 +20928,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18955,6 +20949,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18974,6 +20970,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.04731,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -18993,6 +20991,8 @@ export const grantsData = [
     tx_cnt: 151,
     log_cnt: 19,
     donation_cnt: 19,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.205847696605'
@@ -19012,6 +21012,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001946400000'
@@ -19031,6 +21033,8 @@ export const grantsData = [
     tx_cnt: 806,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.013570000000'
@@ -19050,6 +21054,8 @@ export const grantsData = [
     tx_cnt: 109,
     log_cnt: 57,
     donation_cnt: 55,
+    matched: 1029.24262,
+    claimed: 1029.24262,
     balances: [{
       asset: 'ETH',
       balance: '0.013101561655'
@@ -19069,6 +21075,8 @@ export const grantsData = [
     tx_cnt: 114,
     log_cnt: 40,
     donation_cnt: 39,
+    matched: 91.48119,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.027677128647'
@@ -19088,6 +21096,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19107,6 +21117,8 @@ export const grantsData = [
     tx_cnt: 782,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '30.000000186742'
@@ -19126,6 +21138,8 @@ export const grantsData = [
     tx_cnt: 130,
     log_cnt: 57,
     donation_cnt: 55,
+    matched: 223.76487,
+    claimed: 223.76487,
     balances: [{
       asset: 'ETH',
       balance: '0.025496687578'
@@ -19145,6 +21159,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19164,6 +21180,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19183,6 +21201,8 @@ export const grantsData = [
     tx_cnt: 15,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006280382476'
@@ -19202,6 +21222,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19221,6 +21243,8 @@ export const grantsData = [
     tx_cnt: 68,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005903420676'
@@ -19240,6 +21264,8 @@ export const grantsData = [
     tx_cnt: 68,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19259,6 +21285,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 2,
     donation_cnt: 0,
+    matched: 0.74622,
+    claimed: 0.74622,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19278,6 +21306,8 @@ export const grantsData = [
     tx_cnt: 272,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.162968268656'
@@ -19297,6 +21327,8 @@ export const grantsData = [
     tx_cnt: 287,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '35.572954969765'
@@ -19316,6 +21348,8 @@ export const grantsData = [
     tx_cnt: 148,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003780000000'
@@ -19335,6 +21369,8 @@ export const grantsData = [
     tx_cnt: 180,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19354,6 +21390,8 @@ export const grantsData = [
     tx_cnt: 108,
     log_cnt: 34,
     donation_cnt: 33,
+    matched: 25.37478,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.071534419950'
@@ -19373,6 +21411,8 @@ export const grantsData = [
     tx_cnt: 56,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003658908592'
@@ -19392,6 +21432,8 @@ export const grantsData = [
     tx_cnt: 67,
     log_cnt: 35,
     donation_cnt: 35,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006000000000'
@@ -19411,6 +21453,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19430,6 +21474,8 @@ export const grantsData = [
     tx_cnt: 59,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19449,6 +21495,8 @@ export const grantsData = [
     tx_cnt: 72,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.003065205459'
@@ -19468,6 +21516,8 @@ export const grantsData = [
     tx_cnt: 109,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.033417214016'
@@ -19487,6 +21537,8 @@ export const grantsData = [
     tx_cnt: 10,
     log_cnt: 5,
     donation_cnt: 3,
+    matched: 14.06601,
+    claimed: 14.06601,
     balances: [{
       asset: 'ETH',
       balance: '0.001474995664'
@@ -19506,6 +21558,8 @@ export const grantsData = [
     tx_cnt: 990,
     log_cnt: 239,
     donation_cnt: 238,
+    matched: 130.78986,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001002974831'
@@ -19525,6 +21579,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19544,6 +21600,8 @@ export const grantsData = [
     tx_cnt: 74,
     log_cnt: 57,
     donation_cnt: 55,
+    matched: 179.48394,
+    claimed: 179.48394,
     balances: [{
       asset: 'ETH',
       balance: '0.387577179220'
@@ -19563,6 +21621,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.083595820051'
@@ -19582,6 +21642,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.010063765806'
@@ -19601,6 +21663,8 @@ export const grantsData = [
     tx_cnt: 1779,
     log_cnt: 5,
     donation_cnt: 4,
+    matched: 1.61538,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.069190301748'
@@ -19620,9 +21684,11 @@ export const grantsData = [
     tx_cnt: 459,
     log_cnt: 237,
     donation_cnt: 237,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '776.513030059729'
+      balance: '776.515880059729'
     }],
     core: 0,
   },
@@ -19639,6 +21705,8 @@ export const grantsData = [
     tx_cnt: 149,
     log_cnt: 146,
     donation_cnt: 146,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.435469840000'
@@ -19658,6 +21726,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000126000000'
@@ -19677,6 +21747,8 @@ export const grantsData = [
     tx_cnt: 54,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.052675175000'
@@ -19696,6 +21768,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.005553802000'
@@ -19715,6 +21789,8 @@ export const grantsData = [
     tx_cnt: 78,
     log_cnt: 15,
     donation_cnt: 13,
+    matched: 4.14686,
+    claimed: 4.14686,
     balances: [{
       asset: 'ETH',
       balance: '2.765745000000'
@@ -19734,6 +21810,8 @@ export const grantsData = [
     tx_cnt: 269,
     log_cnt: 28,
     donation_cnt: 28,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19753,6 +21831,8 @@ export const grantsData = [
     tx_cnt: 7976,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002310950172'
@@ -19772,9 +21852,11 @@ export const grantsData = [
     tx_cnt: 892,
     log_cnt: 14,
     donation_cnt: 14,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.039435192519'
+      balance: '0.862575320149'
     }],
     core: 0,
   },
@@ -19791,6 +21873,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.015692992000'
@@ -19810,6 +21894,8 @@ export const grantsData = [
     tx_cnt: 1085,
     log_cnt: 55,
     donation_cnt: 55,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.531630033349'
@@ -19829,6 +21915,8 @@ export const grantsData = [
     tx_cnt: 1793,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19848,6 +21936,8 @@ export const grantsData = [
     tx_cnt: 86,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.012000000000'
@@ -19867,6 +21957,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 2,
     donation_cnt: 1,
+    matched: 0.37323,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -19886,6 +21978,8 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 10,
     donation_cnt: 9,
+    matched: 112.86949,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.063650000000'
@@ -19905,6 +21999,8 @@ export const grantsData = [
     tx_cnt: 638,
     log_cnt: 44,
     donation_cnt: 42,
+    matched: 43.25493,
+    claimed: 43.25493,
     balances: [{
       asset: 'ETH',
       balance: '0.254717690327'
@@ -19924,6 +22020,8 @@ export const grantsData = [
     tx_cnt: 72,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001096280000'
@@ -19943,6 +22041,8 @@ export const grantsData = [
     tx_cnt: 61,
     log_cnt: 34,
     donation_cnt: 34,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000186152680'
@@ -19962,6 +22062,8 @@ export const grantsData = [
     tx_cnt: 21,
     log_cnt: 22,
     donation_cnt: 20,
+    matched: 15.15777,
+    claimed: 15.15777,
     balances: [{
       asset: 'ETH',
       balance: '0.013686900000'
@@ -19981,9 +22083,11 @@ export const grantsData = [
     tx_cnt: 1162,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.776739832735'
+      balance: '0.722250112735'
     }],
     core: 0,
   },
@@ -20000,6 +22104,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20019,6 +22125,8 @@ export const grantsData = [
     tx_cnt: 1078,
     log_cnt: 10,
     donation_cnt: 10,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.867867543135'
@@ -20038,6 +22146,8 @@ export const grantsData = [
     tx_cnt: 318,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.377509707608'
@@ -20057,6 +22167,8 @@ export const grantsData = [
     tx_cnt: 115,
     log_cnt: 61,
     donation_cnt: 60,
+    matched: 51.57995,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '10.887038569771'
@@ -20076,6 +22188,8 @@ export const grantsData = [
     tx_cnt: 64,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.166179428000'
@@ -20095,6 +22209,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000017801821'
@@ -20114,6 +22230,8 @@ export const grantsData = [
     tx_cnt: 33,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.052228372932'
@@ -20133,6 +22251,8 @@ export const grantsData = [
     tx_cnt: 167,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20152,6 +22272,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20171,6 +22293,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 17,
     donation_cnt: 15,
+    matched: 98.58551,
+    claimed: 98.58551,
     balances: [{
       asset: 'ETH',
       balance: '0.005420937442'
@@ -20190,6 +22314,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002471250554'
@@ -20209,6 +22335,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20228,6 +22356,8 @@ export const grantsData = [
     tx_cnt: 73,
     log_cnt: 54,
     donation_cnt: 52,
+    matched: 1939.18378,
+    claimed: 1939.18378,
     balances: [{
       asset: 'ETH',
       balance: '0.097632000000'
@@ -20247,6 +22377,8 @@ export const grantsData = [
     tx_cnt: 5,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 0.50733,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002457000000'
@@ -20266,6 +22398,8 @@ export const grantsData = [
     tx_cnt: 2659,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.537737708209'
@@ -20285,6 +22419,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20304,6 +22440,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 5,
     donation_cnt: 4,
+    matched: 0.46714,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.050000000000'
@@ -20323,6 +22461,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20342,6 +22482,8 @@ export const grantsData = [
     tx_cnt: 27,
     log_cnt: 5,
     donation_cnt: 3,
+    matched: 227.51570,
+    claimed: 227.51570,
     balances: [{
       asset: 'ETH',
       balance: '0.034498142071'
@@ -20361,6 +22503,8 @@ export const grantsData = [
     tx_cnt: 210,
     log_cnt: 187,
     donation_cnt: 187,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.411456993011'
@@ -20380,9 +22524,11 @@ export const grantsData = [
     tx_cnt: 5164,
     log_cnt: 91,
     donation_cnt: 90,
+    matched: 30.02509,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '29.882623094086'
+      balance: '29.987123094086'
     }],
     core: 0,
   },
@@ -20399,6 +22545,8 @@ export const grantsData = [
     tx_cnt: 776,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.200895638162'
@@ -20418,6 +22566,8 @@ export const grantsData = [
     tx_cnt: 33,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.075584076400'
@@ -20437,6 +22587,8 @@ export const grantsData = [
     tx_cnt: 13,
     log_cnt: 8,
     donation_cnt: 8,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20456,6 +22608,8 @@ export const grantsData = [
     tx_cnt: 35,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.072318134397'
@@ -20475,9 +22629,11 @@ export const grantsData = [
     tx_cnt: 168,
     log_cnt: 144,
     donation_cnt: 142,
+    matched: 320.42912,
+    claimed: 320.42912,
     balances: [{
       asset: 'ETH',
-      balance: '0.339902455000'
+      balance: '0.347882455000'
     }],
     core: 0,
   },
@@ -20494,6 +22650,8 @@ export const grantsData = [
     tx_cnt: 141,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.066993034314'
@@ -20513,6 +22671,8 @@ export const grantsData = [
     tx_cnt: 29,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.026282913072'
@@ -20532,6 +22692,8 @@ export const grantsData = [
     tx_cnt: 81,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20551,6 +22713,8 @@ export const grantsData = [
     tx_cnt: 1815,
     log_cnt: 12,
     donation_cnt: 12,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.388736883957'
@@ -20570,6 +22734,8 @@ export const grantsData = [
     tx_cnt: 19,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20589,6 +22755,8 @@ export const grantsData = [
     tx_cnt: 36,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20608,6 +22776,8 @@ export const grantsData = [
     tx_cnt: 112,
     log_cnt: 33,
     donation_cnt: 33,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.718536867048'
@@ -20627,6 +22797,8 @@ export const grantsData = [
     tx_cnt: 534,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.049200961409'
@@ -20646,6 +22818,8 @@ export const grantsData = [
     tx_cnt: 17,
     log_cnt: 10,
     donation_cnt: 10,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.202089248200'
@@ -20665,6 +22839,8 @@ export const grantsData = [
     tx_cnt: 114,
     log_cnt: 5,
     donation_cnt: 4,
+    matched: 0.14741,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.058013112279'
@@ -20684,6 +22860,8 @@ export const grantsData = [
     tx_cnt: 2,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20703,6 +22881,8 @@ export const grantsData = [
     tx_cnt: 87,
     log_cnt: 69,
     donation_cnt: 69,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.004067179200'
@@ -20722,6 +22902,8 @@ export const grantsData = [
     tx_cnt: 97,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.041987646527'
@@ -20741,6 +22923,8 @@ export const grantsData = [
     tx_cnt: 632,
     log_cnt: 82,
     donation_cnt: 81,
+    matched: 5.81985,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.761792068208'
@@ -20760,6 +22944,8 @@ export const grantsData = [
     tx_cnt: 143,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.264175881500'
@@ -20779,6 +22965,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.021175669656'
@@ -20798,6 +22986,8 @@ export const grantsData = [
     tx_cnt: 10957,
     log_cnt: 118,
     donation_cnt: 116,
+    matched: 215.62818,
+    claimed: 215.62818,
     balances: [{
       asset: 'ETH',
       balance: '3.942935548406'
@@ -20817,6 +23007,8 @@ export const grantsData = [
     tx_cnt: 65,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -20836,6 +23028,8 @@ export const grantsData = [
     tx_cnt: 172,
     log_cnt: 53,
     donation_cnt: 52,
+    matched: 5.46617,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '4.259567327802'
@@ -20855,6 +23049,8 @@ export const grantsData = [
     tx_cnt: 45,
     log_cnt: 8,
     donation_cnt: 7,
+    matched: 0.49660,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001211329822'
@@ -20874,6 +23070,8 @@ export const grantsData = [
     tx_cnt: 655,
     log_cnt: 21,
     donation_cnt: 21,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.031506240783'
@@ -20893,6 +23091,8 @@ export const grantsData = [
     tx_cnt: 111,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.858273137189'
@@ -20912,6 +23112,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.100603358000'
@@ -20931,6 +23133,8 @@ export const grantsData = [
     tx_cnt: 511,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000258271986'
@@ -20950,6 +23154,8 @@ export const grantsData = [
     tx_cnt: 78,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.084904418000'
@@ -20969,6 +23175,8 @@ export const grantsData = [
     tx_cnt: 100,
     log_cnt: 79,
     donation_cnt: 77,
+    matched: 362.26906,
+    claimed: 362.26906,
     balances: [{
       asset: 'ETH',
       balance: '0.390285000000'
@@ -20988,6 +23196,8 @@ export const grantsData = [
     tx_cnt: 101,
     log_cnt: 13,
     donation_cnt: 13,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.018080480220'
@@ -21007,6 +23217,8 @@ export const grantsData = [
     tx_cnt: 22,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21026,6 +23238,8 @@ export const grantsData = [
     tx_cnt: 253,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.949492479252'
@@ -21045,6 +23259,8 @@ export const grantsData = [
     tx_cnt: 3,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 0.69709,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.010000000000'
@@ -21064,6 +23280,8 @@ export const grantsData = [
     tx_cnt: 41,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21083,6 +23301,8 @@ export const grantsData = [
     tx_cnt: 598,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '19.220160451356'
@@ -21102,6 +23322,8 @@ export const grantsData = [
     tx_cnt: 468,
     log_cnt: 9,
     donation_cnt: 9,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.591842840522'
@@ -21121,6 +23343,8 @@ export const grantsData = [
     tx_cnt: 163,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21140,6 +23364,8 @@ export const grantsData = [
     tx_cnt: 984,
     log_cnt: 22,
     donation_cnt: 22,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.700176540286'
@@ -21159,6 +23385,8 @@ export const grantsData = [
     tx_cnt: 226,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '5.589935041523'
@@ -21178,6 +23406,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 46,
     donation_cnt: 44,
+    matched: 393.35305,
+    claimed: 393.35305,
     balances: [{
       asset: 'ETH',
       balance: '1.004338680000'
@@ -21197,6 +23427,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.090600936000'
@@ -21216,6 +23448,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21235,6 +23469,8 @@ export const grantsData = [
     tx_cnt: 52,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21254,6 +23490,8 @@ export const grantsData = [
     tx_cnt: 45,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001760234000'
@@ -21273,6 +23511,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.650000000000'
@@ -21292,6 +23532,8 @@ export const grantsData = [
     tx_cnt: 20,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.041048673180'
@@ -21311,6 +23553,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.001253830762'
@@ -21330,6 +23574,8 @@ export const grantsData = [
     tx_cnt: 163,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.092434692641'
@@ -21349,6 +23595,8 @@ export const grantsData = [
     tx_cnt: 110,
     log_cnt: 8,
     donation_cnt: 7,
+    matched: 0.16327,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.034849296604'
@@ -21368,6 +23616,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21387,9 +23637,11 @@ export const grantsData = [
     tx_cnt: 12898,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '24.375241792248'
+      balance: '24.329449372248'
     }],
     core: 0,
   },
@@ -21406,6 +23658,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.064250000000'
@@ -21425,9 +23679,11 @@ export const grantsData = [
     tx_cnt: 478,
     log_cnt: 186,
     donation_cnt: 184,
+    matched: 149.72605,
+    claimed: 149.72605,
     balances: [{
       asset: 'ETH',
-      balance: '30.503943281843'
+      balance: '30.559130771843'
     }],
     core: 0,
   },
@@ -21444,6 +23700,8 @@ export const grantsData = [
     tx_cnt: 319,
     log_cnt: 14,
     donation_cnt: 14,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.268292033654'
@@ -21463,6 +23721,8 @@ export const grantsData = [
     tx_cnt: 310,
     log_cnt: 75,
     donation_cnt: 73,
+    matched: 45.68179,
+    claimed: 45.68179,
     balances: [{
       asset: 'ETH',
       balance: '7.252974159452'
@@ -21482,6 +23742,8 @@ export const grantsData = [
     tx_cnt: 51,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.025324927367'
@@ -21501,6 +23763,8 @@ export const grantsData = [
     tx_cnt: 271,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.056700016948'
@@ -21520,6 +23784,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.019603482600'
@@ -21539,6 +23805,8 @@ export const grantsData = [
     tx_cnt: 48,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21558,6 +23826,8 @@ export const grantsData = [
     tx_cnt: 42,
     log_cnt: 6,
     donation_cnt: 6,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21577,6 +23847,8 @@ export const grantsData = [
     tx_cnt: 24,
     log_cnt: 14,
     donation_cnt: 12,
+    matched: 66.16716,
+    claimed: 66.16716,
     balances: [{
       asset: 'ETH',
       balance: '0.016324208369'
@@ -21596,6 +23868,8 @@ export const grantsData = [
     tx_cnt: 6,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.579263990200'
@@ -21615,6 +23889,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21634,6 +23910,8 @@ export const grantsData = [
     tx_cnt: 7,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.014508637500'
@@ -21653,6 +23931,8 @@ export const grantsData = [
     tx_cnt: 325,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.216000000000'
@@ -21672,6 +23952,8 @@ export const grantsData = [
     tx_cnt: 359,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.008401878931'
@@ -21691,6 +23973,8 @@ export const grantsData = [
     tx_cnt: 244,
     log_cnt: 3,
     donation_cnt: 2,
+    matched: 3.02891,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000805273650'
@@ -21710,6 +23994,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21729,6 +24015,8 @@ export const grantsData = [
     tx_cnt: 71,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.061633237767'
@@ -21748,6 +24036,8 @@ export const grantsData = [
     tx_cnt: 243,
     log_cnt: 23,
     donation_cnt: 22,
+    matched: 0.42584,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.829624229647'
@@ -21767,6 +24057,8 @@ export const grantsData = [
     tx_cnt: 59,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21786,6 +24078,8 @@ export const grantsData = [
     tx_cnt: 1,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.020000000000'
@@ -21805,6 +24099,8 @@ export const grantsData = [
     tx_cnt: 312,
     log_cnt: 29,
     donation_cnt: 29,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '3.151157186540'
@@ -21824,6 +24120,8 @@ export const grantsData = [
     tx_cnt: 693,
     log_cnt: 38,
     donation_cnt: 38,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.181657318946'
@@ -21843,6 +24141,8 @@ export const grantsData = [
     tx_cnt: 92,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006278334700'
@@ -21862,6 +24162,8 @@ export const grantsData = [
     tx_cnt: 102,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21881,6 +24183,8 @@ export const grantsData = [
     tx_cnt: 9,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.036314764184'
@@ -21900,6 +24204,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -21919,6 +24225,8 @@ export const grantsData = [
     tx_cnt: 3468,
     log_cnt: 3,
     donation_cnt: 3,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.218620781813'
@@ -21938,6 +24246,8 @@ export const grantsData = [
     tx_cnt: 0,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.002000000000'
@@ -21957,6 +24267,8 @@ export const grantsData = [
     tx_cnt: 511,
     log_cnt: 11,
     donation_cnt: 11,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.237681537943'
@@ -21976,6 +24288,8 @@ export const grantsData = [
     tx_cnt: 121,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.016477951350'
@@ -21995,6 +24309,8 @@ export const grantsData = [
     tx_cnt: 4,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -22014,6 +24330,8 @@ export const grantsData = [
     tx_cnt: 25,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.018618000000'
@@ -22033,6 +24351,8 @@ export const grantsData = [
     tx_cnt: 103,
     log_cnt: 27,
     donation_cnt: 27,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.187004186583'
@@ -22052,6 +24372,8 @@ export const grantsData = [
     tx_cnt: 142,
     log_cnt: 15,
     donation_cnt: 14,
+    matched: 0.33325,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '31.358030540877'
@@ -22071,6 +24393,8 @@ export const grantsData = [
     tx_cnt: 176,
     log_cnt: 13,
     donation_cnt: 13,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.170062954238'
@@ -22090,6 +24414,8 @@ export const grantsData = [
     tx_cnt: 34,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.075288956922'
@@ -22109,6 +24435,8 @@ export const grantsData = [
     tx_cnt: 58,
     log_cnt: 51,
     donation_cnt: 49,
+    matched: 870.96293,
+    claimed: 870.96293,
     balances: [{
       asset: 'ETH',
       balance: '0.070684246400'
@@ -22128,9 +24456,11 @@ export const grantsData = [
     tx_cnt: 582,
     log_cnt: 13,
     donation_cnt: 12,
+    matched: 17.35369,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.661285272149'
+      balance: '0.678807210126'
     }],
     core: 0,
   },
@@ -22147,9 +24477,11 @@ export const grantsData = [
     tx_cnt: 158,
     log_cnt: 81,
     donation_cnt: 81,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '1.535851463328'
+      balance: '1.536392963328'
     }],
     core: 0,
   },
@@ -22166,6 +24498,8 @@ export const grantsData = [
     tx_cnt: 14,
     log_cnt: 5,
     donation_cnt: 5,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -22185,6 +24519,8 @@ export const grantsData = [
     tx_cnt: 485,
     log_cnt: 469,
     donation_cnt: 466,
+    matched: 3273.83174,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.949591381096'
@@ -22204,6 +24540,8 @@ export const grantsData = [
     tx_cnt: 53,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.033334828400'
@@ -22223,6 +24561,8 @@ export const grantsData = [
     tx_cnt: 12,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000425868432'
@@ -22242,6 +24582,8 @@ export const grantsData = [
     tx_cnt: 37,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000649095142'
@@ -22261,6 +24603,8 @@ export const grantsData = [
     tx_cnt: 71,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.113111496844'
@@ -22280,6 +24624,8 @@ export const grantsData = [
     tx_cnt: 1143,
     log_cnt: 309,
     donation_cnt: 309,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '2.329420358318'
@@ -22299,6 +24645,8 @@ export const grantsData = [
     tx_cnt: 379,
     log_cnt: 13,
     donation_cnt: 12,
+    matched: 11.05216,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.086877440109'
@@ -22318,6 +24666,8 @@ export const grantsData = [
     tx_cnt: 2246,
     log_cnt: 4,
     donation_cnt: 4,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -22337,6 +24687,8 @@ export const grantsData = [
     tx_cnt: 18,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000261399800'
@@ -22356,6 +24708,8 @@ export const grantsData = [
     tx_cnt: 38,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.006000000000'
@@ -22375,6 +24729,8 @@ export const grantsData = [
     tx_cnt: 1217,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '75.327453512647'
@@ -22394,6 +24750,8 @@ export const grantsData = [
     tx_cnt: 34,
     log_cnt: 28,
     donation_cnt: 26,
+    matched: 306.72819,
+    claimed: 306.72819,
     balances: [{
       asset: 'ETH',
       balance: '0.073345000000'
@@ -22413,6 +24771,8 @@ export const grantsData = [
     tx_cnt: 147,
     log_cnt: 0,
     donation_cnt: 0,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'
@@ -22432,6 +24792,8 @@ export const grantsData = [
     tx_cnt: 32,
     log_cnt: 2,
     donation_cnt: 2,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.077897222758'
@@ -22451,6 +24813,8 @@ export const grantsData = [
     tx_cnt: 165,
     log_cnt: 1,
     donation_cnt: 1,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '1.721772157436'
@@ -22470,6 +24834,8 @@ export const grantsData = [
     tx_cnt: 82,
     log_cnt: 7,
     donation_cnt: 7,
+    matched: 0.00000,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.150289030469'
@@ -22489,6 +24855,8 @@ export const grantsData = [
     tx_cnt: 8,
     log_cnt: 4,
     donation_cnt: 3,
+    matched: 17.45462,
+    claimed: 0.00000,
     balances: [{
       asset: 'ETH',
       balance: '0.000000000000'

@@ -1,13 +1,13 @@
 #-------------------------------------------------
-libraries=/home/jrush/Development/trueblocks-core/src/libs/
+libraries=/Users/jrush/Development/trueblocks-core/src/libs/
 bin=bin
 cflags=-std=c++11 -Werror -Wall -O2 -I. -I$(libraries)/utillib -I$(libraries)/etherlib -I$(libraries)/acctlib
 # for ubuntu builds
-libs=$(libraries)/libpin.a $(libraries)/libacct.a $(libraries)/libether.a $(libraries)/libutil.a -lcurl
-#curl=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
+#libs=$(libraries)/libpin.a $(libraries)/libacct.a $(libraries)/libether.a $(libraries)/libutil.a -lcurl
+curl=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
 #-------------------------------------------------
 # for mac builds
-#libs=$(libraries)/*.a $(curl)
+libs=$(libraries)/*.a $(curl)
 
 #-------------------------------------------------
 exec=pouch

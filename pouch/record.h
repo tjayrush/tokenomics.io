@@ -39,8 +39,8 @@ class CRecord : public CBaseNode {
     uint64_t log_cnt;
     uint64_t core;
     uint64_t donation_cnt;
-    wei_t matched;
-    wei_t claimed;
+    double matched;
+    double claimed;
     CBalanceArray balances;
 
   public:
@@ -119,8 +119,8 @@ inline void CRecord::initialize(void) {
     log_cnt = 0;
     core = 0;
     donation_cnt = 0;
-    matched = 0;
-    claimed = 0;
+    matched = 0.0;
+    claimed = 0.0;
     balances.clear();
 
     // EXISTING_CODE

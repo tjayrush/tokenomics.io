@@ -73,14 +73,17 @@ string_q CPayout::getValueByName(const string_q& fieldName) const {
 
     // Return field values
     switch (tolower(fieldName[0])) {
+        case 'a':
+            if (fieldName % "address") {
+                return addr_2_Str(address);
+            }
+            if (fieldName % "amount") {
+                return double_2_Str(amount, 5);
+            }
+            break;
         case 'b':
             if (fieldName % "bn") {
                 return uint_2_Str(bn);
-            }
-            break;
-        case 'c':
-            if (fieldName % "claimed") {
-                return wei_2_Str(claimed);
             }
             break;
         case 'l':
@@ -88,14 +91,12 @@ string_q CPayout::getValueByName(const string_q& fieldName) const {
                 return uint_2_Str(logid);
             }
             break;
-        case 'm':
-            if (fieldName % "match") {
-                return wei_2_Str(match);
-            }
-            break;
         case 't':
             if (fieldName % "txid") {
                 return uint_2_Str(txid);
+            }
+            if (fieldName % "type") {
+                return type;
             }
             break;
         default:
@@ -118,15 +119,19 @@ bool CPayout::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
     // EXISTING_CODE
 
     switch (tolower(fieldName[0])) {
-        case 'b':
-            if (fieldName % "bn") {
-                bn = str_2_Uint(fieldValue);
+        case 'a':
+            if (fieldName % "address") {
+                address = str_2_Addr(fieldValue);
+                return true;
+            }
+            if (fieldName % "amount") {
+                amount = str_2_Double(fieldValue);
                 return true;
             }
             break;
-        case 'c':
-            if (fieldName % "claimed") {
-                claimed = str_2_Wei(fieldValue);
+        case 'b':
+            if (fieldName % "bn") {
+                bn = str_2_Uint(fieldValue);
                 return true;
             }
             break;
@@ -136,15 +141,13 @@ bool CPayout::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
                 return true;
             }
             break;
-        case 'm':
-            if (fieldName % "match") {
-                match = str_2_Wei(fieldValue);
-                return true;
-            }
-            break;
         case 't':
             if (fieldName % "txid") {
                 txid = str_2_Uint(fieldValue);
+                return true;
+            }
+            if (fieldName % "type") {
+                type = fieldValue;
                 return true;
             }
             break;
@@ -173,11 +176,12 @@ bool CPayout::Serialize(CArchive& archive) {
 
     // EXISTING_CODE
     // EXISTING_CODE
+    archive >> address;
     archive >> bn;
     archive >> txid;
     archive >> logid;
-    archive >> match;
-    archive >> claimed;
+    archive >> type;
+    archive >> amount;
     finishParse();
     return true;
 }
@@ -189,11 +193,12 @@ bool CPayout::SerializeC(CArchive& archive) const {
 
     // EXISTING_CODE
     // EXISTING_CODE
+    archive << address;
     archive << bn;
     archive << txid;
     archive << logid;
-    archive << match;
-    archive << claimed;
+    archive << type;
+    archive << amount;
 
     return true;
 }
@@ -230,11 +235,12 @@ void CPayout::registerClass(void) {
     ADD_FIELD(CPayout, "deleted", T_BOOL, ++fieldNum);
     ADD_FIELD(CPayout, "showing", T_BOOL, ++fieldNum);
     ADD_FIELD(CPayout, "cname", T_TEXT, ++fieldNum);
+    ADD_FIELD(CPayout, "address", T_ADDRESS | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CPayout, "bn", T_BLOCKNUM, ++fieldNum);
     ADD_FIELD(CPayout, "txid", T_BLOCKNUM, ++fieldNum);
     ADD_FIELD(CPayout, "logid", T_BLOCKNUM, ++fieldNum);
-    ADD_FIELD(CPayout, "match", T_WEI, ++fieldNum);
-    ADD_FIELD(CPayout, "claimed", T_WEI, ++fieldNum);
+    ADD_FIELD(CPayout, "type", T_TEXT | TS_OMITEMPTY, ++fieldNum);
+    ADD_FIELD(CPayout, "amount", T_DOUBLE, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like
     HIDE_FIELD(CPayout, "schema");
@@ -291,13 +297,23 @@ ostream& operator<<(ostream& os, const CPayout& it) {
 
 //---------------------------------------------------------------------------
 const char* STR_DISPLAY_PAYOUT =
+    "[{ADDRESS}]\t"
     "[{BN}]\t"
     "[{TXID}]\t"
     "[{LOGID}]\t"
-    "[{MATCH}]\t"
-    "[{CLAIMED}]";
+    "[{TYPE}]\t"
+    "[{AMOUNT}]";
 
 //---------------------------------------------------------------------------
 // EXISTING_CODE
+CPayout::CPayout(string_q& line) {
+    bn = str_2_Uint(nextTokenClear(line, ','));
+    txid = str_2_Uint(nextTokenClear(line, ','));
+    logid = str_2_Uint(nextTokenClear(line, ','));
+    type = nextTokenClear(line, ',');
+    address = nextTokenClear(line, ',');
+    wei_t wei = str_2_Wei(nextTokenClear(line, ','));
+    amount = str_2_Double(wei_2_Ether(wei));
+}
 // EXISTING_CODE
 }  // namespace qblocks

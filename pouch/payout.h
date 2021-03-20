@@ -25,11 +25,12 @@ namespace qblocks {
 //--------------------------------------------------------------------------
 class CPayout : public CBaseNode {
   public:
+    address_t address;
     blknum_t bn;
     blknum_t txid;
     blknum_t logid;
-    wei_t match;
-    wei_t claimed;
+    string_q type;
+    double amount;
 
   public:
     CPayout(void);
@@ -40,6 +41,7 @@ class CPayout : public CBaseNode {
     DECLARE_NODE(CPayout);
 
     // EXISTING_CODE
+    explicit CPayout(string_q& line);
     // EXISTING_CODE
     bool operator==(const CPayout& it) const;
     bool operator!=(const CPayout& it) const {
@@ -92,11 +94,12 @@ inline void CPayout::clear(void) {
 inline void CPayout::initialize(void) {
     CBaseNode::initialize();
 
+    address = "";
     bn = 0;
     txid = 0;
     logid = 0;
-    match = 0;
-    claimed = 0;
+    type = "";
+    amount = 0.0;
 
     // EXISTING_CODE
     // EXISTING_CODE
@@ -107,11 +110,12 @@ inline void CPayout::duplicate(const CPayout& pa) {
     clear();
     CBaseNode::duplicate(pa);
 
+    address = pa.address;
     bn = pa.bn;
     txid = pa.txid;
     logid = pa.logid;
-    match = pa.match;
-    claimed = pa.claimed;
+    type = pa.type;
+    amount = pa.amount;
 
     // EXISTING_CODE
     // EXISTING_CODE

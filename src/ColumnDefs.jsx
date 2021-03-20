@@ -6,8 +6,8 @@ const widths = {
   date: '15%',
   type: '8%',
   name: '23%',
-  match: '6%',
-  claim: '6%',
+  matched: '6%',
+  claimed: '6%',
   balance: '6%',
   tx_cnt: '6%',
   log_cnt: '8%',
@@ -63,7 +63,9 @@ export const columns = [
           {text}
           <div>
             <small>
-              <i>(round: { record.last_ts} block: {record.last_block})</i>
+              <i>
+                (round: {record.last_ts} block: {record.last_block})
+              </i>
             </small>
           </div>
         </div>
@@ -175,33 +177,33 @@ export const columns = [
   },
   {
     title: <ColumnTitle title='Match' tooltip='The match amount (in DAI) from Round 8.' />,
-    dataIndex: 'match',
-    key: 'match',
+    dataIndex: 'matched',
+    key: 'matched',
     align: 'right',
-    width: widths['match'],
-    render: (text, record) => {
-      return renderCell(record.balances[0].balance);
+    width: widths['matched'],
+    render: (text) => {
+      return renderCell(text + ' DAI');
     },
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return a.balances[0].balance - b.balances[0].balance;
+        return a.matched - b.matched;
       },
     },
   },
   {
-    title: <ColumnTitle title='Claimable' tooltip='The amount of match from Round 8 yet to be claimed.' />,
-    dataIndex: 'claim',
-    key: 'claim',
+    title: <ColumnTitle title='Claimed' tooltip='The match amount claimed from Round 8.' />,
+    dataIndex: 'claimed',
+    key: 'claimed',
     align: 'right',
-    width: widths['claim'],
-    render: (text, record) => {
-      return renderCell('-'); //record.balances[0].balance);
+    width: widths['claimed'],
+    render: (text) => {
+      return renderCell(text + ' DAI');
     },
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return a.balances[0].balance - b.balances[0].balance;
+        return a.claimed - b.claimed;
       },
     },
   },
@@ -229,7 +231,7 @@ export const columns = [
     align: 'right',
     width: widths['balance'],
     render: (text, record) => {
-      return renderCell(record.balances[0].balance);
+      return renderCell(record.balances[0].balance + " ETH");
     },
     showSorterTooltip: false,
     sorter: {

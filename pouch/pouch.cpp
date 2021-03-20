@@ -23,6 +23,7 @@ int main(int argc, const char* argv[]) {
     etherlib_init(quickQuitHandler);
     CRecord::registerClass();
     CBalance::registerClass();
+    CPayout::registerClass();
 
     // Parse command line, allowing for command files
     COptions options;
@@ -41,7 +42,7 @@ int main(int argc, const char* argv[]) {
 
         if (!options.loadRecords()) {
             key = 1;
-            if (!options.updateAll(options.records, options.grants))
+            if (!options.updateAll())
                 return options.usage("Could not load records.");
         }
 
@@ -138,11 +139,11 @@ bool updateSome(CRecordArray& records, const CAccountNameArray& grants) {
     for (auto entry : checkup.needsMap)
         cerr << "Address " << entry.first << " needs update." << endl;
     return true;
-    // updateAll(records, g);
+    // updateAll();
 }
 
 //----------------------------------------------------------------
-bool COptions::updateAll(CRecordArray& records, CAccountNameArray& grants) {
+bool COptions::updateAll(void) {
     blknum_t latest = getBlockProgress(BP_CLIENT).client;
     records.clear();
     for (auto grant : grants) {
@@ -170,6 +171,8 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) 
     record.slug = grant.source;
     record.core = contains(grant.tags, ":Core");
     getGrantLastUpdate(record);
+    record.matched = matches[record.address].amount;
+    record.claimed = claims[record.address].amount;
 
     CBalance bal;
     bal.asset = "ETH";
@@ -221,10 +224,18 @@ bool COptions::loadGrantList(void) {
 bool COptions::loadPayouts(void) {
     CStringArray lines;
     asciiFileToLines("./data/payouts.csv", lines);
-    cerr << lines.size() << endl;
     for (auto line : lines) {
-        cerr << line << endl;
-        getchar();
+        replaceAll(line, "(", ",");
+        replaceAny(line, ";\") ", "");
+        CPayout payout(line);
+        if (payout.type == "PayoutAdded")
+            matches[payout.address] = payout;
+        else if (payout.type == "PayoutClaimed")
+            claims[payout.address] = payout;
+        else {
+            LOG_ERR("Invalid payout type: ", payout.type);
+            return false;
+        }
     }
     return true;
 }
@@ -255,6 +266,8 @@ const char* STR_OUTPUT =
     "    tx_cnt: [{TX_CNT}],\n"
     "    log_cnt: [{LOG_CNT}],\n"
     "    donation_cnt: [{DONATION_CNT}],\n"
+    "    matched: [{MATCHED}],\n"
+    "    claimed: [{CLAIMED}],\n"
     "    balances: ++BALANCES++,\n"
     "    core: [{CORE}],\n"
     "  },";

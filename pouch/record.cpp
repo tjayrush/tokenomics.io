@@ -98,7 +98,7 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
                 return uint_2_Str(core);
             }
             if (fieldName % "claimed") {
-                return wei_2_Str(claimed);
+                return double_2_Str(claimed, 5);
             }
             break;
         case 'd':
@@ -132,7 +132,7 @@ string_q CRecord::getValueByName(const string_q& fieldName) const {
             break;
         case 'm':
             if (fieldName % "matched") {
-                return wei_2_Str(matched);
+                return double_2_Str(matched, 5);
             }
             break;
         case 'n':
@@ -196,7 +196,7 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
                 return true;
             }
             if (fieldName % "claimed") {
-                claimed = str_2_Wei(fieldValue);
+                claimed = str_2_Double(fieldValue);
                 return true;
             }
             break;
@@ -238,7 +238,7 @@ bool CRecord::setValueByName(const string_q& fieldNameIn, const string_q& fieldV
             break;
         case 'm':
             if (fieldName % "matched") {
-                matched = str_2_Wei(fieldValue);
+                matched = str_2_Double(fieldValue);
                 return true;
             }
             break;
@@ -381,8 +381,8 @@ void CRecord::registerClass(void) {
     ADD_FIELD(CRecord, "log_cnt", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "core", T_UNUMBER, ++fieldNum);
     ADD_FIELD(CRecord, "donation_cnt", T_UNUMBER, ++fieldNum);
-    ADD_FIELD(CRecord, "matched", T_WEI, ++fieldNum);
-    ADD_FIELD(CRecord, "claimed", T_WEI, ++fieldNum);
+    ADD_FIELD(CRecord, "matched", T_DOUBLE, ++fieldNum);
+    ADD_FIELD(CRecord, "claimed", T_DOUBLE, ++fieldNum);
     ADD_FIELD(CRecord, "balances", T_OBJECT | TS_ARRAY | TS_OMITEMPTY, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like

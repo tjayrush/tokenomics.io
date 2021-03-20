@@ -32,7 +32,8 @@ class COptions : public COptionsBase {
     bool lastBlock;
     // END_CODE_DECLARE
 
-    CPayoutMap payouts;
+    CPayoutMap matches;
+    CPayoutMap claims;
     CAccountNameArray grants;
     CRecordArray records;
     size_t tsCnt;
@@ -53,7 +54,7 @@ class COptions : public COptionsBase {
     bool loadTimestamps(void);
     bool getGrantLastUpdate(CRecord& record);
     bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest);
-    bool updateAll(CRecordArray& records, CAccountNameArray& grants);
+    bool updateAll(void);
 };
 
 //-----------------------------------------------------------------------------

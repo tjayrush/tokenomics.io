@@ -1,10 +1,11 @@
 [settings]
 class = CPayout
 fields = \
+    address address|\
     blknum bn|\
     blknum txid|\
     blknum logid|\
-    wei match|\
-    wei claimed
+    string type|\
+    double amount
 includes = etherlib.h
-display_str = bn, txid, logid, match, claimed
+display_str = address, bn, txid, logid, type, amount
