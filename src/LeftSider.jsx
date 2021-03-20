@@ -26,6 +26,12 @@ export const LeftSider = () => {
   return (
     <Sider style={{paddingLeft: '20px', paddingRight: '20px'}}>
       <LeftSideItem
+        question='Download your data'
+        answer={`
+          Search for your own grant to the right and download your GitCoin Grant related logs.
+        `}
+      />
+      <LeftSideItem
         question='What is a data pouch?'
         answer={`
           A data pouch is a place to store data. In this pouch, the data was extracted using TrueBlocks

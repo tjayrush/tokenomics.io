@@ -72,7 +72,8 @@ const fa6 = (
     expanded the idea into `}
     <i>ecosystem accounting</i>
     {` which means accounting for community-wide
-    constellations of inter-related addresses such as the GitCoin grant community.`}
+    constellations of inter-related addresses such as the GitCoin grant community. Get in touch with us
+    for more information.`}
   </div>
 );
 
