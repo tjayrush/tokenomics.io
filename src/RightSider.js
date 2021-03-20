@@ -33,9 +33,12 @@ export const RightSider = () => {
       <li>
         <Strikeout text='Enable search by name' />
       </li>
-      <li>Update the data at each block</li>
+      <li>Update the data after every block</li>
       <li>
-        Export all data (<Strikeout text='appearances' />, transactions, traces, statements)
+        Export transactions, traces, reconciliations, etc.
+      </li>
+      <li>
+        Make data pouches for other ecosytems
       </li>
     </ul>
   );

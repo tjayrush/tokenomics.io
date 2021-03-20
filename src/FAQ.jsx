@@ -14,7 +14,7 @@ const fa1 = (
 const fq2 = 'May I download the entire data set in a single file?';
 const fa2 = (
   <div>
-    {`Every donation is available by downloading the data from the GitCoin Grant contract on the `}<i>{`Dontations Contracts`}</i>{` tab.`}
+    {`All donations and payouts are available by downloading the data from the GitCoin Grant contracts on the `}<i>{`Dontation Contracts`}</i>{` tab.`}
   </div>
 );
 
