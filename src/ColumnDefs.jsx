@@ -268,7 +268,7 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return downloadLink(record, 'apps/');
+      return downloadLink(record, 'apps/', 'txt');
     },
   },
   {
@@ -299,12 +299,12 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return downloadLink(record, '');
+      return downloadLink(record, '', 'csv');
     },
   },
 ];
 
-function downloadLink(record, extra) {
+function downloadLink(record, extra, type) {
   if (extra !== '') {
     return (
       <div style={{display: 'grid', gridTemplateColumns: '1fr'}}>
@@ -312,8 +312,8 @@ function downloadLink(record, extra) {
           <small>({record.tx_cnt})</small>
           <br />
           <small>
-            <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.csv'}>
-              <DownloadOutlined /> csv
+            <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
+              <DownloadOutlined /> {type}
             </a>
           </small>
           <br />
@@ -329,8 +329,8 @@ function downloadLink(record, extra) {
         <small>({record.log_cnt})</small>
         <br />
         <small>
-          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.csv'}>
-            <DownloadOutlined /> csv{' '}
+          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
+            <DownloadOutlined /> {type}{' '}
           </a>
           <br />
           <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.json'}>

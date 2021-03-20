@@ -18,4 +18,3 @@ fields = \
     double claimed|\
     CBalanceArray balances
 includes = etherlib.h|balance.h
-display_str = key, date, type, address, name, cnt, csv, json

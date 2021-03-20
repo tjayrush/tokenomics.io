@@ -469,15 +469,7 @@ const CBaseNode* CRecord::getObjectAt(const string_q& fieldName, size_t index) c
 }
 
 //---------------------------------------------------------------------------
-const char* STR_DISPLAY_RECORD =
-    "[{KEY}]\t"
-    "[{DATE}]\t"
-    "[{TYPE}]\t"
-    "[{ADDRESS}]\t"
-    "[{NAME}]\t"
-    "[{CNT}]\t"
-    "[{CSV}]\t"
-    "[{JSON}]";
+const char* STR_DISPLAY_RECORD = "";
 
 //---------------------------------------------------------------------------
 // EXISTING_CODE
