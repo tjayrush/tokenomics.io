@@ -105,9 +105,6 @@ string_q CLogEntry_min::getValueByName(const string_q& fieldName) const {
             }
             break;
         case 't':
-            if (fieldName % "transactionIndex") {
-                return uint_2_Str(transactionIndex);
-            }
             if (fieldName % "topics" || fieldName % "topicsCnt") {
                 size_t cnt = topics.size();
                 if (endsWith(toLower(fieldName), "cnt"))
@@ -120,6 +117,9 @@ string_q CLogEntry_min::getValueByName(const string_q& fieldName) const {
                     retS += ((i < cnt - 1) ? ",\n" + indentStr() : "\n");
                 }
                 return retS;
+            }
+            if (fieldName % "transactionIndex") {
+                return uint_2_Str(transactionIndex);
             }
             break;
         default:
@@ -185,15 +185,15 @@ bool CLogEntry_min::setValueByName(const string_q& fieldNameIn, const string_q& 
             }
             break;
         case 't':
-            if (fieldName % "transactionIndex") {
-                transactionIndex = str_2_Uint(fieldValue);
-                return true;
-            }
             if (fieldName % "topics") {
                 string_q str = fieldValue;
                 while (!str.empty()) {
                     topics.push_back(str_2_Topic(nextTokenClear(str, ',')));
                 }
+                return true;
+            }
+            if (fieldName % "transactionIndex") {
+                transactionIndex = str_2_Uint(fieldValue);
                 return true;
             }
             break;
@@ -224,12 +224,12 @@ bool CLogEntry_min::Serialize(CArchive& archive) {
     // EXISTING_CODE
     archive >> address;
     archive >> blockNumber;
-    archive >> transactionIndex;
     archive >> logIndex;
     archive >> topics;
     archive >> data;
     archive >> articulatedLog;
     archive >> compressedLog;
+    archive >> transactionIndex;
     finishParse();
     return true;
 }
@@ -243,12 +243,12 @@ bool CLogEntry_min::SerializeC(CArchive& archive) const {
     // EXISTING_CODE
     archive << address;
     archive << blockNumber;
-    archive << transactionIndex;
     archive << logIndex;
     archive << topics;
     archive << data;
     archive << articulatedLog;
     archive << compressedLog;
+    archive << transactionIndex;
 
     return true;
 }
@@ -287,12 +287,12 @@ void CLogEntry_min::registerClass(void) {
     ADD_FIELD(CLogEntry_min, "cname", T_TEXT, ++fieldNum);
     ADD_FIELD(CLogEntry_min, "address", T_ADDRESS | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CLogEntry_min, "blockNumber", T_BLOCKNUM, ++fieldNum);
-    ADD_FIELD(CLogEntry_min, "transactionIndex", T_BLOCKNUM, ++fieldNum);
     ADD_FIELD(CLogEntry_min, "logIndex", T_BLOCKNUM, ++fieldNum);
     ADD_FIELD(CLogEntry_min, "topics", T_OBJECT | TS_ARRAY | TS_OMITEMPTY, ++fieldNum);
     ADD_FIELD(CLogEntry_min, "data", T_TEXT | TS_OMITEMPTY, ++fieldNum);
     ADD_OBJECT(CLogEntry_min, "articulatedLog", T_OBJECT | TS_OMITEMPTY, ++fieldNum, GETRUNTIME_CLASS(CFunction));
     ADD_FIELD(CLogEntry_min, "compressedLog", T_TEXT | TS_OMITEMPTY, ++fieldNum);
+    ADD_FIELD(CLogEntry_min, "transactionIndex", T_BLOCKNUM, ++fieldNum);
 
     // Hide our internal fields, user can turn them on if they like
     HIDE_FIELD(CLogEntry_min, "schema");
@@ -416,5 +416,17 @@ const char* STR_DISPLAY_LOGENTRY_MIN =
 
 //---------------------------------------------------------------------------
 // EXISTING_CODE
+CLogEntry_min& CLogEntry_min::operator=(const CLogEntry& lo) {
+    clear();
+    CBaseNode::duplicate(lo);
+
+    address = lo.address;
+    logIndex = lo.logIndex;
+    topics = lo.topics;
+    data = lo.data;
+    articulatedLog = lo.articulatedLog;
+    compressedLog = lo.compressedLog;
+    return *this;
+}
 // EXISTING_CODE
 }  // namespace qblocks

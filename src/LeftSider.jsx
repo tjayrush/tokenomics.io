@@ -26,32 +26,38 @@ export const LeftSider = () => {
   return (
     <Sider style={{paddingLeft: '20px', paddingRight: '20px'}}>
       <LeftSideItem
-        question='Download your data'
-        answer={`
-          Search for your own grant to the right and download your GitCoin Grant related logs.
-        `}
+        question='Do you have an unclaimed match?'
+        answer={
+          <div>
+            {'Search for your grant to the right, then look in the '}
+            <Text type='warning'>CLR</Text> column for un-claimed matching funds.
+          </div>
+        }
       />
       <LeftSideItem
         question='What is a data pouch?'
         answer={`
-          A data pouch is a place to store data. In this pouch, the data was extracted using TrueBlocks
-          and our own local Ethereum node.
+          A data pouch is a place to store and disseminate data. This pouch was created with TrueBlocks
+          and a locally-running Ethereum node.
         `}
       />
       <LeftSideItem
-        question='Why did you build this?'
+        question='Why did we build this?'
         answer={`
-          Mostly dogfooding, but also to provide others in our community an independant source of
-          transparent data about the GitCoin smart contracts, donors, and grants.
+          To demonstrate what's possible with local first software. Also, to provide others in the community an independant source of
+          transparent data about the GitCoin Grant program.
         `}
       />
-      <br />
-      <br />
       <br />
       <br />
       <small>
         <Text style={{color: 'lightblue'}}>
           This website is <i>alpha</i>, which means you should use the data with caution.
+          <br />
+          <br />
+          <a rel='noreferrer' target='_blank' href='https://github.com/TrueBlocks/tokenomics.io/issues'>
+            <Text style={{color: 'lightblue', textDecoration: 'underline'}}>Have a suggestion?</Text>
+          </a>
         </Text>
       </small>
       <br />

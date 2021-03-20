@@ -28,12 +28,12 @@ class CLogEntry_min : public CBaseNode {
   public:
     address_t address;
     blknum_t blockNumber;
-    blknum_t transactionIndex;
     blknum_t logIndex;
     CTopicArray topics;
     string_q data;
     CFunction articulatedLog;
     string_q compressedLog;
+    blknum_t transactionIndex;
 
   public:
     CLogEntry_min(void);
@@ -47,6 +47,7 @@ class CLogEntry_min : public CBaseNode {
     const string_q getStringAt(const string_q& fieldName, size_t i) const override;
 
     // EXISTING_CODE
+    CLogEntry_min& operator=(const CLogEntry& lo);
     // EXISTING_CODE
     bool operator==(const CLogEntry_min& it) const;
     bool operator!=(const CLogEntry_min& it) const {
@@ -101,12 +102,12 @@ inline void CLogEntry_min::initialize(void) {
 
     address = "";
     blockNumber = 0;
-    transactionIndex = 0;
     logIndex = 0;
     topics.clear();
     data = "";
     articulatedLog = CFunction();
     compressedLog = "";
+    transactionIndex = 0;
 
     // EXISTING_CODE
     // EXISTING_CODE
@@ -119,12 +120,12 @@ inline void CLogEntry_min::duplicate(const CLogEntry_min& lo) {
 
     address = lo.address;
     blockNumber = lo.blockNumber;
-    transactionIndex = lo.transactionIndex;
     logIndex = lo.logIndex;
     topics = lo.topics;
     data = lo.data;
     articulatedLog = lo.articulatedLog;
     compressedLog = lo.compressedLog;
+    transactionIndex = lo.transactionIndex;
 
     // EXISTING_CODE
     // EXISTING_CODE

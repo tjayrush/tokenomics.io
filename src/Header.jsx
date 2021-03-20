@@ -10,19 +10,27 @@ const { Title, Text } = Typography;
 export const Head = () => {
   return (
     <Header style={{height: '100px'}}>
-      <Typography>
-        <Title style={{color: 'lightblue'}}>
-          GitCoin Grant Data Pouch
-          <br />
-          <small>
+      <div style={{display: 'grid', gridTemplateColumns: '2fr 10fr 2fr'}}>
+        <div></div>
+        <Typography>
+          <Title style={{color: 'lightblue'}}>
+            GitCoin Grant Data Pouch
+            <br />
             <small>
-              <font style={{color: 'lightblue'}}>
-                A <Text type='warning'>permissionlessly</Text> built gift to the GitCoin Community
-              </font>
+              <small>
+                <font style={{color: 'lightblue'}}>
+                  A <Text type='warning'>permissionlessly</Text> built gift to the GitCoin Community
+                </font>
+              </small>
             </small>
-          </small>
-        </Title>
-      </Typography>
+          </Title>
+        </Typography>
+        <div style={{textAlign: 'right'}}>
+          <a rel='noreferrer' target='_blank' href='https://discord.gg/RAz6DJ6xkf'>
+            <Text style={{color: 'lightblue', textDecoration: 'underline'}}>like to help?</Text>
+          </a>
+        </div>
+      </div>
     </Header>
   );
 };

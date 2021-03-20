@@ -13,20 +13,20 @@
 #include "options.h"
 #include "logentry_min.h"
 
-bool visitFile(const string_q& path, void* data);
+bool visitFile_json_2_csv(const string_q& path, void* data);
 //--------------------------------------------------------------------
 bool COptions::handle_json_2_csv(void) {
     expContext().exportFmt = CSV1;
     configureDisplay("getLogs", "CLogEntry_min", STR_DISPLAY_LOGENTRY_MIN);
-    forEveryFileInFolder("./data/", visitFile, nullptr);
+    forEveryFileInFolder("./data/", visitFile_json_2_csv, nullptr);
     return false;
 }
 
 void cleanLogs(string_q& contents);
 //--------------------------------------------------------------------
-bool visitFile(const string_q& path, void* data) {
+bool visitFile_json_2_csv(const string_q& path, void* data) {
     if (endsWith(path, '/')) {
-        return forEveryFileInFolder(path + "*", visitFile, data);
+        return forEveryFileInFolder(path + "*", visitFile_json_2_csv, data);
     } else {
         cerr << "Visiting " << path << endl;
         if (endsWith(path, ".json")) {

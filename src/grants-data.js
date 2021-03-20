@@ -205,7 +205,7 @@ export const grantsData = [
     claimed: 7616.02614,
     balances: [{
       asset: 'ETH',
-      balance: '15.548392148393'
+      balance: '15.596413356493'
     }],
     core: 0,
   },
@@ -1129,7 +1129,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.033249488000'
+      balance: '0.034199488000'
     }],
     core: 0,
   },
@@ -1633,7 +1633,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.383133365935'
+      balance: '0.383672092885'
     }],
     core: 0,
   },
@@ -1906,7 +1906,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.387293992311'
+      balance: '0.299668258546'
     }],
     core: 0,
   },
@@ -2620,7 +2620,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '1.478210280290'
+      balance: '1.562273628863'
     }],
     core: 0,
   },
@@ -3208,7 +3208,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.412142753543'
+      balance: '0.200145189543'
     }],
     core: 0,
   },
@@ -3796,7 +3796,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '819.421152325357'
+      balance: '822.489181841146'
     }],
     core: 0,
   },
@@ -4741,7 +4741,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '11.720549487792'
+      balance: '12.061068487792'
     }],
     core: 0,
   },
@@ -5581,7 +5581,7 @@ export const grantsData = [
     claimed: 1431.47733,
     balances: [{
       asset: 'ETH',
-      balance: '8.797551256169'
+      balance: '8.801256256169'
     }],
     core: 0,
   },
@@ -5812,7 +5812,7 @@ export const grantsData = [
     claimed: 4437.34225,
     balances: [{
       asset: 'ETH',
-      balance: '5.661834284888'
+      balance: '5.665729284888'
     }],
     core: 0,
   },
@@ -6127,7 +6127,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '6.711128801063'
+      balance: '6.180287354063'
     }],
     core: 0,
   },
@@ -6946,7 +6946,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.065599692100'
+      balance: '0.075099692100'
     }],
     core: 0,
   },
@@ -7261,7 +7261,7 @@ export const grantsData = [
     claimed: 1342.12516,
     balances: [{
       asset: 'ETH',
-      balance: '1.392865248503'
+      balance: '1.394765248503'
     }],
     core: 0,
   },
@@ -7387,7 +7387,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '501.159848148529'
+      balance: '501.164848148529'
     }],
     core: 0,
   },
@@ -7534,7 +7534,7 @@ export const grantsData = [
     claimed: 687.14747,
     balances: [{
       asset: 'ETH',
-      balance: '0.061299984864'
+      balance: '0.064149984864'
     }],
     core: 0,
   },
@@ -8311,7 +8311,7 @@ export const grantsData = [
     claimed: 953.27392,
     balances: [{
       asset: 'ETH',
-      balance: '0.380804900000'
+      balance: '0.390304900000'
     }],
     core: 0,
   },
@@ -8689,7 +8689,7 @@ export const grantsData = [
     claimed: 4175.55346,
     balances: [{
       asset: 'ETH',
-      balance: '0.315560526000'
+      balance: '0.325060526000'
     }],
     core: 0,
   },
@@ -9088,7 +9088,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.516126086000'
+      balance: '0.516886086000'
     }],
     core: 0,
   },
@@ -10621,7 +10621,7 @@ export const grantsData = [
     claimed: 643.11525,
     balances: [{
       asset: 'ETH',
-      balance: '5.128476635428'
+      balance: '5.137976635428'
     }],
     core: 0,
   },
@@ -11188,7 +11188,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.001900000000'
+      balance: '0.011400000000'
     }],
     core: 0,
   },
@@ -11272,7 +11272,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.840051313378'
+      balance: '0.849551313378'
     }],
     core: 0,
   },
@@ -11314,7 +11314,7 @@ export const grantsData = [
     claimed: 1108.15562,
     balances: [{
       asset: 'ETH',
-      balance: '2.227275378103'
+      balance: '2.236775378103'
     }],
     core: 0,
   },
@@ -12784,7 +12784,7 @@ export const grantsData = [
     claimed: 10770.79095,
     balances: [{
       asset: 'ETH',
-      balance: '0.541080804088'
+      balance: '0.542980804088'
     }],
     core: 0,
   },
@@ -13141,7 +13141,7 @@ export const grantsData = [
     claimed: 22948.94762,
     balances: [{
       asset: 'ETH',
-      balance: '1.389801549866'
+      balance: '1.394551549866'
     }],
     core: 0,
   },
@@ -14275,7 +14275,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '2.226189138428'
+      balance: '2.227528638428'
     }],
     core: 0,
   },
@@ -14422,7 +14422,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '7.526413318029'
+      balance: '7.350443233029'
     }],
     core: 0,
   },
@@ -14548,7 +14548,7 @@ export const grantsData = [
     claimed: 7715.43568,
     balances: [{
       asset: 'ETH',
-      balance: '2.693979298408'
+      balance: '2.694739298408'
     }],
     core: 0,
   },
@@ -15073,7 +15073,7 @@ export const grantsData = [
     claimed: 3323.62550,
     balances: [{
       asset: 'ETH',
-      balance: '7.569872530377'
+      balance: '7.571402030377'
     }],
     core: 0,
   },
@@ -15115,7 +15115,7 @@ export const grantsData = [
     claimed: 6634.29368,
     balances: [{
       asset: 'ETH',
-      balance: '732.446852334670'
+      balance: '732.456352334670'
     }],
     core: 0,
   },
@@ -15220,7 +15220,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '14.612456482183'
+      balance: '14.108718482183'
     }],
     core: 0,
   },
@@ -17551,7 +17551,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.625506664601'
+      balance: '0.550446679601'
     }],
     core: 0,
   },
@@ -18202,7 +18202,7 @@ export const grantsData = [
     claimed: 4994.94549,
     balances: [{
       asset: 'ETH',
-      balance: '38.679374283672'
+      balance: '38.688874283672'
     }],
     core: 0,
   },
@@ -19168,7 +19168,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.347503650517'
+      balance: '0.281438198444'
     }],
     core: 0,
   },
@@ -19546,7 +19546,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.304098179049'
+      balance: '0.313598179049'
     }],
     core: 0,
   },
@@ -19798,7 +19798,7 @@ export const grantsData = [
     claimed: 5956.48532,
     balances: [{
       asset: 'ETH',
-      balance: '0.624687527908'
+      balance: '0.634187527908'
     }],
     core: 0,
   },
@@ -20239,7 +20239,7 @@ export const grantsData = [
     claimed: 250.84139,
     balances: [{
       asset: 'ETH',
-      balance: '0.363760726679'
+      balance: '0.420760726679'
     }],
     core: 0,
   },
@@ -20449,7 +20449,7 @@ export const grantsData = [
     claimed: 4935.97451,
     balances: [{
       asset: 'ETH',
-      balance: '10.148497620856'
+      balance: '10.148592620856'
     }],
     core: 0,
   },
@@ -20512,7 +20512,7 @@ export const grantsData = [
     claimed: 175.31621,
     balances: [{
       asset: 'ETH',
-      balance: '2.129366990077'
+      balance: '2.122938150077'
     }],
     core: 0,
   },
@@ -20869,7 +20869,7 @@ export const grantsData = [
     claimed: 1334.60865,
     balances: [{
       asset: 'ETH',
-      balance: '0.322972086000'
+      balance: '0.284199084618'
     }],
     core: 0,
   },
@@ -21709,7 +21709,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.440656840000'
+      balance: '0.451106840000'
     }],
     core: 0,
   },
@@ -22402,7 +22402,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.537737708209'
+      balance: '0.549086952795'
     }],
     core: 0,
   },
@@ -22528,7 +22528,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '30.015374794086'
+      balance: '30.026145021036'
     }],
     core: 0,
   },
@@ -24040,7 +24040,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '1.829624229647'
+      balance: '1.774161549171'
     }],
     core: 0,
   },
@@ -24502,7 +24502,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '0.000000000000'
+      balance: '0.009500000000'
     }],
     core: 0,
   },
@@ -24523,7 +24523,7 @@ export const grantsData = [
     claimed: 0.00000,
     balances: [{
       asset: 'ETH',
-      balance: '3.082286381096'
+      balance: '3.135486381096'
     }],
     core: 0,
   },
