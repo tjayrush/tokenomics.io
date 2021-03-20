@@ -13,6 +13,12 @@ const widths = {
   log_cnt: '8%',
 };
 
+const blk = (block) => {
+  console.log('block: ' + block);
+  if (block === '0')
+    return '';
+  return ('(block: ' + block + ')');
+}
 const ColumnTitle = ({title, tooltip}) => {
   return (
     <div>
@@ -50,13 +56,6 @@ export const columns = [
     dataIndex: 'date',
     key: 'date',
     width: widths['date'],
-    filters: [
-      {text: 'Round 9', value: '9'},
-      {text: 'Round 8', value: '8'},
-      {text: 'Round 7', value: '7'},
-      {text: 'Round 6', value: '6'},
-      {text: 'Round 5', value: '5'},
-    ],
     render: (text, record) => {
       const dd = (
         <div>
@@ -64,7 +63,8 @@ export const columns = [
           <div>
             <small>
               <i>
-                (round: {record.last_ts} block: {record.last_block})
+                {/*(round: {record.last_ts} block: {record.last_block})*/}
+                {blk(record.last_block)}
               </i>
             </small>
           </div>
@@ -231,7 +231,7 @@ export const columns = [
     align: 'right',
     width: widths['balance'],
     render: (text, record) => {
-      return renderCell(record.balances[0].balance + " ETH");
+      return renderCell(record.balances[0].balance + ' ETH');
     },
     showSorterTooltip: false,
     sorter: {

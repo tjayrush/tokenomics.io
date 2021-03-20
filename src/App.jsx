@@ -119,9 +119,7 @@ export const HomePage = () => {
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
         <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
-          The future home of some charts
-          <br />
-          <img width='640px' alt='Count By Date' src='http://tokenomics.io/gitcoin/charts/Donation Count by Date.png' />
+          <img width='640px' alt='Count By Date' src='http://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
       </Tabs>
       <i>
