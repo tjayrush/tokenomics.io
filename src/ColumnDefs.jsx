@@ -5,11 +5,11 @@ const {Text} = Typography;
 const widths = {
   date: '15%',
   type: '8%',
-  name: '23%',
+  name: '21%',
   matched: '6%',
   claimed: '6%',
   balance: '6%',
-  tx_cnt: '6%',
+  tx_cnt: '8%',
   log_cnt: '8%',
 };
 
@@ -176,34 +176,30 @@ export const columns = [
     },
   },
   {
-    title: <ColumnTitle title='Match' tooltip='The match amount (in DAI) from Round 8.' />,
+    title: <ColumnTitle title='CLR' tooltip='The match, claimed, and unclaimed amounts for the grant from Round 8.' />,
     dataIndex: 'matched',
     key: 'matched',
     align: 'right',
     width: widths['matched'],
-    render: (text) => {
-      return renderCell(text + ' DAI');
+    render: (text, record) => {
+      var unclaimed = (record.matched - record.claimed) + ' DAI';
+      if (unclaimed > 0)
+        unclaimed = <div style={{ border: '1px dashed orange' }}>{unclaimed + ' DAI'}</div>
+      const tt = (
+        <div>
+          <div>{record.matched + ' DAI'}</div>
+          <div>{record.claimed + ' DAI'}</div>
+          <div>{unclaimed}</div>
+        </div>
+      );
+      return renderCell2(tt);
     },
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return a.matched - b.matched;
-      },
-    },
-  },
-  {
-    title: <ColumnTitle title='Claimed' tooltip='The match amount claimed from Round 8.' />,
-    dataIndex: 'claimed',
-    key: 'claimed',
-    align: 'right',
-    width: widths['claimed'],
-    render: (text) => {
-      return renderCell(text + ' DAI');
-    },
-    showSorterTooltip: false,
-    sorter: {
-      compare: function (a, b) {
-        return a.claimed - b.claimed;
+        const unclaimedA = a.matched - a.claimed;
+        const unclaimedB = b.matched - b.claimed;
+        return unclaimedA - unclaimedB;
       },
     },
   },
@@ -354,6 +350,16 @@ const renderCell = (text) => {
       </pre>
       <br />
       <br />
+    </div>
+  );
+};
+
+const renderCell2 = (text) => {
+  return (
+    <div>
+      <pre>
+        <small>{text}</small>
+      </pre>
     </div>
   );
 };

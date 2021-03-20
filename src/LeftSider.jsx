@@ -35,14 +35,14 @@ export const LeftSider = () => {
         question='What is a data pouch?'
         answer={`
           A data pouch is a place to store data. In this pouch, the data was extracted using TrueBlocks
-          and our own local Ethereum node. We will update the site periodically.
+          and our own local Ethereum node.
         `}
       />
       <LeftSideItem
         question='Why did you build this?'
         answer={`
-          Mostly dogfooding, but also to provide others in our community an independant source of complete,
-          transparent data about GitCoin smart contracts, donors, and grants.
+          Mostly dogfooding, but also to provide others in our community an independant source of
+          transparent data about the GitCoin smart contracts, donors, and grants.
         `}
       />
       <br />

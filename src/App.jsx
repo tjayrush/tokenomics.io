@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import {Input, Typography, Layout, Tabs} from 'antd';
+import {Input, Layout, Tabs} from 'antd';
 import {Table as AntTable} from 'antd';
 import {Affix} from 'antd';
 
 import './App.css';
 import 'antd/dist/antd.css';
+import {Head} from './Header';
 
 import {grantsData} from './grants-data';
 import {columns} from './ColumnDefs';
@@ -12,8 +13,7 @@ import { RightSider } from './RightSider'
 import {LeftSider} from './LeftSider';
 import {Foot} from './Footer';
 
-const { Header, Content } = Layout;
-const { Title, Text } = Typography;
+const { Content } = Layout;
 const { Search } = Input;
 const {TabPane} = Tabs;
 const Table = (props) => {
@@ -53,26 +53,6 @@ function App() {
   );
 }
 export default App;
-
-export const Head = () => {
-  return (
-    <Header style={{height: '100px'}}>
-      <Typography>
-        <Title style={{color: 'lightblue'}}>
-          GitCoin Grant Data Pouch
-          <br />
-          <small>
-            <small>
-              <font style={{color: 'lightblue'}}>
-                A <Text type='warning'>permissionlessly</Text> built gift to the GitCoin Community
-              </font>
-            </small>
-          </small>
-        </Title>
-      </Typography>
-    </Header>
-  );
-};
 
 export const HomePage = () => {
   const [searchText, setSearchText] = useState('');
