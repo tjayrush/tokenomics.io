@@ -63,7 +63,6 @@ export const RightSider = () => {
         <a rel='noreferrer' target='_blank' href='https://discord.gg/RAz6DJ6xkf'>
           Join our discord discussions
         </a>
-        .
       </MyCard>
       <MyCard>
         <Popover

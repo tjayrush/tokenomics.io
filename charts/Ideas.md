@@ -33,3 +33,10 @@ The donations contract has 'dest' and 'donor' for each address that gave and rec
     tit for tat
 
 Calculated estimate after each donation vs. actual
+
+
+Auditing
+
+Add up all donations from grant files and see if it adds to the total in the contract files
+
+Add the pre-round 4 contracts
