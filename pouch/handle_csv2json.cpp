@@ -47,8 +47,9 @@ bool COptions::handle_csv_2_json(void) {
     context.abi.loadAbiFromEtherscan(STR_ROUND8);
     context.abi.loadAbiFromEtherscan(STR_ROUND5);
     context.abi.loadAbiFromEtherscan(STR_PAYOUT);
-    forEveryFileInFolder("./data/", visitFile_csv_2_json, &context);
-    return !shouldQuit();
+    bool ret = forEveryFileInFolder("./data/", visitFile_csv_2_json, &context) && !shouldQuit();
+    LOG_INFO(cTeal, "Finished updating csv to json...", string_q(80, ' '), cOff);
+    return ret;
 }
 
 //--------------------------------------------------------------------
@@ -95,7 +96,7 @@ bool visitLogLine(const char* line, void* data) {
     if (ctx->lineCnt > 0)
         (*ctx->archive).WriteLine(",");
     (*ctx->archive).WriteLine(logmin.Format()); // << "\n";  // do not change - won't compile
-    LOG_INFO(cBlue, "  line ", (++ctx->lineCnt), cOff, "\r");
+    LOG_INFO(cBlue, "  processing line: ", (++ctx->lineCnt), cOff, "\r");
     return !shouldQuit();
 }
 
@@ -106,23 +107,32 @@ bool visitFile_csv_2_json(const string_q& path, void* data) {
         return forEveryFileInFolder(path + "*", visitFile_csv_2_json, data);
     } else {
         if (contains(path, "0x") && contains(path, ".csv") && !contains(path, "/apps/") && !contains(path, "/txs/")) {
-            LOG_INFO("Processing file: ", path);
             string_q jsonFile = substitute(path, ".csv", ".json");
-            CLogExportContext* ctx = (CLogExportContext*)data;
-            ctx->lineCnt = 0;
-            CArchive archive(WRITING_ARCHIVE);
-            if (archive.Lock(jsonFile, modeWriteCreate, LOCK_NOWAIT)) {
-                ctx->archive = &archive;
-                ctx->archive->WriteLine("{ \"data\": [");
-                forEveryLineInAsciiFile(path, visitLogLine, data);
-                ctx->archive->WriteLine("]}");
-                archive.flush();
-                archive.Release();
-                ostringstream cmd;
-                cmd << "cat " << jsonFile << " | jq . >x ; cat x >" << jsonFile << endl;
-                doCommand(cmd.str());
+
+            time_q csvTime = fileLastModifyDate(path);
+            time_q jsonTime = fileLastModifyDate(jsonFile);
+            if (jsonTime <= csvTime) {
+                LOG_INFO("Converting ", path, " to json...");
+                CLogExportContext* ctx = (CLogExportContext*)data;
+                ctx->lineCnt = 0;
+                CArchive archive(WRITING_ARCHIVE);
+                if (archive.Lock(jsonFile, modeWriteCreate, LOCK_NOWAIT)) {
+                    ctx->archive = &archive;
+                    ctx->archive->WriteLine("{ \"data\": [");
+                    forEveryLineInAsciiFile(path, visitLogLine, data);
+                    ctx->archive->WriteLine("]}");
+                    archive.flush();
+                    archive.Release();
+                    ostringstream cmd;
+                    cmd << "cat " << jsonFile << "| jq . >x ; ";
+                    cmd << "cat x > " << jsonFile << " ; ";
+                    cmd << "rm -f x" << endl;
+                    doCommand(cmd.str());
+                } else {
+                    LOG_ERR("Could not open file: ", jsonFile);
+                }
             } else {
-                LOG_ERR("Could not open file: ", jsonFile);
+                LOG_INFO(jsonFile, " up to date. Skipping...\r");
             }
         }
     }

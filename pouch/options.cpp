@@ -52,9 +52,6 @@ bool COptions::parseArguments(string_q& command) {
             if (!confirmUint("summarize", summarize, arg))
                 return false;
 
-        } else if (arg == "-s" || arg == "--summarize") {
-            summarize = true;
-
         } else if (arg == "-a" || arg == "--audit") {
             audit = true;
 
@@ -83,14 +80,14 @@ bool COptions::parseArguments(string_q& command) {
     if (json2csv && csv2json)
         return usage("Choose on of --json2csv or --csv2json, not both.");
 
+    if (!loadTimestamps())
+        return usage("Could not load timestamps file");
+
     if (json2csv)
         return handle_json_2_csv();
 
     if (csv2json)
         return handle_csv_2_json();
-
-    if (!loadTimestamps())
-        return usage("Could not load timestamps file");
 
     if (summarize)
         return handle_summarize();
@@ -114,7 +111,7 @@ void COptions::Init(void) {
     csv2json = false;
     lastBlock = false;
     audit = false;
-    summarize = 1000;
+    summarize = 0;
     // END_CODE_INIT
 
     if (tsArray)
@@ -155,6 +152,10 @@ bool COptions::getGrantLastUpdate(CRecord& record) {
         record.date = "n/a";
         record.last_ts = 0;
         return false;
+    }
+    if (record.last_block * 2 > (tsCnt * 2) + 2) {
+        usage("Last block * 2 (" + uint_2_Str(record.last_block * 2) + ") greater than tsCnt (" + uint_2_Str(tsCnt) + ")");
+        quickQuitHandler(1);
     }
     record.last_ts = tsArray[(record.last_block * 2) + 1];
     record.date = ts_2_Date(record.last_ts).Format(FMT_JSON);

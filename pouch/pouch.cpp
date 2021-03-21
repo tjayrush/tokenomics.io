@@ -32,7 +32,7 @@ int main(int argc, const char* argv[]) {
 
     for (auto command : options.commandLines) {
         if (!options.parseArguments(command))
-            return 0;
+            return 1;
 
         if (!options.loadPayouts())
             return options.usage("Could not load the payouts file.");
@@ -41,6 +41,7 @@ int main(int argc, const char* argv[]) {
             return options.usage("Could not load grants list. Are you in the pouch folder?");
 
         if (!options.loadRecords()) {
+            LOG_INFO(cTeal, "Refreshing records...", cOff);
             key = 1;
             if (!options.updateAll())
                 return options.usage("Could not load records.");
@@ -147,7 +148,6 @@ bool COptions::updateAll(void) {
     blknum_t latest = getBlockProgress(BP_CLIENT).client;
     records.clear();
     for (auto grant : grants) {
-        cerr << "Processing grant: " << grant.address << " " << grant.name.substr(0, 60) << endl;
         CRecord record;
         if (updateOne(record, grant, latest))
             records.push_back(record);
@@ -157,10 +157,7 @@ bool COptions::updateAll(void) {
 
 //----------------------------------------------------------------
 bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
-    string_q fn = getCachePath("monitors/" + toLower(grant.address) + ".acct.bin");
-
     record.key = key++;
-
     record.grant_id = str_2_Uint(substitute(grant.name, "Grant ", ""));
     nextTokenClear(grant.name, ' ');
     nextTokenClear(grant.name, ' ');
@@ -183,17 +180,18 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) 
 
     string_q jsonFile = "./data/" + record.address + ".json";
     string_q csvFile = "./data/" + record.address + ".csv";
-    bool exists = fileExists(fn);
-    record.tx_cnt = (exists ? (fileSize(fn) / sizeof(CAppearance_base)) : 0);
+    string_q monFile = getCachePath("monitors/" + toLower(grant.address) + ".acct.bin");
+    record.tx_cnt = (fileExists(monFile) ? (fileSize(monFile) / sizeof(CAppearance_base)) : 0);
+
     if (fileExists(csvFile)) {
         record.log_cnt = str_2_Uint(doCommand("wc " + csvFile));
         if (record.log_cnt > 0)
             record.log_cnt -= 1;
-        if (record.address == "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6") {
+        if (record.address == STR_PAYOUT) {
             record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Payout | wc"));
-        } else if (record.address == "0xdf869fad6db91f437b59f1edefab319493d4c4ce") {
+        } else if (record.address == STR_ROUND5) {
             record.donation_cnt =
-                str_2_Uint(doCommand("cat " + csvFile + " | grep 0xdf869fad6db91f437b59f1edefab319493d4c4ce | wc"));
+                str_2_Uint(doCommand("cat " + csvFile + " | grep " + STR_ROUND5 + " | wc"));
         } else {
             record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Donation | wc"));
         }
@@ -202,7 +200,9 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) 
         record.donation_cnt = 0;
     }
     stringToAsciiFile("./data/latest.txt", uint_2_Str(latest));
-    return record.tx_cnt;
+
+    LOG_INFO("  processing grant ", grant.address, " ", grant.name.substr(0, 60));
+    return true;
 }
 
 //----------------------------------------------------------------
@@ -246,6 +246,13 @@ bool COptions::loadRecords(void) {
     if (archive.Lock("./data/records.bin", modeReadOnly, LOCK_NOWAIT)) {
         archive >> records;
         archive.Release();
+        // check to see if we need to update anything
+        time_q recordsTime = fileLastModifyDate("./data/records.bin");
+        for (auto record : records) {
+            time_q csvTime = fileLastModifyDate("./data/" + record.address + ".csv");
+            if (csvTime >= recordsTime)
+                return false; // we need to refresh
+        }
         return true;
     }
     return false;
