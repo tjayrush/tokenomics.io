@@ -21,7 +21,7 @@ export const Head = () => {
             <small>
               <small>
                 <font style={{color: 'lightblue'}}>
-                  <Text type='warning'>Permissionless</Text> data for the GitCoin Community
+                  A <Text type='warning'>permissionless</Text> data dump for the GitCoin Grant community
                 </font>
               </small>
             </small>
