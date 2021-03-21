@@ -17,6 +17,8 @@ static const COption params[] = {
     COption("freshen", "f", "", OPT_SWITCH, "the command to run"),
     COption("json2csv", "j", "", OPT_SWITCH, "folder containing TurboGeth data file (data.mdb)"),
     COption("csv2json", "c", "", OPT_SWITCH, "for 'dump' command only, the name of the table to dump"),
+    COption("summarize", "s", "<blknum>", OPT_HIDDEN | OPT_DEPRECATED, "summarize the data from the smart contracts"),
+    COption("audit", "l", "", OPT_SWITCH, "audit the data"),
     COption("lastBlock", "l", "", OPT_SWITCH, "show the last export for each grant"),
     COption("", "", "", OPT_DESCRIPTION, "This is what the program does.\n"),
 };
@@ -46,6 +48,16 @@ bool COptions::parseArguments(string_q& command) {
         } else if (arg == "-l" || arg == "--lastBlock") {
             lastBlock = true;
 
+        } else if (startsWith(arg, "-s:") || startsWith(arg, "--summarize:")) {
+            if (!confirmUint("summarize", summarize, arg))
+                return false;
+
+        } else if (arg == "-s" || arg == "--summarize") {
+            summarize = true;
+
+        } else if (arg == "-a" || arg == "--audit") {
+            audit = true;
+
         } else if (startsWith(arg, '-')) {  // do not collapse
 
             if (!builtInCmd(arg)) {
@@ -61,6 +73,8 @@ bool COptions::parseArguments(string_q& command) {
     LOG_TEST_BOOL("json2csv", json2csv);
     LOG_TEST_BOOL("csv2json", csv2json);
     LOG_TEST_BOOL("lastBlock", lastBlock);
+    LOG_TEST_BOOL("audit", audit);
+    //LOG_TEST("summarize", summarize);
     // END_DEBUG_DISPLAY
 
     if (lastBlock + (json2csv || csv2json) > 1)
@@ -78,6 +92,12 @@ bool COptions::parseArguments(string_q& command) {
     if (!loadTimestamps())
         return usage("Could not load timestamps file");
 
+    if (summarize)
+        return handle_summarize();
+
+    if (audit)
+        return handle_audit();
+
     if (lastBlock)
         return handle_last_block();
 
@@ -93,6 +113,8 @@ void COptions::Init(void) {
     json2csv = false;
     csv2json = false;
     lastBlock = false;
+    audit = false;
+    summarize = 1000;
     // END_CODE_INIT
 
     if (tsArray)

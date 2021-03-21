@@ -8,35 +8,30 @@
 - Mean is appearantly important
 
 
-latest data
-https://github.com/gitcoinco/gitcoin_cadcad_model/blob/main/data/2020-03-18/2021-03-18-round9-contributions.csv.xz
+- latest data https://github.com/gitcoinco/gitcoin_cadcad_model/blob/main/data/2020-03-18/2021-03-18-round9-contributions.csv.xz
 
+- From the Payout Contract there were:
 
+- 1	Finalized calls
+- 364	PayoutAdded calls
+- 1	Transfer In
+- 1	Funded calls
+- 167 Transfer Outs
+- 167	PayoutClaimed calls
 
-From the Payout Contract there were:
+- Function calls per contract
 
-   1	Finalized calls
- 364	PayoutAdded calls
-   1	Transfer In
-   1	Funded calls
+- The donations contract has 'dest' and 'donor' for each address that gave and received
 
- 167 Transfer Outs
- 167	PayoutClaimed calls
-
-
-Function calls per contract
-
-
-
-The donations contract has 'dest' and 'donor' for each address that gave and received
-    Chart of 'give to take'
+- Chart of 'give to take'
     tit for tat
 
-Calculated estimate after each donation vs. actual
+- Calculated estimate after each donation vs. actual
 
+- Auditing
 
-Auditing
+- Add up all donations from grant files and see if it adds to the total in the contract files
 
-Add up all donations from grant files and see if it adds to the total in the contract files
+- Add the pre-round 4 contracts
 
-Add the pre-round 4 contracts
+- We did reconcilations of the PayoutAdded / PayoutClaimed and compared that against the smart contract. We could have called that a reconcilation and allow the user to download.

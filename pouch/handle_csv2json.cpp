@@ -13,9 +13,9 @@
 #include "options.h"
 #include "logentry_min.h"
 
-const char* STR_PAYOUT = "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6";
-const char* STR_ROUND8 = "0x7d655c57f71464b6f83811c55d84009cd9f5221c";
-const char* STR_ROUND5 = "0xdf869fad6db91f437b59f1edefab319493d4c4ce";
+const string_q STR_PAYOUT = "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6";
+const string_q STR_ROUND8 = "0x7d655c57f71464b6f83811c55d84009cd9f5221c";
+const string_q STR_ROUND5 = "0xdf869fad6db91f437b59f1edefab319493d4c4ce";
 
 class CLogExportContext {
   public:

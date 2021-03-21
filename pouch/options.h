@@ -30,6 +30,8 @@ class COptions : public COptionsBase {
     bool json2csv;
     bool csv2json;
     bool lastBlock;
+    bool audit;
+    uint64_t summarize;
     // END_CODE_DECLARE
 
     CPayoutMap matches;
@@ -47,6 +49,8 @@ class COptions : public COptionsBase {
     bool handle_json_2_csv(void);
     bool handle_csv_2_json(void);
     bool handle_last_block(void);
+    bool handle_audit(void);
+    bool handle_summarize(void);
 
     bool loadGrantList(void);
     bool loadPayouts(void);
@@ -60,3 +64,6 @@ class COptions : public COptionsBase {
 //-----------------------------------------------------------------------------
 extern bool visitNonEmptyBlock(CBlock& node, void* data);
 extern bool visitEmptyBlock(CBlock& node, void* data);
+extern const string_q STR_PAYOUT;
+extern const string_q STR_ROUND8;
+extern const string_q STR_ROUND5;
