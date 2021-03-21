@@ -29,6 +29,8 @@ class CLogExportContext {
 bool visitFile_csv_2_json(const string_q& path, void* data);
 //--------------------------------------------------------------------
 bool COptions::handle_csv_2_json(void) {
+    setenv("DICT_MODE", "true", true);
+    
     CLogEntry_min::registerClass();
     SHOW_FIELD(CLogEntry_min, "topics");
     expContext().exportFmt = CSV1;
@@ -78,10 +80,10 @@ bool visitLogLine(const char* line, void* data) {
     CLogEntry log;
     log.logIndex = str_2_Uint(parts[2]);
     log.address = parts[3];
-    log.topics.push_back(parts[4]);
-    log.topics.push_back(parts[5]);
-    log.topics.push_back(parts[6]);
-    log.topics.push_back(parts[7]);
+    if (!parts[4].empty()) log.topics.push_back(parts[4]);
+    if (!parts[5].empty()) log.topics.push_back(parts[5]);
+    if (!parts[6].empty()) log.topics.push_back(parts[6]);
+    if (!parts[7].empty()) log.topics.push_back(parts[7]);
     log.data = parts[8];
     CLogExportContext* ctx = (CLogExportContext*)data;
     ctx->abi.articulateLog(&log);
@@ -117,7 +119,7 @@ bool visitFile_csv_2_json(const string_q& path, void* data) {
                 ctx->archive->WriteLine("]}");
                 archive.flush();
                 archive.Release();
-                LOG_INFO(cBlue, "  finised...", cOff);
+                LOG_INFO(cBlue, "  finished...", cOff);
                 ostringstream cmd;
                 cmd << "cat " << jsonFile << " | jq . >x ; cat x >" << jsonFile << endl;
                 doCommand(cmd.str());
