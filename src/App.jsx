@@ -6,12 +6,12 @@ import './App.css';
 import 'antd/dist/antd.css';
 import {Head} from './Header';
 
-import { RightSider } from './RightSider'
+import {RightSider} from './RightSider';
 import {LeftSider} from './LeftSider';
 import {Foot} from './Footer';
-import { HomePage } from './HomePage'
+import {HomePage} from './HomePage';
 
-const { Content } = Layout;
+const {Content} = Layout;
 
 function App() {
   return (

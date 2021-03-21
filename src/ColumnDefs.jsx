@@ -14,7 +14,6 @@ const widths = {
 };
 
 const blk = (block) => {
-  console.log('block: ' + block);
   if (block === '0')
     return '';
   return ('(block: ' + block + ')');
@@ -26,7 +25,7 @@ const ColumnTitle = ({title, tooltip}) => {
       <Popover
         color='lightblue'
         content={
-          <div style={{width: '200px', wordWrap: 'break-word'}}>
+          <div style={{width: '250px', wordWrap: 'break-word'}}>
             {tooltip}
           </div>
         }>
@@ -35,23 +34,14 @@ const ColumnTitle = ({title, tooltip}) => {
     </div>
   );
 }
+
 export const columns = [
   {
     title: (
-      <div>
-        Last Activity{' '}
-        <Popover
-          color='lightblue'
-          content={
-            <div>
-              The most recent interaction this address
-              <br />
-              had with a GitCoin-related contract.
-            </div>
-          }>
-          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
-        </Popover>
-      </div>
+      <ColumnTitle
+        title='Last Activity'
+        tooltip='The most recent interaction this address had with a GitCoin-related contract.'
+      />
     ),
     dataIndex: 'date',
     key: 'date',
@@ -79,22 +69,10 @@ export const columns = [
   },
   {
     title: (
-      <div>
-        Type{' '}
-        <Popover
-          color='lightblue'
-          content={
-            <div>
-              The type of data to download. Currently,
-              <br />
-              only logs, but coming soon txs,
-              <br />
-              traces, accounting, etc.
-            </div>
-          }>
-          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
-        </Popover>
-      </div>
+      <ColumnTitle
+        title='Type'
+        tooltip='The type of data to download. Currently, only logs, but coming soon txs, traces, accounting, etc.'
+      />
     ),
     dataIndex: 'type',
     key: 'type',
@@ -106,36 +84,22 @@ export const columns = [
     ],
     onFilter: (value, record) => record.type.includes(value),
     render: (text, record) => (
-      <div style={{marginTop: '-25px'}}>
+      <div style={{marginTop: '-20px'}}>
         <pre>
           <br />
           <Tag color='blue' key={record.address}>
             <small>{text}</small>
           </Tag>
         </pre>{' '}
-        <br />
-        <br />
       </div>
     ),
   },
   {
     title: (
-      <div>
-        Name{' '}
-        <Popover
-          color='lightblue'
-          content={
-            <div>
-              The name and address of the
-              <br />
-              grant or core contract linked
-              <br />
-              either to the GitCoin grant or Etherscan.
-            </div>
-          }>
-          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
-        </Popover>
-      </div>
+      <ColumnTitle
+        title='Name'
+        tooltip='The name and address of the grant or core contract linked either to the GitCoin grant or Etherscan.'
+      />
     ),
     dataIndex: 'name',
     key: 'name',
@@ -151,8 +115,6 @@ export const columns = [
             <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
               <small>{record.address}</small>
             </a>
-            <br />
-            <br />
           </pre>
         );
       return (
@@ -166,7 +128,6 @@ export const columns = [
               <small>{record.address}</small>
             </a>
           </pre>
-          <br />
         </div>
       );
     },
@@ -176,15 +137,14 @@ export const columns = [
     },
   },
   {
-    title: <ColumnTitle title='CLR' tooltip='The match, claimed, and unclaimed amounts for the grant from Round 8.' />,
+    title: <ColumnTitle title='CLR' tooltip='The match, claimed, and unclaimed amounts for the grant from Round 8. Sorts by unclaimed then match' />,
     dataIndex: 'matched',
     key: 'matched',
     align: 'right',
     width: widths['matched'],
     render: (text, record) => {
-      var unclaimed = (record.matched - record.claimed) + ' DAI';
-      if (record.matched - record.claimed > 0)
-        unclaimed = <div style={{border: '1px dashed orange'}}>{unclaimed}</div>;
+      var unclaimed = record.matched - record.claimed + ' DAI';
+      if (record.matched - record.claimed > 0) unclaimed = <div style={{border: '1px dashed orange'}}>{unclaimed}</div>;
       const tt = (
         <div>
           <div>{record.matched + ' DAI'}</div>
@@ -192,35 +152,27 @@ export const columns = [
           <div>{unclaimed}</div>
         </div>
       );
-      return renderCell2(tt);
+      return renderCell(tt);
     },
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
         const unclaimedA = a.matched - a.claimed;
         const unclaimedB = b.matched - b.claimed;
-        return unclaimedA - unclaimedB;
+        const diff = unclaimedB - unclaimedA;
+        if (diff === 0)
+          return (a.matched - b.matched)
+        return diff;
       },
     },
   },
+
   {
     title: (
-      <div>
-        Balances{' '}
-        <Popover
-          color='lightblue'
-          content={
-            <div>
-              The balances for the account
-              <br />
-              in ETH. We're adding DAI and
-              <br />
-              other tokens later.
-            </div>
-          }>
-          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
-        </Popover>
-      </div>
+      <ColumnTitle
+        title='Balances'
+        tooltip='The balances for the account in ETH. We will add DAI and other tokens later'
+      />
     ),
     dataIndex: 'balance',
     key: 'balance',
@@ -232,30 +184,16 @@ export const columns = [
     showSorterTooltip: false,
     sorter: {
       compare: function (a, b) {
-        return a.balances[0].balance - b.balances[0].balance;
+        return b.balances[0].balance - a.balances[0].balance;
       },
     },
   },
   {
     title: (
-      <div>
-        Appearances{' '}
-        <Popover
-          color='lightblue'
-          content={
-            <div>
-              The total number of appearances for
-              <br />
-              this address. (An appearance is any
-              <br />
-              transaction the account has ever
-              <br />
-              appeared in including internal txs.)
-            </div>
-          }>
-          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
-        </Popover>
-      </div>
+      <ColumnTitle
+        title='Appearances'
+        tooltip='The total number of appearances for this address. (An appearance is any transaction the account has ever appeared in including internal txs.)'
+      />
     ),
     dataIndex: 'tx_cnt',
     key: 'tx_cnt',
@@ -264,7 +202,7 @@ export const columns = [
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return a.tx_cnt - b.tx_cnt;
+        return b.tx_cnt - a.tx_cnt;
       },
     },
     render: function (text, record) {
@@ -273,20 +211,7 @@ export const columns = [
   },
   {
     title: (
-      <div>
-        Event Logs{' '}
-        <Popover
-          color='lightblue'
-          content={
-            <div>
-              The number of GitCoin related logs
-              <br />
-              in which this address appears.
-            </div>
-          }>
-          <Text style={{fontWeight: '800', color: '#006666'}}>?</Text>
-        </Popover>
-      </div>
+      <ColumnTitle title='Event Logs' tooltip='The number of GitCoin related logs in which this address appears.' />
     ),
     dataIndex: 'log_cnt',
     key: 'log_cnt',
@@ -295,7 +220,7 @@ export const columns = [
     showSorterTooltip: false,
     sorter: {
       compare: (a, b) => {
-        return a.log_cnt - b.log_cnt;
+        return b.log_cnt - a.log_cnt;
       },
     },
     render: function (text, record) {
@@ -316,8 +241,6 @@ function downloadLink(record, extra, type) {
               <DownloadOutlined /> {type}
             </a>
           </small>
-          <br />
-          <br />
         </pre>
       </div>
     );
@@ -330,7 +253,7 @@ function downloadLink(record, extra, type) {
         <br />
         <small>
           <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
-            <DownloadOutlined /> {type}{' '}
+            <DownloadOutlined /> {type}
           </a>
           <br />
           <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.json'}>
@@ -343,18 +266,6 @@ function downloadLink(record, extra, type) {
 }
 
 const renderCell = (text) => {
-  return (
-    <div>
-      <pre>
-        <small>{text}</small>
-      </pre>
-      <br />
-      <br />
-    </div>
-  );
-};
-
-const renderCell2 = (text) => {
   return (
     <div>
       <pre>

@@ -202,7 +202,7 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) 
         record.donation_cnt = 0;
     }
     stringToAsciiFile("./data/latest.txt", uint_2_Str(latest));
-    return true;
+    return record.tx_cnt;
 }
 
 //----------------------------------------------------------------

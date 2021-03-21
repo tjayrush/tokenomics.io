@@ -20,9 +20,9 @@ const string_q STR_ROUND5 = "0xdf869fad6db91f437b59f1edefab319493d4c4ce";
 class CLogExportContext {
   public:
     CAbi abi;
-    bool first;
+    uint32_t lineCnt;
     CArchive* archive;
-    CLogExportContext(void) : first(true), archive(nullptr) {
+    CLogExportContext(void) : lineCnt(0), archive(nullptr) {
     }
 };
 
@@ -92,11 +92,10 @@ bool visitLogLine(const char* line, void* data) {
     logmin = log;
     logmin.blockNumber = str_2_Uint(parts[0]);
     logmin.transactionIndex = str_2_Uint(parts[1]);
-    if (!ctx->first)
+    if (ctx->lineCnt > 0)
         (*ctx->archive).WriteLine(",");
     (*ctx->archive).WriteLine(logmin.Format()); // << "\n";  // do not change - won't compile
-    ctx->first = false;
-
+    LOG_INFO(cBlue, "  line ", (++ctx->lineCnt), cOff, "\r");
     return !shouldQuit();
 }
 
@@ -110,7 +109,7 @@ bool visitFile_csv_2_json(const string_q& path, void* data) {
             LOG_INFO("Processing file: ", path);
             string_q jsonFile = substitute(path, ".csv", ".json");
             CLogExportContext* ctx = (CLogExportContext*)data;
-            ctx->first = true;
+            ctx->lineCnt = 0;
             CArchive archive(WRITING_ARCHIVE);
             if (archive.Lock(jsonFile, modeWriteCreate, LOCK_NOWAIT)) {
                 ctx->archive = &archive;
@@ -119,7 +118,6 @@ bool visitFile_csv_2_json(const string_q& path, void* data) {
                 ctx->archive->WriteLine("]}");
                 archive.flush();
                 archive.Release();
-                LOG_INFO(cBlue, "  finished...", cOff);
                 ostringstream cmd;
                 cmd << "cat " << jsonFile << " | jq . >x ; cat x >" << jsonFile << endl;
                 doCommand(cmd.str());

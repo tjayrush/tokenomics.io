@@ -19,7 +19,7 @@ const Table = (props) => {
     showSizeChanger: false,
     showTotal: (total, range) => '(' + total + ' grants) ',
   };
-  return <AntTable className='table-striped-rows' pagination={pag} size='small' bordered={true} {...props} />;
+  return <AntTable className='main-rows' pagination={pag} size='small' bordered={true} {...props} />;
 };
 
 function callback(key) {
@@ -63,8 +63,8 @@ export const HomePage = () => {
           onSearch={onSearch}
           enterButton></Search>
       </div>
-      <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '4px'}}>
-        <TabPane tab={tab2Title} key='1' style={{paddingLeft: '8px'}}>
+      <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '1px'}}>
+        <TabPane tab={tab2Title} key='1' style={{paddingLeft: '8px', margin: '-25px 0px 0px 0px'}}>
           <Table dataSource={grantData} columns={columns} />
         </TabPane>
         <TabPane tab={tab1Title} key='2' style={{paddingLeft: '8px'}}>

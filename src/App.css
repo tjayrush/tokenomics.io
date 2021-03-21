@@ -37,12 +37,15 @@
   }
 }
 
-.table-striped-rows tr:nth-child(2n) td, thead {
+.main-rows tr:nth-child(2n+1) td, thead {
+  background-color: #fafafa;
+  vertical-align: top;
+}
+.main-rows tr:nth-child(2n) td, thead {
+  background-color: #f1f1f1;
+  vertical-align: top;
+}
+.main-rows thead, th {
     background-color: #fafafa;
     vertical-align: top;
 }
-.table-striped-rows thead, th {
-    background-color: #f1f1f1;
-    vertical-align: top;
-}
-
