@@ -10,16 +10,24 @@
  * General Public License for more details. You should have received a copy of the GNU General
  * Public License along with this program. If not, see http://www.gnu.org/licenses/.
  *-------------------------------------------------------------------------------------------*/
+/*
+ * Parts of this file were generated with makeClass. Edit only those parts of the code
+ * outside of the BEG_CODE/END_CODE sections
+ */
 #include "options.h"
 
 //---------------------------------------------------------------------------------------------------
 static const COption params[] = {
-    COption("freshen", "f", "", OPT_SWITCH, "the command to run"),
-    COption("json2csv", "j", "", OPT_SWITCH, "folder containing TurboGeth data file (data.mdb)"),
-    COption("csv2json", "c", "", OPT_SWITCH, "for 'dump' command only, the name of the table to dump"),
-    COption("summarize", "s", "<blknum>", OPT_HIDDEN | OPT_DEPRECATED, "summarize the data from the smart contracts"),
-    COption("audit", "l", "", OPT_SWITCH, "audit the data"),
-    COption("", "", "", OPT_DESCRIPTION, "This is what the program does.\n"),
+    // BEG_CODE_OPTIONS
+    // clang-format off
+    COption("freshen", "f", "", OPT_SWITCH, "freshen the database"),
+    COption("json2csv", "j", "", OPT_SWITCH, "convert non-destructivly all json files into csv"),
+    COption("csv2json", "c", "", OPT_SWITCH, "convert non-destructivly all csv files into json"),
+    COption("summarize", "s", "<uint64>", OPT_FLAG, "summarize the data from the smart contracts"),
+    COption("audit", "a", "", OPT_SWITCH, "audit the data"),
+    COption("", "", "", OPT_DESCRIPTION, "Handle pouch data in various ways."),
+    // clang-format on
+    // END_CODE_OPTIONS
 };
 static const size_t nParams = sizeof(params) / sizeof(COption);
 
@@ -27,6 +35,13 @@ static const size_t nParams = sizeof(params) / sizeof(COption);
 bool COptions::parseArguments(string_q& command) {
     if (!standardOptions(command))
         return false;
+
+    // BEG_CODE_LOCAL_INIT
+    bool freshen = false;
+    bool json2csv = false;
+    bool csv2json = false;
+    bool audit = false;
+    // END_CODE_LOCAL_INIT
 
     Init();
     explode(arguments, command, ' ');
@@ -65,8 +80,8 @@ bool COptions::parseArguments(string_q& command) {
     LOG_TEST_BOOL("freshen", freshen);
     LOG_TEST_BOOL("json2csv", json2csv);
     LOG_TEST_BOOL("csv2json", csv2json);
+    LOG_TEST("summarize", summarize, (summarize == 0));
     LOG_TEST_BOOL("audit", audit);
-    //LOG_TEST("summarize", summarize);
     // END_DEBUG_DISPLAY
 
     if (json2csv && csv2json)
@@ -95,10 +110,6 @@ void COptions::Init(void) {
     registerOptions(nParams, params);
 
     // BEG_CODE_INIT
-    freshen = false;
-    json2csv = false;
-    csv2json = false;
-    audit = false;
     summarize = 0;
     // END_CODE_INIT
 

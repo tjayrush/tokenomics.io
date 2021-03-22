@@ -15,7 +15,9 @@ cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, 
 #    sed 's/^7/07/' | cut -c1-5 | sed 's/$/000/' | \
 #    sort -n | uniq -c | grep -v blocks >../charts/counts.txt
 
-make -f makefile.mac
+make clean
+makeClass -aorv
+make --makefile makefile.mac -j (sysctl -n hw.ncpu)
 
 # update the json files
 env DICT_MODE=true bin/pouch --csv2json

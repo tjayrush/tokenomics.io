@@ -1,0 +1,7 @@
+num,group,tags,api_route,tool,command,hotkey,def_val,is_required,customizeable,core_visible,docs_visible,generate,option_kind,data_type,description
+1000,,,,./,freshen,f,,false,false,true,true,local,switch,<boolean>,freshen the database
+1005,,,,./,json2csv,j,,false,false,true,true,local,switch,<boolean>,convert non-destructivly all json files into csv
+1010,,,,./,csv2json,c,,false,false,true,true,local,switch,<boolean>,convert non-destructivly all csv files into json
+1015,,,,./,summarize,s,0,false,false,true,true,header,flag,<uint64>,summarize the data from the smart contracts
+1020,,,,./,audit,a,,false,false,true,true,local,switch,<boolean>,audit the data
+1025,,,,./,,,,false,false,true,true,--,description,,Handle pouch data in various ways.

@@ -1,3 +1,21 @@
+Data for Nerds
+===============
+Uniq donors by date
+Uniq recipients by date
+
+Uniq donors by count
+Uniq recipients by count
+
+Donor counts by day
+Recipient counts by day
+Reciprocal pairs by day
+
+Donation amount by bucket
+
+
+
+Chart ideas
+===============
 - Histogram of Contrib Amount  
 - Scatter Contrib vs. Sybil score  
 - Unclaimed from Round 8  

@@ -26,10 +26,6 @@
 class COptions : public COptionsBase {
   public:
     // BEG_CODE_DECLARE
-    bool freshen;
-    bool json2csv;
-    bool csv2json;
-    bool audit;
     uint64_t summarize;
     // END_CODE_DECLARE
 
