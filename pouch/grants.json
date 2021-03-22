@@ -15,6 +15,11 @@
     "name": "Grant 0000 GitCoin Grant Contract - Pre Round 6",
   },
   {
+    "tags": "31-Gitcoin Grants:Core",
+    "address": "0xabea9132b05a70803a4e85094fd0e1800777fbef",
+    "name": "Grant 0000 zkSync Contract",
+   },
+  {
     "tags": "31-Gitcoin Grants:Grant",
     "address": "0x00216505799d9e3117b40b94a24dc0fa286a57a4",
     "name": "Grant 1168 Flowerpatch Emojis & Artwork Fund",
