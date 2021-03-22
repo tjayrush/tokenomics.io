@@ -23,7 +23,8 @@ static const COption params[] = {
     COption("freshen", "f", "", OPT_SWITCH, "freshen the database"),
     COption("json2csv", "j", "", OPT_SWITCH, "convert non-destructivly all json files into csv"),
     COption("csv2json", "c", "", OPT_SWITCH, "convert non-destructivly all csv files into json"),
-    COption("summarize", "s", "<uint64>", OPT_FLAG, "summarize the data from the smart contracts"),
+    COption("summarize", "s", "", OPT_SWITCH, "if true produce summary data as well"),
+    COption("bucketSize", "b", "<uint64>", OPT_FLAG, "the size of the buckets to summarize"),
     COption("audit", "a", "", OPT_SWITCH, "audit the data"),
     COption("", "", "", OPT_DESCRIPTION, "Handle pouch data in various ways."),
     // clang-format on
@@ -59,8 +60,11 @@ bool COptions::parseArguments(string_q& command) {
         } else if (arg == "-c" || arg == "--csv2json") {
             csv2json = true;
 
-        } else if (startsWith(arg, "-s:") || startsWith(arg, "--summarize:")) {
-            if (!confirmUint("summarize", summarize, arg))
+        } else if (arg == "-s" || arg == "--summarize") {
+            summarize = true;
+
+        } else if (startsWith(arg, "-b:") || startsWith(arg, "--bucketSize:")) {
+            if (!confirmUint("bucketSize", bucketSize, arg))
                 return false;
 
         } else if (arg == "-a" || arg == "--audit") {
@@ -80,7 +84,8 @@ bool COptions::parseArguments(string_q& command) {
     LOG_TEST_BOOL("freshen", freshen);
     LOG_TEST_BOOL("json2csv", json2csv);
     LOG_TEST_BOOL("csv2json", csv2json);
-    LOG_TEST("summarize", summarize, (summarize == 0));
+    LOG_TEST_BOOL("summarize", summarize);
+    LOG_TEST("bucketSize", bucketSize, (bucketSize == 0));
     LOG_TEST_BOOL("audit", audit);
     // END_DEBUG_DISPLAY
 
@@ -110,7 +115,8 @@ void COptions::Init(void) {
     registerOptions(nParams, params);
 
     // BEG_CODE_INIT
-    summarize = 0;
+    summarize = false;
+    bucketSize = 0;
     // END_CODE_INIT
 
     if (tsArray)

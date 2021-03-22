@@ -70,7 +70,21 @@ export const HomePage = () => {
         <TabPane tab={tab1Title} key='2' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
-        <TabPane tab='Charts' key='3' style={{paddingLeft: '8px'}}>
+        <TabPane tab={'Data for Nerds'} key='3' style={{paddingLeft: '8px'}}>
+          <h3>Coming soon...</h3>
+          <ul style={{textAlign: 'left'}}>
+            <li>Uniq donors by date</li>
+            <li>Uniq recipients by date</li>
+            <li>Uniq donors by count</li>
+            <li>Uniq recipients by count</li>
+            <li>Donor counts by day</li>
+            <li>Recipient counts by day</li>
+            <li>Reciprocal pairs by day</li>
+            <li>Donation amount by bucket</li>
+            <li>Comparison of Round 8 to Round 9</li>
+          </ul>
+        </TabPane>
+        <TabPane tab='Charts' key='4' style={{paddingLeft: '8px'}}>
           <img width='800px' alt='Count By Date' src='http://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
       </Tabs>

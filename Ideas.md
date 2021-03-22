@@ -1,19 +1,3 @@
-Data for Nerds
-===============
-Uniq donors by date
-Uniq recipients by date
-
-Uniq donors by count
-Uniq recipients by count
-
-Donor counts by day
-Recipient counts by day
-Reciprocal pairs by day
-
-Donation amount by bucket
-
-
-
 Chart ideas
 ===============
 - Histogram of Contrib Amount  
@@ -24,7 +8,7 @@ Chart ideas
 - Heat maps are interesting  
 - Distribution is important
 - Mean is appearantly important
-
+- Category (by function) comparison for smart contracts
 
 - latest data https://github.com/gitcoinco/gitcoin_cadcad_model/blob/main/data/2020-03-18/2021-03-18-round9-contributions.csv.xz
 
@@ -38,11 +22,6 @@ Chart ideas
 - 167	PayoutClaimed calls
 
 - Function calls per contract
-
-- The donations contract has 'dest' and 'donor' for each address that gave and received
-
-- Chart of 'give to take'
-    tit for tat
 
 - Calculated estimate after each donation vs. actual
 

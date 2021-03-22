@@ -70,7 +70,7 @@ bool visitDonation(const char* line, void* data) {
 //--------------------------------------------------------------------
 bool COptions::handle_summarize(void) {
     CBucket bucket;
-    bucket.bucketSize = summarize;
+    bucket.bucketSize = bucketSize;
     forEveryLineInAsciiFile("./data/" + STR_ROUND8 + ".csv", visitDonation, &bucket);
     cout << bucket.curBucket << "\t" << bucket.seen << endl;
     return !shouldQuit();

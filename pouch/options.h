@@ -26,7 +26,8 @@
 class COptions : public COptionsBase {
   public:
     // BEG_CODE_DECLARE
-    uint64_t summarize;
+    bool summarize;
+    uint64_t bucketSize;
     // END_CODE_DECLARE
 
     CPayoutMap matches;
