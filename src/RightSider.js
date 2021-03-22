@@ -38,6 +38,9 @@ export const RightSider = () => {
         Export transactions, traces, reconciliations, etc.
       </li>
       <li>
+        Allow for better filtering (e.g. remove highly-funded grants)
+      </li>
+      <li>
         Make data pouches for other ecosytems
       </li>
     </ul>
