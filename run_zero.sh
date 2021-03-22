@@ -12,6 +12,7 @@ chifra export \
 #    --logs --articulate --cache_txs --cache_traces \
 #    --fmt json $1 >pouch/data/$1.json
 
-sleep .3
+#sleep .3
 
+echo "-------------------- $1 -------------------"
 touch pouch/data/$1.csv
