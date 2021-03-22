@@ -1,9 +1,5 @@
-update_site.mac.sh
 .vscode
 .DS_Store
-for_linux.sh
-for_mac.sh
-*.save
 pouch/bin*
 pouch/objs*
 data
