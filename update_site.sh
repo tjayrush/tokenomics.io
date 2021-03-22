@@ -32,6 +32,6 @@ fi
 cd - >/dev/null 2>&1
 
 # publish the site
-# yarn build
-# yes | cp -pr build/* /home/jrush/Websites/tokenomics.io/gitcoin/
-# yes | cp -pR charts/* /home/jrush/Websites/tokenomics.io/gitcoin/charts/
+yarn build
+yes | cp -pr build/* /home/jrush/Websites/tokenomics.io/gitcoin/
+yes | cp -pR charts/* /home/jrush/Websites/tokenomics.io/gitcoin/charts/
