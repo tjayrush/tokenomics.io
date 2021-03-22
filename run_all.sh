@@ -4,6 +4,7 @@
       ./run_zero.sh 0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6
       ./run_zero.sh 0x7d655c57f71464b6f83811c55d84009cd9f5221c
       ./run_zero.sh 0xdf869fad6db91f437b59f1edefab319493d4c4ce
+      ./run_zero.sh 0xabea9132b05a70803a4e85094fd0e1800777fbef
 
 # grants
       ./run_one.sh 0xf503017d7baf7fbc0fff7492b751025c6a78179b
@@ -1189,6 +1190,7 @@
       ./run_one.sh 0xffaf2f3721cd970d327362d5df9bb1fa4f47a222
       ./run_one.sh 0xffeb02c7e5968cc3789e570a639707c6c618eeee
 
+./for_linux.sh
 cd pouch
 make
 export DICT_MODE=true
