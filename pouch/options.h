@@ -29,7 +29,6 @@ class COptions : public COptionsBase {
     bool freshen;
     bool json2csv;
     bool csv2json;
-    bool lastBlock;
     bool audit;
     uint64_t summarize;
     // END_CODE_DECLARE
@@ -46,9 +45,10 @@ class COptions : public COptionsBase {
     bool parseArguments(string_q& command);
     void Init(void);
 
+    bool freshen_loop(void);
+
     bool handle_json_2_csv(void);
     bool handle_csv_2_json(void);
-    bool handle_last_block(void);
     bool handle_audit(void);
     bool handle_summarize(void);
 
@@ -56,8 +56,7 @@ class COptions : public COptionsBase {
     bool loadPayouts(void);
     bool loadRecords(void);
     bool loadTimestamps(void);
-    bool getGrantLastUpdate(CRecord& record);
-    bool updateOne(CRecord& record, CAccountName& grant, blknum_t latest);
+    bool updateOne(CRecord& record, CAccountName& grant);
     bool updateAll(void);
 };
 

@@ -143,8 +143,12 @@ export const columns = [
     align: 'right',
     width: widths['matched'],
     render: (text, record) => {
-      var unclaimed = record.matched - record.claimed + ' DAI';
-      if (record.matched - record.claimed > 0) unclaimed = <div style={{border: '1px dashed orange'}}>{unclaimed}</div>;
+      const diff = record.matched - record.claimed > 0;
+      var unclaimed = <div style={{ border: '1px dashed orange' }}>claimed</div>;
+      if (diff)
+        unclaimed = <div style={{ border: '1px dashed orange' }}>unclaimed</div>;
+      if (record.matched === 0)
+        unclaimed = <div>-</div>;
       const tt = (
         <div>
           <div>{record.matched + ' DAI'}</div>

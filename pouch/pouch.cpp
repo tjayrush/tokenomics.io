@@ -16,7 +16,6 @@
 extern const char* STR_OUTPUT;
 extern const char* STR_BALANCE_OUTPUT;
 extern bool saveRecords(const CRecordArray& records);
-extern bool updateSome(CRecordArray& records, const CAccountNameArray& grants);
 static uint64_t key = 1;
 //----------------------------------------------------------------
 int main(int argc, const char* argv[]) {
@@ -36,53 +35,117 @@ int main(int argc, const char* argv[]) {
 
         if (!options.loadPayouts())
             return options.usage("Could not load the payouts file.");
-        
+
         if (!options.loadGrantList())
             return options.usage("Could not load grants list. Are you in the pouch folder?");
 
-        if (!options.loadRecords()) {
-            LOG_INFO(cTeal, "Refreshing records...", cOff);
-            key = 1;
-            if (!options.updateAll())
-                return options.usage("Could not load records.");
-        }
-
-        while (!shouldQuit()) {
-            ostringstream os;
-            os << "export const grantsData = [\n";
-            for (auto record : options.records) {
-                ostringstream oss;
-                bool first = true;
-                for (auto balance : record.balances) {
-                    if (!first)
-                        oss << ",";
-                    oss << "[" << balance.Format(STR_BALANCE_OUTPUT) << "]";
-                    first = false;
-                }
-                os << substitute(record.Format(STR_OUTPUT), "++BALANCES++", oss.str()) << endl;
-            }
-            os << "];";
-            stringToAsciiFile("../src/grants-data.js", os.str());
-            //            cerr << "Sleeping for 28 seconds";
-            //            size_t cnt = 0;
-            //            while (++cnt < 28 && !shouldQuit())
-            //            {
-            //                cerr << ".";
-            //                cerr.flush();
-            //                sleep(1);
-            //            }
-            //            cerr << endl;
-            key = 1;
-            //            updateSome(records, grants);
-            return 0;
-        }
+        options.freshen_loop();
     }
 
+    // The pointer here is a memory mapped file. Don't delete it.
+    // if (options.tsArray)
+    //     delete[] options.tsArray;
     etherlib_cleanup();
-    if (options.tsArray)
-        delete[] options.tsArray;
 
     return 0;
+}
+
+//----------------------------------------------------------------
+class CMonitorUpdater {
+  public:
+    blkrange_t updateRange;
+    CAddressBoolMap monitorMap;
+    CAddressBoolMap updateMap;
+    CMonitorUpdater(void) {
+        updateRange = make_pair(NOPOS, NOPOS);
+    }
+};
+
+//----------------------------------------------------------------
+bool visitAddrs(const CAppearance& item, void* data) {
+    cerr << "Checking address " << item.addr << "\r";
+    cerr.flush();
+    CMonitorUpdater* check = (CMonitorUpdater*)data;
+    if (check->monitorMap[item.addr] && !check->updateMap[item.addr]) {
+        check->updateMap[item.addr] = true;
+        cout << "Address " << item.addr << " needs update." << endl;
+    }
+    return true;
+}
+
+//----------------------------------------------------------------
+bool getLatestMonitoredBlock(const string_q& path, void* data) {
+    if (endsWith(path, '/')) {
+        return forEveryFileInFolder(path + "*", getLatestMonitoredBlock, data);
+
+    } else {
+        CMonitorUpdater* checkup = (CMonitorUpdater*)data;
+        if (contains(path, ".acct.bin")) {
+            CMonitor m;
+            m.address = substitute(substitute(path, m.getMonitorPath(""), ""), ".acct.bin", "");
+            checkup->updateRange.first = min(checkup->updateRange.first, m.getLastVisitedBlock());
+            checkup->monitorMap[m.address] = true;
+        }
+    }
+    return true;
+}
+
+//----------------------------------------------------------------
+bool COptions::freshen_loop(void) {
+    // Before entering the loop, we figure out the list of monitored address and where we need to start the update
+    CMonitor m;
+    CMonitorUpdater checkup;
+    forEveryFileInFolder(m.getMonitorPath(""), getLatestMonitoredBlock, &checkup);
+    //    for (auto mon : checkup.monitorMap)
+    //        cout << mon.first << endl;
+    checkup.updateRange.second = getBlockProgress(BP_FINAL).finalized;
+
+    //    while (!shouldQuit()) {
+    //        cout << checkup.updateRange.first << " " << checkup.updateRange.second << endl;
+    //        LOG_INFO("Sleeping for 30 seconds...");
+    //        usleep(15 * 100000);
+    //        blknum_t latest = getBlockProgress(BP_FINAL).finalized;
+    //        checkup.updateRange.first = min(checkup.updateRange.second + 1, latest);
+    //        checkup.updateRange.second = latest;
+    //    }
+    return true;
+    /*
+            if (!options.loadRecords()) {
+                LOG_INFO(cTeal, "Refreshing records...", cOff);
+                key = 1;
+                if (!options.updateAll())
+                    return options.usage("Could not load records.");
+            }
+
+            while (!shouldQuit()) {
+                ostringstream os;
+                os << "export const grantsData = [\n";
+                for (auto record : options.records) {
+                    ostringstream oss;
+                    bool first = true;
+                    for (auto balance : record.balances) {
+                        if (!first)
+                            oss << ",";
+                        oss << "[" << balance.Format(STR_BALANCE_OUTPUT) << "]";
+                        first = false;
+                    }
+                    os << substitute(record.Format(STR_OUTPUT), "++BALANCES++", oss.str()) << endl;
+                }
+                os << "];";
+                stringToAsciiFile("../src/grants-data.js", os.str());
+                //            cerr << "Sleeping for 28 seconds";
+                //            size_t cnt = 0;
+                //            while (++cnt < 28 && !shouldQuit())
+                //            {
+                //                cerr << ".";
+                //                cerr.flush();
+                //                sleep(1);
+                //            }
+                //            cerr << endl;
+                key = 1;
+                return 0;
+            }
+    */
 }
 
 //----------------------------------------------------------------
@@ -96,67 +159,25 @@ bool saveRecords(const CRecordArray& records) {
     return false;
 }
 
-//----------------------------------------------------------------
-class CCheckup {
-  public:
-    CAddressBoolMap grantMap;
-    CAddressBoolMap needsMap;
-};
-
-//----------------------------------------------------------------
-bool visitAddrs(const CAppearance& item, void* data) {
-    cerr << "Checking address " << item.addr << "\r";
-    cerr.flush();
-    CCheckup* check = (CCheckup*)data;
-    if (check->grantMap[item.addr] && !check->needsMap[item.addr]) {
-        check->needsMap[item.addr] = true;
-        cout << "Address " << item.addr << " needs update." << endl;
-    }
-    return true;
-}
-
-//----------------------------------------------------------------
-bool transFilter(const CTransaction* trans, void* data) {
-    return true;
-}
-
-//----------------------------------------------------------------
-bool updateSome(CRecordArray& records, const CAccountNameArray& grants) {
-    blknum_t latest = getBlockProgress(BP_CLIENT).client;
-    blknum_t prev = str_2_Uint(asciiFileToString("./data/latest.txt"));
-    cerr << "Loading map..." << endl;
-    CCheckup checkup;
-    for (auto grant : grants)
-        checkup.grantMap[grant.address] = true;
-    for (blknum_t bn = prev + 1; bn < latest; bn++) {
-        CBlock block;
-        cerr << "Getting block " << bn << " of " << latest << string_q(70, ' ') << "\r";
-        cerr.flush();
-        getBlock(block, bn);
-        block.forEveryUniqueAppearanceInBlock(visitAddrs, NULL, &checkup);
-    }
-
-    cerr << "Done checking" << endl;
-    for (auto entry : checkup.needsMap)
-        cerr << "Address " << entry.first << " needs update." << endl;
-    return true;
-    // updateAll();
-}
+/*
+ CMonitorUpdater checkup
+checkup.monitorMap
+forEveryAddressInIndex
+*/
 
 //----------------------------------------------------------------
 bool COptions::updateAll(void) {
-    blknum_t latest = getBlockProgress(BP_CLIENT).client;
     records.clear();
     for (auto grant : grants) {
         CRecord record;
-        if (updateOne(record, grant, latest))
+        if (updateOne(record, grant))
             records.push_back(record);
     }
     return saveRecords(records) && records.size();
 }
 
 //----------------------------------------------------------------
-bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) {
+bool COptions::updateOne(CRecord& record, CAccountName& grant) {
     record.key = key++;
     record.grant_id = str_2_Uint(substitute(grant.name, "Grant ", ""));
     nextTokenClear(grant.name, ' ');
@@ -167,10 +188,27 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) 
     record.address = grant.address;
     record.slug = grant.source;
     record.core = contains(grant.tags, ":Core");
-    getGrantLastUpdate(record);
+    ostringstream cmd;
+    cmd << "tail -1 data/" << record.address << ".csv | sed 's/\\\"//g' | cut -f1 -d, | sed 's/blocknumber/0/'";
+    record.last_block = str_2_Uint(doCommand(cmd.str()));
+    if (record.last_block == 0) {
+        record.date = "n/a";
+        record.last_ts = 0;
+        return false;
+    }
+    if (record.last_block * 2 > (tsCnt * 2) + 2) {
+        usage("Last block * 2 (" + uint_2_Str(record.last_block * 2) + ") greater than tsCnt (" + uint_2_Str(tsCnt) +
+              ")");
+        quickQuitHandler(1);
+    }
+    record.last_ts = tsArray[(record.last_block * 2) + 1];
+    record.date = ts_2_Date(record.last_ts).Format(FMT_JSON);
     record.matched = matches[record.address].amount;
     record.claimed = claims[record.address].amount;
 
+    static blknum_t latest = NOPOS;
+    if (latest == NOPOS)
+        latest = getBlockProgress(BP_FINAL).finalized;
     CBalance bal;
     bal.asset = "ETH";
     wei_t balance = getBalanceAt(grant.address, latest);
@@ -190,8 +228,7 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) 
         if (record.address == STR_PAYOUT) {
             record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Payout | wc"));
         } else if (record.address == STR_ROUND5) {
-            record.donation_cnt =
-                str_2_Uint(doCommand("cat " + csvFile + " | grep " + STR_ROUND5 + " | wc"));
+            record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep " + STR_ROUND5 + " | wc"));
         } else {
             record.donation_cnt = str_2_Uint(doCommand("cat " + csvFile + " | grep Donation | wc"));
         }
@@ -199,7 +236,6 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant, blknum_t latest) 
         record.log_cnt = record.tx_cnt;
         record.donation_cnt = 0;
     }
-    stringToAsciiFile("./data/latest.txt", uint_2_Str(latest));
 
     LOG_INFO("  processing grant ", grant.address, " ", grant.name.substr(0, 60));
     return true;
@@ -251,7 +287,7 @@ bool COptions::loadRecords(void) {
         for (auto record : records) {
             time_q csvTime = fileLastModifyDate("./data/" + record.address + ".csv");
             if (csvTime >= recordsTime)
-                return false; // we need to refresh
+                return false;  // we need to refresh
         }
         return true;
     }
