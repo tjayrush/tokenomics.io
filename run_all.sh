@@ -1190,7 +1190,6 @@
       ./run_one.sh 0xffaf2f3721cd970d327362d5df9bb1fa4f47a222
       ./run_one.sh 0xffeb02c7e5968cc3789e570a639707c6c618eeee
 
-./for_linux.sh
 cd pouch
 make
 export DICT_MODE=true
