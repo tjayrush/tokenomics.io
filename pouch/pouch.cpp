@@ -261,7 +261,7 @@ bool COptions::loadGrantList(void) {
 //----------------------------------------------------------------
 bool COptions::loadPayouts(void) {
     CStringArray lines;
-    asciiFileToLines("./data/payouts.csv", lines);
+    asciiFileToLines("../charts/data/payouts.csv", lines);
     for (auto line : lines) {
         replaceAll(line, "(", ",");
         replaceAny(line, ";\") ", "");
