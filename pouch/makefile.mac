@@ -15,6 +15,7 @@ dest=$(bin)/$(exec)
 
 #-------------------------------------------------
 src= \
+donation.cpp \
 payout.cpp \
 balance.cpp \
 handle_summarize.cpp \
@@ -31,6 +32,7 @@ balance.h \
 logentry_min.h \
 options.h \
 payout.h \
+donation.h \
 record.h
 
 #-------------------------------------------------

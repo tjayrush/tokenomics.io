@@ -23,6 +23,7 @@ int main(int argc, const char* argv[]) {
     CRecord::registerClass();
     CBalance::registerClass();
     CPayout::registerClass();
+    CDonation::registerClass();
 
     // Parse command line, allowing for command files
     COptions options;
@@ -42,85 +43,86 @@ int main(int argc, const char* argv[]) {
         options.freshen_loop();
     }
 
-    // The pointer here is a memory mapped file. Don't delete it.
-    // if (options.tsArray)
-    //     delete[] options.tsArray;
     etherlib_cleanup();
 
     return 0;
 }
 
-//----------------------------------------------------------------
-class CMonitorUpdater {
-  public:
-    blkrange_t updateRange;
-    CAddressBoolMap monitorMap;
-    CAddressBoolMap updateMap;
-    CMonitorUpdater(void) {
-        updateRange = make_pair(NOPOS, NOPOS);
-    }
-};
+// //----------------------------------------------------------------
+// class CMonitorUpdater {
+//   public:
+//     blkrange_t updateRange;
+//     CAddressBoolMap monitorMap;
+//     CAddressBoolMap updateMap;
+//     CMonitorUpdater(void) {
+//         updateRange = make_pair(NOPOS, NOPOS);
+//     }
+// };
 
-//----------------------------------------------------------------
-bool visitAddrs(const CAppearance& item, void* data) {
-    cerr << "Checking address " << item.addr << "\r";
-    cerr.flush();
-    CMonitorUpdater* check = (CMonitorUpdater*)data;
-    if (check->monitorMap[item.addr] && !check->updateMap[item.addr]) {
-        check->updateMap[item.addr] = true;
-        cout << "Address " << item.addr << " needs update." << endl;
-    }
-    return true;
-}
+// //----------------------------------------------------------------
+// bool visitAddrs(const CAppearance& item, void* data) {
+//     cerr << "Checking address " << item.addr << "\r";
+//     cerr.flush();
+//     CMonitorUpdater* check = (CMonitorUpdater*)data;
+//     if (check->monitorMap[item.addr] && !check->updateMap[item.addr]) {
+//         check->updateMap[item.addr] = true;
+//         cout << "Address " << item.addr << " needs update." << endl;
+//     }
+//     return true;
+// }
 
-//----------------------------------------------------------------
-bool getLatestMonitoredBlock(const string_q& path, void* data) {
-    if (endsWith(path, '/')) {
-        return forEveryFileInFolder(path + "*", getLatestMonitoredBlock, data);
+// //----------------------------------------------------------------
+// bool getLatestMonitoredBlock(const string_q& path, void* data) {
+//     if (endsWith(path, '/')) {
+//         return forEveryFileInFolder(path + "*", getLatestMonitoredBlock, data);
 
-    } else {
-        CMonitorUpdater* checkup = (CMonitorUpdater*)data;
-        if (contains(path, ".acct.bin")) {
-            CMonitor m;
-            m.address = substitute(substitute(path, m.getMonitorPath(""), ""), ".acct.bin", "");
-            checkup->updateRange.first = min(checkup->updateRange.first, m.getLastVisitedBlock());
-            checkup->monitorMap[m.address] = true;
-        }
-    }
-    return true;
-}
+//     } else {
+//         CMonitorUpdater* checkup = (CMonitorUpdater*)data;
+//         if (contains(path, ".acct.bin")) {
+//             CMonitor m;
+//             m.address = substitute(substitute(path, m.getMonitorPath(""), ""), ".acct.bin", "");
+//             checkup->updateRange.first = min(checkup->updateRange.first, m.getLastVisitedBlock());
+//             checkup->monitorMap[m.address] = true;
+//         }
+//     }
+//     return true;
+// }
 
 //----------------------------------------------------------------
 bool COptions::freshen_loop(void) {
     // Before entering the loop, we figure out the list of monitored address and where we need to start the update
-    CMonitor m;
-    CMonitorUpdater checkup;
-    forEveryFileInFolder(m.getMonitorPath(""), getLatestMonitoredBlock, &checkup);
-    //    for (auto mon : checkup.monitorMap)
-    //        cout << mon.first << endl;
-    checkup.updateRange.second = getBlockProgress(BP_FINAL).finalized;
+    // for (auto grant : grants) {
+    //     cout << 
 
-    //    while (!shouldQuit()) {
-    //        cout << checkup.updateRange.first << " " << checkup.updateRange.second << endl;
-    //        LOG_INFO("Sleeping for 30 seconds...");
-    //        usleep(15 * 100000);
-    //        blknum_t latest = getBlockProgress(BP_FINAL).finalized;
-    //        checkup.updateRange.first = min(checkup.updateRange.second + 1, latest);
-    //        checkup.updateRange.second = latest;
-    //    }
-    return true;
-    /*
-            if (!options.loadRecords()) {
+    // }
+    // uint64_t sizeBefore = 
+    // CMonitor m;
+    // CMonitorUpdater checkup;
+    // forEveryFileInFolder(m.getMonitorPath(""), getLatestMonitoredBlock, &checkup);
+    // //    for (auto mon : checkup.monitorMap)
+    // //        cout << mon.first << endl;
+    // checkup.updateRange.second = getBlockProgress(BP_FINAL).finalized;
+
+    // //    while (!shouldQuit()) {
+    // //        cout << checkup.updateRange.first << " " << checkup.updateRange.second << endl;
+    // //        LOG_INFO("Sleeping for 30 seconds...");
+    // //        usleep(15 * 100000);
+    // //        blknum_t latest = getBlockProgress(BP_FINAL).finalized;
+    // //        checkup.updateRange.first = min(checkup.updateRange.second + 1, latest);
+    // //        checkup.updateRange.second = latest;
+    // //    }
+    // return true;
+            if (!loadRecords()) {
                 LOG_INFO(cTeal, "Refreshing records...", cOff);
                 key = 1;
-                if (!options.updateAll())
-                    return options.usage("Could not load records.");
+                if (!updateAll())
+                    return usage("Could not load records.");
             }
 
             while (!shouldQuit()) {
                 ostringstream os;
                 os << "export const grantsData = [\n";
-                for (auto record : options.records) {
+                for (auto record : records) {
                     ostringstream oss;
                     bool first = true;
                     for (auto balance : record.balances) {
@@ -145,7 +147,7 @@ bool COptions::freshen_loop(void) {
                 key = 1;
                 return 0;
             }
-    */
+            return true;
 }
 
 //----------------------------------------------------------------
@@ -201,7 +203,7 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant) {
               ")");
         quickQuitHandler(1);
     }
-    record.last_ts = tsArray[(record.last_block * 2) + 1];
+    record.last_ts = tsMemMap[(record.last_block * 2) + 1];
     record.date = ts_2_Date(record.last_ts).Format(FMT_JSON);
     record.matched = matches[record.address].amount;
     record.claimed = claims[record.address].amount;

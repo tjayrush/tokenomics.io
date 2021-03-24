@@ -17,7 +17,7 @@ cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, 
 
 make clean
 makeClass -aorv
-make --makefile makefile.mac -j (sysctl -n hw.ncpu)
+make -j 12
 
 # update the json files
 env DICT_MODE=true bin/pouch --csv2json
@@ -27,7 +27,7 @@ if [ $? -ne 0 ]; then
 fi
 
 ## update the website data
-#bin/pouch --freshen
+bin/pouch --freshen
 
 # return to normal
 cd - >/dev/null 2>&1

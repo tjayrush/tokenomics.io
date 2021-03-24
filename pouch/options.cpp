@@ -85,7 +85,7 @@ bool COptions::parseArguments(string_q& command) {
     LOG_TEST_BOOL("json2csv", json2csv);
     LOG_TEST_BOOL("csv2json", csv2json);
     LOG_TEST_BOOL("summarize", summarize);
-    LOG_TEST("bucketSize", bucketSize, (bucketSize == 0));
+    LOG_TEST("bucketSize", bucketSize, (bucketSize == 5000));
     LOG_TEST_BOOL("audit", audit);
     // END_DEBUG_DISPLAY
 
@@ -116,19 +116,19 @@ void COptions::Init(void) {
 
     // BEG_CODE_INIT
     summarize = false;
-    bucketSize = 0;
+    bucketSize = 5000;
     // END_CODE_INIT
 
-    if (tsArray)
-        delete [] tsArray;
-    tsArray = nullptr;
+    if (tsMemMap)
+        delete[] tsMemMap;
+    tsMemMap = nullptr;
     tsCnt = 0;
 }
 
 //---------------------------------------------------------------------------------------------------
 COptions::COptions(void) {
     setSorts(GETRUNTIME_CLASS(CBlock), GETRUNTIME_CLASS(CTransaction), GETRUNTIME_CLASS(CReceipt));
-    tsArray = nullptr;
+    tsMemMap = nullptr;
     tsCnt = 0;
     Init();
 }
@@ -139,7 +139,7 @@ COptions::~COptions(void) {
 
 //--------------------------------------------------------------------------------
 bool COptions::loadTimestamps(void) {
-    if (tsArray)
+    if (tsMemMap)
         return true;
 
     if (!freshenTimestamps(getBlockProgress(BP_CLIENT).client)) {
@@ -147,13 +147,12 @@ bool COptions::loadTimestamps(void) {
         return false;
     }
 
-    if (loadTimestampFile(nullptr, tsCnt)) {
-        // LOG_INFO("Found ", tsCnt, " timestamps");
-        tsArray = new uint32_t[(tsCnt * 2) + 2];  // little bit of extra room
-        bool ret = loadTimestampFile(&tsArray, tsCnt);
-        LOG_INFO("Loaded ", tsCnt, " timestamps to ", tsArray);
-        return ret;
+    // Note that we do not need to allocate memory since this is a memory mapped file
+    if (!::loadTimestamps(&tsMemMap, tsCnt)) {
+        LOG_INFO("Failed to load timestamps");
+        return false;
     }
-    LOG_INFO("Failed to load timestamps");
-    return false;
+
+    LOG_INFO("Loaded ", tsCnt, " timestamps to ", tsMemMap);
+    return true;
 }

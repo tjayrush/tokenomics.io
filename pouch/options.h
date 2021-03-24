@@ -18,6 +18,7 @@
 #include "acctlib.h"
 #include "record.h"
 #include "payout.h"
+#include "donation.h"
 
 // BEG_ERROR_DEFINES
 // END_ERROR_DEFINES
@@ -34,8 +35,9 @@ class COptions : public COptionsBase {
     CPayoutMap claims;
     CAccountNameArray grants;
     CRecordArray records;
+    uint32_t* tsMemMap; // not allocated
     size_t tsCnt;
-    uint32_t* tsArray;
+
     COptions(void);
     ~COptions(void);
 
