@@ -5,6 +5,7 @@
       ./run_zero.sh 0x7d655c57f71464b6f83811c55d84009cd9f5221c
       ./run_zero.sh 0xdf869fad6db91f437b59f1edefab319493d4c4ce
       ./run_zero.sh 0xabea9132b05a70803a4e85094fd0e1800777fbef
+      ./run_zero.sh 0xde21f729137c5af1b01d73af1dc21effa2b8a0d6
 
 # grants
       ./run_one.sh 0xf503017d7baf7fbc0fff7492b751025c6a78179b
@@ -236,7 +237,7 @@
       ./run_one.sh 0x3161fe3d8fe5223599ec17ae19247b9ca0d0ba85
       ./run_one.sh 0x31ca6ca7f7a3298bc6c5103aa45847f34e382a1c
       ./run_one.sh 0x31d7413d75265deaff0a820b4609760dd862630e
-      ./run_one.sh 0x322d58b9e75a6918f7e7849aee0ff09369977e08
+#      ./run_one.sh 0x322d58b9e75a6918f7e7849aee0ff09369977e08
       ./run_one.sh 0x323e5692152cdf04d84ea8aed57ec8a8caf43e92
       ./run_one.sh 0x32b74b90407309f6637245292cd90347de658a37
       ./run_one.sh 0x32cefb2dc869bbfe636f7547cda43f561bf88d5a
@@ -1038,7 +1039,7 @@
       ./run_one.sh 0xddb5eb5b0ba08601af1feff591bf5be6b59ba5f6
       ./run_one.sh 0xddcbb11c175bfd52636bd18d880f760970b47aa9
       ./run_one.sh 0xddfc2e10702d8a781727a34d83b3bb3ca94a3e91
-      ./run_one.sh 0xde21f729137c5af1b01d73af1dc21effa2b8a0d6
+#      ./run_one.sh 0xde21f729137c5af1b01d73af1dc21effa2b8a0d6
       ./run_one.sh 0xde798cd9c53f4806b9cc7dd27adf7c641540167c
       ./run_one.sh 0xdec959581532d6c093d31d694105678c48bd454a
       ./run_one.sh 0xded1ab7efd03bedf6fb8294fd0954ee1a2d639f6

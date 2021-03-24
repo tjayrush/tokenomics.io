@@ -18,7 +18,7 @@ chifra export \
 #    --emitted_by 0x7d655c57f71464b6f83811c55d84009cd9f5221c \
 #    --fmt json $1 | jq . >pouch/data/$1.json
 
-#sleep .3
+sleep .3
 
-echo "-------------------- $1 -------------------"
-touch pouch/data/$1.csv
+#echo "-------------------- $1 -------------------"
+#touch pouch/data/$1.csv
