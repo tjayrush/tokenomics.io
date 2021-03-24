@@ -85,6 +85,11 @@ export const HomePage = () => {
           </ul>
         </TabPane>
         <TabPane tab='Charts' key='4' style={{paddingLeft: '8px'}}>
+          <img
+            width='800px'
+            alt='Unclaimed'
+            src='http://tokenomics.io/gitcoin/charts/Unclaimed%20Match%20Round%208.png'
+          />
           <img width='800px' alt='Count By Date' src='http://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
       </Tabs>
