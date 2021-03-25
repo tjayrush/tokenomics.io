@@ -7,8 +7,12 @@ git pull
 cd pouch
 make
 
-# freshen the data
-#bin/pouch --freshen
+# get the payout data from the smart contract
+cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, | grep Payout >charts/data/payouts.csv
+
+make clean
+makeClass -aorv
+make -j 12
 
 # build the json data from the csv
 env DICT_MODE=true bin/pouch --csv2json
@@ -17,8 +21,8 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# update payout data the smart contract
-# cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, | grep Payout >data/payouts.csv
+# freshen the data
+bin/pouch --freshen
 
 # update some summary data
 # cat data/0x7d655c57f71464b6f83811c55d84009cd9f5221c.csv \
