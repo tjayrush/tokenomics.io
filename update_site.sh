@@ -8,7 +8,7 @@ cd pouch
 make
 
 # get the payout data from the smart contract
-cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, | grep Payout >charts/data/payouts.csv
+cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, | grep Payout >payouts.csv
 
 make clean
 makeClass -aorv
@@ -22,6 +22,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # freshen the data
+rm -f pouch/data/records.bin
 bin/pouch --freshen
 
 # update some summary data
