@@ -137,7 +137,7 @@ export const columns = [
     },
   },
   {
-    title: <ColumnTitle title='CLR' tooltip='The match, claimed, and unclaimed amounts for the grant from Round 8. Sorts by unclaimed then match' />,
+    title: <ColumnTitle title='CLR' tooltip='The match, claimed, and unclaimed amounts for the grant from Round 8. Sorts by unclaimed then match. (Some of the unmatched payouts may have gone through other channels.)' />,
     dataIndex: 'matched',
     key: 'matched',
     align: 'right',

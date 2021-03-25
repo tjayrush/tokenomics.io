@@ -1,4 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
+import { useStatePersist } from 'use-state-persist';
+
 import {Input, Layout, Tabs} from 'antd';
 import {Table as AntTable} from 'antd';
 
@@ -22,13 +24,9 @@ const Table = (props) => {
   return <AntTable className='main-rows' pagination={pag} size='small' bordered={true} {...props} />;
 };
 
-function callback(key) {
-  console.log(key);
-}
-
 export const HomePage = () => {
+  const [lastTab, setLastTab] = useStatePersist('@lastTab', 1);
   const [searchText, setSearchText] = useState('');
-  const [defKey, setDefKey] = useState('1');
 
   const onSearch = (value) => {
     setSearchText(value.toLowerCase());
@@ -46,9 +44,16 @@ export const HomePage = () => {
     return !item.core && (searchText === '' || n.includes(searchText) || a.includes(searchText));
   });
 
+  var val = lastTab;
+  const tabSwitch = (key, event) => {
+    val = key;
+    setLastTab(val);
+  };
+
   useEffect(() => {
-    setDefKey(!!contractData && contractData !== [] ? '1' : '2');
-  }, [searchText, contractData]);
+    setLastTab(val);
+  }, [val]);
+
 
   const tab1Title = 'Donation Contracts (' + contractData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
@@ -63,7 +68,7 @@ export const HomePage = () => {
           onSearch={onSearch}
           enterButton></Search>
       </div>
-      <Tabs defaultActiveKey={defKey} onChange={callback} style={{border: '1px dotted gray', padding: '1px'}}>
+      <Tabs defaultActiveKey={lastTab} onChange={tabSwitch} style={{border: '1px dotted gray', padding: '1px'}}>
         <TabPane tab={tab2Title} key='1' style={{paddingLeft: '8px', margin: '-25px 0px 0px 0px'}}>
           <Table dataSource={grantData} columns={columns} />
         </TabPane>
