@@ -16,6 +16,12 @@
   },
   {
     "tags": "31-Gitcoin Grants:Core",
+    "address": "0xde21f729137c5af1b01d73af1dc21effa2b8a0d6",
+    "name": "Grant 0012 Gitcoin Grants MultiSig (Matching Pool Fund)",
+    "source": "https://gitcoin.co/grants/12/gitcoin-grants-official-matching-pool-fund"
+  },
+  {
+    "tags": "31-Gitcoin Grants:Core",
     "address": "0xabea9132b05a70803a4e85094fd0e1800777fbef",
     "name": "Grant 0000 zkSync Contract",
    },
@@ -6444,12 +6450,6 @@
     "name": "Grant 0455 Floflis Os",
     "source": "https://gitcoin.co/grants/455/floflis-os",
     "description": "https://floflis.github.io/"
-  },
-  {
-    "tags": "31-Gitcoin Grants:Grant",
-    "address": "0xde21f729137c5af1b01d73af1dc21effa2b8a0d6",
-    "name": "Grant 0012 Gitcoin Grants Official Matching Pool Fund",
-    "source": "https://gitcoin.co/grants/12/gitcoin-grants-official-matching-pool-fund"
   },
   {
     "tags": "31-Gitcoin Grants:Grant",

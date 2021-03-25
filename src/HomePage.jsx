@@ -52,8 +52,7 @@ export const HomePage = () => {
 
   useEffect(() => {
     setLastTab(val);
-  }, [val]);
-
+  }, [val, setLastTab]);
 
   const tab1Title = 'Donation Contracts (' + contractData.length + ')';
   const tab2Title = 'Individual Grants (' + grantData.length + ')';
@@ -75,7 +74,7 @@ export const HomePage = () => {
         <TabPane tab={tab1Title} key='2' style={{paddingLeft: '8px'}}>
           <Table dataSource={contractData} columns={columns} />
         </TabPane>
-        <TabPane tab={'Data for Nerds'} key='3' style={{paddingLeft: '8px'}}>
+        <TabPane tab={'Data for Nerds (API)'} key='3' style={{paddingLeft: '8px'}}>
           <h3>Coming soon...</h3>
           <ul style={{textAlign: 'left'}}>
             <li>Uniq donors by date</li>
