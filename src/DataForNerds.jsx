@@ -1,5 +1,5 @@
 import React from 'react';
-import { DownloadIcon } from './Utils'
+// import { DownloadIcon } from './Utils'
 
 
 export const DataForNerds = () => {
@@ -8,10 +8,6 @@ export const DataForNerds = () => {
     <div style={{textAlign: 'left'}}>
       <h3>Coming soon...</h3>
       <ul>
-        <li>
-          Uniq donors by date
-           <DownloadIcon record={record} extra='Y' type='txt' />
-        </li>
         <li>Uniq recipients by date</li>
         <li>Uniq donors by count</li>
         <li>Uniq recipients by count</li>
