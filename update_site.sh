@@ -5,14 +5,15 @@ git pull
 
 # make the tool
 cd pouch
-make
+
+curl https://gitcoin.co/grants/grants.json | jq >grants_from_gitcoin.json
 
 # get the payout data from the smart contract
 cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, | grep Payout >payouts.csv
 
 make clean
 makeClass -aorv
-make -j 12
+make -j 3
 
 # build the json data from the csv
 env DICT_MODE=true bin/pouch --csv2json

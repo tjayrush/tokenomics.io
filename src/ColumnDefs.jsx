@@ -1,6 +1,7 @@
 import {Popover, Tag, Typography} from 'antd';
-import {DownloadOutlined} from '@ant-design/icons';
-const {Text} = Typography;
+import {DownloadIcon} from './Utils';
+
+const { Text } = Typography;
 
 const widths = {
   date: '15%',
@@ -53,7 +54,6 @@ export const columns = [
           <div>
             <small>
               <i>
-                {/*(round: {record.last_ts} block: {record.last_block})*/}
                 {blk(record.last_block)}
               </i>
             </small>
@@ -209,7 +209,7 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return downloadLink(record, 'apps/', 'txt');
+      return <DownloadIcon record={record} extra='apps/' type='txt' />
     },
   },
   {
@@ -227,46 +227,10 @@ export const columns = [
       },
     },
     render: function (text, record) {
-      return downloadLink(record, '', 'csv');
+      return <DownloadIcon record={record} extra='' type='csv' />;
     },
   },
 ];
-
-function downloadLink(record, extra, type) {
-  if (extra !== '') {
-    return (
-      <div style={{display: 'grid', gridTemplateColumns: '1fr'}}>
-        <pre style={{margin: '0px'}}>
-          <small>({record.tx_cnt})</small>
-          <br />
-          <small>
-            <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
-              <DownloadOutlined /> {type}
-            </a>
-          </small>
-        </pre>
-      </div>
-    );
-  }
-
-  return (
-    <div style={{display: 'grid', gridTemplateColumns: '1fr'}}>
-      <pre style={{margin: '0px'}}>
-        <small>({record.log_cnt})</small>
-        <br />
-        <small>
-          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
-            <DownloadOutlined /> {type}
-          </a>
-          <br />
-          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.json'}>
-            <DownloadOutlined /> json
-          </a>
-        </small>
-      </pre>
-    </div>
-  );
-}
 
 const renderCell = (text) => {
   return (
