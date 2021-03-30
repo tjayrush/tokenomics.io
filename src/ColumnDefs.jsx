@@ -112,7 +112,7 @@ export const columns = [
           <pre>
             <small>{name}</small>
             <br />
-            <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
+            <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
               <small>{record.address}</small>
             </a>
           </pre>
@@ -124,7 +124,7 @@ export const columns = [
               <small>{name}</small>
             </a>
             <br />
-            <a target={'top'} href={'http://etherscan.io/address/' + record.address}>
+            <a target={'top'} href={'https://etherscan.io/address/' + record.address}>
               <small>{record.address}</small>
             </a>
           </pre>
