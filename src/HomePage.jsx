@@ -83,11 +83,11 @@ export const HomePage = () => {
           <img
             width='800px'
             alt='Unclaimed'
-            src='http://tokenomics.io/gitcoin/charts/Unclaimed%20Match%20Round%208.png'
+            src='https://tokenomics.io/gitcoin/charts/Unclaimed%20Match%20Round%208.png'
           />
           <br />
           <br />
-          <img width='800px' alt='Count By Date' src='http://tokenomics.io/gitcoin/charts/Counts.png' />
+          <img width='800px' alt='Count By Date' src='https://tokenomics.io/gitcoin/charts/Counts.png' />
         </TabPane>
       </Tabs>
       <i>

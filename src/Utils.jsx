@@ -8,7 +8,7 @@ export const DownloadIcon = ({ record, extra, type }) => {
           <small>({record.tx_cnt})</small>
           <br />
           <small>
-            <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
+            <a target={'blank'} href={'https://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
               <DownloadOutlined /> {type}
             </a>
           </small>
@@ -23,11 +23,11 @@ export const DownloadIcon = ({ record, extra, type }) => {
         <small>({record.log_cnt})</small>
         <br />
         <small>
-          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
+          <a target={'blank'} href={'https://tokenomics.io/gitcoin/data/' + extra + record.address + '.' + type}>
             <DownloadOutlined /> {type}
           </a>
           <br />
-          <a target={'blank'} href={'http://tokenomics.io/gitcoin/data/' + extra + record.address + '.json'}>
+          <a target={'blank'} href={'https://tokenomics.io/gitcoin/data/' + extra + record.address + '.json'}>
             <DownloadOutlined /> json
           </a>
         </small>

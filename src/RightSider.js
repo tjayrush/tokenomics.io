@@ -50,14 +50,14 @@ export const RightSider = () => {
     <Sider style={{backgroundColor: 'lightblue'}}>
       <MyCard>
         <div style={{fontSize: '12pt', fontWeight: '800'}}>
-          <a rel='noreferrer' target='_blank' href='http://gitcoin.co/grants/184/trueblocks'>
+          <a rel='noreferrer' target='_blank' href='https://gitcoin.co/grants/184/trueblocks'>
             Donate to the TrueBlocks Grant
           </a>
         </div>
       </MyCard>
       <MyCard>
         Wondering how this website works? Read about the <b>Unchained Index</b>{' '}
-        <a rel='noreferrer' target='_blank' href='http://unchainedindex.io'>
+        <a rel='noreferrer' target='_blank' href='https://unchainedindex.io'>
           here
         </a>
       </MyCard>
