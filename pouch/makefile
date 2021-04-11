@@ -4,9 +4,9 @@ cflags=-std=c++11 -Werror -Wall -O2 -I. -I$(libraries)/utillib -I$(libraries)/et
 bin=bin
 
 #-------------------------------------------------
-curl=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
-libs=$(libraries)/*.a $(curl)
-#libs=$(libraries)/*.a -lcurl
+#curl=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
+#libs=$(libraries)/*.a $(curl)
+libs=$(libraries)/*.a -lcurl
 
 #-------------------------------------------------
 exec=pouch
