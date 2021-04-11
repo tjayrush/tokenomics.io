@@ -11,7 +11,7 @@
  * Public License along with this program. If not, see http://www.gnu.org/licenses/.
  *-------------------------------------------------------------------------------------------*/
 #include "options.h"
-#include "logentry_min.h"
+#include "classes/logentry_min.h"
 
 bool visitFile_json_2_csv(const string_q& path, void* data);
 //--------------------------------------------------------------------

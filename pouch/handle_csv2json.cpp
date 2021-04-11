@@ -11,7 +11,7 @@
  * Public License along with this program. If not, see http://www.gnu.org/licenses/.
  *-------------------------------------------------------------------------------------------*/
 #include "options.h"
-#include "logentry_min.h"
+#include "classes/logentry_min.h"
 
 const string_q STR_PAYOUT = "0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6";
 const string_q STR_ROUND8 = "0x7d655c57f71464b6f83811c55d84009cd9f5221c";

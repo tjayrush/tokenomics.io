@@ -9,7 +9,7 @@ cd pouch
 #curl https://gitcoin.co/grants/grants.json | jq >grants_from_gitcoin.json
 
 # get the payout data from the smart contract
-#cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, | grep Payout >payouts.csv
+#cat data/0xf2354570be2fb420832fb7ff6ff0ae0df80cf2c6.csv | cut -f1,2,3,11-20 -d, | grep Payout >app-data/payouts.csv
 
 #make clean
 #makeClass -aorv

@@ -4,9 +4,9 @@ cflags=-std=c++11 -Werror -Wall -O2 -I. -I$(libraries)/utillib -I$(libraries)/et
 bin=bin
 
 #-------------------------------------------------
-#curl=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
-#libs=$(libraries)/*.a $(curl)
-libs=$(libraries)/*.a -lcurl
+curl=/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libcurl.4.tbd
+libs=$(libraries)/*.a $(curl)
+#libs=$(libraries)/*.a -lcurl
 
 #-------------------------------------------------
 exec=pouch
@@ -15,28 +15,29 @@ dest=$(bin)/$(exec)
 
 #-------------------------------------------------
 src= \
-donation.cpp \
-payout.cpp \
-balance.cpp \
-handle_summarize.cpp \
-handle_audit.cpp \
-handle_csv2json.cpp \
-handle_json2csv.cpp \
-logentry_min.cpp \
-options.cpp \
-pouch.cpp \
-record.cpp
+./pouch.cpp \
+./options.cpp \
+./handle_summarize.cpp \
+./handle_audit.cpp \
+./handle_json2csv.cpp \
+./handle_csv2json.cpp \
+./classes/logentry_min.cpp \
+./classes/donation.cpp \
+./classes/balance.cpp \
+./classes/record.cpp \
+./classes/payout.cpp
 
 headers= \
-balance.h \
-logentry_min.h \
-options.h \
-payout.h \
-donation.h \
-record.h
+./options.h \
+./classes/balance.h \
+./classes/record.h \
+./classes/logentry_min.h \
+./classes/payout.h \
+./classes/donation.h
 
 #-------------------------------------------------
 all:
+	@mkdir -p objs/classes
 	@make app
 
 every:

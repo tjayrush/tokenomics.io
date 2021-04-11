@@ -214,7 +214,7 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant) {
     CBalance bal;
     bal.asset = "ETH";
     wei_t balance = getBalanceAt(grant.address, latest);
-    bal.balance = wei_2_Ether(balance);
+    bal.balance = wei_2_Ether(balance, 18);
     bal.balance = double_2_Str(str_2_Double(bal.balance), 12);
     record.balances.push_back(bal);
 
@@ -244,9 +244,9 @@ bool COptions::updateOne(CRecord& record, CAccountName& grant) {
 }
 
 //----------------------------------------------------------------
-bool COptions::loadGrantList(void) {
+ bool COptions::loadGrantList(void) {
     CAccountName name;
-    string_q contents = asciiFileToString("./grants.json");
+    string_q contents = asciiFileToString("./app-data/grants.json");
     while (name.parseJson3(contents)) {
         if (name.address ==
             "0x322d58b9e75a6918f7e7849aee0ff09369977e08")  // Skip this. It's both inactive and really big
@@ -261,7 +261,7 @@ bool COptions::loadGrantList(void) {
 //----------------------------------------------------------------
 bool COptions::loadPayouts(void) {
     CStringArray lines;
-    asciiFileToLines("./payouts.csv", lines);
+    asciiFileToLines("./app-data/payouts.csv", lines);
     for (auto line : lines) {
         replaceAll(line, "(", ",");
         replaceAny(line, ";\") ", "");

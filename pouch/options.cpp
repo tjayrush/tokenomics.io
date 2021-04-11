@@ -130,6 +130,14 @@ COptions::COptions(void) {
     tsMemMap = nullptr;
     tsCnt = 0;
     Init();
+
+    // BEG_CODE_NOTES
+    // clang-format off
+    // clang-format on
+    // END_CODE_NOTES
+
+    // BEG_ERROR_MSG
+    // END_ERROR_MSG
 }
 
 //--------------------------------------------------------------------------------

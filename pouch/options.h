@@ -16,9 +16,9 @@
  * outside of the BEG_CODE/END_CODE sections
  */
 #include "acctlib.h"
-#include "record.h"
-#include "payout.h"
-#include "donation.h"
+#include "classes/record.h"
+#include "classes/payout.h"
+#include "classes/donation.h"
 
 // BEG_ERROR_DEFINES
 // END_ERROR_DEFINES

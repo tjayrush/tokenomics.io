@@ -313,7 +313,7 @@ CPayout::CPayout(string_q& line) {
     type = nextTokenClear(line, ',');
     address = nextTokenClear(line, ',');
     wei_t wei = str_2_Wei(nextTokenClear(line, ','));
-    amount = str_2_Double(wei_2_Ether(wei));
+    amount = str_2_Double(wei_2_Ether(wei, 18));
 }
 // EXISTING_CODE
 }  // namespace qblocks
