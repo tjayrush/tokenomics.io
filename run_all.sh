@@ -1193,7 +1193,6 @@
 
 cd pouch
 make
-export DICT_MODE=true
 ./bin/pouch --csv2json
-#./bin/pouch --freshen
+./bin/pouch --freshen
 cd -
